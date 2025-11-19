@@ -11,17 +11,21 @@ interface HomeProps {
   params: Promise<{ locale: Locale }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({ params }: HomeProps): Promise<Metadata> {
   const resolvedParams = await params;
+  if (!resolvedParams || !resolvedParams.locale) {
+    throw new Error('Locale parameter is required');
+  }
   const locale = resolvedParams.locale || 'es';
   const t = getTranslations(locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
 
-  const { locales } = await import('@/i18n/config');
   const alternates: { languages: Record<string, string> } = {
     languages: {}
   };
@@ -56,6 +60,9 @@ export async function generateMetadata({ params }: HomeProps): Promise<Metadata>
 
 export default async function Home({ params }: HomeProps) {
   const resolvedParams = await params;
+  if (!resolvedParams || !resolvedParams.locale) {
+    throw new Error('Locale parameter is required');
+  }
   const t = getTranslations(resolvedParams.locale);
   const featuredPosts = blogPosts.filter(post => post.featured).slice(0, 3);
   const recentPosts = blogPosts.slice(0, 6);

@@ -14,6 +14,8 @@ interface PostPageProps {
   }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const params: Array<{ locale: string; slug: string }> = [];
   locales.forEach((locale) => {
@@ -26,6 +28,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
   const resolvedParams = await params;
+  if (!resolvedParams || !resolvedParams.locale || !resolvedParams.slug) {
+    throw new Error('Locale and slug parameters are required');
+  }
   const locale = resolvedParams.locale || 'es';
   const t = getTranslations(locale);
   const post = blogPosts.find(p => p.slug === resolvedParams.slug);
@@ -46,7 +51,6 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
     languages: {}
   };
 
-  const { locales } = await import('@/i18n/config');
   locales.forEach((loc) => {
     alternates.languages[loc] = `${baseUrl}/${loc}/posts/${post.slug}`;
   });
@@ -82,6 +86,9 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
 
 export default async function PostPage({ params }: PostPageProps) {
   const resolvedParams = await params;
+  if (!resolvedParams || !resolvedParams.locale || !resolvedParams.slug) {
+    notFound();
+  }
   const t = getTranslations(resolvedParams.locale);
   const post = blogPosts.find(p => p.slug === resolvedParams.slug);
   

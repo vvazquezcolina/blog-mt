@@ -14,6 +14,8 @@ interface CategoryPageProps {
   }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const params: Array<{ locale: string; categoryId: string }> = [];
   locales.forEach((locale) => {
@@ -26,6 +28,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
   const resolvedParams = await params;
+  if (!resolvedParams || !resolvedParams.locale || !resolvedParams.categoryId) {
+    throw new Error('Locale and categoryId parameters are required');
+  }
   const locale = resolvedParams.locale || 'es';
   const t = getTranslations(locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
@@ -46,7 +51,6 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   }
 
   const categoryPosts = blogPosts.filter(post => post.category === resolvedParams.categoryId);
-  const { locales } = await import('@/i18n/config');
   const alternates: { languages: Record<string, string> } = {
     languages: {}
   };
@@ -84,6 +88,9 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const resolvedParams = await params;
+  if (!resolvedParams || !resolvedParams.locale || !resolvedParams.categoryId) {
+    notFound();
+  }
   const t = getTranslations(resolvedParams.locale);
   
   // Validar que el categoryId sea válido antes de buscar la categoría
