@@ -8,7 +8,7 @@ import { locales } from '@/i18n/config';
 import type { Metadata } from 'next';
 
 interface HomeProps {
-  params: Promise<{ locale: Locale }>;
+  params?: Promise<{ locale: Locale }> | { locale: Locale };
 }
 
 export const dynamicParams = false;
@@ -18,7 +18,10 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: HomeProps): Promise<Metadata> {
-  const resolvedParams = await params;
+  if (!params) {
+    throw new Error('Params are required');
+  }
+  const resolvedParams = params instanceof Promise ? await params : params;
   if (!resolvedParams || !resolvedParams.locale) {
     throw new Error('Locale parameter is required');
   }
@@ -59,7 +62,10 @@ export async function generateMetadata({ params }: HomeProps): Promise<Metadata>
 }
 
 export default async function Home({ params }: HomeProps) {
-  const resolvedParams = await params;
+  if (!params) {
+    throw new Error('Params are required');
+  }
+  const resolvedParams = params instanceof Promise ? await params : params;
   if (!resolvedParams || !resolvedParams.locale) {
     throw new Error('Locale parameter is required');
   }

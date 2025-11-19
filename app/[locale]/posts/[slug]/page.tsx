@@ -8,10 +8,13 @@ import { locales } from '@/i18n/config';
 import type { Metadata } from 'next';
 
 interface PostPageProps {
-  params: Promise<{
+  params?: Promise<{
     locale: Locale;
     slug: string;
-  }>;
+  }> | {
+    locale: Locale;
+    slug: string;
+  };
 }
 
 export const dynamicParams = false;
@@ -27,7 +30,10 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
-  const resolvedParams = await params;
+  if (!params) {
+    throw new Error('Params are required');
+  }
+  const resolvedParams = params instanceof Promise ? await params : params;
   if (!resolvedParams || !resolvedParams.locale || !resolvedParams.slug) {
     throw new Error('Locale and slug parameters are required');
   }
@@ -85,7 +91,10 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
 }
 
 export default async function PostPage({ params }: PostPageProps) {
-  const resolvedParams = await params;
+  if (!params) {
+    notFound();
+  }
+  const resolvedParams = params instanceof Promise ? await params : params;
   if (!resolvedParams || !resolvedParams.locale || !resolvedParams.slug) {
     notFound();
   }

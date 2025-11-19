@@ -8,10 +8,13 @@ import { locales } from '@/i18n/config';
 import type { Metadata } from 'next';
 
 interface CategoryPageProps {
-  params: Promise<{
+  params?: Promise<{
     locale: Locale;
     categoryId: string;
-  }>;
+  }> | {
+    locale: Locale;
+    categoryId: string;
+  };
 }
 
 export const dynamicParams = false;
@@ -27,7 +30,10 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
-  const resolvedParams = await params;
+  if (!params) {
+    throw new Error('Params are required');
+  }
+  const resolvedParams = params instanceof Promise ? await params : params;
   if (!resolvedParams || !resolvedParams.locale || !resolvedParams.categoryId) {
     throw new Error('Locale and categoryId parameters are required');
   }
@@ -87,7 +93,10 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
-  const resolvedParams = await params;
+  if (!params) {
+    notFound();
+  }
+  const resolvedParams = params instanceof Promise ? await params : params;
   if (!resolvedParams || !resolvedParams.locale || !resolvedParams.categoryId) {
     notFound();
   }

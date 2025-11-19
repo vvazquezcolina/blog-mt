@@ -7,8 +7,17 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: { params: { locale: Locale } }): Promise<Metadata> {
-  const locale = params.locale || defaultLocale;
+export async function generateMetadata({ params }: { params?: Promise<{ locale: Locale }> | { locale: Locale } }): Promise<Metadata> {
+  let locale: Locale = defaultLocale;
+  if (params) {
+    try {
+      const resolvedParams = params instanceof Promise ? await params : params;
+      locale = (resolvedParams?.locale) || defaultLocale;
+    } catch (error) {
+      // If params resolution fails, use default locale
+      locale = defaultLocale;
+    }
+  }
   const t = getTranslations(locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
 
@@ -48,14 +57,23 @@ export async function generateMetadata({ params }: { params: { locale: Locale } 
   };
 }
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: Locale };
+  params?: Promise<{ locale: Locale }> | { locale: Locale };
 }) {
-  const locale = params.locale || defaultLocale;
+  let locale: Locale = defaultLocale;
+  if (params) {
+    try {
+      const resolvedParams = params instanceof Promise ? await params : params;
+      locale = (resolvedParams?.locale) || defaultLocale;
+    } catch (error) {
+      // If params resolution fails, use default locale
+      locale = defaultLocale;
+    }
+  }
 
   return (
     <html lang={locale}>
