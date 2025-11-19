@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Início",
+    "categories": "Categorias",
+    "allPosts": "Todos os Posts",
+    "buyTickets": "Comprar Ingressos"
+  },
+  "hero": {
+    "title": "WE ARE THE NIGHT, THE PARTY AND THE STORY OF A LIFETIME",
+    "subtitle": "Descubra os melhores eventos, festas e vida noturna em Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta. Guias, dicas e entrevistas exclusivas."
+  },
+  "sections": {
+    "exploreCategories": "Explorar por Categorias",
+    "featuredPosts": "Artigos em Destaque",
+    "recentPosts": "Artigos Recentes"
+  },
+  "category": {
+    "postsIn": "Artigos em",
+    "noPosts": "Não há artigos disponíveis nesta categoria ainda."
+  },
+  "post": {
+    "by": "Por",
+    "readyToExperience": "Pronto para viver a experiência?",
+    "buyTicketsNow": "Comprar Ingressos Agora"
+  },
+  "footer": {
+    "mandalatickets": "Mandalatickets.com",
+    "privacy": "POLÍTICA DE PRIVACIDADE",
+    "terms": "TERMOS E CONDIÇÕES",
+    "faqs": "FAQS",
+    "contact": "ENTRE EM CONTATO",
+    "associations": "ASSOCIAÇÕES",
+    "paymentMethods": "Métodos de Pagamento Aceitos",
+    "copyright": "© Copyright 2025 Mandalatickets.com"
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Página Não Encontrada",
+    "message": "Desculpe, a página que você está procurando não existe ou foi movida.",
+    "backHome": "Voltar ao Início"
+  },
+  "allPosts": {
+    "title": "Todos os Artigos",
+    "subtitle": "Explore nossa coleção completa de {count} artigos"
+  },
+  "allCategories": {
+    "title": "Todas as Categorias",
+    "subtitle": "Explore nossos artigos organizados por tópicos"
+  },
+  "metadata": {
+    "siteName": "Blog MandalaTickets",
+    "title": "Blog MandalaTickets - Eventos, Festas e Vida Noturna no México",
+    "description": "Descubra os melhores eventos, festas e vida noturna em Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta. Guias, dicas e entrevistas exclusivas.",
+    "post": {
+      "defaultDescription": "Leia este artigo no blog MandalaTickets sobre eventos, festas e vida noturna no México."
+    }
+  },
+  "postContent": {
+    "placeholder": "Este é um artigo de exemplo do blog MandalaTickets. Em uma implementação completa, você encontraria aqui o conteúdo completo do artigo com imagens, vídeos e mais detalhes sobre o tópico.",
+    "cta": "Enquanto isso, não perca nossos eventos exclusivos nos melhores destinos do México. Explore nossas categorias para descobrir mais conteúdo sobre eventos, guias de destinos, dicas para participantes e muito mais."
+  }
+}
+

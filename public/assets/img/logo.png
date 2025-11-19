@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="Expires" content="0">
+      <meta http-equiv="Last-Modified" content="0">
+      <meta http-equiv="Cache-Control" content="private, no-cache, no-store, max-age=0, must-revalidate, stale-while-revalidate=0">
+      <title>Mandalatickets: Official ticketing Site of Grupo Mandala</title>
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="author" content="Grupo Mandala">
+      <meta name="application-name" content="Mandala Tickets"/>
+      <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+                 
+      <meta property="og:type" content="website"/>
+      <meta property="og:site_name" content="Mandalatickets.com" />
+      <meta property="og:url" content="https://mandalatickets.com/"/>
+      <meta property="og:title" content="Mandalatickets: Official ticketing Site of Grupo Mandala"/>
+      <meta property="og:description" content=""/>
+      <meta property="og:locale" content="" />
+      <meta property="og:image" content="https://mandalatickets.com/assets/img/min_face.png" />
+      <meta property="og:image:url" content="https://mandalatickets.com/assets/img/min_face.png"/>
+      <meta property="og:image:secure_url" content="https://mandalatickets.com/assets/img/min_face.png"/>
+      <meta property="og:image:type" content="image/jpeg"/>
+      <link href="https://mandalatickets.com/assets/img/min_face.png" rel="image_src" />
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Cabo Bachelorette Party Packages | VIP & Throne Show" />
+      <meta name="twitter:description" content="Book your Cabo bachelorette with VIP table, bottle service, no lines, and the Throne Show." />
+      <meta name="twitter:image" content="https://mandalatickets.com/" />
+
+
+      <link rel="apple-touch-icon" sizes="60x60" href="https://mandalatickets.com/assets/img/touch-icon-60.png"/>
+      <link rel="apple-touch-icon" sizes="120x120" href="https://mandalatickets.com/assets/img/touch-icon-120.png"/>
+      <link rel="apple-touch-startup-image" href="https://mandalatickets.com/assets/img/start-up.png">
+      <link rel="stylesheet" media="screen" href="https://mandalatickets.com/assets/css/vendor.min.css">
+      <link rel="stylesheet" media="screen" href="https://mandalatickets.com/assets/css/styles.css" id="mainStyles">
+      <link rel="stylesheet" media="screen" href="https://mandalatickets.com/assets/customizer/customizer.min.css">
+      <link rel="icon" type="image/x-icon" href="https://mandalatickets.com/assets/img/favicon_nuevo.ico">
+      <link rel="icon" type="image/png" href="https://mandalatickets.com/assets/img/favicon_nuevo.png">
+      <link rel="icon" sizes="192x192" href="https://mandalatickets.com/assets/img/touch-icon-android.png">
+      <!-- Font Awesome  -->
+      <link href="https://mandalatickets.com/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+      <link href="https://mandalatickets.com/assets/fontawesome/css/brands.css" rel="stylesheet">
+      <link href="https://mandalatickets.com/assets/fontawesome/css/solid.css" rel="stylesheet">
+      <!-- Calendar -->
+      <link href="https://mandalatickets.com/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" rel="stylesheet" />
+      <link href="https://mandalatickets.com/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" rel="stylesheet" />
+      <link href="https://mandalatickets.com/assets/css/tootik.min.css" rel="stylesheet">
+      <!-- <link href="https://mandalatickets.com/assets/css/app.cds.css" rel="stylesheet"> -->
+      <link href="https://mandalatickets.com/assets/css/jquery.gScrollingCarousel.css?v=1763403647" rel="stylesheet">
+      <!--<link rel="stylesheet" media="screen" href="https://mandalatickets.com/assets/css/calendar_pc.css?v=1763403647">-->
+      <link rel="stylesheet" media="screen" href="https://mandalatickets.com/assets/css/calendar_v6.css?v=1763403647">
+      <link rel="stylesheet" media="screen" href="https://mandalatickets.com/assets/css/estilos_pc.css?v=1763403647">
+      <link href="https://mandalatickets.com/assets/plugins/jquery-file-upload/css/jquery.fileupload.css" rel="stylesheet" />
+      <link href="https://mandalatickets.com/assets/plugins/jquery-file-upload/css/jquery.fileupload-ui.css" rel="stylesheet" />
+      <!-- URL -->
+      <link rel="canonical" href="" />
+      <!-- URL TELEFONO -->
+      <link href="https://mandalatickets.com/assets/plugins/formato-tel/intlTelInput.css" rel="stylesheet" />
+      <script src="https://mandalatickets.com/assets/plugins/formato-tel/intlTelInput.min.js"></script>
+      <script src="https://mandalatickets.com/assets/plugins/formato-tel/utils.js"></script>
+      <!-- URL -->
+      <script src="https://mandalatickets.com/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="https://mandalatickets.com/assets/js/jquery.js"></script>
+      <script src="https://mandalatickets.com/assets/js/jquery.dataTables.min.js"></script>
+
+      <script  type="text/javascript" src="https://mandalatickets.com/assets/js/magicscroll.js"></script>
+      <script  type="text/javascript" src="https://mandalatickets.com/assets/js/modernizr.min.js"></script>
+      <script  type="text/javascript" src="https://js.stripe.com/v3/"></script>
+      <!-- Mobiscroll JS and CSS Includes -->
+      <link rel="stylesheet" href="https://mandalatickets.com/assets/css/mobiscroll.jquery.min.css">
+
+      <!-- Trust Pilot -->
+      <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+
+      <script>
+         function getlink() {
+         var aux = document.createElement("input");
+         aux.setAttribute("value", window.location.href.split("?")[0].split("#")[0]);
+         document.body.appendChild(aux);
+         aux.select();
+         document.execCommand("copy");
+         document.body.removeChild(aux);
+         alert("URL copiada al portapapeles\n\n" + window.location.href.split("?")[0].split("#")[0]);
+         }
+      </script>
+
+      <script type="text/javascript">
+         function noBack() {
+               window.location.hash="finish";
+               window.location.hash="finish";
+               window.onhashchange=function(){
+                     window.location.hash="finish";
+               }
+         }
+         window.dataLayer = window.dataLayer || [];
+         window.dataLayer.push({
+           originalLocation: document.location.protocol + '//' +
+                             document.location.hostname +
+                             document.location.pathname +
+                             document.location.search
+         });
+      </script>
+      <!-- Google Tag Manager -->
+      <script  type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-WTQV8R5B');
+
+      function abrir_booking(){
+         setInterval(function() {
+            window.location.href =('https://mandalatickets.com/en/thank_you');
+         }, 2000);
+      }
+      </script>
+      
+      <!-- <script type="text/javascript">document.oncontextmenu=function(){return false;}</script>-->
+      <!-- End Google Tag Manager -->
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+     <!--  <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-WTQV8R5B"></script>
+      <script  type="text/javascript">
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'GTM-WTQV8R5B');
+      </script> -->
+      <!-- Fin del script del analytics -->
+   </head>
+
+
+
+
+   <style type="text/css">
+      .toolbar .act_cart .cart{
+             color: #66f7ee !important;
+      }
+      .toolbar .act_cart .cart>.count{
+             color: #66f7ee !important;
+      }
+      .btn-sm{
+         border-radius: 3px !important;
+      }
+      .btn-primary{
+         border-radius: 3px !important;
+      }
+      .toolbar .act_cart .cart{
+             color: #66f7ee !important;
+      }
+      .toolbar .act_cart .cart>.count{
+             color: #66f7ee !important;
+      }
+      input.empty {
+          font-family: Arial, 'Font Awesome 6 Free';
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: inherit;
+      } 
+      table tbody tr td a:hover{
+         background: transparent !important;
+         font-weight: 500;
+         border-radius: .4rem !important;
+         box-shadow: 0 5px 10px #00000040, 0 -10px 20px #0000001a !important;
+      }
+      #header-1.show .search-box{
+         height: 0px !important;
+      }
+      .content-search {
+         width: 55% !important;
+      }
+      .content-table{
+         border-radius: 15px;
+         border-color: #fff;
+         background: #fff !important;
+         height: 447px;
+         max-height: 447px !important;
+         padding: 10px 0px;
+      }
+      .dataTables_empty {
+       color: #000 !important;
+       font-weight: 800 !important;
+       font-size: 20px !important;
+      }
+      .form-control {
+         background-color: #fff !important;
+         color: #000 !important;
+      }
+      .input_buscar::placeholder {
+        color: #000 !important;
+      }
+      .input_buscar:focus{
+         border-color: #fff !important;
+      }
+      div.slider_buscador{
+         overflow: auto !important;
+         white-space: nowrap !important;
+      }
+      .cont_slider_buscador{
+         display: inline-block;
+      }
+      div.cont_slider_buscador a{
+         display: inline-block;
+         color: white;
+         text-align: center;
+         text-decoration: none;
+      }
+      .cont_slider_buscador{
+         margin-right: 5px;
+         width: 25% !important;
+      }
+      .cont_slider_buscador a img{
+         width: 100% !important;
+      }
+      #cont_buscador_b{
+         display: none;
+      }
+      .ocult_menu_bus{
+         opacity: 0;
+      }
+      .ver_menu_bus{
+         opacity: 1;
+      }
+      #table tbody tr td{
+         max-width: 40%;
+      }
+      .body_obs:before{
+         content: '';
+         position: fixed;
+         height: 100vh !important;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.6);
+         display: inline-block;
+         vertical-align: middle;
+         margin-right: -4px;
+         z-index: 100;
+      }
+      .link_ciu:hover {
+       background: transparent !important;
+       font-weight: 500;
+       border-radius: .4rem !important;
+       box-shadow: 0 5px 10px #00000040, 0 -10px 20px #0000001a !important;
+      }
+      .site-menu>ul>li>a>h3 {
+        font-size: 15px !important;
+        letter-spacing: 0.3em !important;
+      }
+      .site-menu>ul>li>a>h3 {
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .btn-primary {
+        color: #FFF !important;
+        border: 0px !important;
+        background: linear-gradient(90deg, rgba(2, 2, 151, 1) 20%, rgba(40, 87, 190, 1) 40%, rgba(85, 191, 238, 1) 90%) !important;
+      }
+      #menu_mandala .lang-currency-switcher-wrap .lang-currency-switcher>.language {
+        width: 100px !important;
+      }
+      .len .lang-currency-switcher{
+        border: 1px solid #fff;
+        border-radius: 20px;
+        padding: 10px 15px 5px 0px;
+      }
+      
+   </style>
+
+   <body id="header">
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTQV8R5B" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      </noscript>
+      <div class="topbar" style="padding-bottom: 8px !important;">
+         <div class="topbar-column">
+         </div>
+         <div class="topbar-column" id="menu_mandala" style="padding-top: 8px !important;">
+            <!--<a class="tipo_cambio" href="#"> Exchange Rate $1 USD = 16.50 MXN</a>-->
+            <div class="lang-currency-switcher-wrap">
+               <div class="len lang-currency-switcher dropdown-toggle">
+                  <span class="language" style="text-transform: capitalize !important;">
+                      <i class="icon-globe" style="margin-top: -5px;color: #fff !important;font-weight: 500;font-size: 15px;"></i>
+                       English                  </span>
+               </div>
+               <div class="dropdown-menu">
+                  <a class="dropdown-item" href="https://mandalatickets.com/home/cambiar_idioma/en">
+                    <i class="icon-globe" style="color: #fff !important;font-weight: 500;font-size: 15px;"></i> English
+                  </a>
+                  <a class="dropdown-item" href="https://mandalatickets.com/home/cambiar_idioma/es">
+                    <i class="icon-globe" style="color: #fff !important;font-weight: 500;font-size: 15px;"></i> Español
+                  </a>
+                  <a class="dropdown-item" href="https://mandalatickets.com/home/cambiar_idioma/pt">
+                    <i class="icon-globe" style="color: #fff !important;font-weight: 500;font-size: 15px;"></i> Português
+                  </a>
+                  <a class="dropdown-item" href="https://mandalatickets.com/home/cambiar_idioma/fr">
+                    <i class="icon-globe" style="color: #fff !important;font-weight: 500;font-size: 15px;"></i> French
+                  </a>
+               </div>
+            </div>
+
+            <!-- C A R T -->
+            
+            <div class="toolbar" style="position: relative;display: inline-block;right: 0px !important;top: 8px !important;">
+              <div class="inner ">
+                <div class="tools">
+                  <div class="cart" style="display: none !important;"><a href="https://mandalatickets.com/en/cart"></a><i class="icon-bag"></i><span class="count">0</span>
+                     <div class="toolbar-dropdown">
+                                        <div class="toolbar-dropdown-group">
+                        <div class="column"><span class="text-lg">Total USD:</span></div>
+                        <div class="column text-right"><span class="text-lg text-medium">$ 0.00&nbsp;</span></div>
+                      </div>
+                      <div class="toolbar-dropdown-group" style="border-top: 0px !important;">
+                        <div class="column"><span class="text-lg">Total MXN:</span></div>
+                        <div class="column text-right"><span class="text-lg text-medium">$ 0.00&nbsp;</span></div>
+                      </div>
+                      <div class="toolbar-dropdown-group">
+                        <div class="column">
+                           <a href="https://mandalatickets.com/en/cart" class="btn btn-sm btn-block btn-success btn_1_col">View Cart</a>
+                        </div>
+                        <div class="column">
+                           <a href="https://mandalatickets.com/en/checkout" class="btn btn-sm btn-block btn-success btn_2_col">
+                           Checkout</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+      </div>
+
+      <header id="header-1" class="navbar navbar-sticky">
+         <form class="site-search" method="get">
+            <input type="text" name="site_search" placeholder="Type to search...">
+            <div class="search-tools">
+               <span class="clear-search">Clear</span>
+               <span class="close-search">
+                  <i class="icon-cross"></i>
+               </span>
+            </div>
+         </form>
+         <div class="site-branding">
+            <div class="inner">
+
+                              <a class="site-logo" href="https://mandalatickets.com/"><img src="https://mandalatickets.com/assets/img/logo/logo_nuevo_azul.png" alt="Mandala Tickets"></a>
+                          </div>
+         </div>
+
+         <nav class="site-menu">
+            <ul>
+              <li class="has-megamenu"><a href="#" style="color: #2ECCFA;"><h3>BEACH CLUBS</h3></a>
+                  <ul class="mega-menu">
+                     <li><a href="https://mandalatickets.com/en/cancun/beach-clubs"><span class="mega-menu-title">CANCUN</span></a>
+                        <ul class="sub-menu">
+                           <li><a href="https://mandalatickets.com/en/cancun/disco/mandala-beach">Mandala Beach</a></li>
+                           <!--<li><a href="https://mandalatickets.com/en/cancun/disco/chicabal">Chicabal</a></li>-->
+                        </ul>
+                     </li>
+                     <li><a href="https://mandalatickets.com/en/vallarta/beach-clubs"><span class="mega-menu-title">PUERTO VALLARTA</span></a>
+                        <ul class="sub-menu">
+                           <li><a href="https://mandalatickets.com/en/vallarta/disco/chicabal">Chicabal</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="https://mandalatickets.com/en/tulum/beach-clubs"><span class="mega-menu-title">TULUM</span></a>
+                        <ul class="sub-menu">
+                           <li><a href="https://mandalatickets.com/en/tulum/disco/Vagalume">Vagalume</a></li>
+                           <li><a href="https://mandalatickets.com/en/tulum/disco/bagatelle">Bagatelle</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li class="has-megamenu"><a href="#"><h3>VENUES</h3></a>
+                  <ul class="mega-menu">
+                     <li><a href="https://mandalatickets.com/en/cancun"><span class="mega-menu-title">CANCUN</span></a>
+                        <ul class="sub-menu">
+                           <li><a href="https://mandalatickets.com/en/cancun/disco/rakata">Rakata</a></li>
+                           <!-- <li><a href="https://mandalatickets.com/en/cancun/disco/abolengo">Abolengo</a></li> -->
+                           <li><a href="https://mandalatickets.com/en/cancun/disco/d-cave">D'Cave</a></li>
+                           <li><a href="https://mandalatickets.com/en/cancun/disco/la-vaquita">La Vaquita</a></li>
+                           <li><a href="https://mandalatickets.com/en/cancun/disco/mandala">Mandala</a></li>
+                           <li><a href="https://mandalatickets.com/en/cancun/disco/mandala-beach">Mandala Beach Day</a></li>
+                           <li><a href="https://mandalatickets.com/en/cancun/disco/mandala-pp">Mandala Beach Night</a></li>
+                          <!--  <li><a href="https://mandalatickets.com/en/cancun/disco/palazzo">Palazzo</a></li> -->
+                          <!--<li><a href="https://mandalatickets.com/en/cancun/disco/the-city">The City</a></li> -->
+                          <li><a href="https://mandalatickets.com/en/cancun/disco/frogs">Señor Frogs</a></li>
+                          <li><a href="https://mandalatickets.com/en/cancun/disco/house-of-fiesta">House Of Fiesta</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="https://mandalatickets.com/en/cabos"><span class="mega-menu-title">LOS CABOS</span></a>
+                        <ul class="sub-menu">
+                           <li><a href="https://mandalatickets.com/en/cabos/disco/mandala">Mandala</a></li>
+                           <li><a href="https://mandalatickets.com/en/cabos/disco/la-vaquita">La Vaquita</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="https://mandalatickets.com/en/playa"><span class="mega-menu-title">PLAYA DEL CARMEN</span></a>
+                        <ul class="sub-menu">
+                           <!-- <li><a href="https://mandalatickets.com/en/playa/productos/departure">Departure by Pollen</a></li> -->
+                           <!--<li><a href="https://mandalatickets.com/en/playa/disco/rakata">Rakata</a></li>-->
+                           <!--<li><a href="https://mandalatickets.com/en/playa/disco/abolengo">Abolengo</a></li>-->
+                           <li><a href="https://mandalatickets.com/en/playa/disco/la-vaquita">La Vaquita</a></li>
+                           <li><a href="https://mandalatickets.com/en/playa/disco/mandala">Mandala</a></li>
+                           <li><a href="https://mandalatickets.com/en/playa/disco/santito-tun-tun">Santito Tun-Tun</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="https://mandalatickets.com/en/vallarta"><span class="mega-menu-title">PUERTO VALLARTA</span></a>
+                        <ul class="sub-menu">
+                            <!-- <li><a href="https://mandalatickets.com/en/vallarta/disco/abolengo">Abolengo</a></li> -->
+                           <li><a href="https://mandalatickets.com/en/vallarta/disco/chicabal">Chicabal</a></li>
+                           <li><a href="https://mandalatickets.com/en/vallarta/disco/frogs">Señor Frogs</a></li>
+                           <li><a href="https://mandalatickets.com/en/vallarta/disco/la-vaquita">La Vaquita</a></li>
+                           <li><a href="https://mandalatickets.com/en/vallarta/disco/mandala">Mandala</a></li>
+                           <li><a href="https://mandalatickets.com/en/vallarta/disco/rakata">Rakata</a></li>
+                           <li><a href="https://mandalatickets.com/en/vallarta/disco/la-santa">La Santa</a></li>
+                          <!-- <li><a href="https://mandalatickets.com/en/vallarta/disco/dorothy">Dorothy</a></li>
+                           <li><a href="https://mandalatickets.com/en/vallarta/disco/mita-sounds">Mita Sounds</a></li> -->
+                        </ul>
+                     </li>
+                     <li><a href="https://mandalatickets.com/en/tulum"><span class="mega-menu-title">TULUM</span></a>
+                        <ul class="sub-menu">
+                           <li><a href="https://mandalatickets.com/en/tulum/disco/tehmplo">Tehmplo</a></li>
+                           <li><a href="https://mandalatickets.com/en/tulum/disco/bonbonniere">Bonbonniere</a></li>
+                           <li><a href="https://mandalatickets.com/en/tulum/disco/Vagalume">Vagalume</a></li>
+                           <li><a href="https://mandalatickets.com/en/tulum/disco/bagatelle">Bagatelle</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <!-- EVENTOS-->
+               <li class="has-megamenu"><a href="#"><h3>EVENTS</h3></a>
+                  <ul class="mega-menu">
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/eventos/FotosEventos_01.png');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">CANCUN</h3>
+                              <a class="btn btn-sm btn-primary"  href="https://mandalatickets.com/en/cancun/events">BUY</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/eventos/FotosEventos_02.png');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">LOS CABOS</h3>
+                              <a class="btn btn-sm btn-primary"  href="https://mandalatickets.com/en/cabos/events">BUY</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/eventos/FotosEventos_03.png');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">PLAYA DEL CARMEN</h3>
+                              <a class="btn btn-sm btn-primary"  href="https://mandalatickets.com/en/playa/events">BUY</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/eventos/FotosEventos_04.png');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">PUERTO VALLARTA</h3>
+                              <a class="btn btn-sm btn-primary"  href="https://mandalatickets.com/en/vallarta/events">BUY</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/eventos/FotosEventos_06.png');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">TULUM</h3>
+                              <a class="btn btn-sm btn-primary"  href="https://mandalatickets.com/en/tulum/events">BUY</a>
+                           </div>
+                        </section>
+                     </li>
+                  </ul>
+               </li>
+               <!--<li class="has-megamenu"><a href="#"><h3>SERVICES</h3></a>
+                  <ul class="mega-menu">
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/faq.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">OPEN BAR</h3>
+                              <a href="https://mandalatickets.com/en/cancun/services/open-bar" class="btn btn-primary btn-sm">CANCUN</a><br>
+                              <a href="https://mandalatickets.com/en/cabos/services/open-bar" class="btn btn-primary btn-sm">LOS CABOS</a><br>
+                              <a href="https://mandalatickets.com/en/playa/services/open-bar" class="btn btn-primary btn-sm">PLAYA</a><br>
+                              <a href="https://mandalatickets.com/en/vallarta/services/open-bar" class="btn btn-primary btn-sm">VALLARTA</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/contact.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">BOTTLE SERVICES</h3>
+                              <a href="https://mandalatickets.com/en/cancun/services/bottle-service" class="btn btn-primary btn-sm">CANCUN</a><br>
+                              <a href="https://mandalatickets.com/en/cabos/services/bottle-service" class="btn btn-primary btn-sm">LOS CABOS</a><br>
+                              <a href="https://mandalatickets.com/en/playa/services/bottle-service" class="btn btn-primary btn-sm">PLAYA</a><br>
+                              <a href="https://mandalatickets.com/en/vallarta/services/bottle-service" class="btn btn-primary btn-sm">VALLARTA</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/tac.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">COVER</h3>
+                              <a href="https://mandalatickets.com/en/cancun/services/cover" class="btn btn-primary btn-sm">CANCUN</a><br>
+                              <a href="https://mandalatickets.com/en/cabos/services/cover" class="btn btn-primary btn-sm">LOS CABOS</a><br>
+                              <a href="https://mandalatickets.com/en/playa/services/cover" class="btn btn-primary btn-sm">PLAYA</a><br>
+                              <a href="https://mandalatickets.com/en/vallarta/services/cover" class="btn btn-primary btn-sm">VALLARTA</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/tac.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">PACKAGES</h3>
+                              <a href="https://mandalatickets.com/en/offers/three-party-package" class="btn btn-primary btn-sm" >3 NIGHTS</a><br>
+                              <a href="https://mandalatickets.com/en/offers/madness-tour-cun" class="btn btn-primary btn-sm" >ALL ACCESS CANCUN</a><br>
+                              <a href="https://mandalatickets.com/en/offers/madness-tour-playa" class="btn btn-primary btn-sm" >ALL ACCESS PLAYA</a>
+                           </div>
+                        </section>
+                     </li>
+                  </ul>
+               </li>-->
+               <!--<li class="has-megamenu"><a href="#"><h3>OFFERS</h3></a>
+                  <ul class="mega-menu">
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/faq.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">PARTY PACKAGE</h3>
+                              <h4 class="text-light text-thin text-shadow">3 NIGHTS</h4><a class="btn btn-sm btn-primary" href="https://mandalatickets.com/en/offers/three-party-package">BUY TICKET </a>
+                           </div>
+                        </section>
+                     </li>
+                     // ESTA ESTABA COMENTADA LA DE ABAJO
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/uploads/productos/ss-lilwayne.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">LIL WAYNE</h3>
+                              <h4 class="text-light text-thin text-shadow">PRE-SALE</h4><a class="btn btn-sm btn-primary" href="https://mandalatickets.com/en/cancun/discos/the-city/open-bar-lil">BUY TICKET </a>
+                           </div>
+                        </section>
+                     </li>
+                     // HASTA AQUI
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/uploads/productos/cun-madness-6 (1).jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">MADNESS</h3>
+                              <h4 class="text-light text-thin text-shadow">TOUR</h4><a class="btn btn-sm btn-primary" href="https://mandalatickets.com/en/offers/madness-tour-cun">BUY TICKET </a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/tac.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">MORE</h3>
+                              <h4 class="text-light text-thin text-shadow">OFFERS</h4>
+                              <a class="btn btn-sm btn-primary" href="https://mandalatickets.com/en/offers">VIEW</a>
+                           </div>
+                        </section>
+                     </li>
+                  </ul>
+               </li>-->
+
+               <!--<li><a href="https://mandalatickets.com/en/temporada"><span style="color: #76C5C4">Safe & Party</span></a></li>
+              <li><a href="https://mandalatickets.com/en/springbreak"><span style="color: #76C5C4">NYE</span></a></li>-->
+
+              <li class="has-megamenu"><a href="#"><h3>MORE INFO</h3></a>
+                  <ul class="mega-menu">
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/faq.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">F.A.Q.S</h3>
+                              <h4 class="text-light text-thin text-shadow">Answers to your questions</h4><a class="btn btn-sm btn-primary" href="https://mandalatickets.com/info/faqs/en">MORE INFO</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/contact.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">Contact Us</h3>
+                              <h4 class="text-light text-thin text-shadow">Connect with a partyholic</h4><a class="btn btn-sm btn-primary" href="https://mandalatickets.com/info/contactanos/en">MORE INFO</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/tac.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">Terms & Conditions</h3>
+                              <h4 class="text-light text-thin text-shadow">Important info to read</h4><a class="btn btn-sm btn-primary" href="https://mandalatickets.com/info/terminos/en">MORE INFO</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/info/tac.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">Privacy Policy</h3>
+                              <h4 class="text-light text-thin text-shadow">Important info to read</h4><a class="btn btn-sm btn-primary" href="https://mandalatickets.com/info/privacidad/en">MORE INFO</a>
+                           </div>
+                        </section>
+                     </li>
+                  </ul>
+               </li>
+               <li class="has-megamenu"><a href="#"><h3>Partnerships</h3></a>
+                  <ul class="mega-menu">
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/partners/bonbo.png');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">Bonbonniere Tulum &#174;</h3>
+                              <a class="btn btn-sm btn-primary" href="https://bonbonniere.mx/" target="_blank">BUY</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/partners/tehmplo.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">Tehmplo Tulum &#174;</h3>
+                              <a class="btn btn-sm btn-primary" href="https://tehmplo.com/" target="_blank">BUY</a>
+                           </div>
+                        </section>
+                     </li>
+                     <li>
+                        <section class="promo-box" style="background-image: url('https://mandalatickets.com/assets/img/partners/vagalume.jpg');">
+                           <span class="overlay-dark" style="opacity: .45;"></span>
+                           <div class="promo-box-content text-center padding-top-2x padding-bottom-2x">
+                              <h3 class="text-bold text-light text-shadow">Vagalume Tulum &#174;</h3>
+                              <a class="btn btn-sm btn-primary" href="https://mandalatickets.com/en/tulum/disco/Vagalume" target="_blank">BUY</a>
+                           </div>
+                        </section>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </nav>
+
+         <!-- BUSCADOR MENU -->
+         <div class="row" style="display:flex;">
+            <div style="width:100%;">
+               <nav class="header-nav">
+
+                  <div id="cont_buscador_b" style="position: absolute;align-items: center;justify-content: center;flex-direction: column;margin-top: 183px;width: 100%;padding: 46px;">
+                     <div style="width: 55%;background: #fff;height: 445px;max-height: 445px !important;border-radius: 10px !important;padding: 40px 50px 40px 50px;">
+                        <p style="color: #000 !important;font-weight: 900;font-size: 18px;margin-bottom: 20px;">Recommended for you</p>
+                        <div style="display: flex;flex-direction: row; margin-bottom: 20px;">
+                           <div style="width: 50%;">
+                              <a class="link_ciu" style="padding: 10px 5px;text-decoration: none !important;display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun" title="">
+                                 <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                    <img style="filter: brightness(0) saturate(100%) invert(74%) sepia(66%) saturate(2405%) hue-rotate(169deg) brightness(101%) contrast(87%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_ciudad.svg" alt="">
+                                 </div>
+                                 <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                    <span>Cancun</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div style="width: 50%;">
+                              <a class="link_ciu" style="padding: 10px 5px;text-decoration: none !important;display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cabos" title="">
+                                 <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                    <img style="filter: brightness(0) saturate(100%) invert(74%) sepia(66%) saturate(2405%) hue-rotate(169deg) brightness(101%) contrast(87%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_ciudad.svg" alt="">
+                                 </div>
+                                 <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                    <span>Los Cabos</span>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <div style="display: flex;flex-direction: row;margin-bottom: 20px;">
+                           <div style="width: 50%;">
+                              <a class="link_ciu" style="padding: 10px 5px;text-decoration: none !important;display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/tulum" title="">
+                                 <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                    <img style="filter: brightness(0) saturate(100%) invert(74%) sepia(66%) saturate(2405%) hue-rotate(169deg) brightness(101%) contrast(87%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_ciudad.svg" alt="">
+                                 </div>
+                                 <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                    <span>Tulum</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div style="width: 50%;">
+                              <a class="link_ciu" style="text-decoration: none;padding: 10px 5px;display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/vallarta" title="">
+                                 <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                    <img style="filter: brightness(0) saturate(100%) invert(74%) sepia(66%) saturate(2405%) hue-rotate(169deg) brightness(101%) contrast(87%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_ciudad.svg" alt="">
+                                 </div>
+                                 <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                    <span>Puerto Vallarta</span>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <p style="color: #000 !important;font-weight: 900;font-size: 18px;margin-bottom: 20px;margin-top: 30px !important;">Learn more about</p>
+                        <div class="slider_buscador" style="">
+                                                   </div>
+                     </div>
+                  </div>
+
+                  <form action="" class="search-box">
+                     <div class="form-group search-input" style="background: transparent !important; padding-top: 120px !important;">
+                        <div style="text-align: center; padding: 10px 0px;display: flex;justify-content: center;align-items: center;width: 100%;">
+                           <div style="margin: 18px !important; margin-bottom: 3px !important;display: flex;justify-content: center;width: auto;">
+                              <input type="search" class="form-control input_buscar empty" id="input-search" placeholder="&#xF002; Search by city, venues" style="padding: 0px 34px !important; background-color: #fff !important;width: 100% !important;min-width: 20rem !important;box-shadow: 5px 5px 15px #0003;border-radius: 3.125rem !important;height: 4rem;color: #000 !important;font-size: 18px;font-weight: 700;" data-selector="#header-1"/>
+                           </div>
+                        </div>
+                        <div id="cont_buscador_menu" style="display: flex;justify-content: center;margin: 0px 30px !important;border-radius: 10px !important;">
+                           <div class="content-search">
+                              <div class="content-table">
+                                 <table id="table" width="100%" cellspacing="0" cellpadding="0">
+                                    <thead>
+                                       <tr>
+                                          <th></th>
+                                       </tr>
+                                    </thead>
+                                       <tbody style="width: 100% !important;display: flex;align-items: center;flex-direction: row;flex-wrap: wrap; padding: 10px 50px 10px 50px;">
+                                          <!-- Ciudades -->
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_ciudad.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      <span>Cancun</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cabos" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_ciudad.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      <span>Los Cabos</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/vallarta" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_ciudad.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      <span>Puerto Vallarta</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/playa" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_ciudad.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      <span>Playa del Carmen</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/tulum" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_ciudad.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      <span>Tulum</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <!-- Discos Cancun -->
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun/disco/rakata" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Rakata<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Cancun</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun/disco/abolengo" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Abolengo<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Cancun</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun/disco/d-cave" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      DCave<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Cancun</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun/disco/la-vaquita" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      La Vaquita<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Cancun</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun/disco/mandala" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Mandala<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Cancun</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun/disco/mandala-beach" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Mandala Beach Day<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Cancun</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun/disco/mandala-pp" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Mandala Beach Night<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Cancun</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cancun/disco/the-city" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px !important;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      The City<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Cancun</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <!-- Discos Cabos -->
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cabos/disco/mandala" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Mandala<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Los Cabos </span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/cabos/disco/la-vaquita" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      La Vaquita<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Los Cabos </span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <!-- Discos Playa -->
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/playa/disco/rakata" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Rakata<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Playa del Carmen </span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/playa/disco/abolengo" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Abolengo<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Playa del Carmen </span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/playa/disco/la-vaquita" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      La Vaquita<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Playa del Carmen </span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/playa/disco/mandala" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Mandala<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Playa del Carmen </span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/playa/disco/santito-tun-tun" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Santito Tun-Tun<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Playa del Carmen </span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <!-- Discos Vallarta -->
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/vallarta/disco/chicabal" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Chicabal<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Puerto Vallarta</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/vallarta/disco/frogs" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Señor Frogs<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Puerto Vallarta</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/vallarta/disco/la-vaquita" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      La Vaquita<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Puerto Vallarta</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/vallarta/disco/mandala" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Mandala<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Puerto Vallarta</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/vallarta/disco/rakata" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Rakata<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Puerto Vallarta</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/vallarta/disco/la-santa" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      La Santa<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Puerto Vallarta</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                           <!-- <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/vallarta/disco/dorothy" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Dorothy<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Puerto Vallarta</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>-->
+                                          <!-- Discos Tulum -->
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/tulum/disco/tehmplo" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Tehmplo<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Tulum</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/tulum/disco/bonbonniere" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Bonbonniere<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Tulum</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr style="flex: 0 0 50% !important;max-width: 50%;">
+                                             <td>
+                                                <a style="display: flex !important;align-items: center;flex-direction: row;" href="https://mandalatickets.com/en/tulum/disco/vagalume" title="">
+                                                   <div style="background: #edebeb;border-radius: 10px;padding: 10px;width: 50px;height: 50px !important;">
+                                                      <img style="filter: brightness(0) saturate(100%) invert(36%) sepia(66%) saturate(1628%) hue-rotate(196deg) brightness(85%) contrast(101%);width: 40px !important;" src="https://mandalatickets.com/assets/img/icono_disco.svg" alt="">
+                                                   </div>
+                                                   <div style="color: #000 !important;margin-left: 10px;font-weight: 900;text-transform: none !important;font-size: 16px;width: 50% !important;">
+                                                      Vagalume<br><span style="font-weight: 400 !important;color: #595555 !important;font-size: 12px !important;">Tulum</span>
+                                                   </div>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                        <br>
+                     </div>
+                  </form>
+               </nav>
+            </div>    
+         </div>
+
+   </header>
+    <div class="offcanvas-wrapper">
+      <div class="container padding-top-3x padding-bottom-1x">
+         <div style="margin-bottom: 80px;">
+            <img class="d-block m-auto" src="https://mandalatickets.com/assets/img/logo/logo.png" style="width: 100%; max-width: 200px;" alt="404">
+         </div>
+      	<img class="d-block m-auto" src="https://mandalatickets.com/assets/img/404.png" style="width: 100%; max-width: 320px;" alt="404">
+         <div class="padding-top-2x mt-2 text-center">
+            <h3 style="font-family: BebasNeue-Bold !important;margin-bottom: 9px !important;">Page Not Found</h3>
+            <p style="font-family: 'AcuminVariable' !important;color: #fff !important;line-height: 1.3em;">It seems we can’t find page you are looking for.<br><a style="color: #1A69D9 !important;text-transform: uppercase;text-decoration: none !important;font-weight: bold;" href="https://mandalatickets.com/">Go back to Homepage</a></p>
+         </div>
+      </div>
+   </div>
+         <!--<section>
+            <div style="background: linear-gradient(to right,rgb(22 98 218) 70%,rgb(85 239 232) 100%);display: flex;justify-content: center;align-items: center;flex-direction: row;">
+               <img class="filtro_logo" src="https://mandalatickets.com/assets/img/discos/chicabal.svg" alt="Chicabal">
+               <img class="filtro_logo" src="https://mandalatickets.com/assets/img/discos/abolengo.svg" alt="Abolengo">
+               <img class="filtro_logo" src="https://mandalatickets.com/assets/img/discos/rakata.svg" alt="Rakata">
+               <img class="filtro_logo" src="https://mandalatickets.com/assets/img/discos/dcave.svg" alt="Dcave">
+               <img class="filtro_logo" src="https://mandalatickets.com/assets/img/discos/vaquita.svg" alt="Vaquita">
+               <img class="filtro_logo" src="https://mandalatickets.com/assets/img/discos/mandala.svg" alt="Mandala">
+               <img class="filtro_logo" src="https://mandalatickets.com/assets/img/discos/frogs.svg" alt="Frogs">-->
+               <!--<img class="filtro_logo" src="https://mandalatickets.com/assets/img/discos/santito-tun-tun.svg" alt="Santito tuntun">-->
+               <!--<img class="filtro_logo" src="https://mandalatickets.com/assets/img/discos/mandala_beach.svg" alt="Mandala Beach">
+            </div>
+         </section> -->
+
+      <footer class="site-footer">
+         <div class="container" style="width: 100%!important;max-width: 100%!important;">
+            <div class="sec_footer">
+               <div class="cont_footer_mt">
+                  <img src="https://mandalatickets.com/assets/img/logo_mt.png" alt="">
+               </div>
+               <div class="cont_footer_redes">
+                  <a href="https://www.facebook.com/Mandalatickets?mibextid=LQQJ4d" title="" style="padding: 0px 5px;"><img src="https://mandalatickets.com/assets/img/redes/facebook.png" style="width: 35px;" alt=""></a>
+                  <a href="https://www.instagram.com/mandalatickets/?hl=es" title="" style="padding: 0px 5px;"><img src="https://mandalatickets.com/assets/img/redes/instagram.png" style="width: 35px;" alt=""></a>
+                  <a href="https://wa.me/5215649802193" title="" style="padding: 0px 5px;"><img src="https://mandalatickets.com/assets/img/redes/whatsapp_blanco.png" style="width: 35px;" alt=""></a>
+                  <a href="https://mandalatickets.com/info/contactanos/en" title="contactanos" style="padding: 0px 5px;margin-top: -6px;"><i class="icon-mail" style="color: #fff !important;font-weight: 500;font-size: 30px;"></i></a>
+               </div>
+            </div>
+            <div class="row footer_sec_in">
+               <div class="col-md-4 footer_sec_cont">
+                  <h3 class="widget-title">Mandalatickets.com</h3>
+                  <a href="https://mandalatickets.com/info/privacidad/en" style="color: #fff;">Privacy Policy</a>
+                  <a href="https://mandalatickets.com/info/terminos/en" style="color: #fff;">Terms & Conditions</a>
+                  <a href="https://mandalatickets.com/info/faqs/en" style="color: #fff;">Faqs</a>
+                  <a href="https://mandalatickets.com/info/contactanos/en" style="color: #fff;">Contact Us</a>
+               </div>
+               <div class="col-md-4 footer_sec_cont">
+                  <h3 class="widget-title">Partnerships</h3>
+                  <a href="https://bonbonniere.mx/" style="text-decoration: none !important;font-family: 'AcuminVariable' !important;font-size: 16px;" target="_blank">Bonbonniere Tulum &#174;</a>
+                  <a href="https://tehmplo.com/" style="text-decoration: none !important;font-family: 'AcuminVariable' !important;font-size: 16px;" target="_blank">Tehmplo Tulum &#174;</a>
+                  <a href="https://mandalatickets.com/en/tulum/disco/Vagalume" style="text-decoration: none !important;font-family: 'AcuminVariable' !important;font-size: 16px;" target="_blank">Vagalume &#174;</a>
+               </div>
+               <div class="col-md-4 footer_sec_cont">
+                  <h3 class="widget-title">Accepted Payments</h3>
+            <img style="width: 210px;" src="https://mandalatickets.com/assets/img/metodos_pago.png">
+               </div>
+            </div>
+         </div>
+         <div class="container" style="width: 100%!important;max-width: 100%!important;">
+            <div class="row" style="margin-top: 50px !important;padding-top: 10px !important;">
+               <div class="col-md-12" style="display: flex;justify-content: center;">
+                  <a href="https://www.trustpilot.com/review/mandalatickets.com" title="" style="width: 11%;" target="_blank"><img src="https://mandalatickets.com/assets/img/trustpilot.svg"  alt="Trustpilot" style="width: 100%;"></a>
+               </div>
+            </div>
+         </div>
+
+         <div class="container" style="width: 100%!important;max-width: 100%!important;">
+            <div class="row" style="margin-top: 50px !important;padding-top: 10px !important;">
+               <div class="col-md-12">
+                  <div class="footer-copyright f_copy_web" style="margin-bottom: 30px;font-size: 15px !important;width: 100%;padding-top: 5px !important;padding-bottom: 0px !important;display: flex;justify-content: center;color: #fff !important;"> © Copyright 2025  &nbsp;<img src="https://mandalatickets.com/assets/img/movil/footer/iconos2-03.svg"  style="max-width: 8px;margin: 0px 5px;filter: brightness(0) saturate(100%) invert(96%) sepia(48%) saturate(5299%) hue-rotate(149deg) brightness(103%) contrast(93%);padding-top: 0px !important;margin-top: -2px !important;">&nbsp;</i>Mandalatickets.com
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+   
+       <!-- <a class="scroll-to-top-btn" href="#"><i class="icon-arrow-up"></i></a> -->
+
+      <!-- Modal Errores -->
+      <div class="modal fade" id="modal_funciones" tabindex="-1" role="dialog">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title"></h4>
+               </div>
+               <div class="modal-body">
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-primary btn-sm" id="cerrar_modal">CLOSE</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   <script src="https://mandalatickets.com/assets/js/simplyCountdown.min.js" defer></script>
+   </body>
+</html>	
+	<script src="https://mandalatickets.com/assets/js/search.js"></script>
+	<script src="https://mandalatickets.com/assets/js/vendor.min.js"></script>
+	<script src="https://mandalatickets.com/assets/js/scripts.min.js"></script>
+	<!--<script src="https://mandalatickets.com/assets/js/app.cds.js"></script>-->
+	<script src="https://mandalatickets.com/assets/customizer/customizer.min.js"></script>
+	<script src="https://mandalatickets.com/assets/js/jquery.latest.min.js" type="text/javascript"></script>
+   	<script src="https://mandalatickets.com/assets/js/moment.latest.min.js" type="text/javascript"></script>
+	<script src="https://mandalatickets.com/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+	<script src="https://mandalatickets.com/assets/js/moment-timezone.min.js"></script>
+	<script src="https://mandalatickets.com/assets/js/modernizr.min.js"></script>
+	<script src="https://mandalatickets.com/assets/js/bootstrap.min.js"></script>
+	<script src="https://mandalatickets.com/assets/js/mobiscroll.jquery.min.js"></script>
+	<script src="https://mandalatickets.com/assets/js/jquery.gScrollingCarousel.js"></script> 
+
+	<script>
+        mobiscroll.setOptions({
+        locale: mobiscroll.localeEs,       
+        theme: 'ios',                     
+        themeVariant: 'dark'   
+    });  
+
+    $('#input-search').click(function() {
+		if (!$('#input-search').val()) {
+			$('#cont_buscador_b').css("display", "flex");
+		}
+		else{
+
+		}
+		var div = document.getElementById("cont_buscador_b");
+		var div2 = document.getElementById("cont_buscador_b");
+		var div_buscador = document.getElementById("cont_buscador_menu");
+		var button = document.getElementById("input-search");
+
+		window.addEventListener("click", function(event){
+			var objetivo = event.target;
+			if (objetivo != div && objetivo != button)div.style.display = "none";
+			if (objetivo != div_buscador && objetivo != button) location.reload(true);
+			if (objetivo != div2 && objetivo != button) $("#input-search").addClass('ocult_menu_bus');
+		}, false);
+
+		button.addEventListener("click", function(){
+			var visible = getComputedStyle(div).display;
+			var visible_2 = getComputedStyle(div_buscador).display;
+			div.style.display = visible == "flex" ? "none" : "flex";
+			div_buscador.style.display = visible_2 == "flex" ? "none" : "flex";
+		}, false);
+
+	});	
+
+	$('#btn_bus_home').click(function() {
+		$('#cont_buscador_b').css("display", "flex");
+		$("body").css("overflow", "hidden");
+		$("body").addClass("body_obs");
+	});
+
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.header').on('click', '.search-toggle', function(e) {
+				var selector = $(this).data('selector');
+			  	$(selector).toggleClass('show').find('.search-input').focus();
+			  	$(this).toggleClass('active');
+			  	e.preventDefault();
+			});
+        });
+
+      $(".carousel .items").gScrollingCarousel();
+      $(".carousel-two .items").gScrollingCarousel({
+        mouseScrolling: false,
+        draggable: true,
+        snapOnDrag: false,
+        mobileNative: false,
+      });
+      $(".carousel-three .items").gScrollingCarousel({ 
+        scrollAmount: 'single' 
+      });
+      $(".carousel-four .items").gScrollingCarousel({
+        mouseScrolling: true,
+        draggable: false,
+        snapOnDrag: false,
+      });
+
+      //      B U S C A D O R  
+			$('#input-search').keydown(function(e){				
+				var code = e.keyCode;
+				var __idioma= $('#mobile-menu').attr('idioma');
+				var __valor= $('#input-search').val().toUpperCase();
+
+				if(code === 13){
+					// CIUDADES
+					if( __valor == "CANCUN"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cancun');
+					}
+					else if( __valor == "LOS CABOS" || __valor == "CABOS"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cabos');
+					}
+					else if( __valor == "PUERTO VALLARTA" || __valor == "VALLARTA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/vallarta');
+					}
+					else if( __valor == "PLAYA DEL CARMEN" || __valor == "PLAYA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/playa');
+					}
+					else if( __valor == "TULUM"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/tulum/events');
+					}
+					// HOME
+					else if( __valor == "HOME" || __valor == "INICIO"){
+						window.location.href =('https://mandalatickets.com/'+__idioma);
+					}
+					// CANCUN DISCOS
+					else if( __valor == "CANCUN RAKATA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cancun/disco/rakata');
+					}
+					else if( __valor == "CANCUN ABOLENGO"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cancun/disco/abolengo');
+					}
+					else if( __valor == "CANCUN DCAVE"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cancun/disco/d-cave');
+					}
+					else if( __valor == "CANCUN MANDALA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cancun/disco/mandala');
+					}
+					else if( __valor == "CANCUN MANDALA BEACH DAY"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cancun/disco/mandala-beach');
+					}
+					else if( __valor == "CANCUN MANDALA BEACH NIGHT"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cancun/disco/mandala-pp');
+					}
+					else if( __valor == "CANCUN THE CITY"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cancun/disco/the-city');
+					}
+					// CABOS DISCOS
+					else if( __valor == "LOS CABOS MANDALA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cabos/disco/mandala');
+					}
+					else if( __valor == "LOS CABOS LA VAQUITA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cabos/disco/la-vaquita');
+					}
+					// PLAYA DISCOS
+					else if( __valor == "PLAYA DEL CARMEN RAKATA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/playa/disco/rakata');
+					}
+					else if( __valor == "PLAYA DEL CARMEN ABOLENGO"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/playa/disco/abolengo');
+					}
+					else if( __valor == "PLAYA DEL CARMEN LA VAQUITA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/playa/disco/la-vaquita');
+					}
+					else if( __valor == "PLAYA DEL CARMEN MANDALA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/playa/disco/mandala');
+					}
+					else if( __valor == "PLAYA DEL CARMEN SANTITO TUN TUN"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/playa/disco/santito-tun-tun');
+					}
+					// VALLARTA DISCOS
+					else if( __valor == "PUERTO VALLARTA CHICABAL"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/vallarta/disco/chicabal');
+					}
+					else if( __valor == "PUERTO VALLARTA SEÑOR FROGS"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/vallarta/disco/frogs');
+					}
+					else if( __valor == "PUERTO VALLARTA LA VAQUITA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/vallarta/disco/la-vaquita');
+					}
+					else if( __valor == "PUERTO VALLARTA MANDALA"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/vallarta/disco/mandala');
+					}
+					// TULUM DISCOS
+					else if( __valor == "TULUM TEHMPLO" || __valor == "TEHMPLO"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/tulum/producto/tehmplo/general-access-marzo11');
+					}
+					else if( __valor == "TULUM BONBONNIERE" || __valor == "BONBONNIERE"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/tulum/events');
+					}
+					else if( __valor == "TULUM VAGALUME" || __valor == "VAGALUME"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/tulum/disco/vagalume');
+					}
+					// EVENTOS
+					else if( __valor == "EVENTS" || __valor == "EVENTOS" || __valor == "ÉVÉNEMENTS"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/events');
+					}
+					else if( __valor == "CANCUN EVENTS" || __valor == "CANCUN EVENTOS" || __valor == "CANCUN ÉVÉNEMENTS"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cancun/events');
+					}
+					else if( __valor == "LOS CABOS EVENTS" || __valor == "LOS CABOS EVENTOS" || __valor == "LOS CABOS ÉVÉNEMENTS"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/cabos/events');
+					}
+					else if( __valor == "PUERTO VALLARTA EVENTS" || __valor == "PUERTO VALLARTA EVENTOS" || __valor == "PUERTO VALLARTA ÉVÉNEMENTS"){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/vallarta/events');
+					}
+					else if( __valor == "PLAYA DEL CARMEN EVENTS" || __valor == "PLAYA DEL CARMEN EVENTOS" || __valor == "PLAYA DEL CARMEN ÉVÉNEMENTS" ){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/playa/events');
+					}
+					else if( __valor == "TULUM EVENTS" || __valor == "TULUM EVENTOS" || __valor == "TULUM ÉVÉNEMENTS" ){
+						window.location.href =('https://mandalatickets.com/'+__idioma+'/tulum/events');
+					}
+					// INFO
+					else if( __valor == "CONTACT US" || __valor == "CONTACTANOS" || __valor == "CONTACTE-NOS" || __valor == "NOUS CONTACTER"){
+						window.location.href =('https://mandalatickets.com/info/contactanos/'+__idioma);
+					}
+					else if( __valor == "FAQS" || __valor == "PREGUNTAS FRECUENTES" || __valor == "PREGUNTAS" || __valor == "PERGUNTAS FREQUENTES" || __valor == "QUESTIONS FRÉQUENTES"){
+						window.location.href =('https://mandalatickets.com/info/faqs/'+__idioma);
+					}
+					else if( __valor == "TERMS & CONDITIONS" || __valor == "TERMS" || __valor == "TERMINOS Y CONDICIONES" || __valor == "TERMINOS" || __valor == "TERMOS E CONDIÇÕES" || __valor == "TERMES ET CONDITIONS"){
+						window.location.href =('https://mandalatickets.com/info/terminos/'+__idioma);
+					}
+					else if( __valor == "PRIVACY POLICY" || __valor == "POLITICA DE PRIVACIDAD" || __valor == "PRIVACIDAD" || __valor == "POLÍTICA DE PRIVACIDADE" || __valor == "POLITIQUE DE CONFIDENTIALITÉ"){
+						window.location.href =('https://mandalatickets.com/info/privacidad/'+__idioma);
+					}
+				}
+			});
+  </script>
+  	
+
+	<script>
+		$(document).ready(function() {
+			moment.tz.setDefault("America/Cancun");
+			funciones = {
+				eliminar_item : function(id){
+               		$.ajax({ url: 'https://mandalatickets.com/cart/eliminar', data: {id:id}, type: 'POST', success : function(data){ location.reload(true); } });
+            	},
+			     validar_email(dato) {
+				    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+					return regex.test(dato);
+				},
+				 enviar(){
+			    	$.ajax({
+						url: 'https://mandalatickets.com/home/agregar_a_newsletter',
+						data: {email: $('#email_newsletter').val()},
+						type: 'POST',
+						success: function(data){
+							$('#email_newsletter').val('');
+							$('#modal_funciones .modal-title').html('NewsLetter');
+							$('#modal_funciones .modal-body').html('<i class="icon-check"></i> Thank you!  Gracias!  Obrigado!');
+							$('#modal_funciones').css('display','block');
+							$('#modal_funciones').addClass('show');
+						}
+					});
+			    }
+			}
+			$('#agregar_a_newsletter').click(function(){
+				var dato= $('#email_newsletter').val();
+		        if (!funciones.validar_email(dato)){
+		           alert('Email');
+		           $('#email_newsletter').focus();
+		        } else {
+		        	funciones.enviar();
+		        }
+		    });
+		    $('.dropdown-product-remove').click(function(){
+            var id = $(this).data('identificador');
+            funciones.eliminar_item(id); });
+
+		    $('#remove_from_cart').click(function(){
+            var id = $(this).data('identificador');
+            funciones.eliminar_item(id); });
+
+		    $('#modal_funciones #cerrar_modal').click(function(){
+				$('#modal_funciones').css('display','none');
+				$('#modal_funciones').removeClass('hide');
+			});
+		});
+    </script>

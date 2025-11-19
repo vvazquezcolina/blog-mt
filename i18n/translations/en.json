@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "allPosts": "All Posts",
+    "buyTickets": "Buy Tickets"
+  },
+  "hero": {
+    "title": "WE ARE THE NIGHT, THE PARTY AND THE STORY OF A LIFETIME",
+    "subtitle": "Discover the best events, parties and nightlife in Cancún, Tulum, Playa del Carmen, Los Cabos and Puerto Vallarta. Guides, tips and exclusive interviews."
+  },
+  "sections": {
+    "exploreCategories": "Explore by Categories",
+    "featuredPosts": "Featured Articles",
+    "recentPosts": "Latest Articles"
+  },
+  "category": {
+    "postsIn": "Articles in",
+    "noPosts": "No articles available in this category yet."
+  },
+  "post": {
+    "by": "By",
+    "readyToExperience": "Ready to experience it?",
+    "buyTicketsNow": "Buy Tickets Now"
+  },
+  "footer": {
+    "mandalatickets": "Mandalatickets.com",
+    "privacy": "PRIVACY POLICY",
+    "terms": "TERMS AND CONDITIONS",
+    "faqs": "FAQS",
+    "contact": "CONTACT US",
+    "associations": "ASSOCIATIONS",
+    "paymentMethods": "Accepted Payment Methods",
+    "copyright": "© Copyright 2025 Mandalatickets.com"
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "allPosts": {
+    "title": "All Articles",
+    "subtitle": "Explore our complete collection of {count} articles"
+  },
+  "allCategories": {
+    "title": "All Categories",
+    "subtitle": "Explore our articles organized by topics"
+  },
+  "metadata": {
+    "siteName": "MandalaTickets Blog",
+    "title": "MandalaTickets Blog - Events, Parties and Nightlife in Mexico",
+    "description": "Discover the best events, parties and nightlife in Cancún, Tulum, Playa del Carmen, Los Cabos and Puerto Vallarta. Guides, tips and exclusive interviews.",
+    "post": {
+      "defaultDescription": "Read this article on the MandalaTickets blog about events, parties and nightlife in Mexico."
+    }
+  },
+  "postContent": {
+    "placeholder": "This is a sample article from the MandalaTickets blog. In a full implementation, you would find the complete article content with images, videos and more details about the topic.",
+    "cta": "Meanwhile, don't miss our exclusive events in Mexico's best destinations. Explore our categories to discover more content about events, destination guides, attendee tips and much more."
+  }
+}
+
