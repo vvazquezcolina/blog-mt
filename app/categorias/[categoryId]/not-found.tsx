@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { defaultLocale } from '@/i18n/config';
 
 export default function CategoryNotFound() {
   return (
     <>
-      <Header />
+      <Header locale={defaultLocale} />
       <div style={{
         minHeight: '60vh',
         display: 'flex',
@@ -39,7 +40,7 @@ export default function CategoryNotFound() {
           Ver Todas las Categorías
         </Link>
       </div>
-      <Footer />
+      <Footer locale={defaultLocale} />
     </>
   );
 }

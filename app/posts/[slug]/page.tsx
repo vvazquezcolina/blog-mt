@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import { blogPosts, getCategoryById } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import { defaultLocale } from '@/i18n/config';
 
 interface PostPageProps {
   params: {
@@ -21,7 +22,7 @@ export default function PostPage({ params }: PostPageProps) {
 
   return (
     <>
-      <Header />
+      <Header locale={defaultLocale} />
       
       <article style={{ padding: '4rem 0', background: '#000' }}>
         <div className="container" style={{ maxWidth: '800px' }}>
@@ -142,7 +143,7 @@ export default function PostPage({ params }: PostPageProps) {
         </div>
       </article>
 
-      <Footer />
+      <Footer locale={defaultLocale} />
     </>
   );
 }

@@ -1,31 +1,43 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PostCard from '@/components/PostCard';
-import { blogPosts, getCategoryById, isValidCategoryId } from '@/data/blogPosts';
+import { blogPosts, getCategoryById, isValidCategoryId, categories } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import { getTranslations, type Locale } from '@/i18n';
+import { locales } from '@/i18n/config';
 import type { Metadata } from 'next';
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     locale: Locale;
     categoryId: string;
-  };
+  }>;
+}
+
+export async function generateStaticParams() {
+  const params: Array<{ locale: string; categoryId: string }> = [];
+  locales.forEach((locale) => {
+    categories.forEach((category) => {
+      params.push({ locale, categoryId: category.id });
+    });
+  });
+  return params;
 }
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
-  const locale = params.locale || 'es';
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale || 'es';
   const t = getTranslations(locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
 
-  if (!isValidCategoryId(params.categoryId)) {
+  if (!isValidCategoryId(resolvedParams.categoryId)) {
     return {
       title: t.notFound.heading,
       description: t.notFound.message,
     };
   }
 
-  const category = getCategoryById(params.categoryId);
+  const category = getCategoryById(resolvedParams.categoryId);
   if (!category) {
     return {
       title: t.notFound.heading,
@@ -33,14 +45,14 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     };
   }
 
-  const categoryPosts = blogPosts.filter(post => post.category === params.categoryId);
+  const categoryPosts = blogPosts.filter(post => post.category === resolvedParams.categoryId);
   const { locales } = await import('@/i18n/config');
   const alternates: { languages: Record<string, string> } = {
     languages: {}
   };
 
   locales.forEach((loc) => {
-    alternates.languages[loc] = `${baseUrl}/${loc}/categorias/${params.categoryId}`;
+    alternates.languages[loc] = `${baseUrl}/${loc}/categorias/${resolvedParams.categoryId}`;
   });
 
   const title = `${category.name} | ${t.metadata.siteName}`;
@@ -50,7 +62,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     title,
     description,
     alternates: {
-      canonical: `${baseUrl}/${locale}/categorias/${params.categoryId}`,
+      canonical: `${baseUrl}/${locale}/categorias/${resolvedParams.categoryId}`,
       languages: alternates.languages,
     },
     openGraph: {
@@ -60,7 +72,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
       locale: locale,
       alternateLocale: locales.filter(l => l !== locale) as string[],
       type: 'website',
-      url: `${baseUrl}/${locale}/categorias/${params.categoryId}`,
+      url: `${baseUrl}/${locale}/categorias/${resolvedParams.categoryId}`,
     },
     twitter: {
       card: 'summary_large_image',
@@ -70,25 +82,26 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   };
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const t = getTranslations(params.locale);
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const resolvedParams = await params;
+  const t = getTranslations(resolvedParams.locale);
   
   // Validar que el categoryId sea válido antes de buscar la categoría
-  if (!isValidCategoryId(params.categoryId)) {
+  if (!isValidCategoryId(resolvedParams.categoryId)) {
     notFound();
   }
   
-  const category = getCategoryById(params.categoryId);
+  const category = getCategoryById(resolvedParams.categoryId);
   
   if (!category) {
     notFound();
   }
 
-  const categoryPosts = blogPosts.filter(post => post.category === params.categoryId);
+  const categoryPosts = blogPosts.filter(post => post.category === resolvedParams.categoryId);
 
   return (
     <>
-      <Header locale={params.locale} />
+      <Header locale={resolvedParams.locale} />
       
       <section className="category-header" style={{ background: `linear-gradient(135deg, ${category.color} 0%, ${category.color}dd 100%)` }}>
         <div className="container">
@@ -103,7 +116,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
           {categoryPosts.length > 0 ? (
             <div className="posts-grid">
               {categoryPosts.map((post) => (
-                <PostCard key={post.id} post={post} locale={params.locale} />
+                <PostCard key={post.id} post={post} locale={resolvedParams.locale} />
               ))}
             </div>
           ) : (
@@ -114,7 +127,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
         </div>
       </section>
 
-      <Footer locale={params.locale} />
+      <Footer locale={resolvedParams.locale} />
     </>
   );
 }

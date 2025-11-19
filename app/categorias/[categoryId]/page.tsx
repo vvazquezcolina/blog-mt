@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import PostCard from '@/components/PostCard';
 import { blogPosts, getCategoryById, isValidCategoryId } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
+import { defaultLocale } from '@/i18n/config';
 
 interface CategoryPageProps {
   params: {
@@ -26,7 +27,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
   return (
     <>
-      <Header />
+      <Header locale={defaultLocale} />
       
       <section className="category-header" style={{ background: `linear-gradient(135deg, ${category.color} 0%, ${category.color}dd 100%)` }}>
         <div className="container">
@@ -41,7 +42,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
           {categoryPosts.length > 0 ? (
             <div className="posts-grid">
               {categoryPosts.map((post) => (
-                <PostCard key={post.id} post={post} />
+                <PostCard key={post.id} post={post} locale={defaultLocale} />
               ))}
             </div>
           ) : (
@@ -52,7 +53,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
         </div>
       </section>
 
-      <Footer />
+      <Footer locale={defaultLocale} />
     </>
   );
 }

@@ -16,6 +16,7 @@ export function getTranslations(locale: Locale) {
 }
 
 export type Translations = typeof esTranslations;
+export type { Locale };
 
 
 

@@ -2,11 +2,12 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CategoryCard from '@/components/CategoryCard';
 import { categories } from '@/data/blogPosts';
+import { defaultLocale } from '@/i18n/config';
 
 export default function CategoriesPage() {
   return (
     <>
-      <Header />
+      <Header locale={defaultLocale} />
       
       <section className="category-header">
         <div className="container">
@@ -19,13 +20,13 @@ export default function CategoriesPage() {
         <div className="container">
           <div className="categories-grid">
             {categories.map((category) => (
-              <CategoryCard key={category.id} category={category} />
+              <CategoryCard key={category.id} category={category} locale={defaultLocale} />
             ))}
           </div>
         </div>
       </section>
 
-      <Footer />
+      <Footer locale={defaultLocale} />
     </>
   );
 }

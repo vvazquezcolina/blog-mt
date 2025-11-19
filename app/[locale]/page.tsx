@@ -4,14 +4,20 @@ import CategoryCard from '@/components/CategoryCard';
 import PostCard from '@/components/PostCard';
 import { categories, blogPosts } from '@/data/blogPosts';
 import { getTranslations, type Locale } from '@/i18n';
+import { locales } from '@/i18n/config';
 import type { Metadata } from 'next';
 
 interface HomeProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
+}
+
+export async function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({ params }: HomeProps): Promise<Metadata> {
-  const locale = params.locale || 'es';
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale || 'es';
   const t = getTranslations(locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
 
@@ -48,14 +54,15 @@ export async function generateMetadata({ params }: HomeProps): Promise<Metadata>
   };
 }
 
-export default function Home({ params }: HomeProps) {
-  const t = getTranslations(params.locale);
+export default async function Home({ params }: HomeProps) {
+  const resolvedParams = await params;
+  const t = getTranslations(resolvedParams.locale);
   const featuredPosts = blogPosts.filter(post => post.featured).slice(0, 3);
   const recentPosts = blogPosts.slice(0, 6);
 
   return (
     <>
-      <Header locale={params.locale} />
+      <Header locale={resolvedParams.locale} />
       
       <section className="hero">
         <video 
@@ -79,7 +86,7 @@ export default function Home({ params }: HomeProps) {
           <h2 className="section-title">{t.sections.exploreCategories}</h2>
           <div className="categories-grid">
             {categories.map((category) => (
-              <CategoryCard key={category.id} category={category} locale={params.locale} />
+              <CategoryCard key={category.id} category={category} locale={resolvedParams.locale} />
             ))}
           </div>
         </div>
@@ -90,7 +97,7 @@ export default function Home({ params }: HomeProps) {
           <h2 className="section-title">{t.sections.featuredPosts}</h2>
           <div className="posts-grid">
             {featuredPosts.map((post) => (
-              <PostCard key={post.id} post={post} featured={true} locale={params.locale} />
+              <PostCard key={post.id} post={post} featured={true} locale={resolvedParams.locale} />
             ))}
           </div>
         </div>
@@ -101,13 +108,13 @@ export default function Home({ params }: HomeProps) {
           <h2 className="section-title">{t.sections.recentPosts}</h2>
           <div className="posts-grid">
             {recentPosts.map((post) => (
-              <PostCard key={post.id} post={post} locale={params.locale} />
+              <PostCard key={post.id} post={post} locale={resolvedParams.locale} />
             ))}
           </div>
         </div>
       </section>
 
-      <Footer locale={params.locale} />
+      <Footer locale={resolvedParams.locale} />
     </>
   );
 }

@@ -2,11 +2,12 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PostCard from '@/components/PostCard';
 import { blogPosts } from '@/data/blogPosts';
+import { defaultLocale } from '@/i18n/config';
 
 export default function AllPostsPage() {
   return (
     <>
-      <Header />
+      <Header locale={defaultLocale} />
       
       <section className="category-header">
         <div className="container">
@@ -19,13 +20,13 @@ export default function AllPostsPage() {
         <div className="container">
           <div className="posts-grid">
             {blogPosts.map((post) => (
-              <PostCard key={post.id} post={post} />
+              <PostCard key={post.id} post={post} locale={defaultLocale} />
             ))}
           </div>
         </div>
       </section>
 
-      <Footer />
+      <Footer locale={defaultLocale} />
     </>
   );
 }

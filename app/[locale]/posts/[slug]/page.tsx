@@ -4,19 +4,31 @@ import { blogPosts, getCategoryById } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getTranslations, type Locale } from '@/i18n';
+import { locales } from '@/i18n/config';
 import type { Metadata } from 'next';
 
 interface PostPageProps {
-  params: {
+  params: Promise<{
     locale: Locale;
     slug: string;
-  };
+  }>;
+}
+
+export async function generateStaticParams() {
+  const params: Array<{ locale: string; slug: string }> = [];
+  locales.forEach((locale) => {
+    blogPosts.forEach((post) => {
+      params.push({ locale, slug: post.slug });
+    });
+  });
+  return params;
 }
 
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
-  const locale = params.locale || 'es';
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale || 'es';
   const t = getTranslations(locale);
-  const post = blogPosts.find(p => p.slug === params.slug);
+  const post = blogPosts.find(p => p.slug === resolvedParams.slug);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
 
   if (!post) {
@@ -68,9 +80,10 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
   };
 }
 
-export default function PostPage({ params }: PostPageProps) {
-  const t = getTranslations(params.locale);
-  const post = blogPosts.find(p => p.slug === params.slug);
+export default async function PostPage({ params }: PostPageProps) {
+  const resolvedParams = await params;
+  const t = getTranslations(resolvedParams.locale);
+  const post = blogPosts.find(p => p.slug === resolvedParams.slug);
   
   if (!post) {
     notFound();
@@ -80,14 +93,14 @@ export default function PostPage({ params }: PostPageProps) {
 
   return (
     <>
-      <Header locale={params.locale} />
+      <Header locale={resolvedParams.locale} />
       
       <article className="post-article">
         <div className="post-header">
           <div className="container post-container">
             {category && (
               <Link 
-                href={`/${params.locale}/categorias/${category.id}`}
+                href={`/${resolvedParams.locale}/categorias/${category.id}`}
                 className="post-category-badge"
                 style={{ backgroundColor: category.color }}
               >
@@ -100,7 +113,7 @@ export default function PostPage({ params }: PostPageProps) {
             </h1>
             
             <div className="post-meta">
-              <span>{new Date(post.date).toLocaleDateString(params.locale, { 
+              <span>{new Date(post.date).toLocaleDateString(resolvedParams.locale, { 
                 year: 'numeric', 
                 month: 'long', 
                 day: 'numeric' 
@@ -175,7 +188,7 @@ export default function PostPage({ params }: PostPageProps) {
         </div>
       </article>
 
-      <Footer locale={params.locale} />
+      <Footer locale={resolvedParams.locale} />
     </>
   );
 }

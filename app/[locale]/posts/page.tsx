@@ -3,14 +3,20 @@ import Footer from '@/components/Footer';
 import PostCard from '@/components/PostCard';
 import { blogPosts } from '@/data/blogPosts';
 import { getTranslations, type Locale } from '@/i18n';
+import { locales } from '@/i18n/config';
 import type { Metadata } from 'next';
 
 interface AllPostsPageProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
+}
+
+export async function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({ params }: AllPostsPageProps): Promise<Metadata> {
-  const locale = params.locale || 'es';
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale || 'es';
   const t = getTranslations(locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
 
@@ -50,12 +56,13 @@ export async function generateMetadata({ params }: AllPostsPageProps): Promise<M
   };
 }
 
-export default function AllPostsPage({ params }: AllPostsPageProps) {
-  const t = getTranslations(params.locale);
+export default async function AllPostsPage({ params }: AllPostsPageProps) {
+  const resolvedParams = await params;
+  const t = getTranslations(resolvedParams.locale);
 
   return (
     <>
-      <Header locale={params.locale} />
+      <Header locale={resolvedParams.locale} />
       
       <section className="category-header">
         <div className="container">
@@ -68,13 +75,13 @@ export default function AllPostsPage({ params }: AllPostsPageProps) {
         <div className="container">
           <div className="posts-grid">
             {blogPosts.map((post) => (
-              <PostCard key={post.id} post={post} locale={params.locale} />
+              <PostCard key={post.id} post={post} locale={resolvedParams.locale} />
             ))}
           </div>
         </div>
       </section>
 
-      <Footer locale={params.locale} />
+      <Footer locale={resolvedParams.locale} />
     </>
   );
 }
