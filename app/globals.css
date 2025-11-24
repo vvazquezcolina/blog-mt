@@ -114,8 +114,10 @@ img {
 }
 
 .header-content .nav {
+  display: flex;
   flex: 1;
   justify-content: center;
+  align-items: center;
 }
 
 .desktop-language-switcher {
@@ -229,6 +231,68 @@ img {
   display: none;
 }
 
+/* Hero Section */
+.hero {
+  position: relative;
+  background: var(--gradient-hero);
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  padding: 10rem 0;
+  min-height: 80vh;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.4) 50%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  z-index: 1;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+  padding: 0 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.95;
+  text-align: center;
+  padding: 0 2rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hamburger-menu {
@@ -239,7 +303,7 @@ img {
     display: none;
   }
 
-  .nav {
+  .header-content .nav {
     position: fixed;
     top: 0;
     right: -100%;
@@ -254,13 +318,15 @@ img {
     transition: right 0.3s ease;
     z-index: 9;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+    flex: none;
+    justify-content: flex-start;
   }
 
-  .nav.nav-open {
+  .header-content .nav.nav-open {
     right: 0;
   }
 
-  .nav a {
+  .header-content .nav a {
     width: 100%;
     padding: 0.5rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -350,15 +416,51 @@ img {
   border-radius: 12px;
   padding: 2rem;
   box-shadow: var(--shadow);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: all 0.3s ease;
   cursor: pointer;
-  border-top: 4px solid;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  border: 2px solid transparent;
+}
+
+.category-card::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #1A69D9 0%, #66F7EE 100%);
+  opacity: 0.7;
+  transition: opacity 0.3s ease, box-shadow 0.3s ease;
+  z-index: -1;
+  box-shadow: 0 0 10px rgba(26, 105, 217, 0.4), 0 0 20px rgba(102, 247, 238, 0.3);
+}
+
+.category-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  background: #1a1a1a;
+  z-index: -1;
+  transition: background 0.3s ease;
+}
+
+.category-card > * {
+  position: relative;
+  z-index: 1;
 }
 
 .category-card:hover {
   transform: translateY(-5px);
-  box-shadow: var(--shadow-hover);
+  box-shadow: 0 0 30px rgba(26, 105, 217, 0.6), 0 0 60px rgba(102, 247, 238, 0.4), 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.category-card:hover::before {
+  opacity: 1;
+  box-shadow: 0 0 20px rgba(26, 105, 217, 0.8), 0 0 40px rgba(102, 247, 238, 0.5), 0 0 60px rgba(26, 105, 217, 0.3);
+}
+
+.category-card:hover::after {
+  background: linear-gradient(135deg, rgba(26, 105, 217, 0.2) 0%, rgba(102, 247, 238, 0.2) 100%);
 }
 
 .category-card h3 {
