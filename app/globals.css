@@ -390,11 +390,20 @@ img {
 
   .category-header h1 {
     font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .category-header p {
     font-size: 1rem;
-    padding: 0 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .section-title {
@@ -803,7 +812,10 @@ img {
 
 .category-header h1 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .category-header p {
@@ -811,6 +823,10 @@ img {
   opacity: 0.95;
   max-width: 700px;
   margin: 0 auto;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* Post Article Styles */
