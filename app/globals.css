@@ -395,6 +395,7 @@ img {
     padding-top: 0;
     padding-bottom: 0;
     line-height: 1;
+    font-weight: 500;
   }
 
   .category-header p {
@@ -819,6 +820,7 @@ img {
   padding-top: 0;
   padding-bottom: 0;
   line-height: 1;
+  font-weight: 500;
 }
 
 .category-header p {
