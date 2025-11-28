@@ -21,50 +21,50 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
   // Mapeo de categorías a arrays de imágenes (usaremos estas si getImageForPost falla)
   const fallbackImageLists: Record<string, string[]> = {
     'cancun': [
-      '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
-      '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_02.jpg',
-      '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_03.jpg',
-      '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_04.jpg',
-      '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_05.jpg',
-      '/assets/Pool Fotos/CUN/VAQUITA/MT_Vaquita Cancun_01.jpg',
-      '/assets/Pool Fotos/CUN/VAQUITA/MT_Vaquita Cancun_02.jpg',
-      '/assets/Pool Fotos/CUN/RAKATA/RAKATA_CUN_FOTOGRAFIA_1.jpg',
-      '/assets/Pool Fotos/CUN/RAKATA/RAKATA_CUN_FOTOGRAFIA_2.jpg',
-      '/assets/Pool Fotos/CUN/HOF/HOF_CUN_MT_Fotos1500x1000_1_V01.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_03.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_04.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_05.jpg',
+      '/assets/PoolFotos/CUN/VAQUITA/MT_Vaquita_Cancun_01.jpg',
+      '/assets/PoolFotos/CUN/VAQUITA/MT_Vaquita_Cancun_02.jpg',
+      '/assets/PoolFotos/CUN/RAKATA/RAKATA_CUN_FOTOGRAFIA_1.jpg',
+      '/assets/PoolFotos/CUN/RAKATA/RAKATA_CUN_FOTOGRAFIA_2.jpg',
+      '/assets/PoolFotos/CUN/HOF/HOF_CUN_MT_Fotos1500x1000_1_V01.jpg',
     ],
     'tulum': [
-      '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
-      '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_02.jpg',
-      '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_03.jpg',
-      '/assets/Pool Fotos/TULUM/TEHMPLO/MT_Themplo_01.jpg',
-      '/assets/Pool Fotos/TULUM/VAGALUME/MT_Vagalume_1.jpg',
-      '/assets/Pool Fotos/TULUM/BAGATELLE/Pic 1.jpg',
+      '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
+      '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_02.jpg',
+      '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_03.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg',
+      '/assets/PoolFotos/TULUM/VAGALUME/MT_Vagalume_1.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic1.jpg',
     ],
     'playa-del-carmen': [
-      '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_1.jpg',
-      '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_2.jpg',
-      '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_3.jpg',
-      '/assets/Pool Fotos/PDC/VAQUITA/MT_VaquitaPDC_1.jpg',
-      '/assets/Pool Fotos/PDC/SANTITO/MT_SANTITO_01.png',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_2.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_3.jpg',
+      '/assets/PoolFotos/PDC/VAQUITA/MT_Vaquita_PDC_1.jpg',
+      '/assets/PoolFotos/PDC/SANTITO/MT_SANTITO_01.png',
     ],
     'los-cabos': [
-      '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
-      '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_2_V01.jpg',
-      '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_3_V01.jpg',
-      '/assets/Pool Fotos/CSL/VAQUITAA/LaVaquita_CSL_MandalaTickets_2025_NOV_Fotos_V01_U01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_2_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_3_V01.jpg',
+      '/assets/PoolFotos/CSL/VAQUITAA/LaVaquita_CSL_MandalaTickets_2025_NOV_Fotos_V01_U01.jpg',
     ],
     'puerto-vallarta': [
-      '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_1.jpg',
-      '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_2.jpg',
-      '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_3.jpg',
-      '/assets/Pool Fotos/VTA/VAQUITA/V1.jpg',
-      '/assets/Pool Fotos/VTA/RAKATA/MT_Rakata_VTA_1.jpg',
+      '/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg',
+      '/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_2.jpg',
+      '/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_3.jpg',
+      '/assets/PoolFotos/VTA/VAQUITA/V1.jpg',
+      '/assets/PoolFotos/VTA/RAKATA/MT_Rakata_VTA_1.jpg',
     ],
     'general': [
-      '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
-      '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_02.jpg',
-      '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
-      '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_1.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
+      '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg',
     ],
   };
   
@@ -90,9 +90,15 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
   }
   
   // Función helper para codificar espacios en URLs correctamente
+  // Next.js maneja las rutas estáticas en public/, pero necesitamos codificar espacios para el navegador
   const encodeUrl = (url: string): string => {
+    // Si la URL ya está codificada, no hacer nada
+    if (url.includes('%20') || url.includes('%2F')) {
+      return url;
+    }
+    // Codificar cada segmento que tenga espacios
     return url.split('/').map(segment => {
-      if (segment.includes(' ')) {
+      if (segment && segment.includes(' ')) {
         return encodeURIComponent(segment);
       }
       return segment;
@@ -128,17 +134,31 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
               minHeight: '100%'
             }}
             onError={(e) => {
-              if (process.env.NODE_ENV === 'development') {
-                console.error('❌ Error loading image:', imageUrl);
-              }
               const img = e.target as HTMLImageElement;
-              // Intentar con una imagen de fallback codificada
-              const fallback = '/assets/Pool%20Fotos/CUN/MANDALA/MT_Mandala%20Cancun_01.jpg';
-              if (!img.src.includes('MT_Mandala%20Cancun_01')) {
+              // Evitar loops infinitos - solo intentar fallback una vez
+              const hasAttemptedFallback = (img as any).__fallbackAttempted;
+              
+              if (!hasAttemptedFallback && imageList.length > 0) {
+                // Marcar que ya intentamos el fallback
+                (img as any).__fallbackAttempted = true;
+                
+                // Intentar con una imagen diferente de la lista
+                const currentIndex = imageList.findIndex(url => 
+                  img.src.includes(url.split('/').pop() || '')
+                );
+                const nextIndex = (currentIndex + 1) % imageList.length;
+                const fallbackUrl = encodeUrl(imageList[nextIndex] || imageList[0]);
+                
                 if (process.env.NODE_ENV === 'development') {
-                  console.log('🔄 Trying fallback image...');
+                  console.log('🔄 Trying fallback image:', fallbackUrl);
                 }
-                img.src = fallback;
+                img.src = fallbackUrl;
+              } else {
+                // Si ya intentamos el fallback o no hay lista, ocultar la imagen
+                img.style.display = 'none';
+                if (process.env.NODE_ENV === 'development') {
+                  console.error('❌ Image failed to load after fallback attempt:', img.src);
+                }
               }
             }}
             onLoad={() => {

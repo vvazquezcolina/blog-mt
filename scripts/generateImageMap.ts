@@ -9,11 +9,11 @@ interface ImageMap {
 }
 
 async function getAllImages(): Promise<ImageMap> {
-  const poolFotosPath = join(process.cwd(), 'public', 'assets', 'Pool Fotos');
+  const poolFotosPath = join(process.cwd(), 'public', 'assets', 'PoolFotos');
   const imageMap: ImageMap = {};
 
   if (!existsSync(poolFotosPath)) {
-    console.error('Pool Fotos directory not found');
+    console.error('PoolFotos directory not found');
     return imageMap;
   }
 
@@ -40,7 +40,7 @@ async function getAllImages(): Promise<ImageMap> {
       const files = await readdir(venuePath);
       const imageFiles = files
         .filter(file => /\.(jpg|jpeg|png)$/i.test(file))
-        .map(file => `/assets/Pool Fotos/${destination}/${venueName}/${file}`)
+        .map(file => `/assets/PoolFotos/${destination}/${venueName}/${file}`)
         .sort(); // Ordenar para consistencia
 
       if (imageFiles.length > 0) {

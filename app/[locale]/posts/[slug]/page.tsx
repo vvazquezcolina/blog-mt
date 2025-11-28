@@ -150,12 +150,12 @@ export default async function PostPage({ params }: PostPageProps) {
   // Si no hay imagen, usar fallback según categoría
   if (!imageUrl) {
     const fallbackImages: Record<string, string> = {
-      'cancun': '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
-      'tulum': '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
-      'playa-del-carmen': '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_1.jpg',
-      'los-cabos': '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
-      'puerto-vallarta': '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_1.jpg',
-      'general': '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
+      'cancun': '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
+      'tulum': '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
+      'playa-del-carmen': '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg',
+      'los-cabos': '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
+      'puerto-vallarta': '/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg',
+      'general': '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
     };
     imageUrl = fallbackImages[post.category] || fallbackImages['general'];
   }
@@ -166,34 +166,34 @@ export default async function PostPage({ params }: PostPageProps) {
     // Si no hay imágenes, usar la imagen principal repetida o fallbacks
     const fallbackImages: Record<string, string[]> = {
       'cancun': [
-        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
-        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_02.jpg',
-        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_03.jpg',
+        '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
+        '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
+        '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_03.jpg',
       ],
       'tulum': [
-        '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
-        '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_02.jpg',
-        '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_03.jpg',
+        '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
+        '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_02.jpg',
+        '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_03.jpg',
       ],
       'playa-del-carmen': [
-        '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_1.jpg',
-        '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_2.jpg',
-        '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_3.jpg',
+        '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg',
+        '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_2.jpg',
+        '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_3.jpg',
       ],
       'los-cabos': [
-        '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
-        '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_2_V01.jpg',
-        '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_3_V01.jpg',
+        '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
+        '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_2_V01.jpg',
+        '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_3_V01.jpg',
       ],
       'puerto-vallarta': [
-        '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_1.jpg',
-        '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_2.jpg',
-        '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_3.jpg',
+        '/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg',
+        '/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_2.jpg',
+        '/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_3.jpg',
       ],
       'general': [
-        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
-        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_02.jpg',
-        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_03.jpg',
+        '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
+        '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
+        '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_03.jpg',
       ],
     };
     contentImages = fallbackImages[post.category] || fallbackImages['general'] || [imageUrl || ''];

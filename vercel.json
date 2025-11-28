@@ -24,10 +24,6 @@
     {
       "src": "/blog/assets/(.*)",
       "dest": "/blog/assets/$1"
-    },
-    {
-      "src": "/blog/css/(.*)",
-      "dest": "/blog/css/$1"
     }
   ],
   "headers": [
