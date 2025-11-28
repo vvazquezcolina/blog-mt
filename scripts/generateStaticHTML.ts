@@ -7,8 +7,9 @@ import { getImageForPost, getMultipleImagesForPost, generateImageAltText, genera
 import { generatePostContent } from '../utils/contentGenerator';
 
 const BASE_PATH = '/blog';
-const OUTPUT_DIR = path.join(process.cwd(), 'dist');
+const OUTPUT_DIR = path.join(process.cwd(), 'dist', 'blog');
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
+const DIST_ROOT = path.join(process.cwd(), 'dist');
 
 // Helper para escapar HTML
 function escapeHtml(text: string): string {
@@ -1094,8 +1095,8 @@ function main(): void {
   console.log('🚀 Starting static HTML generation...\n');
 
   // Limpiar directorio de salida
-  if (fs.existsSync(OUTPUT_DIR)) {
-    fs.rmSync(OUTPUT_DIR, { recursive: true });
+  if (fs.existsSync(DIST_ROOT)) {
+    fs.rmSync(DIST_ROOT, { recursive: true });
   }
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
@@ -1139,7 +1140,8 @@ function main(): void {
 </body>
 </html>`;
   
-  fs.writeFileSync(path.join(OUTPUT_DIR, 'index.html'), rootRedirect, 'utf-8');
+  // Generar redirect en la raíz de dist (no en dist/blog)
+  fs.writeFileSync(path.join(DIST_ROOT, 'index.html'), rootRedirect, 'utf-8');
   console.log(`\n✓ Generated root redirect`);
 
   console.log('\n✅ Static HTML generation complete!');

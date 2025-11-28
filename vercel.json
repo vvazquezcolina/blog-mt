@@ -9,15 +9,15 @@
   "rewrites": [
     {
       "source": "/blog",
-      "destination": "/blog/es/index.html"
+      "destination": "/blog/es"
     },
     {
       "source": "/blog/",
-      "destination": "/blog/es/index.html"
+      "destination": "/blog/es"
     },
     {
       "source": "/",
-      "destination": "/blog/es/index.html"
+      "destination": "/blog/es"
     }
   ],
   "headers": [
