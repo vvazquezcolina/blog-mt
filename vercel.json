@@ -8,6 +8,14 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/blog/assets/:path*",
+      "destination": "/blog/assets/:path*"
+    },
+    {
+      "source": "/blog/css/:path*",
+      "destination": "/blog/css/:path*"
+    },
+    {
       "source": "/blog",
       "destination": "/blog/es"
     },
