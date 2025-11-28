@@ -466,7 +466,9 @@ function generatePostCard(post: typeof blogPosts[0], locale: Locale, featured: b
     }
   }
   
+  // Ya no hay espacios en los nombres de archivos, pero mantenemos la función por compatibilidad
   const encodeUrl = (url: string): string => {
+    // Los espacios ya fueron eliminados, pero por si acaso los codificamos
     return url.split('/').map(segment => {
       if (segment.includes(' ')) {
         return encodeURIComponent(segment);
@@ -1057,30 +1059,37 @@ function copyPublicAssets(): void {
   // Copiar carpeta public completa
   function copyRecursive(src: string, dest: string): void {
     if (!fs.existsSync(src)) {
+      console.warn(`⚠ Source directory does not exist: ${src}`);
       return;
     }
     
-    const entries = fs.readdirSync(src, { withFileTypes: true });
-    
-    for (const entry of entries) {
-      // Ignorar archivos ocultos y .DS_Store
-      if (entry.name.startsWith('.') || entry.name === '.DS_Store') {
-        continue;
-      }
+    try {
+      const entries = fs.readdirSync(src, { withFileTypes: true });
       
-      const srcPath = path.join(src, entry.name);
-      const destPath = path.join(dest, entry.name);
-      
-      try {
-        if (entry.isDirectory()) {
-          fs.mkdirSync(destPath, { recursive: true });
-          copyRecursive(srcPath, destPath);
-        } else {
-          fs.copyFileSync(srcPath, destPath);
+      for (const entry of entries) {
+        // Ignorar archivos ocultos y .DS_Store
+        if (entry.name.startsWith('.') || entry.name === '.DS_Store') {
+          continue;
         }
-      } catch (error) {
-        console.warn(`⚠ Warning: Could not copy ${srcPath}: ${error}`);
+        
+        const srcPath = path.join(src, entry.name);
+        const destPath = path.join(dest, entry.name);
+        
+        try {
+          if (entry.isDirectory()) {
+            fs.mkdirSync(destPath, { recursive: true });
+            copyRecursive(srcPath, destPath);
+          } else {
+            fs.copyFileSync(srcPath, destPath);
+          }
+        } catch (error) {
+          console.warn(`⚠ Warning: Could not copy ${srcPath}: ${error}`);
+          // Continuar con el siguiente archivo en lugar de fallar completamente
+        }
       }
+    } catch (error) {
+      console.error(`❌ Error reading directory ${src}:`, error);
+      throw error;
     }
   }
 
