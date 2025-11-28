@@ -1097,13 +1097,24 @@ function copyPublicAssets(): void {
     // Copiar el contenido de public/assets/ directamente a OUTPUT_DIR/assets/
     const publicAssetsDir = path.join(PUBLIC_DIR, 'assets');
     if (fs.existsSync(publicAssetsDir)) {
-      copyRecursive(publicAssetsDir, path.join(OUTPUT_DIR, 'assets'));
-      console.log(`✓ Copied public assets to ${path.join(OUTPUT_DIR, 'assets')}`);
+      const destAssetsDir = path.join(OUTPUT_DIR, 'assets');
+      copyRecursive(publicAssetsDir, destAssetsDir);
+      console.log(`✓ Copied public assets to ${destAssetsDir}`);
+      
+      // Verificar que los archivos importantes se copiaron
+      const logoPath = path.join(destAssetsDir, 'img', 'logo_nuevo_azul.png');
+      if (fs.existsSync(logoPath)) {
+        console.log(`✓ Logo file verified: ${logoPath}`);
+      } else {
+        console.warn(`⚠ Logo file not found at: ${logoPath}`);
+      }
     } else {
       // Si no existe public/assets/, copiar todo public/
       copyRecursive(PUBLIC_DIR, path.join(OUTPUT_DIR, 'assets'));
       console.log(`✓ Copied public directory to ${path.join(OUTPUT_DIR, 'assets')}`);
     }
+  } else {
+    console.warn(`⚠ Public directory does not exist: ${PUBLIC_DIR}`);
   }
 }
 
