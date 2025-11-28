@@ -1085,8 +1085,16 @@ function copyPublicAssets(): void {
   }
 
   if (fs.existsSync(PUBLIC_DIR)) {
-    copyRecursive(PUBLIC_DIR, path.join(OUTPUT_DIR, 'assets'));
-    console.log(`✓ Copied public assets to ${path.join(OUTPUT_DIR, 'assets')}`);
+    // Copiar el contenido de public/assets/ directamente a OUTPUT_DIR/assets/
+    const publicAssetsDir = path.join(PUBLIC_DIR, 'assets');
+    if (fs.existsSync(publicAssetsDir)) {
+      copyRecursive(publicAssetsDir, path.join(OUTPUT_DIR, 'assets'));
+      console.log(`✓ Copied public assets to ${path.join(OUTPUT_DIR, 'assets')}`);
+    } else {
+      // Si no existe public/assets/, copiar todo public/
+      copyRecursive(PUBLIC_DIR, path.join(OUTPUT_DIR, 'assets'));
+      console.log(`✓ Copied public directory to ${path.join(OUTPUT_DIR, 'assets')}`);
+    }
   }
 }
 
