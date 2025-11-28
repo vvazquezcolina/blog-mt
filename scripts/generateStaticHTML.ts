@@ -1100,43 +1100,44 @@ function copyPublicAssets(): void {
 
 // Función principal
 function main(): void {
-  console.log('🚀 Starting static HTML generation...\n');
+  try {
+    console.log('🚀 Starting static HTML generation...\n');
 
-  // Limpiar directorio de salida
-  if (fs.existsSync(DIST_ROOT)) {
-    fs.rmSync(DIST_ROOT, { recursive: true });
-  }
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-
-  // Copiar assets
-  copyPublicAssets();
-
-  // Generar páginas para cada locale
-  for (const locale of locales) {
-    console.log(`\n📄 Generating pages for locale: ${locale}`);
-    
-    // Home
-    generateHomePage(locale);
-    
-    // Categorías
-    generateCategoriesPage(locale);
-    
-    // Categorías individuales
-    for (const category of categories) {
-      generateCategoryPage(locale, category.id);
+    // Limpiar directorio de salida
+    if (fs.existsSync(DIST_ROOT)) {
+      fs.rmSync(DIST_ROOT, { recursive: true });
     }
-    
-    // Todos los posts
-    generateAllPostsPage(locale);
-    
-    // Posts individuales
-    for (const post of blogPosts) {
-      generatePostPage(locale, post);
-    }
-  }
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
-  // Generar redirect desde root a /blog/es
-  const rootRedirect = `<!DOCTYPE html>
+    // Copiar assets
+    copyPublicAssets();
+
+    // Generar páginas para cada locale
+    for (const locale of locales) {
+      console.log(`\n📄 Generating pages for locale: ${locale}`);
+      
+      // Home
+      generateHomePage(locale);
+      
+      // Categorías
+      generateCategoriesPage(locale);
+      
+      // Categorías individuales
+      for (const category of categories) {
+        generateCategoryPage(locale, category.id);
+      }
+      
+      // Todos los posts
+      generateAllPostsPage(locale);
+      
+      // Posts individuales
+      for (const post of blogPosts) {
+        generatePostPage(locale, post);
+      }
+    }
+
+    // Generar redirect desde root a /blog/es
+    const rootRedirect = `<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -1147,13 +1148,21 @@ function main(): void {
   <script>window.location.href = '${BASE_PATH}/${defaultLocale}';</script>
 </body>
 </html>`;
-  
-  // Generar redirect en la raíz de dist (no en dist/blog)
-  fs.writeFileSync(path.join(DIST_ROOT, 'index.html'), rootRedirect, 'utf-8');
-  console.log(`\n✓ Generated root redirect`);
+    
+    // Generar redirect en la raíz de dist (no en dist/blog)
+    fs.writeFileSync(path.join(DIST_ROOT, 'index.html'), rootRedirect, 'utf-8');
+    console.log(`\n✓ Generated root redirect`);
 
-  console.log('\n✅ Static HTML generation complete!');
-  console.log(`📁 Output directory: ${OUTPUT_DIR}`);
+    console.log('\n✅ Static HTML generation complete!');
+    console.log(`📁 Output directory: ${OUTPUT_DIR}`);
+  } catch (error) {
+    console.error('\n❌ Error during build:', error);
+    if (error instanceof Error) {
+      console.error('Error message:', error.message);
+      console.error('Stack trace:', error.stack);
+    }
+    process.exit(1);
+  }
 }
 
 main();
