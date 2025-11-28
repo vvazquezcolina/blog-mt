@@ -6,7 +6,6 @@
   "framework": null,
   "cleanUrls": false,
   "trailingSlash": false,
-  "functions": {},
   "rewrites": [
     {
       "source": "/blog",
