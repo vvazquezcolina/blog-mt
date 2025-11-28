@@ -3,7 +3,8 @@
     "home": "Home",
     "categories": "Categories",
     "allPosts": "All Posts",
-    "buyTickets": "Buy Tickets"
+    "buyTickets": "Buy Tickets",
+    "blog": "Blog"
   },
   "hero": {
     "title": "WE ARE THE NIGHT, THE PARTY AND THE STORY OF A LIFETIME",
@@ -57,7 +58,12 @@
   },
   "postContent": {
     "placeholder": "This is a sample article from the MandalaTickets blog. In a full implementation, you would find the complete article content with images, videos and more details about the topic.",
-    "cta": "Meanwhile, don't miss our exclusive events in Mexico's best destinations. Explore our categories to discover more content about events, destination guides, attendee tips and much more."
+    "cta": "Meanwhile, don't miss our exclusive events in Mexico's best destinations. Explore our categories to discover more content about events, destination guides, attendee tips and much more.",
+    "imageCaption": "Event in",
+    "ourDestination": "our destination"
+  },
+  "header": {
+    "blog": "Blog"
   }
 }
 

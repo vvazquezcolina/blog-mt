@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { blogPosts, getCategoryById } from '@/data/blogPosts';
+import { blogPosts, getCategoryById, findPostBySlug, getPostContent } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { defaultLocale } from '@/i18n/config';
@@ -12,12 +12,13 @@ interface PostPageProps {
 }
 
 export default function PostPage({ params }: PostPageProps) {
-  const post = blogPosts.find(p => p.slug === params.slug);
+  const post = findPostBySlug(params.slug);
   
   if (!post) {
     notFound();
   }
 
+  const content = getPostContent(post, defaultLocale);
   const category = getCategoryById(post.category);
 
   return (
@@ -51,7 +52,7 @@ export default function PostPage({ params }: PostPageProps) {
             color: 'var(--white)',
             lineHeight: 1.2
           }}>
-            {post.title}
+            {content.title}
           </h1>
           
           <div style={{ 
@@ -90,11 +91,11 @@ export default function PostPage({ params }: PostPageProps) {
             color: 'var(--white)'
           }}>
             <p style={{ marginBottom: '1.5rem', fontSize: '1.25rem', fontWeight: 500 }}>
-              {post.excerpt}
+              {content.excerpt}
             </p>
             
             <p style={{ marginBottom: '1.5rem' }}>
-              Este artículo está en desarrollo. Próximamente encontrarás contenido completo sobre: <strong>{post.title}</strong>
+              Este artículo está en desarrollo. Próximamente encontrarás contenido completo sobre: <strong>{content.title}</strong>
             </p>
             
             <p style={{ marginBottom: '1.5rem' }}>

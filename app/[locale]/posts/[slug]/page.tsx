@@ -1,10 +1,11 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { blogPosts, getCategoryById } from '@/data/blogPosts';
+import { blogPosts, getCategoryById, getPostContent, findPostBySlug } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getTranslations, type Locale } from '@/i18n';
 import { locales } from '@/i18n/config';
+import { getImageForPost, getMultipleImagesForPost, generateImageAltText, generateImageTitle } from '@/utils/imageUtils';
 import type { Metadata } from 'next';
 
 interface PostPageProps {
@@ -23,7 +24,8 @@ export async function generateStaticParams() {
   const params: Array<{ locale: string; slug: string }> = [];
   locales.forEach((locale) => {
     blogPosts.forEach((post) => {
-      params.push({ locale, slug: post.slug });
+      const content = getPostContent(post, locale);
+      params.push({ locale, slug: content.slug });
     });
   });
   return params;
@@ -39,7 +41,7 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
   }
   const locale = resolvedParams.locale || 'es';
   const t = getTranslations(locale);
-  const post = blogPosts.find(p => p.slug === resolvedParams.slug);
+  const post = findPostBySlug(resolvedParams.slug, locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
 
   if (!post) {
@@ -49,8 +51,22 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
     };
   }
 
+  const content = getPostContent(post, locale);
   const category = getCategoryById(post.category);
-  const postUrl = `${baseUrl}/${locale}/posts/${post.slug}`;
+  const postUrl = `${baseUrl}/${locale}/posts/${content.slug}`;
+  
+  // Obtener la imagen del post para metadata
+  const imageUrl = post.image || getImageForPost(post.category, post.id, content.title, content.slug);
+  const imageAlt = imageUrl 
+    ? generateImageAltText(imageUrl, content.title, category?.name)
+    : content.title;
+  
+  // Construir URL completa de la imagen para Open Graph
+  const fullImageUrl = imageUrl 
+    ? imageUrl.startsWith('http') 
+      ? imageUrl 
+      : `${baseUrl}${imageUrl}`
+    : undefined;
   
   // Generate alternate links for all locales
   const alternates: { languages: Record<string, string> } = {
@@ -58,19 +74,20 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
   };
 
   locales.forEach((loc) => {
-    alternates.languages[loc] = `${baseUrl}/${loc}/posts/${post.slug}`;
+    const locContent = getPostContent(post, loc);
+    alternates.languages[loc] = `${baseUrl}/${loc}/posts/${locContent.slug}`;
   });
 
   return {
-    title: `${post.title} | ${t.metadata.siteName}`,
-    description: post.excerpt || t.metadata.post.defaultDescription,
+    title: `${content.title} | ${t.metadata.siteName}`,
+    description: content.excerpt || t.metadata.post.defaultDescription,
     alternates: {
       canonical: postUrl,
       languages: alternates.languages,
     },
     openGraph: {
-      title: post.title,
-      description: post.excerpt || t.metadata.post.defaultDescription,
+      title: content.title,
+      description: content.excerpt || t.metadata.post.defaultDescription,
       siteName: t.metadata.siteName,
       locale: locale,
       alternateLocale: locales.filter(l => l !== locale) as string[],
@@ -81,11 +98,24 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
       ...(category && {
         section: category.name,
       }),
+      ...(fullImageUrl && {
+        images: [
+          {
+            url: fullImageUrl,
+            width: 1200,
+            height: 630,
+            alt: imageAlt,
+          },
+        ],
+      }),
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.title,
-      description: post.excerpt || t.metadata.post.defaultDescription,
+      title: content.title,
+      description: content.excerpt || t.metadata.post.defaultDescription,
+      ...(fullImageUrl && {
+        images: [fullImageUrl],
+      }),
     },
   };
 }
@@ -99,17 +129,121 @@ export default async function PostPage({ params }: PostPageProps) {
     notFound();
   }
   const t = getTranslations(resolvedParams.locale);
-  const post = blogPosts.find(p => p.slug === resolvedParams.slug);
+  const post = findPostBySlug(resolvedParams.slug, resolvedParams.locale);
   
   if (!post) {
     notFound();
   }
 
+  const content = getPostContent(post, resolvedParams.locale);
   const category = getCategoryById(post.category);
+  let imageUrl = post.image || getImageForPost(post.category, post.id, content.title, content.slug);
+  
+  // Si no hay imagen, usar fallback según categoría
+  if (!imageUrl) {
+    const fallbackImages: Record<string, string> = {
+      'cancun': '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
+      'tulum': '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
+      'playa-del-carmen': '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_1.jpg',
+      'los-cabos': '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
+      'puerto-vallarta': '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_1.jpg',
+      'general': '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
+    };
+    imageUrl = fallbackImages[post.category] || fallbackImages['general'];
+  }
+  
+  // Obtener imágenes adicionales para usar en el contenido (con fallback si es necesario)
+  let contentImages = getMultipleImagesForPost(post.category, post.id, 3, content.title, content.slug);
+  if (contentImages.length === 0) {
+    // Si no hay imágenes, usar la imagen principal repetida o fallbacks
+    const fallbackImages: Record<string, string[]> = {
+      'cancun': [
+        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
+        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_02.jpg',
+        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_03.jpg',
+      ],
+      'tulum': [
+        '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
+        '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_02.jpg',
+        '/assets/Pool Fotos/TULUM/BONBONNIERE/MT_Bonbinniere_03.jpg',
+      ],
+      'playa-del-carmen': [
+        '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_1.jpg',
+        '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_2.jpg',
+        '/assets/Pool Fotos/PDC/MANDALA/MT_Mandala PDC_3.jpg',
+      ],
+      'los-cabos': [
+        '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
+        '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_2_V01.jpg',
+        '/assets/Pool Fotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_3_V01.jpg',
+      ],
+      'puerto-vallarta': [
+        '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_1.jpg',
+        '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_2.jpg',
+        '/assets/Pool Fotos/VTA/MANDALA/MT_Mandala Vta_3.jpg',
+      ],
+      'general': [
+        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_01.jpg',
+        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_02.jpg',
+        '/assets/Pool Fotos/CUN/MANDALA/MT_Mandala Cancun_03.jpg',
+      ],
+    };
+    contentImages = fallbackImages[post.category] || fallbackImages['general'] || [imageUrl || ''];
+  }
+  
+  const imageAlt = imageUrl 
+    ? generateImageAltText(imageUrl, content.title, category?.name)
+    : content.title;
+  const imageTitle = imageUrl
+    ? generateImageTitle(imageUrl, content.title, category?.name)
+    : content.title;
+
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
+  const postUrl = `${baseUrl}/${resolvedParams.locale}/posts/${content.slug}`;
+  const fullImageUrl = imageUrl 
+    ? imageUrl.startsWith('http') 
+      ? imageUrl 
+      : `${baseUrl}${imageUrl}`
+    : undefined;
+
+  // Structured data JSON-LD para SEO
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: content.title,
+    description: content.excerpt || '',
+    image: fullImageUrl ? [fullImageUrl] : [],
+    datePublished: post.date,
+    author: {
+      '@type': 'Organization',
+      name: post.author,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'MandalaTickets',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/assets/img/logo.png`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': postUrl,
+    },
+    ...(category && {
+      articleSection: category.name,
+    }),
+  };
 
   return (
     <>
       <Header locale={resolvedParams.locale} />
+      
+      {/* Structured Data JSON-LD para SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       
       <article className="post-article">
         <div className="post-header">
@@ -125,7 +259,7 @@ export default async function PostPage({ params }: PostPageProps) {
             )}
             
             <h1 className="post-title-main">
-              {post.title}
+              {content.title}
             </h1>
             
             <div className="post-meta">
@@ -138,19 +272,20 @@ export default async function PostPage({ params }: PostPageProps) {
           </div>
         </div>
 
-        <div className="post-featured-image image-placeholder">
-          <div className="placeholder-content">
-            <span className="placeholder-icon">🖼️</span>
-            <span className="placeholder-text">1920px × 600px</span>
-            <span className="placeholder-subtext">Featured Image<br/>1920 × 1080px recommended (16:9)</span>
-          </div>
+        <div className="post-featured-image">
+          <img
+            src={imageUrl!}
+            alt={imageAlt}
+            title={imageTitle}
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          />
         </div>
 
         <div className="post-content-wrapper">
           <div className="container post-container">
             <div className="post-content">
               <p className="post-excerpt-large">
-                {post.excerpt}
+                {content.excerpt}
               </p>
               
               <div className="post-body">
@@ -158,30 +293,37 @@ export default async function PostPage({ params }: PostPageProps) {
                   {t.postContent.placeholder}
                 </p>
 
-                {/* Placeholders de ejemplo para imágenes dentro del contenido */}
-                
-                {/* Imagen mediana con caption */}
-                <div className="post-image-wrapper">
-                  <div className="post-image-medium image-placeholder" style={{ height: 'auto', minHeight: '400px' }}>
-                    <div className="placeholder-content">
-                      <span className="placeholder-icon">🖼️</span>
-                      <span className="placeholder-text">700px × 394px</span>
-                      <span className="placeholder-subtext">Medium Image (16:9)<br/>1400 × 788px recommended (2x)</span>
-                    </div>
-                  </div>
-                  <p className="post-image-caption">Descripción de la imagen</p>
-                </div>
+                {/* Imágenes dentro del contenido */}
+                {contentImages.length > 0 && (
+                  <>
+                    {/* Imagen mediana con caption */}
+                    {contentImages[0] && (
+                      <div className="post-image-wrapper">
+                        <img
+                          src={contentImages[0]}
+                          alt={generateImageAltText(contentImages[0], content.title, category?.name)}
+                          className="post-image-medium"
+                          style={{ width: '100%', height: 'auto' }}
+                          loading="lazy"
+                        />
+                        <p className="post-image-caption">{t.postContent.imageCaption} {category?.name || t.category.postsIn}</p>
+                      </div>
+                    )}
 
-                {/* Imagen pequeña */}
-                <div className="post-image-wrapper">
-                  <div className="post-image-small image-placeholder" style={{ height: 'auto', minHeight: '300px' }}>
-                    <div className="placeholder-content">
-                      <span className="placeholder-icon">📸</span>
-                      <span className="placeholder-text">500px × 281px</span>
-                      <span className="placeholder-subtext">Small Image (16:9)<br/>1000 × 563px recommended (2x)</span>
-                    </div>
-                  </div>
-                </div>
+                    {/* Imagen pequeña */}
+                    {contentImages[1] && (
+                      <div className="post-image-wrapper">
+                        <img
+                          src={contentImages[1]}
+                          alt={generateImageAltText(contentImages[1], content.title, category?.name)}
+                          className="post-image-small"
+                          style={{ width: '100%', height: 'auto' }}
+                          loading="lazy"
+                        />
+                      </div>
+                    )}
+                  </>
+                )}
 
                 <p>
                   {t.postContent.cta}

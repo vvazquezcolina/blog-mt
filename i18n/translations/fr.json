@@ -3,7 +3,8 @@
     "home": "Accueil",
     "categories": "Catégories",
     "allPosts": "Tous les Articles",
-    "buyTickets": "Acheter des Billets"
+    "buyTickets": "Acheter des Billets",
+    "blog": "Blog"
   },
   "hero": {
     "title": "WE ARE THE NIGHT, THE PARTY AND THE STORY OF A LIFETIME",
@@ -56,7 +57,12 @@
     }
   },
   "postContent": {
-    "placeholder": "Ceci est un article d'exemple du blog MandalaTickets. Dans une implémentation complète, vous trouveriez ici le contenu complet de l'article avec des images, des vidéos et plus de détails sur le sujet.",
-    "cta": "En attendant, ne manquez pas nos événements exclusifs dans les meilleures destinations du Mexique. Explorez nos catégories pour découvrir plus de contenu sur les événements, les guides de destinations, les conseils pour les participants et bien plus encore."
+    "placeholder": "Nous explorons les détails les plus remarquables et les expériences uniques que chaque destination a à offrir. Notre équipe a rassemblé des informations précieuses pour vous aider à planifier votre prochaine aventure nocturne et vous assurer de vivre des moments inoubliables dans les meilleurs endroits du Mexique.",
+    "cta": "Découvrez plus de contenu exclusif sur les événements, la vie nocturne et les expériences uniques dans nos destinations. Explorez nos catégories pour trouver des guides détaillés, des conseils pratiques et les dernières nouvelles sur les événements les plus excitants de la Riviera Maya, Los Cabos et Puerto Vallarta.",
+    "imageCaption": "Événement à",
+    "ourDestination": "notre destination"
+  },
+  "header": {
+    "blog": "Blog"
   }
 }

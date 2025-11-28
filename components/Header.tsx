@@ -31,7 +31,7 @@ export default function Header({ locale }: HeaderProps) {
                 height={50}
                 priority
               />
-              <span style={{ marginLeft: '10px' }}>Blog</span>
+              <span style={{ marginLeft: '10px' }}>{t.nav.blog}</span>
             </Link>
             <button 
               className="hamburger-menu"
