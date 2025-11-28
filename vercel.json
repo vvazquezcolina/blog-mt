@@ -3,6 +3,7 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "outputDirectory": "dist",
+  "framework": null,
   "cleanUrls": false,
   "trailingSlash": false,
   "rewrites": [
