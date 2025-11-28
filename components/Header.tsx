@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import LanguageSwitcher from './LanguageSwitcher';
 import { getTranslations, type Locale } from '@/i18n';
+import { trackBlogEvent } from '@/utils/analytics';
 
 interface HeaderProps {
   locale: Locale;
@@ -47,7 +48,16 @@ export default function Header({ locale }: HeaderProps) {
               <Link href={`/${locale}`} onClick={() => setIsMenuOpen(false)}>{t.nav.home}</Link>
               <Link href={`/${locale}/categorias`} onClick={() => setIsMenuOpen(false)}>{t.nav.categories}</Link>
               <Link href={`/${locale}/posts`} onClick={() => setIsMenuOpen(false)}>{t.nav.allPosts}</Link>
-              <Link href="https://mandalatickets.com" target="_blank" onClick={() => setIsMenuOpen(false)}>{t.nav.buyTickets}</Link>
+              <Link 
+                href="https://mandalatickets.com" 
+                target="_blank" 
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  trackBlogEvent.clickCTA('header_nav', undefined, 'mandalatickets.com');
+                }}
+              >
+                {t.nav.buyTickets}
+              </Link>
               <div className="nav-language-switcher">
                 <LanguageSwitcher currentLocale={locale} />
               </div>

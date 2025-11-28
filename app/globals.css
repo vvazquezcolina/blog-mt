@@ -963,6 +963,45 @@ img {
   margin-bottom: 3rem;
 }
 
+.post-body h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.post-body h2:first-child {
+  margin-top: 0;
+}
+
+.post-body h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.post-body ul,
+.post-body ol {
+  margin: 2rem 0;
+  padding-left: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.post-body li {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+.post-body strong {
+  font-weight: 600;
+  color: var(--white);
+}
+
 /* Post Images */
 .post-body img {
   max-width: 100%;

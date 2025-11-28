@@ -20,6 +20,7 @@ export interface BlogPostContent {
   title: string;
   excerpt: string;
   slug: string; // Slug puede variar por idioma para SEO
+  body?: string; // Contenido completo del artículo (800-1200 palabras para SEO)
 }
 
 // Post completo con soporte multiidioma

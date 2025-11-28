@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PostCard from '@/components/PostCard';
+import CategoryTracker from '@/components/CategoryTracker';
 import { blogPosts, getCategoryById, isValidCategoryId, categories } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import { getTranslations, type Locale } from '@/i18n';
@@ -118,6 +119,10 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   return (
     <>
       <Header locale={resolvedParams.locale} />
+      <CategoryTracker 
+        categoryName={category.name}
+        locale={resolvedParams.locale}
+      />
       
       <section className="category-header" style={{ background: `linear-gradient(135deg, ${category.color} 0%, ${category.color}dd 100%)` }}>
         <div className="container">

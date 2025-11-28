@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import '../globals.css'
 import { locales, defaultLocale, type Locale } from '@/i18n/config';
 import { getTranslations } from '@/i18n';
+import Analytics from '@/components/Analytics';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -84,7 +85,10 @@ export default async function LocaleLayout({
         {/* Para Acumin Variable desde Adobe Fonts, descomenta y agrega tu kit ID: */}
         {/* <link rel="stylesheet" href="https://use.typekit.net/[tu-kit-id].css" /> */}
       </head>
-      <body>{children}</body>
+      <body>
+        <Analytics />
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,11 +1,15 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PostTracker from '@/components/PostTracker';
+import CTAButton from '@/components/CTAButton';
+import StickyCTA from '@/components/StickyCTA';
 import { blogPosts, getCategoryById, getPostContent, findPostBySlug } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getTranslations, type Locale } from '@/i18n';
 import { locales } from '@/i18n/config';
 import { getImageForPost, getMultipleImagesForPost, generateImageAltText, generateImageTitle } from '@/utils/imageUtils';
+import { generatePostContent } from '@/utils/contentGenerator';
 import type { Metadata } from 'next';
 
 interface PostPageProps {
@@ -137,6 +141,10 @@ export default async function PostPage({ params }: PostPageProps) {
 
   const content = getPostContent(post, resolvedParams.locale);
   const category = getCategoryById(post.category);
+  
+  // Generar contenido completo si no existe
+  const postBody = content.body || generatePostContent(post, resolvedParams.locale);
+  
   let imageUrl = post.image || getImageForPost(post.category, post.id, content.title, content.slug);
   
   // Si no hay imagen, usar fallback según categoría
@@ -238,6 +246,11 @@ export default async function PostPage({ params }: PostPageProps) {
   return (
     <>
       <Header locale={resolvedParams.locale} />
+      <PostTracker 
+        postTitle={content.title}
+        categoryName={category?.name || ''}
+        locale={resolvedParams.locale}
+      />
       
       {/* Structured Data JSON-LD para SEO */}
       <script
@@ -288,10 +301,32 @@ export default async function PostPage({ params }: PostPageProps) {
                 {content.excerpt}
               </p>
               
-              <div className="post-body">
-                <p>
-                  {t.postContent.placeholder}
+              {/* CTA después del excerpt - Más visible */}
+              <div className="post-cta-inline" style={{ 
+                margin: '2rem 0', 
+                padding: '1.5rem', 
+                background: 'linear-gradient(135deg, rgba(26, 105, 217, 0.1) 0%, rgba(101, 247, 238, 0.1) 100%)',
+                borderRadius: '10px',
+                textAlign: 'center',
+                border: '2px solid rgba(101, 247, 238, 0.3)'
+              }}>
+                <CTAButton
+                  href="https://mandalatickets.com"
+                  text={t.post.buyTicketsNow}
+                  location="post_after_excerpt"
+                  postTitle={content.title}
+                />
+                <p style={{ marginTop: '0.5rem', fontSize: '0.9rem', opacity: 0.8 }}>
+                  {resolvedParams.locale === 'es' ? 'Asegura tu lugar en los mejores eventos' : 
+                   resolvedParams.locale === 'en' ? 'Secure your spot at the best events' :
+                   resolvedParams.locale === 'fr' ? 'Réservez votre place aux meilleurs événements' :
+                   'Garanta seu lugar nos melhores eventos'}
                 </p>
+              </div>
+              
+              <div className="post-body">
+                {/* Renderizar contenido HTML del post */}
+                <div dangerouslySetInnerHTML={{ __html: postBody }} />
 
                 {/* Imágenes dentro del contenido */}
                 {contentImages.length > 0 && (
@@ -325,20 +360,14 @@ export default async function PostPage({ params }: PostPageProps) {
                   </>
                 )}
 
-                <p>
-                  {t.postContent.cta}
-                </p>
-
                 <div className="post-cta-box">
                   <h3>{t.post.readyToExperience}</h3>
-                  <a 
-                    href="https://mandalatickets.com" 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="cta-button"
-                  >
-                    {t.post.buyTicketsNow}
-                  </a>
+                  <CTAButton
+                    href="https://mandalatickets.com"
+                    text={t.post.buyTicketsNow}
+                    location="post_end"
+                    postTitle={content.title}
+                  />
                 </div>
               </div>
             </div>
@@ -346,6 +375,7 @@ export default async function PostPage({ params }: PostPageProps) {
         </div>
       </article>
 
+      <StickyCTA locale={resolvedParams.locale} postTitle={content.title} />
       <Footer locale={resolvedParams.locale} />
     </>
   );
