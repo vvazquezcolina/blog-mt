@@ -4,6 +4,7 @@ import { blogPosts, getCategoryById, findPostBySlug, getPostContent } from '@/da
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { defaultLocale } from '@/i18n/config';
+import { getMandalaTicketsUrl } from '@/utils/urlUtils';
 
 interface PostPageProps {
   params: {
@@ -114,7 +115,7 @@ export default function PostPage({ params }: PostPageProps) {
             }}>
               <h3 style={{ marginBottom: '1rem', color: 'var(--white)' }}>¿Listo para vivir la experiencia?</h3>
               <a 
-                href="https://mandalatickets.com" 
+                href={getMandalaTicketsUrl(post.category, defaultLocale)} 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cta-button"

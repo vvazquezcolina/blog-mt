@@ -10,6 +10,7 @@ import { getTranslations, type Locale } from '@/i18n';
 import { locales } from '@/i18n/config';
 import { getImageForPost, getMultipleImagesForPost, generateImageAltText, generateImageTitle } from '@/utils/imageUtils';
 import { generatePostContent } from '@/utils/contentGenerator';
+import { getMandalaTicketsUrl } from '@/utils/urlUtils';
 import type { Metadata } from 'next';
 
 interface PostPageProps {
@@ -311,7 +312,7 @@ export default async function PostPage({ params }: PostPageProps) {
                 border: '2px solid rgba(101, 247, 238, 0.3)'
               }}>
                 <CTAButton
-                  href="https://mandalatickets.com"
+                  href={getMandalaTicketsUrl(post.category, resolvedParams.locale)}
                   text={t.post.buyTicketsNow}
                   location="post_after_excerpt"
                   postTitle={content.title}
@@ -363,7 +364,7 @@ export default async function PostPage({ params }: PostPageProps) {
                 <div className="post-cta-box">
                   <h3>{t.post.readyToExperience}</h3>
                   <CTAButton
-                    href="https://mandalatickets.com"
+                    href={getMandalaTicketsUrl(post.category, resolvedParams.locale)}
                     text={t.post.buyTicketsNow}
                     location="post_end"
                     postTitle={content.title}
@@ -375,7 +376,7 @@ export default async function PostPage({ params }: PostPageProps) {
         </div>
       </article>
 
-      <StickyCTA locale={resolvedParams.locale} postTitle={content.title} />
+      <StickyCTA locale={resolvedParams.locale} categoryId={post.category} postTitle={content.title} />
       <Footer locale={resolvedParams.locale} />
     </>
   );

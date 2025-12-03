@@ -3,13 +3,16 @@
 import { useEffect, useState } from 'react';
 import CTAButton from './CTAButton';
 import { getTranslations, type Locale } from '@/i18n';
+import { getMandalaTicketsUrl } from '@/utils/urlUtils';
+import type { CategoryId } from '@/data/blogPosts';
 
 interface StickyCTAProps {
   locale: Locale;
+  categoryId: CategoryId;
   postTitle?: string;
 }
 
-export default function StickyCTA({ locale, postTitle }: StickyCTAProps) {
+export default function StickyCTA({ locale, categoryId, postTitle }: StickyCTAProps) {
   const [isVisible, setIsVisible] = useState(false);
   const t = getTranslations(locale);
 
@@ -50,7 +53,7 @@ export default function StickyCTA({ locale, postTitle }: StickyCTAProps) {
     >
       <div style={{ flex: 1, maxWidth: '600px' }}>
         <CTAButton
-          href="https://mandalatickets.com"
+          href={getMandalaTicketsUrl(categoryId, locale)}
           text={t.post.buyTicketsNow || 'Reservar Ahora'}
           location="sticky_mobile"
           postTitle={postTitle}
@@ -60,4 +63,8 @@ export default function StickyCTA({ locale, postTitle }: StickyCTAProps) {
     </div>
   );
 }
+
+
+
+
 
