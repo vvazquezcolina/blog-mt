@@ -20,6 +20,10 @@
       "destination": "/assets/:path*"
     },
     {
+      "source": "/blog/blog/blog/assets/:path*",
+      "destination": "/assets/:path*"
+    },
+    {
       "source": "/blog/css/:path*",
       "destination": "/blog/css/:path*"
     },
