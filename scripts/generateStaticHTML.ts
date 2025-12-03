@@ -193,6 +193,17 @@ function generateLanguageSwitcher(currentLocale: Locale, currentPath: string): s
     pt: 'PT',
   };
 
+  // Detectar si estamos en una página de post
+  const postMatch = currentPath.match(/\/posts\/([^\/]+)/);
+  let currentPost: typeof blogPosts[0] | undefined;
+  let currentPostSlug: string | undefined;
+
+  if (postMatch) {
+    currentPostSlug = postMatch[1];
+    // Buscar el post por slug en el locale actual
+    currentPost = findPostBySlug(currentPostSlug, currentLocale);
+  }
+
   // Extraer la ruta sin el locale actual
   let pathWithoutLocale = currentPath;
   if (pathWithoutLocale.startsWith(`/${currentLocale}/`)) {
@@ -205,9 +216,19 @@ function generateLanguageSwitcher(currentLocale: Locale, currentPath: string): s
   }
 
   const buttons = locales.map(locale => {
-    const newPath = pathWithoutLocale === '/' 
-      ? `${BASE_PATH}/${locale}` 
-      : `${BASE_PATH}/${locale}${pathWithoutLocale}`;
+    let newPath: string;
+    
+    // Si estamos en una página de post y encontramos el post, usar el slug correcto del otro idioma
+    if (currentPost && postMatch) {
+      const targetContent = getPostContent(currentPost, locale);
+      newPath = `${BASE_PATH}/${locale}/posts/${targetContent.slug}`;
+    } else {
+      // Para otras páginas (home, categorías, etc.), simplemente cambiar el locale
+      newPath = pathWithoutLocale === '/' 
+        ? `${BASE_PATH}/${locale}` 
+        : `${BASE_PATH}/${locale}${pathWithoutLocale}`;
+    }
+    
     const isActive = locale === currentLocale;
     return `
       <button
