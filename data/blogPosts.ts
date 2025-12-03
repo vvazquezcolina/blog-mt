@@ -131,7 +131,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-eventos-imperdibles-cancun-verano',
         body: `<h1>Los 10 eventos imperdibles en Cancún este verano</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista aérea de Mandala Beach Cancún con alberca y playa" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista aérea de Mandala Beach Cancún con alberca y playa" />
 
 
 <p>El verano en Cancún es sinónimo de fiesta, música y experiencias inolvidables. Esta temporada, la ciudad se prepara para recibir a miles de visitantes con una agenda cargada de eventos exclusivos que combinan lo mejor de la música electrónica, el ambiente playero y la vida nocturna de clase mundial. Si estás planeando visitar Cancún durante los meses de verano, aquí tienes los 7 eventos que definitivamente no puedes perderte.</p>
@@ -206,7 +206,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-must-attend-events-cancun-summer',
         body: `<h1>The 7 Must-Attend Events in Cancun This Summer</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Aerial view of Mandala Beach Cancun with pool and beach" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Aerial view of Mandala Beach Cancun with pool and beach" />
 
 
 <p>Summer in Cancun is synonymous with party, music, and unforgettable experiences. This season, the city prepares to welcome thousands of visitors with a packed agenda of exclusive events that combine the best of electronic music, beach vibes, and world-class nightlife. If you're planning to visit Cancun during the summer months, here are the 7 events you definitely can't miss.</p>
@@ -281,7 +281,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-evenements-incontournables-cancun-ete',
         body: `<h1>Les 7 événements incontournables à Cancún cet été</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vue aérienne de Mandala Beach Cancún avec piscine et plage" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vue aérienne de Mandala Beach Cancún avec piscine et plage" />
 
 
 <p>L'été à Cancún est synonyme de fête, de musique et d'expériences inoubliables. Cette saison, la ville se prépare à accueillir des milliers de visiteurs avec un agenda chargé d'événements exclusifs qui combinent le meilleur de la musique électronique, l'ambiance de plage et la vie nocturne de classe mondiale. Si vous prévoyez de visiter Cancún pendant les mois d'été, voici les 7 événements que vous ne pouvez absolument pas manquer.</p>
@@ -366,7 +366,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-eventos-imperdiveis-cancun-verao',
         body: `<h1>Os 7 eventos imperdíveis em Cancún neste verão</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista aérea de Mandala Beach Cancún com piscina e praia" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista aérea de Mandala Beach Cancún com piscina e praia" />
 
 
 <p>O verão em Cancún é sinônimo de festa, música e experiências inesquecíveis. Esta temporada, a cidade se prepara para receber milhares de visitantes com uma agenda repleta de eventos exclusivos que combinam o melhor da música eletrônica, o ambiente de praia e a vida noturna de classe mundial. Se você está planejando visitar Cancún durante os meses de verão, aqui estão os 7 eventos que você definitivamente não pode perder.</p>
@@ -450,7 +450,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-completa-disfrutar-tulum-playas-fiestas',
         body: `<h1>Guía completa para disfrutar de Tulum: playas, fiestas y más</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BAGATELLE/1.jpg" alt="Vista de Tulum con playa turquesa y palmeras" />
+<img src="/assets/PoolFotos/TULUM/BAGATELLE/Pic_1.jpg" alt="Vista de Tulum con playa turquesa y palmeras" />
 
 
 <p>Tulum se ha convertido en uno de los destinos más codiciados de la Riviera Maya, combinando la belleza natural del Caribe mexicano con una escena cultural y nocturna vibrante. Esta guía completa te llevará a través de todo lo que necesitas saber para aprovechar al máximo tu visita a este paraíso tropical, desde las playas más espectaculares hasta los eventos nocturnos más exclusivos.</p>
@@ -562,7 +562,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'complete-guide-enjoying-tulum-beaches-parties',
         body: `<h1>Complete Guide to Enjoying Tulum: Beaches, Parties and More</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BAGATELLE/1.jpg" alt="View of Tulum with turquoise beach and palm trees" />
+<img src="/assets/PoolFotos/TULUM/BAGATELLE/Pic_1.jpg" alt="View of Tulum with turquoise beach and palm trees" />
 
 
 <p>Tulum has become one of the most coveted destinations in the Riviera Maya, combining the natural beauty of the Mexican Caribbean with a vibrant cultural and nightlife scene. This complete guide will take you through everything you need to know to make the most of your visit to this tropical paradise, from the most spectacular beaches to the most exclusive nightlife events.</p>
@@ -674,7 +674,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guide-complet-profiter-tulum-plages-fetes',
         body: `<h1>Guide complet pour profiter de Tulum : plages, fêtes et plus</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BAGATELLE/1.jpg" alt="Vue de Tulum avec plage turquoise et palmiers" />
+<img src="/assets/PoolFotos/TULUM/BAGATELLE/Pic_1.jpg" alt="Vue de Tulum avec plage turquoise et palmiers" />
 
 
 <p>Tulum est devenu l'une des destinations les plus convoitées de la Riviera Maya, combinant la beauté naturelle des Caraïbes mexicaines avec une scène culturelle et nocturne vibrante. Ce guide complet vous emmènera à travers tout ce que vous devez savoir pour tirer le meilleur parti de votre visite dans ce paradis tropical, des plages les plus spectaculaires aux événements nocturnes les plus exclusifs.</p>
@@ -778,7 +778,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-completo-aproveitar-tulum-praias-festas',
         body: `<h1>Guia completo para aproveitar Tulum: praias, festas e mais</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BAGATELLE/1.jpg" alt="Vista de Tulum com praia turquesa e palmeiras" />
+<img src="/assets/PoolFotos/TULUM/BAGATELLE/Pic_1.jpg" alt="Vista de Tulum com praia turquesa e palmeiras" />
 
 
 <p>Tulum se tornou um dos destinos mais cobiçados da Riviera Maya, combinando a beleza natural do Caribe mexicano com uma cena cultural e noturna vibrante. Este guia completo levará você através de tudo o que você precisa saber para aproveitar ao máximo sua visita a este paraíso tropical, das praias mais espetaculares aos eventos noturnos mais exclusivos.</p>
@@ -887,7 +887,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-dj-residente-mandala-beach',
         body: `<h1>Entrevista exclusiva con el DJ residente de Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJ residente de Mandala Beach en acción durante un evento exclusivo" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJ residente de Mandala Beach en acción durante un evento exclusivo" />
 
 <p>Los DJs residentes son el corazón de la experiencia musical en los eventos de MandalaTickets. En esta entrevista exclusiva, conversamos con uno de los DJs residentes más reconocidos de la Riviera Maya sobre su trayectoria, su visión musical, y sus planes para los próximos eventos en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -913,7 +913,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'exclusive-interview-mandala-beach-resident-dj',
         body: `<h1>Exclusive Interview with Mandala Beach Resident DJ</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Mandala Beach resident DJ in action during an exclusive event" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Mandala Beach resident DJ in action during an exclusive event" />
 
 <p>Resident DJs are the heart of the musical experience at MandalaTickets events. In this exclusive interview, we speak with one of the Riviera Maya's most recognized resident DJs about their career, musical vision, and plans for upcoming events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -939,7 +939,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-exclusif-dj-resident-mandala-beach',
         body: `<h1>Entretien exclusif avec le DJ résident de Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJ résident de Mandala Beach en action lors d'un événement exclusif" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJ résident de Mandala Beach en action lors d'un événement exclusif" />
 
 <p>Les DJs résidents sont le cœur de l'expérience musicale lors des événements MandalaTickets. Dans cet entretien exclusif, nous parlons avec l'un des DJs résidents les plus reconnus de la Riviera Maya sur sa carrière, sa vision musicale et ses projets pour les prochains événements dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -965,7 +965,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-exclusiva-dj-residente-mandala-beach',
         body: `<h1>Entrevista exclusiva com o DJ residente do Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJ residente do Mandala Beach em ação durante um evento exclusivo" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJ residente do Mandala Beach em ação durante um evento exclusivo" />
 
 <p>Os DJs residentes são o coração da experiência musical nos eventos MandalaTickets. Nesta entrevista exclusiva, conversamos com um dos DJs residentes mais reconhecidos da Riviera Maya sobre sua carreira, visão musical e planos para os próximos eventos em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -1000,7 +1000,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'aprovechar-promociones-mandalatickets',
         body: `<h1>Cómo aprovechar al máximo las promociones de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Promociones y ofertas especiales de MandalaTickets para eventos exclusivos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Promociones y ofertas especiales de MandalaTickets para eventos exclusivos" />
 
 <p>MandalaTickets ofrece una amplia variedad de promociones y ofertas especiales que te permiten ahorrar dinero mientras disfrutas de los mejores eventos en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta. Esta guía te presenta las mejores estrategias para aprovechar al máximo estas promociones.</p>
 
@@ -1032,7 +1032,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'maximize-mandalatickets-promotions-special-offers',
         body: `<h1>How to Maximize MandalaTickets Promotions and Special Offers</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Promotions and special offers from MandalaTickets for exclusive events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Promotions and special offers from MandalaTickets for exclusive events" />
 
 <p>MandalaTickets offers a wide variety of promotions and special offers that allow you to save money while enjoying the best events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta. This guide presents the best strategies to maximize these promotions.</p>
 
@@ -1064,7 +1064,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'maximiser-promotions-offres-speciales-mandalatickets',
         body: `<h1>Comment maximiser les promotions et offres spéciales MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Promotions et offres spéciales de MandalaTickets pour événements exclusifs" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Promotions et offres spéciales de MandalaTickets pour événements exclusifs" />
 
 <p>MandalaTickets offre une large variété de promotions et offres spéciales qui vous permettent d'économiser de l'argent tout en profitant des meilleurs événements dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta. Ce guide présente les meilleures stratégies pour maximiser ces promotions.</p>
 
@@ -1096,7 +1096,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'maximizar-promocoes-ofertas-especiais-mandalatickets',
         body: `<h1>Como maximizar promoções e ofertas especiais da MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Promoções e ofertas especiais da MandalaTickets para eventos exclusivos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Promoções e ofertas especiais da MandalaTickets para eventos exclusivos" />
 
 <p>MandalaTickets oferece uma ampla variedade de promoções e ofertas especiais que permitem economizar dinheiro enquanto desfruta dos melhores eventos em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta. Este guia apresenta as melhores estratégias para maximizar essas promoções.</p>
 
@@ -1137,7 +1137,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'historia-evolucion-vida-nocturna-playa-carmen',
         body: `<h1>Historia y evolución de la vida nocturna en Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Evolución de la vida nocturna en Playa del Carmen desde sus inicios hasta la actualidad" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Evolución de la vida nocturna en Playa del Carmen desde sus inicios hasta la actualidad" />
 
 <p>Playa del Carmen ha experimentado una transformación extraordinaria desde sus humildes inicios como un pequeño pueblo pesquero hasta convertirse en uno de los destinos de vida nocturna más vibrantes de la Riviera Maya. Esta evolución ha sido marcada por el crecimiento de venues icónicos como <a href="https://mandalatickets.com/es/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/es/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, y <a href="https://mandalatickets.com/es/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, cada uno contribuyendo a crear la escena nocturna única que conocemos hoy.</p>
 
@@ -1197,7 +1197,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'history-evolution-nightlife-playa-del-carmen',
         body: `<h1>History and Evolution of Nightlife in Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Evolution of nightlife in Playa del Carmen from its beginnings to the present" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Evolution of nightlife in Playa del Carmen from its beginnings to the present" />
 
 <p>Playa del Carmen has experienced an extraordinary transformation from its humble beginnings as a small fishing village to becoming one of the most vibrant nightlife destinations in the Riviera Maya. This evolution has been marked by the growth of iconic venues like <a href="https://mandalatickets.com/en/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/en/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, and <a href="https://mandalatickets.com/en/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, each contributing to create the unique nightlife scene we know today.</p>
 
@@ -1257,7 +1257,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'histoire-evolution-vie-nocturne-playa-del-carmen',
         body: `<h1>Histoire et évolution de la vie nocturne à Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Évolution de la vie nocturne à Playa del Carmen depuis ses débuts jusqu'à aujourd'hui" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Évolution de la vie nocturne à Playa del Carmen depuis ses débuts jusqu'à aujourd'hui" />
 
 <p>Playa del Carmen a connu une transformation extraordinaire depuis ses débuts modestes comme petit village de pêcheurs jusqu'à devenir l'une des destinations de vie nocturne les plus vibrantes de la Riviera Maya. Cette évolution a été marquée par la croissance de venues emblématiques comme <a href="https://mandalatickets.com/fr/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/fr/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> et <a href="https://mandalatickets.com/fr/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, chacun contribuant à créer la scène nocturne unique que nous connaissons aujourd'hui.</p>
 
@@ -1317,7 +1317,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'historia-evolucao-vida-noturna-playa-del-carmen',
         body: `<h1>História e evolução da vida noturna em Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Evolução da vida noturna em Playa del Carmen desde seus primórdios até hoje" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Evolução da vida noturna em Playa del Carmen desde seus primórdios até hoje" />
 
 <p>Playa del Carmen passou por uma transformação extraordinária desde seus humildes começos como pequena vila de pescadores até se tornar um dos destinos de vida noturna mais vibrantes da Riviera Maya. Esta evolução foi marcada pelo crescimento de locais icônicos como <a href="https://mandalatickets.com/pt/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/pt/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> e <a href="https://mandalatickets.com/pt/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, cada um contribuindo para criar a cena noturna única que conhecemos hoje.</p>
 
@@ -1386,7 +1386,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'consejos-organizar-despedida-soltero-los-cabos',
         body: `<h1>Consejos para organizar una despedida de soltero/a en Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Despedida de soltero/a en Los Cabos con grupo de amigos disfrutando de la vida nocturna" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Despedida de soltero/a en Los Cabos con grupo de amigos disfrutando de la vida nocturna" />
 
 <p>Los Cabos es uno de los destinos más populares para despedidas de soltero/a en México, ofreciendo una combinación perfecta de playas, actividades acuáticas, y una vida nocturna vibrante. Organizar una despedida de soltero/a exitosa requiere planificación cuidadosa, y Los Cabos ofrece venues perfectos como <a href="https://mandalatickets.com/es/cabos/disco/mandala">Mandala Los Cabos</a> y <a href="https://mandalatickets.com/es/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> para crear experiencias inolvidables.</p>
 
@@ -1452,7 +1452,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tips-organize-bachelor-party-los-cabos',
         body: `<h1>Tips for Organizing a Bachelor or Bachelorette Party in Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Bachelor or bachelorette party in Los Cabos with group of friends enjoying nightlife" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Bachelor or bachelorette party in Los Cabos with group of friends enjoying nightlife" />
 
 <p>Los Cabos is one of the most popular destinations for bachelor/bachelorette parties in Mexico, offering a perfect combination of beaches, water activities, and vibrant nightlife. Organizing a successful party requires careful planning, and Los Cabos offers perfect venues like <a href="https://mandalatickets.com/en/cabos/disco/mandala">Mandala Los Cabos</a> and <a href="https://mandalatickets.com/en/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> to create unforgettable experiences.</p>
 
@@ -1518,7 +1518,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'conseils-organiser-enterrement-vie-los-cabos',
         body: `<h1>Conseils pour organiser un enterrement de vie de garçon/fille à Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Enterrement de vie de garçon/fille à Los Cabos avec groupe d'amis profitant de la vie nocturne" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Enterrement de vie de garçon/fille à Los Cabos avec groupe d'amis profitant de la vie nocturne" />
 
 <p>Los Cabos est l'une des destinations les plus populaires pour les enterrements de vie de garçon/fille au Mexique, offrant une combinaison parfaite de plages, activités aquatiques et vie nocturne vibrante. Organiser une fête réussie nécessite une planification soigneuse, et Los Cabos offre des venues parfaits comme <a href="https://mandalatickets.com/fr/cabos/disco/mandala">Mandala Los Cabos</a> et <a href="https://mandalatickets.com/fr/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> pour créer des expériences inoubliables.</p>
 
@@ -1584,7 +1584,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'dicas-organizar-despedida-solteiro-los-cabos',
         body: `<h1>Dicas para organizar despedida de solteiro/solteira em Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Despedida de solteiro/solteira em Los Cabos com grupo de amigos aproveitando a vida noturna" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Despedida de solteiro/solteira em Los Cabos com grupo de amigos aproveitando a vida noturna" />
 
 <p>Los Cabos é um dos destinos mais populares para despedidas de solteiro/solteira no México, oferecendo uma combinação perfeita de praias, atividades aquáticas e vida noturna vibrante. Organizar uma festa bem-sucedida requer planejamento cuidadoso, e Los Cabos oferece locais perfeitos como <a href="https://mandalatickets.com/pt/cabos/disco/mandala">Mandala Los Cabos</a> e <a href="https://mandalatickets.com/pt/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> para criar experiências inesquecíveis.</p>
 
@@ -1659,7 +1659,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-beach-clubs-puerto-vallarta',
         body: `<h1>Los mejores beach clubs en Puerto Vallarta para este año</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Beach clubs en Puerto Vallarta con piscinas, cabanas y ambiente exclusivo frente al Pacífico" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Beach clubs en Puerto Vallarta con piscinas, cabanas y ambiente exclusivo frente al Pacífico" />
 
 <p>Puerto Vallarta ofrece algunos de los beach clubs más exclusivos y vibrantes del Pacífico mexicano. Estos venues combinan la belleza natural de las playas con experiencias premium de gastronomía, música y entretenimiento. Esta guía te presenta los mejores beach clubs en Puerto Vallarta para este año, incluyendo <a href="https://mandalatickets.com/es/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, el beach club más sofisticado de la ciudad.</p>
 
@@ -1705,7 +1705,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-beach-clubs-puerto-vallarta-this-year',
         body: `<h1>The Best Beach Clubs in Puerto Vallarta This Year</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Beach clubs in Puerto Vallarta with pools, cabanas and exclusive atmosphere facing the Pacific" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Beach clubs in Puerto Vallarta with pools, cabanas and exclusive atmosphere facing the Pacific" />
 
 <p>Puerto Vallarta offers some of the most exclusive and vibrant beach clubs on the Mexican Pacific. These venues combine the natural beauty of beaches with premium experiences of gastronomy, music, and entertainment. This guide presents the best beach clubs in Puerto Vallarta this year, including <a href="https://mandalatickets.com/en/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, the city's most sophisticated beach club.</p>
 
@@ -1751,7 +1751,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-beach-clubs-puerto-vallarta-cette-annee',
         body: `<h1>Les meilleurs beach clubs à Puerto Vallarta cette année</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Beach clubs à Puerto Vallarta avec piscines, cabanes et atmosphère exclusive face au Pacifique" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Beach clubs à Puerto Vallarta avec piscines, cabanes et atmosphère exclusive face au Pacifique" />
 
 <p>Puerto Vallarta offre certains des beach clubs les plus exclusifs et vibrants du Pacifique mexicain. Ces venues combinent la beauté naturelle des plages avec expériences premium de gastronomie, musique et divertissement. Ce guide présente les meilleurs beach clubs à Puerto Vallarta cette année, y compris <a href="https://mandalatickets.com/fr/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, le beach club le plus sophistiqué de la ville.</p>
 
@@ -1797,7 +1797,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-beach-clubs-puerto-vallarta-este-ano',
         body: `<h1>Os melhores beach clubs em Puerto Vallarta este ano</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Beach clubs em Puerto Vallarta com piscinas, cabanas e atmosfera exclusiva de frente para o Pacífico" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Beach clubs em Puerto Vallarta com piscinas, cabanas e atmosfera exclusiva de frente para o Pacífico" />
 
 <p>Puerto Vallarta oferece alguns dos beach clubs mais exclusivos e vibrantes do Pacífico mexicano. Esses locais combinam a beleza natural das praias com experiências premium de gastronomia, música e entretenimento. Este guia apresenta os melhores beach clubs em Puerto Vallarta este ano, incluindo <a href="https://mandalatickets.com/pt/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, o beach club mais sofisticado da cidade.</p>
 
@@ -1852,7 +1852,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-musica-electronica-2025',
         body: `<h1>Tendencias en música electrónica para 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Tendencias en música electrónica para 2025 con DJs y producción visual" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Tendencias en música electrónica para 2025 con DJs y producción visual" />
 
 <p>La música electrónica continúa evolucionando, y 2025 promete traer nuevas tendencias que transformarán la experiencia en los eventos de MandalaTickets. Desde nuevos subgéneros hasta innovaciones en producción, estas tendencias marcarán el ritmo de los eventos en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -1878,7 +1878,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'electronic-music-trends-2025',
         body: `<h1>Electronic Music Trends for 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Electronic music trends for 2025 with DJs and visual production" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Electronic music trends for 2025 with DJs and visual production" />
 
 <p>Electronic music continues to evolve, and 2025 promises to bring new trends that will transform the experience at MandalaTickets events. From new subgenres to production innovations, these trends will set the pace for events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -1904,7 +1904,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-musique-electronique-2025',
         body: `<h1>Tendances de la musique électronique pour 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Tendances de la musique électronique pour 2025 avec DJs et production visuelle" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Tendances de la musique électronique pour 2025 avec DJs et production visuelle" />
 
 <p>La musique électronique continue d'évoluer, et 2025 promet d'apporter de nouvelles tendances qui transformeront l'expérience lors des événements MandalaTickets. Des nouveaux sous-genres aux innovations en production, ces tendances marqueront le rythme des événements dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -1930,7 +1930,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-musica-eletronica-2025',
         body: `<h1>Tendências de música eletrônica para 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Tendências de música eletrônica para 2025 com DJs e produção visual" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Tendências de música eletrônica para 2025 com DJs e produção visual" />
 
 <p>A música eletrônica continua evoluindo, e 2025 promete trazer novas tendências que transformarão a experiência nos eventos MandalaTickets. De novos subgêneros a inovações em produção, essas tendências definirão o ritmo dos eventos em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -1965,7 +1965,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'planificar-itinerario-fiestas-cancun',
         body: `<h1>Cómo planificar tu itinerario de fiestas en Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista nocturna de la Zona Hotelera de Cancún con luces de antros y beach clubs" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista nocturna de la Zona Hotelera de Cancún con luces de antros y beach clubs" />
 
 <p>Planificar tu itinerario de fiestas en Cancún es clave para vivir una experiencia inolvidable en uno de los destinos de vida nocturna más vibrantes de México. Cancún ofrece una increíble variedad de opciones, desde beach clubs diurnos hasta antros de clase mundial, y saber cómo organizar tu agenda te permitirá aprovechar al máximo cada momento de tu visita.</p>
 
@@ -2078,7 +2078,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'how-plan-party-itinerary-cancun',
         body: `<h1>How to Plan Your Party Itinerary in Cancun</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Night view of Cancun Hotel Zone with nightclub and beach club lights" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Night view of Cancun Hotel Zone with nightclub and beach club lights" />
 
 <p>Planning your party itinerary in Cancun is key to experiencing an unforgettable time in one of Mexico's most vibrant nightlife destinations. Cancun offers an incredible variety of options, from daytime beach clubs to world-class nightclubs, and knowing how to organize your schedule will allow you to make the most of every moment of your visit.</p>
 
@@ -2191,7 +2191,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'comment-planifier-itineraire-fetes-cancun',
         body: `<h1>Comment planifier votre itinéraire de fêtes à Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vue nocturne de la Zone Hôtelière de Cancún avec lumières de boîtes de nuit et beach clubs" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vue nocturne de la Zone Hôtelière de Cancún avec lumières de boîtes de nuit et beach clubs" />
 
 <p>Planifier votre itinéraire de fêtes à Cancún est essentiel pour vivre une expérience inoubliable dans l'une des destinations de vie nocturne les plus vibrantes du Mexique. Cancún offre une incroyable variété d'options, des beach clubs diurnes aux boîtes de nuit de classe mondiale, et savoir comment organiser votre agenda vous permettra de tirer le meilleur parti de chaque moment de votre visite.</p>
 
@@ -2233,7 +2233,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'como-planejar-itinerario-festas-cancun',
         body: `<h1>Como planejar seu itinerário de festas em Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista noturna da Zona Hoteleira de Cancún com luzes de boates e beach clubs" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista noturna da Zona Hoteleira de Cancún com luzes de boates e beach clubs" />
 
 <p>Planejar seu itinerário de festas em Cancún é fundamental para viver uma experiência inesquecível em um dos destinos de vida noturna mais vibrantes do México. Cancún oferece uma incrível variedade de opções, desde beach clubs diurnos até boates de classe mundial, e saber como organizar sua agenda permitirá aproveitar ao máximo cada momento de sua visita.</p>
 
@@ -2282,7 +2282,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-organizador-festival-anual-tulum',
         body: `<h1>Entrevista con el organizador del festival anual en Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Festival anual en Tulum con escenario impresionante y producción de clase mundial" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Festival anual en Tulum con escenario impresionante y producción de clase mundial" />
 
 <p>Los festivales en Tulum son reconocidos mundialmente por su producción excepcional, ubicaciones únicas en la jungla, y lineups de artistas de clase mundial. Detrás de cada evento exitoso hay un equipo de profesionales dedicados que trabajan incansablemente para crear experiencias inolvidables. En esta entrevista exclusiva, hablamos con uno de los organizadores más reconocidos de festivales en Tulum para descubrir los secretos detrás de la organización de estos eventos extraordinarios.</p>
 
@@ -2361,7 +2361,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-organizer-annual-festival-tulum',
         body: `<h1>Interview with the Organizer of the Annual Festival in Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Annual festival in Tulum with impressive stage and world-class production" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Annual festival in Tulum with impressive stage and world-class production" />
 
 <p>Festivals in Tulum are recognized worldwide for their exceptional production, unique jungle locations, and world-class artist lineups. Behind each successful event is a team of dedicated professionals working tirelessly to create unforgettable experiences. In this exclusive interview, we speak with one of Tulum's most recognized festival organizers to discover the secrets behind organizing these extraordinary events.</p>
 
@@ -2385,7 +2385,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-organisateur-festival-annuel-tulum',
         body: `<h1>Entretien avec l'organisateur du festival annuel à Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Festival annuel à Tulum avec scène impressionnante et production de classe mondiale" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Festival annuel à Tulum avec scène impressionnante et production de classe mondiale" />
 
 <p>Les festivals à Tulum sont reconnus mondialement pour leur production exceptionnelle, emplacements uniques dans la jungle, et lineups d'artistes de classe mondiale. Derrière chaque événement réussi, il y a une équipe de professionnels dédiés qui travaillent sans relâche pour créer des expériences inoubliables. Dans cet entretien exclusif, nous parlons avec l'un des organisateurs de festivals les plus reconnus de Tulum pour découvrir les secrets derrière l'organisation de ces événements extraordinaires.</p>
 
@@ -2440,7 +2440,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-organizador-festival-anual-tulum',
         body: `<h1>Entrevista com o organizador do festival anual em Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Festival anual em Tulum com palco impressionante e produção de classe mundial" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Festival anual em Tulum com palco impressionante e produção de classe mundial" />
 
 <p>Os festivais em Tulum são reconhecidos mundialmente por sua produção excepcional, localizações únicas na selva e lineups de artistas de classe mundial. Por trás de cada evento bem-sucedido, há uma equipe de profissionais dedicados que trabalham incansavelmente para criar experiências inesquecíveis. Nesta entrevista exclusiva, conversamos com um dos organizadores de festivais mais reconhecidos de Tulum para descobrir os segredos por trás da organização desses eventos extraordinários.</p>
 
@@ -2504,7 +2504,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'secretos-vida-nocturna-los-cabos',
         body: `<h1>Los secretos mejor guardados de la vida nocturna en Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/LA_VAQUITA/1.jpg" alt="Secretos de la vida nocturna en Los Cabos con venues exclusivos y eventos especiales" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Secretos de la vida nocturna en Los Cabos con venues exclusivos y eventos especiales" />
 
 <p>Los Cabos tiene una escena nocturna vibrante que va más allá de los venues más conocidos. Mientras que <a href="https://mandalatickets.com/es/cabos/disco/mandala">Mandala Los Cabos</a> y <a href="https://mandalatickets.com/es/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> son los venues más reconocidos, hay secretos y eventos exclusivos que solo los locales y visitantes experimentados conocen. Esta guía te revela algunos de los secretos mejor guardados de la vida nocturna en Los Cabos.</p>
 
@@ -2538,7 +2538,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'los-cabos-nightlife-best-kept-secrets',
         body: `<h1>Los Cabos Nightlife Best Kept Secrets</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/LA_VAQUITA/1.jpg" alt="Los Cabos nightlife secrets with exclusive venues and special events" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Los Cabos nightlife secrets with exclusive venues and special events" />
 
 <p>Los Cabos has a vibrant nightlife scene beyond the most well-known venues. While <a href="https://mandalatickets.com/en/cabos/disco/mandala">Mandala Los Cabos</a> and <a href="https://mandalatickets.com/en/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> are the most recognized venues, there are secrets and exclusive events that only locals and experienced visitors know. This guide reveals some of Los Cabos' best-kept nightlife secrets.</p>
 
@@ -2572,7 +2572,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'secrets-mieux-gardes-vie-nocturne-los-cabos',
         body: `<h1>Les secrets les mieux gardés de la vie nocturne à Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/LA_VAQUITA/1.jpg" alt="Secrets de la vie nocturne à Los Cabos avec venues exclusifs et événements spéciaux" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Secrets de la vie nocturne à Los Cabos avec venues exclusifs et événements spéciaux" />
 
 <p>Los Cabos a une scène nocturne vibrante qui va au-delà des venues les plus connus. Alors que <a href="https://mandalatickets.com/fr/cabos/disco/mandala">Mandala Los Cabos</a> et <a href="https://mandalatickets.com/fr/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> sont les venues les plus reconnus, il y a des secrets et des événements exclusifs que seuls les habitants et les visiteurs expérimentés connaissent. Ce guide révèle certains des secrets les mieux gardés de la vie nocturne à Los Cabos.</p>
 
@@ -2606,7 +2606,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'segredos-mais-bem-guardados-vida-noturna-los-cabos',
         body: `<h1>Os segredos mais bem guardados da vida noturna em Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/LA_VAQUITA/1.jpg" alt="Segredos da vida noturna em Los Cabos com locais exclusivos e eventos especiais" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Segredos da vida noturna em Los Cabos com locais exclusivos e eventos especiais" />
 
 <p>Los Cabos tem uma cena noturna vibrante que vai além dos locais mais conhecidos. Embora <a href="https://mandalatickets.com/pt/cabos/disco/mandala">Mandala Los Cabos</a> e <a href="https://mandalatickets.com/pt/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> sejam os locais mais reconhecidos, há segredos e eventos exclusivos que apenas os locais e visitantes experientes conhecem. Este guia revela alguns dos segredos mais bem guardados da vida noturna em Los Cabos.</p>
 
@@ -2649,7 +2649,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-principiantes-comprar-boletos-mandalatickets',
         body: `<h1>Guía para principiantes: cómo comprar boletos en MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Guía para comprar boletos en MandalaTickets de forma fácil y segura" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Guía para comprar boletos en MandalaTickets de forma fácil y segura" />
 
 <p>Comprar boletos para eventos exclusivos en MandalaTickets es fácil y seguro. Esta guía paso a paso te ayudará a realizar tu primera compra de boletos para eventos en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -2685,7 +2685,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'beginners-guide-buy-tickets-mandalatickets',
         body: `<h1>Beginner's Guide: How to Buy Tickets on MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Guide to buying tickets on MandalaTickets easily and securely" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Guide to buying tickets on MandalaTickets easily and securely" />
 
 <p>Buying tickets for exclusive events on MandalaTickets is easy and secure. This step-by-step guide will help you make your first ticket purchase for events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -2721,7 +2721,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guide-debutants-acheter-billets-mandalatickets',
         body: `<h1>Guide pour débutants : comment acheter des billets sur MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Guide pour acheter des billets sur MandalaTickets facilement et en toute sécurité" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Guide pour acheter des billets sur MandalaTickets facilement et en toute sécurité" />
 
 <p>Acheter des billets pour événements exclusifs sur MandalaTickets est facile et sécurisé. Ce guide étape par étape vous aidera à effectuer votre premier achat de billets pour événements dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -2757,7 +2757,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-iniciantes-comprar-ingressos-mandalatickets',
         body: `<h1>Guia para iniciantes: como comprar ingressos na MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Guia para comprar ingressos na MandalaTickets de forma fácil e segura" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Guia para comprar ingressos na MandalaTickets de forma fácil e segura" />
 
 <p>Comprar ingressos para eventos exclusivos na MandalaTickets é fácil e seguro. Este guia passo a passo ajudará você a fazer sua primeira compra de ingressos para eventos em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -2802,7 +2802,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-exclusivos-playa-carmen',
         body: `<h1>Los 5 eventos más exclusivos en Playa del Carmen este mes</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Eventos exclusivos VIP en Playa del Carmen con ambiente elegante y sofisticado" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Eventos exclusivos VIP en Playa del Carmen con ambiente elegante y sofisticado" />
 
 <p>Playa del Carmen ofrece algunos de los eventos más exclusivos y VIP de la Riviera Maya. Este mes, la ciudad se prepara para recibir experiencias únicas en venues como <a href="https://mandalatickets.com/es/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/es/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, y <a href="https://mandalatickets.com/es/playa/disco/santito-tun-tun">Santito Tun-Tun</a>. Aquí te presentamos los 5 eventos más exclusivos que no te puedes perder este mes.</p>
 
@@ -2860,7 +2860,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-most-exclusive-events-playa-del-carmen-month',
         body: `<h1>The 5 Most Exclusive Events in Playa del Carmen This Month</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Exclusive VIP events in Playa del Carmen with elegant and sophisticated atmosphere" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Exclusive VIP events in Playa del Carmen with elegant and sophisticated atmosphere" />
 
 <p>Playa del Carmen offers some of the most exclusive and VIP events in the Riviera Maya. This month, the city prepares to host unique experiences at venues like <a href="https://mandalatickets.com/en/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/en/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, and <a href="https://mandalatickets.com/en/playa/disco/santito-tun-tun">Santito Tun-Tun</a>. Here are the 5 most exclusive events you can't miss this month.</p>
 
@@ -2918,7 +2918,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-evenements-plus-exclusifs-playa-del-carmen-mois',
         body: `<h1>Les 5 événements les plus exclusifs à Playa del Carmen ce mois-ci</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Événements exclusifs VIP à Playa del Carmen avec atmosphère élégante et sophistiquée" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Événements exclusifs VIP à Playa del Carmen avec atmosphère élégante et sophistiquée" />
 
 <p>Playa del Carmen offre certains des événements les plus exclusifs et VIP de la Riviera Maya. Ce mois-ci, la ville se prépare à accueillir des expériences uniques dans des venues comme <a href="https://mandalatickets.com/fr/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/fr/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> et <a href="https://mandalatickets.com/fr/playa/disco/santito-tun-tun">Santito Tun-Tun</a>. Voici les 5 événements les plus exclusifs que vous ne pouvez pas manquer ce mois-ci.</p>
 
@@ -2976,7 +2976,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-mais-exclusivos-playa-del-carmen-mes',
         body: `<h1>Os 5 eventos mais exclusivos em Playa del Carmen neste mês</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Eventos exclusivos VIP em Playa del Carmen com atmosfera elegante e sofisticada" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Eventos exclusivos VIP em Playa del Carmen com atmosfera elegante e sofisticada" />
 
 <p>Playa del Carmen oferece alguns dos eventos mais exclusivos e VIP da Riviera Maya. Este mês, a cidade se prepara para receber experiências únicas em venues como <a href="https://mandalatickets.com/pt/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/pt/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> e <a href="https://mandalatickets.com/pt/playa/disco/santito-tun-tun">Santito Tun-Tun</a>. Aqui estão os 5 eventos mais exclusivos que você não pode perder neste mês.</p>
 
@@ -3043,7 +3043,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'vestirse-noche-fiesta-tulum',
         body: `<h1>Cómo vestirse para una noche de fiesta en Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BONBONNIERE/1.jpg" alt="Personas vestidas para una noche de fiesta en Tulum con estilo bohemio y elegante" />
+<img src="/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg" alt="Personas vestidas para una noche de fiesta en Tulum con estilo bohemio y elegante" />
 
 <p>Tulum tiene un estilo único que combina elegancia bohemia con sofisticación moderna. La escena nocturna de Tulum es conocida por su ambiente relajado pero chic, donde el estilo personal y la comodidad son igualmente importantes. Ya sea que planees visitar <a href="https://mandalatickets.com/es/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/vagalume">Vagalume Tulum</a> o <a href="https://mandalatickets.com/es/tulum/disco/bagatelle">Bagatelle Tulum</a>, esta guía te ayudará a crear el look perfecto para tu noche de fiesta.</p>
 
@@ -3138,7 +3138,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'how-dress-party-night-tulum',
         body: `<h1>How to Dress for a Party Night in Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BONBONNIERE/1.jpg" alt="People dressed for a party night in Tulum with bohemian and elegant style" />
+<img src="/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg" alt="People dressed for a party night in Tulum with bohemian and elegant style" />
 
 <p>Tulum has a unique style that combines bohemian elegance with modern sophistication. The nightlife scene in Tulum is known for its relaxed but chic atmosphere, where personal style and comfort are equally important. Whether you plan to visit <a href="https://mandalatickets.com/en/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/vagalume">Vagalume Tulum</a>, or <a href="https://mandalatickets.com/en/tulum/disco/bagatelle">Bagatelle Tulum</a>, this guide will help you create the perfect look for your party night.</p>
 
@@ -3233,7 +3233,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'comment-habiller-soiree-tulum',
         body: `<h1>Comment s'habiller pour une soirée à Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BONBONNIERE/1.jpg" alt="Personnes habillées pour une soirée à Tulum avec style bohème et élégant" />
+<img src="/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg" alt="Personnes habillées pour une soirée à Tulum avec style bohème et élégant" />
 
 <p>Tulum a un style unique qui combine élégance bohème et sophistication moderne. La scène nocturne de Tulum est connue pour son atmosphère détendue mais chic, où le style personnel et le confort sont également importants. Que vous prévoyiez de visiter <a href="https://mandalatickets.com/fr/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/vagalume">Vagalume Tulum</a> ou <a href="https://mandalatickets.com/fr/tulum/disco/bagatelle">Bagatelle Tulum</a>, ce guide vous aidera à créer le look parfait pour votre soirée.</p>
 
@@ -3328,7 +3328,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'como-se-vestir-noite-festa-tulum',
         body: `<h1>Como se vestir para uma noite de festa em Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BONBONNIERE/1.jpg" alt="Pessoas vestidas para uma noite de festa em Tulum com estilo boêmio e elegante" />
+<img src="/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg" alt="Pessoas vestidas para uma noite de festa em Tulum com estilo boêmio e elegante" />
 
 <p>Tulum tem um estilo único que combina elegância boêmia e sofisticação moderna. A cena noturna de Tulum é conhecida por sua atmosfera relaxada mas chique, onde o estilo pessoal e o conforto são igualmente importantes. Se você planeja visitar <a href="https://mandalatickets.com/pt/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/vagalume">Vagalume Tulum</a> ou <a href="https://mandalatickets.com/pt/tulum/disco/bagatelle">Bagatelle Tulum</a>, este guia ajudará você a criar o look perfeito para sua noite de festa.</p>
 
@@ -3432,7 +3432,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-chef-gastronomia-mandala-beach',
         body: `<h1>Entrevista con el chef detrás de la gastronomía en Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Chef preparando platillos exclusivos para eventos de Mandala Beach" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Chef preparando platillos exclusivos para eventos de Mandala Beach" />
 
 <p>La gastronomía es una parte esencial de la experiencia en los eventos de MandalaTickets. En esta entrevista exclusiva, conversamos con el chef detrás de la gastronomía en Mandala Beach sobre su visión culinaria, los platillos exclusivos que encontrarás en los eventos, y cómo la comida complementa la experiencia musical y de entretenimiento.</p>
 
@@ -3458,7 +3458,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-chef-mandala-beach-culinary',
         body: `<h1>Interview with the Chef Behind Mandala Beach Culinary Experience</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Chef preparing exclusive dishes for Mandala Beach events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Chef preparing exclusive dishes for Mandala Beach events" />
 
 <p>Culinary is an essential part of the experience at MandalaTickets events. In this exclusive interview, we spoke with the chef behind the culinary experience at Mandala Beach about their culinary vision, the exclusive dishes you'll find at events, and how food complements the musical and entertainment experience.</p>
 
@@ -3484,7 +3484,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-chef-experience-culinaire-mandala-beach',
         body: `<h1>Entretien avec le chef derrière l'expérience culinaire de Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Chef préparant des plats exclusifs pour événements Mandala Beach" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Chef préparant des plats exclusifs pour événements Mandala Beach" />
 
 <p>La gastronomie est une partie essentielle de l'expérience lors d'événements MandalaTickets. Dans cet entretien exclusif, nous avons parlé avec le chef derrière l'expérience culinaire de Mandala Beach sur sa vision culinaire, les plats exclusifs que vous trouverez lors des événements, et comment la nourriture complète l'expérience musicale et de divertissement.</p>
 
@@ -3510,7 +3510,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-chef-experiencia-culinaria-mandala-beach',
         body: `<h1>Entrevista com o chef por trás da experiência culinária do Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Chef preparando pratos exclusivos para eventos Mandala Beach" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Chef preparando pratos exclusivos para eventos Mandala Beach" />
 
 <p>A gastronomia é uma parte essencial da experiência em eventos MandalaTickets. Nesta entrevista exclusiva, conversamos com o chef por trás da experiência culinária do Mandala Beach sobre sua visão culinária, os pratos exclusivos que você encontrará nos eventos e como a comida complementa a experiência musical e de entretenimento.</p>
 
@@ -3545,7 +3545,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'beneficios-reservar-boletos-anticipacion',
         body: `<h1>Los beneficios de reservar tus boletos con anticipación</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Beneficios de reservar boletos con anticipación en MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Beneficios de reservar boletos con anticipación en MandalaTickets" />
 
 <p>Reservar tus boletos con anticipación para eventos en MandalaTickets ofrece múltiples beneficios que van más allá de simplemente asegurar tu lugar. Desde ahorros significativos hasta acceso a opciones exclusivas, comprar con tiempo es siempre la mejor estrategia.</p>
 
@@ -3577,7 +3577,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'benefits-booking-tickets-advance',
         body: `<h1>Benefits of Booking Your Tickets in Advance</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Benefits of booking tickets in advance at MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Benefits of booking tickets in advance at MandalaTickets" />
 
 <p>Booking your tickets in advance for events at MandalaTickets offers multiple benefits that go beyond simply securing your place. From significant savings to access to exclusive options, buying early is always the best strategy.</p>
 
@@ -3609,7 +3609,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'avantages-reserver-billets-avance',
         body: `<h1>Avantages de réserver vos billets à l'avance</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Avantages de réserver des billets à l'avance chez MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Avantages de réserver des billets à l'avance chez MandalaTickets" />
 
 <p>Réserver vos billets à l'avance pour événements chez MandalaTickets offre de multiples avantages qui vont au-delà de simplement garantir votre place. Des économies significatives à l'accès à des options exclusives, acheter tôt est toujours la meilleure stratégie.</p>
 
@@ -3641,7 +3641,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'beneficios-reservar-ingressos-antecedencia',
         body: `<h1>Benefícios de reservar seus ingressos com antecedência</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Benefícios de reservar ingressos com antecedência na MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Benefícios de reservar ingressos com antecedência na MandalaTickets" />
 
 <p>Reservar seus ingressos com antecedência para eventos na MandalaTickets oferece múltiplos benefícios que vão além de simplesmente garantir seu lugar. De economias significativas ao acesso a opções exclusivas, comprar com antecedência é sempre a melhor estratégia.</p>
 
@@ -3682,7 +3682,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'historia-clubes-nocturnos-iconicos-cancun',
         body: `<h1>Historia de los clubes nocturnos más icónicos de Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista histórica de la Zona Hotelera de Cancún con sus clubes nocturnos más emblemáticos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista histórica de la Zona Hotelera de Cancún con sus clubes nocturnos más emblemáticos" />
 
 <p>La historia de los clubes nocturnos de Cancún es fascinante y refleja la evolución de uno de los destinos turísticos más importantes de México. Desde sus inicios en la década de 1970 hasta convertirse en un referente mundial de la vida nocturna, Cancún ha sido testigo del nacimiento y desarrollo de algunos de los antros más icónicos del Caribe mexicano.</p>
 
@@ -3750,7 +3750,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'history-most-iconic-nightclubs-cancun',
         body: `<h1>History of the Most Iconic Nightclubs in Cancun</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Historical view of Cancun Hotel Zone with its most emblematic nightclubs" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Historical view of Cancun Hotel Zone with its most emblematic nightclubs" />
 
 <p>The history of Cancun's nightclubs is fascinating and reflects the evolution of one of Mexico's most important tourist destinations. From its beginnings in the 1970s to becoming a world reference for nightlife, Cancun has witnessed the birth and development of some of the most iconic clubs in the Mexican Caribbean.</p>
 
@@ -3794,7 +3794,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'histoire-boites-nuit-emblematiques-cancun',
         body: `<h1>Histoire des boîtes de nuit les plus emblématiques de Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vue historique de la Zone Hôtelière de Cancún avec ses boîtes de nuit les plus emblématiques" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vue historique de la Zone Hôtelière de Cancún avec ses boîtes de nuit les plus emblématiques" />
 
 <p>L'histoire des boîtes de nuit de Cancún est fascinante et reflète l'évolution de l'une des destinations touristiques les plus importantes du Mexique. Depuis ses débuts dans les années 1970 jusqu'à devenir une référence mondiale de la vie nocturne, Cancún a été témoin de la naissance et du développement de certaines des boîtes les plus emblématiques des Caraïbes mexicaines.</p>
 
@@ -3862,7 +3862,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'historia-boates-mais-iconicas-cancun',
         body: `<h1>História das boates mais icônicas de Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista histórica da Zona Hoteleira de Cancún com suas boates mais emblemáticas" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista histórica da Zona Hoteleira de Cancún com suas boates mais emblemáticas" />
 
 <p>A história das boates de Cancún é fascinante e reflete a evolução de um dos destinos turísticos mais importantes do México. Desde seus primórdios na década de 1970 até se tornar uma referência mundial da vida noturna, Cancún testemunhou o nascimento e desenvolvimento de algumas das boates mais icônicas do Caribe mexicano.</p>
 
@@ -3939,7 +3939,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'disfrutar-fiesta-segura-responsable-los-cabos',
         body: `<h1>Cómo disfrutar de una fiesta segura y responsable en Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Fiesta segura y responsable en Los Cabos con grupo disfrutando de manera responsable" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Fiesta segura y responsable en Los Cabos con grupo disfrutando de manera responsable" />
 
 <p>Disfrutar de la vida nocturna en Los Cabos es increíble, pero es importante hacerlo de manera segura y responsable. Ya sea que visites <a href="https://mandalatickets.com/es/cabos/disco/mandala">Mandala Los Cabos</a> o <a href="https://mandalatickets.com/es/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, seguir estos consejos te ayudará a tener una experiencia positiva y memorable mientras te mantienes seguro.</p>
 
@@ -3971,7 +3971,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'safe-responsible-party-los-cabos',
         body: `<h1>How to Enjoy a Safe and Responsible Party in Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Safe and responsible party in Los Cabos with group enjoying responsibly" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Safe and responsible party in Los Cabos with group enjoying responsibly" />
 
 <p>Enjoying nightlife in Los Cabos is incredible, but it's important to do so safely and responsibly. Whether you visit <a href="https://mandalatickets.com/en/cabos/disco/mandala">Mandala Los Cabos</a> or <a href="https://mandalatickets.com/en/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, following these tips will help you have a positive and memorable experience while staying safe.</p>
 
@@ -4003,7 +4003,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'fete-sure-responsable-los-cabos',
         body: `<h1>Comment profiter d'une fête sûre et responsable à Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Fête sûre et responsable à Los Cabos avec groupe profitant de manière responsable" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Fête sûre et responsable à Los Cabos avec groupe profitant de manière responsable" />
 
 <p>Profiter de la vie nocturne à Los Cabos est incroyable, mais il est important de le faire de manière sûre et responsable. Que vous visitiez <a href="https://mandalatickets.com/fr/cabos/disco/mandala">Mandala Los Cabos</a> ou <a href="https://mandalatickets.com/fr/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, suivre ces conseils vous aidera à avoir une expérience positive et mémorable tout en restant en sécurité.</p>
 
@@ -4035,7 +4035,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'festa-segura-responsavel-los-cabos',
         body: `<h1>Como aproveitar uma festa segura e responsável em Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Festa segura e responsável em Los Cabos com grupo aproveitando de forma responsável" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Festa segura e responsável em Los Cabos com grupo aproveitando de forma responsável" />
 
 <p>Aproveitar a vida noturna em Los Cabos é incrível, mas é importante fazê-lo de forma segura e responsável. Se você visitar <a href="https://mandalatickets.com/pt/cabos/disco/mandala">Mandala Los Cabos</a> ou <a href="https://mandalatickets.com/pt/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, seguir essas dicas ajudará você a ter uma experiência positiva e memorável enquanto se mantém seguro.</p>
 
@@ -4076,7 +4076,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-cocteles-eventos-mandalatickets',
         body: `<h1>Los mejores cócteles para probar en los eventos de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Cócteles exclusivos en eventos de MandalaTickets con mixología de alta calidad" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Cócteles exclusivos en eventos de MandalaTickets con mixología de alta calidad" />
 
 <p>Los eventos de MandalaTickets ofrecen una amplia variedad de cócteles exclusivos diseñados por mixólogos expertos. Desde clásicos reinventados hasta creaciones únicas, estos cócteles complementan perfectamente la experiencia musical y de entretenimiento. Esta guía te presenta los mejores cócteles para probar en eventos en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -4102,7 +4102,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-cocktails-try-mandalatickets-events',
         body: `<h1>Best Cocktails to Try at MandalaTickets Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Exclusive cocktails at MandalaTickets events with high-quality mixology" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Exclusive cocktails at MandalaTickets events with high-quality mixology" />
 
 <p>MandalaTickets events offer a wide variety of exclusive cocktails designed by expert mixologists. From reinvented classics to unique creations, these cocktails perfectly complement the musical and entertainment experience. This guide presents the best cocktails to try at events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -4128,7 +4128,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-cocktails-evenements-mandalatickets',
         body: `<h1>Meilleurs cocktails à essayer aux événements MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Cocktails exclusifs aux événements MandalaTickets avec mixologie de haute qualité" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Cocktails exclusifs aux événements MandalaTickets avec mixologie de haute qualité" />
 
 <p>Les événements MandalaTickets offrent une large variété de cocktails exclusifs conçus par des mixologues experts. Des classiques réinventés aux créations uniques, ces cocktails complémentent parfaitement l'expérience musicale et de divertissement. Ce guide présente les meilleurs cocktails à essayer lors d'événements dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -4154,7 +4154,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-coqueteis-eventos-mandalatickets',
         body: `<h1>Melhores coquetéis para experimentar nos eventos MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Coquetéis exclusivos nos eventos MandalaTickets com mixologia de alta qualidade" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Coquetéis exclusivos nos eventos MandalaTickets com mixologia de alta qualidade" />
 
 <p>Os eventos MandalaTickets oferecem uma ampla variedade de coquetéis exclusivos projetados por mixologistas especialistas. De clássicos reinventados a criações únicas, esses coquetéis complementam perfeitamente a experiência musical e de entretenimento. Este guia apresenta os melhores coquetéis para experimentar em eventos em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -4189,7 +4189,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-transporte-moverse-eventos-playa-carmen',
         body: `<h1>Guía de transporte: cómo moverse entre eventos en Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/LA_VAQUITA/1.jpg" alt="Transporte y movilidad entre eventos en Playa del Carmen en la Calle 12" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Transporte y movilidad entre eventos en Playa del Carmen en la Calle 12" />
 
 <p>Playa del Carmen tiene una ventaja única: muchos de los principales venues están concentrados en la Calle 12, facilitando moverse entre eventos como <a href="https://mandalatickets.com/es/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/es/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, y <a href="https://mandalatickets.com/es/playa/disco/santito-tun-tun">Santito Tun-Tun</a>. Sin embargo, entender las opciones de transporte te ayudará a aprovechar al máximo tu experiencia nocturna en Playa del Carmen.</p>
 
@@ -4257,7 +4257,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'transportation-guide-move-between-events-playa-del-carmen',
         body: `<h1>Transportation Guide: How to Move Between Events in Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/LA_VAQUITA/1.jpg" alt="Transportation and mobility between events in Playa del Carmen on Calle 12" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Transportation and mobility between events in Playa del Carmen on Calle 12" />
 
 <p>Playa del Carmen has a unique advantage: many of the main venues are concentrated on Calle 12, making it easy to move between events like <a href="https://mandalatickets.com/en/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/en/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, and <a href="https://mandalatickets.com/en/playa/disco/santito-tun-tun">Santito Tun-Tun</a>. However, understanding transportation options will help you make the most of your nightlife experience in Playa del Carmen.</p>
 
@@ -4325,7 +4325,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guide-transport-deplacer-evenements-playa-del-carmen',
         body: `<h1>Guide de transport : comment se déplacer entre les événements à Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/LA_VAQUITA/1.jpg" alt="Transport et mobilité entre événements à Playa del Carmen sur la Calle 12" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Transport et mobilité entre événements à Playa del Carmen sur la Calle 12" />
 
 <p>Playa del Carmen a un avantage unique : de nombreux venues sont concentrés sur la Calle 12, facilitant les déplacements entre événements comme <a href="https://mandalatickets.com/fr/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/fr/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> et <a href="https://mandalatickets.com/fr/playa/disco/santito-tun-tun">Santito Tun-Tun</a>. Cependant, comprendre les options de transport vous aidera à tirer le meilleur parti de votre expérience de vie nocturne à Playa del Carmen.</p>
 
@@ -4393,7 +4393,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-transporte-mover-eventos-playa-del-carmen',
         body: `<h1>Guia de transporte: como se mover entre eventos em Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/LA_VAQUITA/1.jpg" alt="Transporte e mobilidade entre eventos em Playa del Carmen na Calle 12" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Transporte e mobilidade entre eventos em Playa del Carmen na Calle 12" />
 
 <p>Playa del Carmen tem uma vantagem única: muitos venues estão concentrados na Calle 12, facilitando a movimentação entre eventos como <a href="https://mandalatickets.com/pt/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/pt/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> e <a href="https://mandalatickets.com/pt/playa/disco/santito-tun-tun">Santito Tun-Tun</a>. No entanto, entender as opções de transporte ajudará você a aproveitar ao máximo sua experiência noturna em Playa del Carmen.</p>
 
@@ -4470,7 +4470,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-disenador-escenarios-tulum',
         body: `<h1>Entrevista con el diseñador de los escenarios en Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Escenario impresionante diseñado para evento en Tulum con producción de luces y efectos visuales" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Escenario impresionante diseñado para evento en Tulum con producción de luces y efectos visuales" />
 
 <p>Los escenarios en Tulum son reconocidos mundialmente por su diseño innovador, producción visual impresionante, y capacidad de crear experiencias inmersivas únicas. Detrás de cada escenario espectacular hay un diseñador creativo que transforma visiones en realidades visuales. En esta entrevista exclusiva, hablamos con uno de los diseñadores de escenarios más reconocidos de Tulum para descubrir el proceso creativo detrás de estos espacios extraordinarios.</p>
 
@@ -4553,7 +4553,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-stage-designer-tulum-events',
         body: `<h1>Interview with the Stage Designer Behind Tulum Events</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Impressive stage designed for event in Tulum with light production and visual effects" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Impressive stage designed for event in Tulum with light production and visual effects" />
 
 <p>Stages in Tulum are recognized worldwide for their innovative design, impressive visual production, and ability to create unique immersive experiences. Behind each spectacular stage is a creative designer who transforms visions into visual realities. In this exclusive interview, we speak with one of Tulum's most recognized stage designers to discover the creative process behind these extraordinary spaces.</p>
 
@@ -4636,7 +4636,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-concepteur-scenes-evenements-tulum',
         body: `<h1>Entretien avec le concepteur de scènes derrière les événements de Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Scène impressionnante conçue pour événement à Tulum avec production de lumières et effets visuels" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Scène impressionnante conçue pour événement à Tulum avec production de lumières et effets visuels" />
 
 <p>Les scènes à Tulum sont reconnues mondialement pour leur design innovant, production visuelle impressionnante et capacité à créer des expériences immersives uniques. Derrière chaque scène spectaculaire se trouve un concepteur créatif qui transforme les visions en réalités visuelles. Dans cet entretien exclusif, nous parlons avec l'un des concepteurs de scènes les plus reconnus de Tulum pour découvrir le processus créatif derrière ces espaces extraordinaires.</p>
 
@@ -4719,7 +4719,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-designer-palco-eventos-tulum',
         body: `<h1>Entrevista com o designer de palco por trás dos eventos de Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Palco impressionante projetado para evento em Tulum com produção de luzes e efeitos visuais" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Palco impressionante projetado para evento em Tulum com produção de luzes e efeitos visuais" />
 
 <p>Os palcos em Tulum são reconhecidos mundialmente por seu design inovador, produção visual impressionante e capacidade de criar experiências imersivas únicas. Por trás de cada palco espetacular há um designer criativo que transforma visões em realidades visuais. Nesta entrevista exclusiva, conversamos com um dos designers de palco mais reconhecidos de Tulum para descobrir o processo criativo por trás desses espaços extraordinários.</p>
 
@@ -4811,7 +4811,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-artistas-emergentes-conocer-ano',
         body: `<h1>Los 10 artistas emergentes que debes conocer este año</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Artistas emergentes en eventos de MandalaTickets revolucionando la escena musical" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Artistas emergentes en eventos de MandalaTickets revolucionando la escena musical" />
 
 <p>La escena musical está en constante evolución, y cada año trae nuevos talentos que están revolucionando la música. Los eventos de MandalaTickets están presentando estos artistas emergentes en destinos exclusivos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta. Esta lista te presenta los 10 artistas emergentes que debes conocer este año.</p>
 
@@ -4837,7 +4837,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-emerging-artists-must-know-year',
         body: `<h1>10 Emerging Artists You Must Know This Year</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Emerging artists at MandalaTickets events revolutionizing the music scene" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Emerging artists at MandalaTickets events revolutionizing the music scene" />
 
 <p>The music scene is constantly evolving, and each year brings new talents that are revolutionizing music. MandalaTickets events are featuring these emerging artists in exclusive destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta. This list presents the 10 emerging artists you must know this year.</p>
 
@@ -4863,7 +4863,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-artistes-emergents-connaitre-annee',
         body: `<h1>10 artistes émergents que vous devez connaître cette année</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Artistes émergents lors d'événements MandalaTickets révolutionnant la scène musicale" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Artistes émergents lors d'événements MandalaTickets révolutionnant la scène musicale" />
 
 <p>La scène musicale évolue constamment, et chaque année apporte de nouveaux talents qui révolutionnent la musique. Les événements MandalaTickets présentent ces artistes émergents dans des destinations exclusives comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta. Cette liste vous présente les 10 artistes émergents que vous devez connaître cette année.</p>
 
@@ -4889,7 +4889,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-artistas-emergentes-conhecer-ano',
         body: `<h1>10 artistas emergentes que você deve conhecer este ano</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Artistas emergentes em eventos MandalaTickets revolucionando a cena musical" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Artistas emergentes em eventos MandalaTickets revolucionando a cena musical" />
 
 <p>A cena musical está em constante evolução, e cada ano traz novos talentos que estão revolucionando a música. Os eventos MandalaTickets estão apresentando esses artistas emergentes em destinos exclusivos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta. Esta lista apresenta os 10 artistas emergentes que você deve conhecer este ano.</p>
 
@@ -4924,7 +4924,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'organizar-fiesta-privada-mandala-beach',
         body: `<h1>Cómo organizar una fiesta privada en Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Fiesta privada en Mandala Beach con grupo disfrutando de celebración exclusiva" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Fiesta privada en Mandala Beach con grupo disfrutando de celebración exclusiva" />
 
 <p>Organizar una fiesta privada en Mandala Beach es la forma perfecta de celebrar ocasiones especiales en un ambiente exclusivo y sofisticado. Esta guía paso a paso te ayudará a planificar y ejecutar una celebración privada inolvidable que tus invitados recordarán para siempre.</p>
 
@@ -4954,7 +4954,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'how-organize-private-party-mandala-beach',
         body: `<h1>How to Organize a Private Party at Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Private party at Mandala Beach with group enjoying exclusive celebration" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Private party at Mandala Beach with group enjoying exclusive celebration" />
 
 <p>Organizing a private party at Mandala Beach is the perfect way to celebrate special occasions in an exclusive and sophisticated setting. This step-by-step guide will help you plan and execute an unforgettable private celebration that your guests will remember forever.</p>
 
@@ -4984,7 +4984,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'comment-organiser-fete-privee-mandala-beach',
         body: `<h1>Comment organiser une fête privée à Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Fête privée à Mandala Beach avec groupe profitant d'une célébration exclusive" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Fête privée à Mandala Beach avec groupe profitant d'une célébration exclusive" />
 
 <p>Organiser une fête privée à Mandala Beach est le moyen parfait de célébrer des occasions spéciales dans un cadre exclusif et sophistiqué. Ce guide étape par étape vous aidera à planifier et exécuter une célébration privée inoubliable que vos invités se souviendront pour toujours.</p>
 
@@ -5014,7 +5014,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'como-organizar-festa-privada-mandala-beach',
         body: `<h1>Como organizar uma festa privada no Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Festa privada no Mandala Beach com grupo desfrutando de celebração exclusiva" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Festa privada no Mandala Beach com grupo desfrutando de celebração exclusiva" />
 
 <p>Organizar uma festa privada no Mandala Beach é a forma perfeita de celebrar ocasiões especiais em um ambiente exclusivo e sofisticado. Este guia passo a passo ajudará você a planejar e executar uma celebração privada inesquecível que seus convidados lembrarão para sempre.</p>
 
@@ -5053,7 +5053,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-lugares-atardecer-fiesta-puerto-vallarta',
         body: `<h1>Los mejores lugares para ver el atardecer antes de una fiesta en Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Atardecer en Puerto Vallarta con vista al Pacífico antes de eventos nocturnos" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Atardecer en Puerto Vallarta con vista al Pacífico antes de eventos nocturnos" />
 
 <p>Puerto Vallarta es famoso por sus espectaculares atardeceres sobre el Pacífico, y disfrutar de una puesta de sol antes de comenzar tu noche de fiesta es una experiencia perfecta. Ya sea que planees visitar <a href="https://mandalatickets.com/es/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/es/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, o <a href="https://mandalatickets.com/es/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, comenzar con un atardecer crea el ambiente perfecto para la noche.</p>
 
@@ -5083,7 +5083,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-places-watch-sunset-before-party-puerto-vallarta',
         body: `<h1>Best Places to Watch the Sunset Before a Party in Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Sunset in Puerto Vallarta with Pacific view before night events" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Sunset in Puerto Vallarta with Pacific view before night events" />
 
 <p>Puerto Vallarta is famous for its spectacular sunsets over the Pacific, and enjoying a sunset before starting your party night is a perfect experience. Whether you plan to visit <a href="https://mandalatickets.com/en/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/en/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, or <a href="https://mandalatickets.com/en/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, starting with a sunset creates the perfect atmosphere for the night.</p>
 
@@ -5113,7 +5113,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-endroits-coucher-soleil-fete-puerto-vallarta',
         body: `<h1>Meilleurs endroits pour regarder le coucher de soleil avant une fête à Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Coucher de soleil à Puerto Vallarta avec vue sur le Pacifique avant les événements nocturnes" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Coucher de soleil à Puerto Vallarta avec vue sur le Pacifique avant les événements nocturnes" />
 
 <p>Puerto Vallarta est célèbre pour ses couchers de soleil spectaculaires sur le Pacifique, et profiter d'un coucher de soleil avant de commencer votre soirée de fête est une expérience parfaite. Que vous prévoyiez de visiter <a href="https://mandalatickets.com/fr/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/fr/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, ou <a href="https://mandalatickets.com/fr/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, commencer par un coucher de soleil crée l'atmosphère parfaite pour la nuit.</p>
 
@@ -5143,7 +5143,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-lugares-por-sol-festa-puerto-vallarta',
         body: `<h1>Melhores lugares para ver o pôr do sol antes de uma festa em Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Pôr do sol em Puerto Vallarta com vista para o Pacífico antes de eventos noturnos" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Pôr do sol em Puerto Vallarta com vista para o Pacífico antes de eventos noturnos" />
 
 <p>Puerto Vallarta é famoso por seus pores do sol espetaculares sobre o Pacífico, e desfrutar de um pôr do sol antes de começar sua noite de festa é uma experiência perfeita. Se você planeja visitar <a href="https://mandalatickets.com/pt/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/pt/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, ou <a href="https://mandalatickets.com/pt/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, começar com um pôr do sol cria a atmosfera perfeita para a noite.</p>
 
@@ -5182,7 +5182,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-moda-vida-nocturna-2025',
         body: `<h1>Tendencias en moda para la vida nocturna en 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Tendencias de moda para vida nocturna en 2025 con outfits elegantes y modernos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Tendencias de moda para vida nocturna en 2025 con outfits elegantes y modernos" />
 
 <p>La moda para la vida nocturna está evolucionando, y 2025 trae nuevas tendencias que dominarán las pistas de baile y eventos nocturnos en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta. Esta guía te presenta las tendencias de moda que verás en los eventos de MandalaTickets este año.</p>
 
@@ -5208,7 +5208,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'fashion-trends-nightlife-2025',
         body: `<h1>Fashion Trends for Nightlife in 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Fashion trends for nightlife in 2025 with elegant and modern outfits" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Fashion trends for nightlife in 2025 with elegant and modern outfits" />
 
 <p>Nightlife fashion is evolving, and 2025 brings new trends that will dominate dance floors and nightlife events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta. This guide presents the fashion trends you'll see at MandalaTickets events this year.</p>
 
@@ -5234,7 +5234,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-mode-vie-nocturne-2025',
         body: `<h1>Tendances de la mode pour la vie nocturne en 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Tendances de la mode pour la vie nocturne en 2025 avec tenues élégantes et modernes" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Tendances de la mode pour la vie nocturne en 2025 avec tenues élégantes et modernes" />
 
 <p>La mode de la vie nocturne évolue, et 2025 apporte de nouvelles tendances qui domineront les pistes de danse et les événements nocturnes dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta. Ce guide présente les tendances de la mode que vous verrez lors des événements MandalaTickets cette année.</p>
 
@@ -5260,7 +5260,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-moda-vida-noturna-2025',
         body: `<h1>Tendências de moda para vida noturna em 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Tendências de moda para vida noturna em 2025 com roupas elegantes e modernas" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Tendências de moda para vida noturna em 2025 com roupas elegantes e modernas" />
 
 <p>A moda para vida noturna está evoluindo, e 2025 traz novas tendências que dominarão as pistas de dança e eventos noturnos em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta. Este guia apresenta as tendências de moda que você verá nos eventos MandalaTickets este ano.</p>
 
@@ -5295,7 +5295,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'evitar-filas-entrar-rapido-eventos',
         body: `<h1>Cómo evitar las filas y entrar rápido a los eventos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Acceso rápido a eventos sin filas con boletos VIP y acceso prioritario" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Acceso rápido a eventos sin filas con boletos VIP y acceso prioritario" />
 
 <p>Nadie quiere perder tiempo en filas cuando hay una fiesta esperando. Afortunadamente, hay varias estrategias para evitar las filas y entrar rápidamente a los eventos de MandalaTickets en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -5325,7 +5325,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'avoid-lines-enter-events-quickly',
         body: `<h1>How to Avoid Lines and Enter Events Quickly</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Quick access to events without lines with VIP tickets and priority access" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Quick access to events without lines with VIP tickets and priority access" />
 
 <p>No one wants to waste time in lines when there's a party waiting. Fortunately, there are several strategies to avoid lines and enter events quickly at MandalaTickets events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos and Puerto Vallarta.</p>
 
@@ -5355,7 +5355,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'eviter-files-entrer-rapidement-evenements',
         body: `<h1>Comment éviter les files d'attente et entrer rapidement aux événements</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Accès rapide aux événements sans files d'attente avec billets VIP et accès prioritaire" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Accès rapide aux événements sans files d'attente avec billets VIP et accès prioritaire" />
 
 <p>Personne ne veut perdre de temps dans les files d'attente quand il y a une fête qui attend. Heureusement, il existe plusieurs stratégies pour éviter les files d'attente et entrer rapidement aux événements de MandalaTickets dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -5385,7 +5385,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'evitar-filas-entrar-rapidamente-eventos',
         body: `<h1>Como evitar filas e entrar rapidamente nos eventos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Acesso rápido a eventos sem filas com ingressos VIP e acesso prioritário" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Acesso rápido a eventos sem filas com ingressos VIP e acesso prioritário" />
 
 <p>Ninguém quer perder tempo em filas quando há uma festa esperando. Felizmente, existem várias estratégias para evitar filas e entrar rapidamente nos eventos da MandalaTickets em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -5424,7 +5424,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-fotografo-oficial-mandalatickets',
         body: `<h1>Entrevista con el fotógrafo oficial de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Fotógrafo oficial de MandalaTickets capturando momentos únicos de eventos exclusivos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Fotógrafo oficial de MandalaTickets capturando momentos únicos de eventos exclusivos" />
 
 <p>Las fotografías de los eventos de MandalaTickets capturan la esencia y energía de cada celebración. En esta entrevista exclusiva, conversamos con el fotógrafo oficial de MandalaTickets sobre su proceso creativo, las técnicas que usa, y cómo captura esos momentos perfectos que definen cada evento.</p>
 
@@ -5450,7 +5450,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-mandalatickets-official-photographer',
         body: `<h1>Interview with MandalaTickets Official Photographer</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="MandalaTickets official photographer capturing unique moments of exclusive events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="MandalaTickets official photographer capturing unique moments of exclusive events" />
 
 <p>The photographs of MandalaTickets events capture the essence and energy of each celebration. In this exclusive interview, we talk with the official MandalaTickets photographer about their creative process, the techniques they use, and how they capture those perfect moments that define each event.</p>
 
@@ -5476,7 +5476,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-photographe-officiel-mandalatickets',
         body: `<h1>Entretien avec le photographe officiel de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Photographe officiel de MandalaTickets capturant des moments uniques d'événements exclusifs" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Photographe officiel de MandalaTickets capturant des moments uniques d'événements exclusifs" />
 
 <p>Les photographies des événements MandalaTickets capturent l'essence et l'énergie de chaque célébration. Dans cet entretien exclusif, nous parlons avec le photographe officiel de MandalaTickets de son processus créatif, des techniques qu'il utilise et de la façon dont il capture ces moments parfaits qui définissent chaque événement.</p>
 
@@ -5502,7 +5502,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-fotografo-oficial-mandalatickets',
         body: `<h1>Entrevista com o fotógrafo oficial da MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Fotógrafo oficial da MandalaTickets capturando momentos únicos de eventos exclusivos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Fotógrafo oficial da MandalaTickets capturando momentos únicos de eventos exclusivos" />
 
 <p>As fotografias dos eventos da MandalaTickets capturam a essência e a energia de cada celebração. Nesta entrevista exclusiva, conversamos com o fotógrafo oficial da MandalaTickets sobre seu processo criativo, as técnicas que usa e como captura esses momentos perfeitos que definem cada evento.</p>
 
@@ -5537,7 +5537,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-festivales-musica-esperados-mexico',
         body: `<h1>Los 5 festivales de música más esperados en México este año</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Festivales de música en México con artistas internacionales y producción espectacular" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Festivales de música en México con artistas internacionales y producción espectacular" />
 
 <p>México se ha convertido en uno de los destinos más importantes para festivales de música en el mundo. Este año promete traer algunos de los festivales más esperados, con lineups increíbles, producción de clase mundial, y experiencias únicas. Esta guía te presenta los 5 festivales de música más esperados en México este año.</p>
 
@@ -5567,7 +5567,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-most-anticipated-music-festivals-mexico-year',
         body: `<h1>5 Most Anticipated Music Festivals in Mexico This Year</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Music festivals in Mexico with international artists and spectacular production" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Music festivals in Mexico with international artists and spectacular production" />
 
 <p>Mexico has become one of the most important destinations for music festivals in the world. This year promises to bring some of the most anticipated festivals, with incredible lineups, world-class production, and unique experiences. This guide presents the 5 most anticipated music festivals in Mexico this year.</p>
 
@@ -5597,7 +5597,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-festivals-musique-plus-attendus-mexique-annee',
         body: `<h1>5 festivals de musique les plus attendus au Mexique cette année</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Festivals de musique au Mexique avec artistes internationaux et production spectaculaire" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Festivals de musique au Mexique avec artistes internationaux et production spectaculaire" />
 
 <p>Le Mexique est devenu l'une des destinations les plus importantes pour les festivals de musique dans le monde. Cette année promet d'apporter certains des festivals les plus attendus, avec des lineups incroyables, une production de classe mondiale et des expériences uniques. Ce guide présente les 5 festivals de musique les plus attendus au Mexique cette année.</p>
 
@@ -5627,7 +5627,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-festivais-musica-mais-aguardados-mexico-ano',
         body: `<h1>5 festivais de música mais aguardados no México este ano</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Festivais de música no México com artistas internacionais e produção espetacular" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Festivais de música no México com artistas internacionais e produção espetacular" />
 
 <p>O México se tornou um dos destinos mais importantes para festivais de música no mundo. Este ano promete trazer alguns dos festivais mais aguardados, com lineups incríveis, produção de classe mundial e experiências únicas. Este guia apresenta os 5 festivais de música mais aguardados no México este ano.</p>
 
@@ -5666,7 +5666,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mantenerse-hidratado-energizado-noche-fiesta',
         body: `<h1>Cómo mantenerte hidratado y energizado durante una noche de fiesta</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas disfrutando de eventos de manera saludable con hidratación y energía" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas disfrutando de eventos de manera saludable con hidratación y energía" />
 
 <p>Disfrutar de una noche de fiesta en eventos de MandalaTickets es increíble, pero es importante mantenerte hidratado y energizado para aprovechar al máximo la experiencia. Estos consejos de salud te ayudarán a disfrutar toda la noche sin comprometer tu bienestar.</p>
 
@@ -5696,7 +5696,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'stay-hydrated-energized-during-party-night',
         body: `<h1>How to Stay Hydrated and Energized During a Party Night</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People enjoying events in a healthy way with hydration and energy" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People enjoying events in a healthy way with hydration and energy" />
 
 <p>Enjoying a party night at MandalaTickets events is incredible, but it's important to stay hydrated and energized to make the most of the experience. These health tips will help you enjoy the entire night without compromising your wellbeing.</p>
 
@@ -5726,7 +5726,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'rester-hydrate-energise-pendant-soiree',
         body: `<h1>Comment rester hydraté et énergisé pendant une soirée</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes profitant d'événements de manière saine avec hydratation et énergie" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes profitant d'événements de manière saine avec hydratation et énergie" />
 
 <p>Profiter d'une soirée lors d'événements MandalaTickets est incroyable, mais il est important de rester hydraté et énergisé pour profiter au maximum de l'expérience. Ces conseils de santé vous aideront à profiter de toute la nuit sans compromettre votre bien-être.</p>
 
@@ -5756,7 +5756,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'manter-hidratado-energizado-noite-festa',
         body: `<h1>Como se manter hidratado e energizado durante uma noite de festa</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas desfrutando de eventos de forma saudável com hidratação e energia" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas desfrutando de eventos de forma saudável com hidratação e energia" />
 
 <p>Desfrutar de uma noite de festa em eventos MandalaTickets é incrível, mas é importante se manter hidratado e energizado para aproveitar ao máximo a experiência. Estas dicas de saúde ajudarão você a desfrutar a noite toda sem comprometer seu bem-estar.</p>
 
@@ -5795,7 +5795,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-souvenirs-experiencia-tulum',
         body: `<h1>Los mejores souvenirs para llevar de tu experiencia en Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/VAGALUME/1.jpg" alt="Souvenirs y recuerdos artesanales de Tulum con estilo bohemio y natural" />
+<img src="/assets/PoolFotos/TULUM/VAGALUME/Pic-02_1500x1000.jpg" alt="Souvenirs y recuerdos artesanales de Tulum con estilo bohemio y natural" />
 
 <p>Una experiencia en Tulum es algo que querrás recordar para siempre. Ya sea que hayas asistido a eventos increíbles en <a href="https://mandalatickets.com/es/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/vagalume">Vagalume Tulum</a> o <a href="https://mandalatickets.com/es/tulum/disco/bagatelle">Bagatelle Tulum</a>, llevar contigo un recuerdo especial te ayudará a mantener viva la magia de tu visita. Aquí te presentamos los mejores souvenirs para llevar de tu experiencia en Tulum.</p>
 
@@ -5882,7 +5882,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-souvenirs-take-home-tulum-experience',
         body: `<h1>Best Souvenirs to Take Home from Your Tulum Experience</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/VAGALUME/1.jpg" alt="Artisanal souvenirs and mementos from Tulum with bohemian and natural style" />
+<img src="/assets/PoolFotos/TULUM/VAGALUME/Pic-02_1500x1000.jpg" alt="Artisanal souvenirs and mementos from Tulum with bohemian and natural style" />
 
 <p>A Tulum experience is something you'll want to remember forever. Whether you attended incredible events at <a href="https://mandalatickets.com/en/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/vagalume">Vagalume Tulum</a>, or <a href="https://mandalatickets.com/en/tulum/disco/bagatelle">Bagatelle Tulum</a>, taking home a special memento will help keep the magic of your visit alive.</p>
 
@@ -5900,7 +5900,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-souvenirs-ramener-experience-tulum',
         body: `<h1>Meilleurs souvenirs à ramener de votre expérience à Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/VAGALUME/1.jpg" alt="Souvenirs et souvenirs artisanaux de Tulum avec style bohème et naturel" />
+<img src="/assets/PoolFotos/TULUM/VAGALUME/Pic-02_1500x1000.jpg" alt="Souvenirs et souvenirs artisanaux de Tulum avec style bohème et naturel" />
 
 <p>Une expérience à Tulum est quelque chose que vous voudrez vous rappeler pour toujours. Que vous ayez assisté à des événements incroyables à <a href="https://mandalatickets.com/fr/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/vagalume">Vagalume Tulum</a> ou <a href="https://mandalatickets.com/fr/tulum/disco/bagatelle">Bagatelle Tulum</a>, ramener chez vous un souvenir spécial vous aidera à garder vivante la magie de votre visite. Voici les meilleurs souvenirs à ramener de votre expérience à Tulum.</p>
 
@@ -5987,7 +5987,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-lembrancas-levar-experiencia-tulum',
         body: `<h1>Melhores lembranças para levar da sua experiência em Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/VAGALUME/1.jpg" alt="Lembranças e recordações artesanais de Tulum com estilo boêmio e natural" />
+<img src="/assets/PoolFotos/TULUM/VAGALUME/Pic-02_1500x1000.jpg" alt="Lembranças e recordações artesanais de Tulum com estilo boêmio e natural" />
 
 <p>Uma experiência em Tulum é algo que você vai querer lembrar para sempre. Se você participou de eventos incríveis em <a href="https://mandalatickets.com/pt/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/vagalume">Vagalume Tulum</a> ou <a href="https://mandalatickets.com/pt/tulum/disco/bagatelle">Bagatelle Tulum</a>, levar para casa uma lembrança especial ajudará a manter viva a magia da sua visita. Aqui estão as melhores lembranças para levar da sua experiência em Tulum.</p>
 
@@ -6083,7 +6083,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipo-seguridad-mandalatickets',
         body: `<h1>Entrevista con el equipo de seguridad de MandalaTickets: cómo garantizan tu bienestar</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipo de seguridad de MandalaTickets garantizando bienestar en eventos exclusivos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipo de seguridad de MandalaTickets garantizando bienestar en eventos exclusivos" />
 
 <p>La seguridad es una prioridad absoluta en todos los eventos de MandalaTickets. En esta entrevista exclusiva, conversamos con el equipo de seguridad sobre las medidas implementadas para garantizar una experiencia segura y agradable para todos los asistentes en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -6113,7 +6113,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-mandalatickets-security-team-safety',
         body: `<h1>Interview with MandalaTickets Security Team: How They Ensure Your Safety</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="MandalaTickets security team ensuring safety at exclusive events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="MandalaTickets security team ensuring safety at exclusive events" />
 
 <p>Safety is an absolute priority at all MandalaTickets events. In this exclusive interview, we spoke with the security team about the measures implemented to ensure a safe and enjoyable experience for all attendees in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -6143,7 +6143,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-equipe-securite-mandalatickets-securite',
         body: `<h1>Entretien avec l'équipe de sécurité de MandalaTickets : comment ils garantissent votre sécurité</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Équipe de sécurité MandalaTickets garantissant la sécurité lors d'événements exclusifs" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Équipe de sécurité MandalaTickets garantissant la sécurité lors d'événements exclusifs" />
 
 <p>La sécurité est une priorité absolue lors de tous les événements MandalaTickets. Dans cet entretien exclusif, nous avons parlé avec l'équipe de sécurité des mesures mises en place pour assurer une expérience sûre et agréable pour tous les participants dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -6173,7 +6173,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipe-seguranca-mandalatickets-seguranca',
         body: `<h1>Entrevista com a equipe de segurança da MandalaTickets: como eles garantem sua segurança</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipe de segurança MandalaTickets garantindo segurança em eventos exclusivos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipe de segurança MandalaTickets garantindo segurança em eventos exclusivos" />
 
 <p>A segurança é uma prioridade absoluta em todos os eventos MandalaTickets. Nesta entrevista exclusiva, conversamos com a equipe de segurança sobre as medidas implementadas para garantir uma experiência segura e agradável para todos os participantes em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -6212,7 +6212,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-mejores-djs-eventos-mandalatickets',
         body: `<h1>Los 10 mejores DJs que han pasado por los eventos de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJs destacados en eventos de MandalaTickets con producción espectacular" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJs destacados en eventos de MandalaTickets con producción espectacular" />
 
 <p>A lo largo de los años, los eventos de MandalaTickets han presentado a algunos de los DJs más destacados del mundo. Desde artistas internacionales hasta talentos locales, estos DJs han creado momentos inolvidables en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta. Este recuento te presenta los 10 mejores DJs que han pasado por nuestros eventos.</p>
 
@@ -6242,7 +6242,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'top-10-djs-performed-mandalatickets-events',
         body: `<h1>Top 10 DJs Who Have Performed at MandalaTickets Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Outstanding DJs at MandalaTickets events with spectacular production" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Outstanding DJs at MandalaTickets events with spectacular production" />
 
 <p>Over the years, MandalaTickets events have featured some of the world's most outstanding DJs. From international artists to local talents, these DJs have created unforgettable moments in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta. This recap presents the top 10 DJs who have performed at our events.</p>
 
@@ -6272,7 +6272,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'top-10-djs-performe-evenements-mandalatickets',
         body: `<h1>Top 10 DJs qui ont performé aux événements MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJs remarquables lors d'événements MandalaTickets avec production spectaculaire" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJs remarquables lors d'événements MandalaTickets avec production spectaculaire" />
 
 <p>Au fil des années, les événements MandalaTickets ont présenté certains des DJs les plus remarquables au monde. Des artistes internationaux aux talents locaux, ces DJs ont créé des moments inoubliables dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta. Ce récapitulatif présente les 10 meilleurs DJs qui ont performé lors de nos événements.</p>
 
@@ -6302,7 +6302,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'top-10-djs-apresentaram-eventos-mandalatickets',
         body: `<h1>Top 10 DJs que se apresentaram nos eventos MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJs destacados em eventos MandalaTickets com produção espetacular" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJs destacados em eventos MandalaTickets com produção espetacular" />
 
 <p>Ao longo dos anos, os eventos MandalaTickets apresentaram alguns dos DJs mais destacados do mundo. De artistas internacionais a talentos locais, esses DJs criaram momentos inesquecíveis em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta. Este resumo apresenta os 10 principais DJs que se apresentaram em nossos eventos.</p>
 
@@ -6341,7 +6341,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'celebrar-cumpleanos-grande-mandalatickets',
         body: `<h1>Cómo celebrar tu cumpleaños en grande con MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebración de cumpleaños en eventos de MandalaTickets con grupo de amigos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebración de cumpleaños en eventos de MandalaTickets con grupo de amigos" />
 
 <p>Celebrar tu cumpleaños en un evento de MandalaTickets es la forma perfecta de hacer de tu día especial una celebración inolvidable. Ya sea en Cancún, Tulum, Playa del Carmen, Los Cabos o Puerto Vallarta, hay opciones perfectas para hacer de tu cumpleaños una noche épica.</p>
 
@@ -6371,7 +6371,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'celebrate-birthday-style-mandalatickets',
         body: `<h1>How to Celebrate Your Birthday in Style with MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Birthday celebration at MandalaTickets events with group of friends" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Birthday celebration at MandalaTickets events with group of friends" />
 
 <p>Celebrating your birthday at a MandalaTickets event is the perfect way to make your special day an unforgettable celebration. Whether in Cancún, Tulum, Playa del Carmen, Los Cabos, or Puerto Vallarta, there are perfect options to make your birthday an epic night.</p>
 
@@ -6401,7 +6401,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'celebrer-anniversaire-grand-mandalatickets',
         body: `<h1>Comment célébrer votre anniversaire en grand avec MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Célébration d'anniversaire lors d'événements MandalaTickets avec groupe d'amis" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Célébration d'anniversaire lors d'événements MandalaTickets avec groupe d'amis" />
 
 <p>Célébrer votre anniversaire lors d'un événement MandalaTickets est la façon parfaite de faire de votre jour spécial une célébration inoubliable. Que ce soit à Cancún, Tulum, Playa del Carmen, Los Cabos ou Puerto Vallarta, il y a des options parfaites pour faire de votre anniversaire une nuit épique.</p>
 
@@ -6431,7 +6431,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'celebrar-aniversario-grande-estilo-mandalatickets',
         body: `<h1>Como celebrar seu aniversário em grande estilo com MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebração de aniversário em eventos MandalaTickets com grupo de amigos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebração de aniversário em eventos MandalaTickets com grupo de amigos" />
 
 <p>Celebrar seu aniversário em um evento MandalaTickets é a forma perfeita de tornar seu dia especial uma celebração inesquecível. Seja em Cancún, Tulum, Playa del Carmen, Los Cabos ou Puerto Vallarta, há opções perfeitas para tornar seu aniversário uma noite épica.</p>
 
@@ -6470,7 +6470,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-lugares-cenar-fiesta-cancun',
         body: `<h1>Los mejores lugares para cenar antes de una fiesta en Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Restaurantes y antros en la Zona Hotelera de Cancún" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Restaurantes y antros en la Zona Hotelera de Cancún" />
 
 <p>Cenar bien antes de una noche de fiesta en Cancún es esencial para mantener la energía durante toda la noche. La Zona Hotelera ofrece una increíble variedad de opciones gastronómicas, desde restaurantes casuales hasta experiencias gourmet, todos ubicados estratégicamente cerca de los principales venues nocturnos. Aquí te presentamos los mejores lugares para cenar antes de comenzar tu noche de fiesta en Cancún.</p>
 
@@ -6540,7 +6540,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-places-dine-before-party-cancun',
         body: `<h1>Best Places to Dine Before a Party in Cancun</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Restaurants and nightclubs in Cancun Hotel Zone" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Restaurants and nightclubs in Cancun Hotel Zone" />
 
 <p>Dining well before a party night in Cancun is essential to maintain energy throughout the night. The Hotel Zone offers an incredible variety of dining options, from casual restaurants to gourmet experiences, all strategically located near the main nightlife venues. Here are the best places to dine before starting your party night in Cancun.</p>
 
@@ -6570,7 +6570,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-endroits-diner-fete-cancun',
         body: `<h1>Meilleurs endroits pour dîner avant une fête à Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Restaurants et boîtes de nuit dans la Zone Hôtelière de Cancún" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Restaurants et boîtes de nuit dans la Zone Hôtelière de Cancún" />
 
 <p>Bien dîner avant une soirée de fête à Cancún est essentiel pour maintenir l'énergie toute la nuit. La Zone Hôtelière offre une incroyable variété d'options gastronomiques, des restaurants décontractés aux expériences gastronomiques, tous stratégiquement situés près des principaux venues de vie nocturne. Voici les meilleurs endroits pour dîner avant de commencer votre soirée de fête à Cancún.</p>
 
@@ -6640,7 +6640,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-lugares-jantar-festa-cancun',
         body: `<h1>Melhores lugares para jantar antes de uma festa em Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Restaurantes e boates na Zona Hoteleira de Cancún" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Restaurantes e boates na Zona Hoteleira de Cancún" />
 
 <p>Jantar bem antes de uma noite de festa em Cancún é essencial para manter a energia durante toda a noite. A Zona Hoteleira oferece uma incrível variedade de opções gastronômicas, desde restaurantes casuais até experiências gourmet, todos estrategicamente localizados perto dos principais venues noturnos. Aqui estão os melhores lugares para jantar antes de começar sua noite de festa em Cancún.</p>
 
@@ -6719,7 +6719,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-iluminacion-efectos-visuales-eventos-2025',
         body: `<h1>Tendencias en iluminación y efectos visuales para eventos en 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Efectos visuales y iluminación de última generación en eventos nocturnos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Efectos visuales y iluminación de última generación en eventos nocturnos" />
 
 <p>La tecnología de iluminación y efectos visuales está transformando la experiencia en eventos nocturnos. Las innovaciones tecnológicas que están emergiendo en 2025 están creando experiencias visuales inmersivas que elevan cada evento a un nuevo nivel. Esta guía explora las tendencias más importantes que están definiendo el futuro de los eventos.</p>
 
@@ -6749,7 +6749,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'lighting-visual-effects-trends-events-2025',
         body: `<h1>Lighting and Visual Effects Trends for Events in 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="State-of-the-art visual effects and lighting at nightlife events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="State-of-the-art visual effects and lighting at nightlife events" />
 
 <p>Lighting and visual effects technology is transforming the experience at nightlife events. The technological innovations emerging in 2025 are creating immersive visual experiences that elevate each event to a new level. This guide explores the most important trends defining the future of events.</p>
 
@@ -6779,7 +6779,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-eclairage-effets-visuels-evenements-2025',
         body: `<h1>Tendances en éclairage et effets visuels pour événements en 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Effets visuels et éclairage de pointe lors d'événements nocturnes" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Effets visuels et éclairage de pointe lors d'événements nocturnes" />
 
 <p>La technologie d'éclairage et d'effets visuels transforme l'expérience lors des événements nocturnes. Les innovations technologiques qui émergent en 2025 créent des expériences visuelles immersives qui élèvent chaque événement à un nouveau niveau. Ce guide explore les tendances les plus importantes qui définissent l'avenir des événements.</p>
 
@@ -6809,7 +6809,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-iluminacao-efeitos-visuais-eventos-2025',
         body: `<h1>Tendências de iluminação e efeitos visuais para eventos em 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Efeitos visuais e iluminação de última geração em eventos noturnos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Efeitos visuais e iluminação de última geração em eventos noturnos" />
 
 <p>A tecnologia de iluminação e efeitos visuais está transformando a experiência em eventos noturnos. As inovações tecnológicas que estão emergindo em 2025 estão criando experiências visuais imersivas que elevam cada evento a um novo nível. Este guia explora as tendências mais importantes que estão definindo o futuro dos eventos.</p>
 
@@ -6848,7 +6848,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'aprovechar-redes-sociales-compartir-experiencia-eventos',
         body: `<h1>Cómo aprovechar las redes sociales para compartir tu experiencia en los eventos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas compartiendo momentos de eventos en redes sociales con fotos y videos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas compartiendo momentos de eventos en redes sociales con fotos y videos" />
 
 <p>Las redes sociales son una herramienta poderosa para compartir tus experiencias en eventos de MandalaTickets. Crear contenido atractivo y compartir tus mejores momentos puede ayudar a otros a descubrir estos eventos increíbles mientras documentas tus propias experiencias. Esta guía te ofrece tips prácticos para maximizar tu presencia en redes sociales durante eventos.</p>
 
@@ -6878,7 +6878,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'leverage-social-media-share-event-experience',
         body: `<h1>How to Leverage Social Media to Share Your Event Experience</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People sharing event moments on social media with photos and videos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People sharing event moments on social media with photos and videos" />
 
 <p>Social media is a powerful tool for sharing your experiences at MandalaTickets events. Creating engaging content and sharing your best moments can help others discover these incredible events while documenting your own experiences. This guide offers practical tips to maximize your social media presence during events.</p>
 
@@ -6908,7 +6908,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tirer-parti-reseaux-sociaux-partager-experience-evenement',
         body: `<h1>Comment tirer parti des réseaux sociaux pour partager votre expérience d'événement</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes partageant des moments d'événements sur les réseaux sociaux avec photos et vidéos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes partageant des moments d'événements sur les réseaux sociaux avec photos et vidéos" />
 
 <p>Les réseaux sociaux sont un outil puissant pour partager vos expériences lors d'événements MandalaTickets. Créer du contenu attrayant et partager vos meilleurs moments peut aider d'autres à découvrir ces événements incroyables tout en documentant vos propres expériences. Ce guide offre des conseils pratiques pour maximiser votre présence sur les réseaux sociaux pendant les événements.</p>
 
@@ -6938,7 +6938,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'aproveitar-redes-sociais-compartilhar-experiencia-eventos',
         body: `<h1>Como aproveitar as redes sociais para compartilhar sua experiência em eventos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas compartilhando momentos de eventos nas redes sociais com fotos e vídeos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas compartilhando momentos de eventos nas redes sociais com fotos e vídeos" />
 
 <p>As redes sociais são uma ferramenta poderosa para compartilhar suas experiências em eventos MandalaTickets. Criar conteúdo atraente e compartilhar seus melhores momentos pode ajudar outros a descobrir esses eventos incríveis enquanto documenta suas próprias experiências. Este guia oferece dicas práticas para maximizar sua presença nas redes sociais durante eventos.</p>
 
@@ -6977,7 +6977,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-bartender-estrella-mandala-beach',
         body: `<h1>Entrevista con el bartender estrella de Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Bartender profesional preparando cócteles exclusivos en Mandala Beach" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Bartender profesional preparando cócteles exclusivos en Mandala Beach" />
 
 <p>Los cócteles de Mandala Beach son legendarios, y detrás de cada bebida hay un bartender con pasión y conocimiento. En esta entrevista exclusiva, conversamos con el bartender estrella de Mandala Beach sobre los secretos detrás de los cócteles más populares, la filosofía detrás de cada creación, y lo que hace especial a la experiencia de beber en este venue icónico de la Riviera Maya.</p>
 
@@ -7007,7 +7007,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-mandala-beach-star-bartender',
         body: `<h1>Interview with Mandala Beach Star Bartender</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Professional bartender preparing exclusive cocktails at Mandala Beach" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Professional bartender preparing exclusive cocktails at Mandala Beach" />
 
 <p>Mandala Beach cocktails are legendary, and behind each drink is a bartender with passion and knowledge. In this exclusive interview, we spoke with Mandala Beach's star bartender about the secrets behind the most popular cocktails, the philosophy behind each creation, and what makes the drinking experience special at this iconic Riviera Maya venue.</p>
 
@@ -7037,7 +7037,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-barman-vedette-mandala-beach',
         body: `<h1>Entretien avec le barman vedette de Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Barman professionnel préparant des cocktails exclusifs à Mandala Beach" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Barman professionnel préparant des cocktails exclusifs à Mandala Beach" />
 
 <p>Les cocktails de Mandala Beach sont légendaires, et derrière chaque boisson se trouve un barman avec passion et connaissance. Dans cet entretien exclusif, nous avons parlé avec le barman vedette de Mandala Beach sur les secrets derrière les cocktails les plus populaires, la philosophie derrière chaque création, et ce qui rend l'expérience de boire spéciale dans ce lieu emblématique de la Riviera Maya.</p>
 
@@ -7067,7 +7067,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-bartender-estrela-mandala-beach',
         body: `<h1>Entrevista com o bartender estrela do Mandala Beach</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Bartender profissional preparando coquetéis exclusivos no Mandala Beach" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Bartender profissional preparando coquetéis exclusivos no Mandala Beach" />
 
 <p>Os coquetéis do Mandala Beach são lendários, e por trás de cada bebida há um bartender com paixão e conhecimento. Nesta entrevista exclusiva, conversamos com o bartender estrela do Mandala Beach sobre os segredos por trás dos coquetéis mais populares, a filosofia por trás de cada criação e o que torna especial a experiência de beber neste local icônico da Riviera Maya.</p>
 
@@ -7106,7 +7106,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-tematicos-divertidos-playa-carmen',
         body: `<h1>Los 5 eventos temáticos más divertidos en Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/SANTITO/1.jpg" alt="Eventos temáticos divertidos en Playa del Carmen con decoración especial y ambiente festivo" />
+<img src="/assets/PoolFotos/PDC/SANTITO/MT_SANTITO_01.png" alt="Eventos temáticos divertidos en Playa del Carmen con decoración especial y ambiente festivo" />
 
 <p>Los eventos temáticos en Playa del Carmen son una parte esencial de la escena nocturna, ofreciendo experiencias únicas que combinan música, decoración especial, y conceptos creativos. Venues como <a href="https://mandalatickets.com/es/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/es/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, y <a href="https://mandalatickets.com/es/playa/disco/santito-tun-tun">Santito Tun-Tun</a> organizan eventos temáticos que hacen de cada noche algo especial. Aquí te presentamos los 5 eventos temáticos más divertidos en Playa del Carmen.</p>
 
@@ -7168,7 +7168,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-most-fun-themed-events-playa-del-carmen',
         body: `<h1>5 Most Fun Themed Events in Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/SANTITO/1.jpg" alt="Fun themed events in Playa del Carmen with special decoration and festive atmosphere" />
+<img src="/assets/PoolFotos/PDC/SANTITO/MT_SANTITO_01.png" alt="Fun themed events in Playa del Carmen with special decoration and festive atmosphere" />
 
 <p>Themed events in Playa del Carmen are an essential part of the nightlife scene, offering unique experiences that combine music, special decoration, and creative concepts. Venues like <a href="https://mandalatickets.com/en/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/en/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, and <a href="https://mandalatickets.com/en/playa/disco/santito-tun-tun">Santito Tun-Tun</a> organize themed events that make each night special. Here are the 5 most fun themed events in Playa del Carmen.</p>
 
@@ -7230,7 +7230,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-evenements-theme-plus-amusants-playa-del-carmen',
         body: `<h1>5 événements à thème les plus amusants à Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/SANTITO/1.jpg" alt="Événements à thème amusants à Playa del Carmen avec décoration spéciale et atmosphère festive" />
+<img src="/assets/PoolFotos/PDC/SANTITO/MT_SANTITO_01.png" alt="Événements à thème amusants à Playa del Carmen avec décoration spéciale et atmosphère festive" />
 
 <p>Les événements à thème à Playa del Carmen sont une partie essentielle de la scène nocturne, offrant des expériences uniques qui combinent musique, décoration spéciale et concepts créatifs. Des lieux comme <a href="https://mandalatickets.com/fr/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/fr/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> et <a href="https://mandalatickets.com/fr/playa/disco/santito-tun-tun">Santito Tun-Tun</a> organisent des événements thématiques qui rendent chaque nuit spéciale.</p>
 
@@ -7264,7 +7264,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-tematicos-mais-divertidos-playa-del-carmen',
         body: `<h1>5 eventos temáticos mais divertidos em Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/SANTITO/1.jpg" alt="Eventos temáticos divertidos em Playa del Carmen com decoração especial e atmosfera festiva" />
+<img src="/assets/PoolFotos/PDC/SANTITO/MT_SANTITO_01.png" alt="Eventos temáticos divertidos em Playa del Carmen com decoração especial e atmosfera festiva" />
 
 <p>Os eventos temáticos em Playa del Carmen são uma parte essencial da cena noturna, oferecendo experiências únicas que combinam música, decoração especial e conceitos criativos. Locais como <a href="https://mandalatickets.com/pt/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/pt/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> e <a href="https://mandalatickets.com/pt/playa/disco/santito-tun-tun">Santito Tun-Tun</a> organizam eventos temáticos que tornam cada noite especial.</p>
 
@@ -7307,7 +7307,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'prepararse-fiesta-playa-consejos-trucos',
         body: `<h1>Cómo prepararte para una fiesta en la playa: consejos y trucos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Fiesta en la playa con personas disfrutando del sol, música y ambiente festivo" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Fiesta en la playa con personas disfrutando del sol, música y ambiente festivo" />
 
 <p>Las fiestas en la playa son una experiencia única que combina sol, arena, música y diversión. Prepararte adecuadamente es clave para disfrutar al máximo sin contratiempos. Esta guía te ofrece todo lo que necesitas saber para estar completamente preparado para una fiesta en la playa en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -7337,7 +7337,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'prepare-beach-party-tips-tricks',
         body: `<h1>How to Prepare for a Beach Party: Tips and Tricks</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Beach party with people enjoying sun, music and festive atmosphere" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Beach party with people enjoying sun, music and festive atmosphere" />
 
 <p>Beach parties are a unique experience that combines sun, sand, music, and fun. Preparing properly is key to enjoying to the fullest without setbacks. This guide offers everything you need to know to be completely prepared for a beach party in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -7367,7 +7367,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'preparer-fete-plage-conseils-astuces',
         body: `<h1>Comment se préparer pour une fête sur la plage : conseils et astuces</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Fête sur la plage avec personnes profitant du soleil, de la musique et de l'atmosphère festive" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Fête sur la plage avec personnes profitant du soleil, de la musique et de l'atmosphère festive" />
 
 <p>Les fêtes sur la plage sont une expérience unique qui combine soleil, sable, musique et divertissement. Se préparer correctement est essentiel pour profiter pleinement sans revers. Ce guide offre tout ce que vous devez savoir pour être complètement préparé pour une fête sur la plage dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -7397,7 +7397,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'preparar-festa-praia-dicas-truques',
         body: `<h1>Como se preparar para uma festa na praia: dicas e truques</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Festa na praia com pessoas desfrutando do sol, música e atmosfera festiva" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Festa na praia com pessoas desfrutando do sol, música e atmosfera festiva" />
 
 <p>As festas na praia são uma experiência única que combina sol, areia, música e diversão. Preparar-se adequadamente é fundamental para aproveitar ao máximo sem contratempos. Este guia oferece tudo o que você precisa saber para estar completamente preparado para uma festa na praia em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -7436,7 +7436,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-after-parties-tulum',
         body: `<h1>Los mejores after-parties en Tulum que no te puedes perder</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BAGATELLE/1.jpg" alt="After-party en Tulum con ambiente íntimo y música electrónica hasta el amanecer" />
+<img src="/assets/PoolFotos/TULUM/BAGATELLE/Pic_1.jpg" alt="After-party en Tulum con ambiente íntimo y música electrónica hasta el amanecer" />
 
 <p>En Tulum, la fiesta no termina cuando termina el evento principal. Los after-parties son una parte esencial de la experiencia nocturna, ofreciendo la oportunidad de continuar la celebración en ambientes más íntimos y exclusivos. Ya sea que hayas asistido a un evento en <a href="https://mandalatickets.com/es/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/vagalume">Vagalume Tulum</a> o <a href="https://mandalatickets.com/es/tulum/disco/bagatelle">Bagatelle Tulum</a>, los after-parties te permiten extender la magia hasta el amanecer.</p>
 
@@ -7512,7 +7512,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-after-parties-tulum-cant-miss',
         body: `<h1>Best After-Parties in Tulum You Can't Miss</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BAGATELLE/1.jpg" alt="After-party in Tulum with intimate atmosphere and electronic music until dawn" />
+<img src="/assets/PoolFotos/TULUM/BAGATELLE/Pic_1.jpg" alt="After-party in Tulum with intimate atmosphere and electronic music until dawn" />
 
 <p>In Tulum, the party doesn't end when the main event ends. After-parties are an essential part of the nightlife experience, offering the opportunity to continue the celebration in more intimate and exclusive settings. Whether you attended an event at <a href="https://mandalatickets.com/en/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/vagalume">Vagalume Tulum</a>, or <a href="https://mandalatickets.com/en/tulum/disco/bagatelle">Bagatelle Tulum</a>, after-parties allow you to extend the magic until dawn.</p>
 
@@ -7530,7 +7530,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-after-parties-tulum-ne-pouvez-pas-manquer',
         body: `<h1>Meilleurs after-parties à Tulum que vous ne pouvez pas manquer</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BAGATELLE/1.jpg" alt="After-party à Tulum avec atmosphère intime et musique électronique jusqu'à l'aube" />
+<img src="/assets/PoolFotos/TULUM/BAGATELLE/Pic_1.jpg" alt="After-party à Tulum avec atmosphère intime et musique électronique jusqu'à l'aube" />
 
 <p>À Tulum, la fête ne se termine pas quand l'événement principal se termine. Les after-parties sont une partie essentielle de l'expérience nocturne, offrant l'opportunité de continuer la célébration dans des cadres plus intimes et exclusifs. Que vous ayez assisté à un événement à <a href="https://mandalatickets.com/fr/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/vagalume">Vagalume Tulum</a> ou <a href="https://mandalatickets.com/fr/tulum/disco/bagatelle">Bagatelle Tulum</a>, les after-parties permettent de prolonger la magie jusqu'à l'aube.</p>
 
@@ -7606,7 +7606,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-after-parties-tulum-nao-pode-perder',
         body: `<h1>Melhores after-parties em Tulum que você não pode perder</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BAGATELLE/1.jpg" alt="After-party em Tulum com atmosfera íntima e música eletrônica até o amanhecer" />
+<img src="/assets/PoolFotos/TULUM/BAGATELLE/Pic_1.jpg" alt="After-party em Tulum com atmosfera íntima e música eletrônica até o amanhecer" />
 
 <p>Em Tulum, a festa não termina quando o evento principal termina. Os after-parties são uma parte essencial da experiência noturna, oferecendo a oportunidade de continuar a celebração em ambientes mais íntimos e exclusivos. Se você participou de um evento em <a href="https://mandalatickets.com/pt/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/vagalume">Vagalume Tulum</a> ou <a href="https://mandalatickets.com/pt/tulum/disco/bagatelle">Bagatelle Tulum</a>, os after-parties permitem estender a magia até o amanhecer.</p>
 
@@ -7691,7 +7691,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipo-produccion-eventos-mandalatickets',
         body: `<h1>Entrevista con el equipo de producción detrás de los eventos de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipo de producción trabajando detrás de escena en eventos de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipo de producción trabajando detrás de escena en eventos de MandalaTickets" />
 
 <p>Detrás de cada evento increíble de MandalaTickets hay un equipo de producción dedicado que trabaja incansablemente para crear la magia que los asistentes experimentan. En esta entrevista exclusiva, conversamos con el equipo de producción sobre cómo se crea la magia detrás de escena, los desafíos que enfrentan, y los procesos que hacen que cada evento sea único y memorable.</p>
 
@@ -7721,7 +7721,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-production-team-mandalatickets-events',
         body: `<h1>Interview with the Production Team Behind MandalaTickets Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Production team working behind the scenes at MandalaTickets events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Production team working behind the scenes at MandalaTickets events" />
 
 <p>Behind every incredible MandalaTickets event is a dedicated production team that works tirelessly to create the magic that attendees experience. In this exclusive interview, we spoke with the production team about how the magic is created behind the scenes, the challenges they face, and the processes that make each event unique and memorable.</p>
 
@@ -7751,7 +7751,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-equipe-production-evenements-mandalatickets',
         body: `<h1>Entretien avec l'équipe de production derrière les événements MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Équipe de production travaillant dans les coulisses lors d'événements MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Équipe de production travaillant dans les coulisses lors d'événements MandalaTickets" />
 
 <p>Derrière chaque événement incroyable de MandalaTickets se trouve une équipe de production dévouée qui travaille sans relâche pour créer la magie que les participants vivent. Dans cet entretien exclusif, nous avons parlé avec l'équipe de production sur la façon dont la magie est créée dans les coulisses, les défis qu'ils rencontrent et les processus qui rendent chaque événement unique et mémorable.</p>
 
@@ -7781,7 +7781,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipe-producao-eventos-mandalatickets',
         body: `<h1>Entrevista com a equipe de produção por trás dos eventos MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipe de produção trabalhando nos bastidores em eventos MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipe de produção trabalhando nos bastidores em eventos MandalaTickets" />
 
 <p>Por trás de cada evento incrível da MandalaTickets há uma equipe de produção dedicada que trabalha incansavelmente para criar a magia que os participantes experimentam. Nesta entrevista exclusiva, conversamos com a equipe de produção sobre como a magia é criada nos bastidores, os desafios que enfrentam e os processos que tornam cada evento único e memorável.</p>
 
@@ -7820,7 +7820,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-momentos-memorables-historia-mandalatickets',
         body: `<h1>Los 10 momentos más memorables en la historia de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Momentos históricos de MandalaTickets con eventos épicos y celebraciones memorables" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Momentos históricos de MandalaTickets con eventos épicos y celebraciones memorables" />
 
 <p>La historia de MandalaTickets está llena de momentos memorables que han marcado la trayectoria de la compañía y han definido su posición como líder en la industria de eventos en México. Este recorrido te presenta los 10 momentos más importantes que han hecho de MandalaTickets lo que es hoy.</p>
 
@@ -7854,7 +7854,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-most-memorable-moments-mandalatickets-history',
         body: `<h1>10 Most Memorable Moments in MandalaTickets History</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Historic moments of MandalaTickets with epic events and memorable celebrations" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Historic moments of MandalaTickets with epic events and memorable celebrations" />
 
 <p>MandalaTickets' history is full of memorable moments that have marked the company's trajectory and defined its position as a leader in Mexico's event industry. This journey presents the 10 most important moments that have made MandalaTickets what it is today.</p>
 
@@ -7888,7 +7888,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-moments-plus-memorables-histoire-mandalatickets',
         body: `<h1>10 moments les plus mémorables de l'histoire de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Moments historiques de MandalaTickets avec événements épiques et célébrations mémorables" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Moments historiques de MandalaTickets avec événements épiques et célébrations mémorables" />
 
 <p>L'histoire de MandalaTickets est pleine de moments mémorables qui ont marqué la trajectoire de l'entreprise et défini sa position de leader dans l'industrie des événements au Mexique. Ce voyage présente les 10 moments les plus importants qui ont fait de MandalaTickets ce qu'il est aujourd'hui.</p>
 
@@ -7922,7 +7922,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-momentos-mais-memoraveis-historia-mandalatickets',
         body: `<h1>10 momentos mais memoráveis da história da MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Momentos históricos da MandalaTickets com eventos épicos e celebrações memoráveis" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Momentos históricos da MandalaTickets com eventos épicos e celebrações memoráveis" />
 
 <p>A história da MandalaTickets está cheia de momentos memoráveis que marcaram a trajetória da empresa e definiram sua posição como líder na indústria de eventos no México. Esta jornada apresenta os 10 momentos mais importantes que fizeram da MandalaTickets o que é hoje.</p>
 
@@ -7965,7 +7965,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'planificar-escapada-fin-semana-fiestas-los-cabos',
         body: `<h1>Cómo planificar una escapada de fin de semana llena de fiestas en Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Escapada de fin de semana en Los Cabos con eventos y vida nocturna" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Escapada de fin de semana en Los Cabos con eventos y vida nocturna" />
 
 <p>Los Cabos es el destino perfecto para una escapada de fin de semana llena de fiestas. Con venues como <a href="https://mandalatickets.com/es/cabos/disco/mandala">Mandala Los Cabos</a> y <a href="https://mandalatickets.com/es/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, puedes crear un fin de semana inolvidable que combine playas, actividades diurnas, y una vida nocturna vibrante. Esta guía te ayudará a planificar la escapada perfecta.</p>
 
@@ -7997,7 +7997,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'plan-weekend-getaway-full-parties-los-cabos',
         body: `<h1>How to Plan a Weekend Getaway Full of Parties in Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Weekend getaway in Los Cabos with events and nightlife" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Weekend getaway in Los Cabos with events and nightlife" />
 
 <p>Los Cabos is the perfect destination for a weekend getaway full of parties. With venues like <a href="https://mandalatickets.com/en/cabos/disco/mandala">Mandala Los Cabos</a> and <a href="https://mandalatickets.com/en/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, you can create an unforgettable weekend combining beaches, daytime activities, and vibrant nightlife. MandalaTickets is your best option to purchase tickets for all events during your weekend getaway.</p>`
       },
@@ -8007,7 +8007,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'planifier-escapade-week-end-fetes-los-cabos',
         body: `<h1>Comment planifier une escapade de week-end pleine de fêtes à Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Escapade de week-end à Los Cabos avec événements et vie nocturne" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Escapade de week-end à Los Cabos avec événements et vie nocturne" />
 
 <p>Los Cabos est la destination parfaite pour une escapade de week-end pleine de fêtes. Avec des lieux comme <a href="https://mandalatickets.com/fr/cabos/disco/mandala">Mandala Los Cabos</a> et <a href="https://mandalatickets.com/fr/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, vous pouvez créer un week-end inoubliable qui combine plages, activités diurnes et vie nocturne vibrante. Ce guide vous aidera à planifier l'escapade parfaite.</p>
 
@@ -8039,7 +8039,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'planejar-escapada-fim-semana-festas-los-cabos',
         body: `<h1>Como planejar uma escapada de fim de semana cheia de festas em Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Escapada de fim de semana em Los Cabos com eventos e vida noturna" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Escapada de fim de semana em Los Cabos com eventos e vida noturna" />
 
 <p>Los Cabos é o destino perfeito para uma escapada de fim de semana cheia de festas. Com locais como <a href="https://mandalatickets.com/pt/cabos/disco/mandala">Mandala Los Cabos</a> e <a href="https://mandalatickets.com/pt/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, você pode criar um fim de semana inesquecível que combina praias, atividades diurnas e vida noturna vibrante. Este guia ajudará você a planejar a escapada perfeita.</p>
 
@@ -8080,7 +8080,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-lugares-fotos-eventos-puerto-vallarta',
         body: `<h1>Los mejores lugares para tomar fotos durante los eventos en Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/MANDALA/1.jpg" alt="Lugares para tomar fotos en eventos de Puerto Vallarta con producción de luces y ambiente festivo" />
+<img src="/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg" alt="Lugares para tomar fotos en eventos de Puerto Vallarta con producción de luces y ambiente festivo" />
 
 <p>Puerto Vallarta ofrece increíbles oportunidades fotográficas durante los eventos, con venues que combinan producción visual, ambientes únicos, y ubicaciones frente al mar. Ya sea que visites <a href="https://mandalatickets.com/es/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/es/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, <a href="https://mandalatickets.com/es/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, o <a href="https://mandalatickets.com/es/vallarta/disco/la-santa">La Santa Puerto Vallarta</a>, hay spots perfectos para capturar momentos inolvidables.</p>
 
@@ -8110,7 +8110,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-places-take-photos-events-puerto-vallarta',
         body: `<h1>Best Places to Take Photos During Events in Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/MANDALA/1.jpg" alt="Places to take photos at Puerto Vallarta events with light production and festive atmosphere" />
+<img src="/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg" alt="Places to take photos at Puerto Vallarta events with light production and festive atmosphere" />
 
 <p>Puerto Vallarta offers incredible photography opportunities during events, with venues that combine visual production, unique atmospheres, and oceanfront locations. Whether you visit <a href="https://mandalatickets.com/en/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/en/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, <a href="https://mandalatickets.com/en/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, or <a href="https://mandalatickets.com/en/vallarta/disco/la-santa">La Santa Puerto Vallarta</a>, there are perfect spots to capture unforgettable moments.</p>
 
@@ -8140,7 +8140,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-endroits-prendre-photos-evenements-puerto-vallarta',
         body: `<h1>Meilleurs endroits pour prendre des photos lors d'événements à Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/MANDALA/1.jpg" alt="Endroits pour prendre des photos lors d'événements à Puerto Vallarta avec production de lumières et atmosphère festive" />
+<img src="/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg" alt="Endroits pour prendre des photos lors d'événements à Puerto Vallarta avec production de lumières et atmosphère festive" />
 
 <p>Puerto Vallarta offre d'incroyables opportunités photographiques lors d'événements, avec des lieux qui combinent production visuelle, atmosphères uniques et emplacements face à la mer. Que vous visitiez <a href="https://mandalatickets.com/fr/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/fr/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, <a href="https://mandalatickets.com/fr/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a> ou <a href="https://mandalatickets.com/fr/vallarta/disco/la-santa">La Santa Puerto Vallarta</a>, il y a des endroits parfaits pour capturer des moments inoubliables.</p>
 
@@ -8170,7 +8170,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-lugares-tirar-fotos-eventos-puerto-vallarta',
         body: `<h1>Melhores lugares para tirar fotos durante eventos em Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/MANDALA/1.jpg" alt="Lugares para tirar fotos em eventos de Puerto Vallarta com produção de luzes e atmosfera festiva" />
+<img src="/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg" alt="Lugares para tirar fotos em eventos de Puerto Vallarta com produção de luzes e atmosfera festiva" />
 
 <p>Puerto Vallarta oferece oportunidades fotográficas incríveis durante eventos, com locais que combinam produção visual, atmosferas únicas e localizações à beira-mar. Se você visitar <a href="https://mandalatickets.com/pt/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/pt/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, <a href="https://mandalatickets.com/pt/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a> ou <a href="https://mandalatickets.com/pt/vallarta/disco/la-santa">La Santa Puerto Vallarta</a>, há locais perfeitos para capturar momentos inesquecíveis.</p>
 
@@ -8209,7 +8209,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-musica-latina-2025',
         body: `<h1>Tendencias en música latina para 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJ tocando música latina en evento con pista de baile llena de personas bailando" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJ tocando música latina en evento con pista de baile llena de personas bailando" />
 
 <p>La música latina continúa evolucionando y dominando los eventos en 2025. Los ritmos y géneros latinos están transformando la escena musical, creando nuevas tendencias que están definiendo cómo suena la música en eventos de MandalaTickets en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -8239,7 +8239,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'latin-music-trends-2025',
         body: `<h1>Latin Music Trends for 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJ playing Latin music at event with dance floor full of people dancing" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJ playing Latin music at event with dance floor full of people dancing" />
 
 <p>Latin music continues to evolve and dominate events in 2025. Latin rhythms and genres are transforming the music scene, creating new trends that are defining how music sounds at MandalaTickets events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -8269,7 +8269,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-musique-latine-2025',
         body: `<h1>Tendances de la musique latine pour 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJ jouant de la musique latine lors d'un événement avec piste de danse pleine de personnes dansant" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJ jouant de la musique latine lors d'un événement avec piste de danse pleine de personnes dansant" />
 
 <p>La musique latine continue d'évoluer et de dominer les événements en 2025. Les rythmes et genres latins transforment la scène musicale, créant de nouvelles tendances qui définissent comment la musique sonne lors des événements MandalaTickets dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -8299,7 +8299,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-musica-latina-2025',
         body: `<h1>Tendências de música latina para 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="DJ tocando música latina em evento com pista de dança cheia de pessoas dançando" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="DJ tocando música latina em evento com pista de dança cheia de pessoas dançando" />
 
 <p>A música latina continua evoluindo e dominando eventos em 2025. Os ritmos e gêneros latinos estão transformando a cena musical, criando novas tendências que estão definindo como a música soa em eventos MandalaTickets em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -8338,7 +8338,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'hacer-networking-conocer-gente-eventos',
         body: `<h1>Cómo hacer networking y conocer gente nueva en los eventos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas socializando y haciendo networking en eventos de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas socializando y haciendo networking en eventos de MandalaTickets" />
 
 <p>Los eventos de MandalaTickets son lugares perfectos para hacer networking y conocer gente nueva. Con la estrategia correcta, puedes expandir tu red de contactos mientras disfrutas de increíbles eventos en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta. Esta guía te ofrece estrategias prácticas para maximizar tus oportunidades de networking.</p>
 
@@ -8368,7 +8368,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'network-meet-new-people-events',
         body: `<h1>How to Network and Meet New People at Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People socializing and networking at MandalaTickets events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People socializing and networking at MandalaTickets events" />
 
 <p>MandalaTickets events are perfect places to network and meet new people. With the right strategy, you can expand your contact network while enjoying incredible events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta. This guide offers practical strategies to maximize your networking opportunities.</p>
 
@@ -8398,7 +8398,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'reseauter-rencontrer-nouvelles-personnes-evenements',
         body: `<h1>Comment réseauter et rencontrer de nouvelles personnes lors d'événements</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes socialisant et réseautant lors d'événements MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes socialisant et réseautant lors d'événements MandalaTickets" />
 
 <p>Les événements MandalaTickets sont des endroits parfaits pour réseauter et rencontrer de nouvelles personnes. Avec la bonne stratégie, vous pouvez élargir votre réseau de contacts tout en profitant d'événements incroyables dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta. Ce guide offre des stratégies pratiques pour maximiser vos opportunités de réseautage.</p>
 
@@ -8428,7 +8428,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'fazer-networking-conhecer-pessoas-eventos',
         body: `<h1>Como fazer networking e conhecer pessoas novas em eventos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas socializando e fazendo networking em eventos MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas socializando e fazendo networking em eventos MandalaTickets" />
 
 <p>Os eventos MandalaTickets são lugares perfeitos para fazer networking e conhecer pessoas novas. Com a estratégia certa, você pode expandir sua rede de contatos enquanto desfruta de eventos incríveis em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta. Este guia oferece estratégias práticas para maximizar suas oportunidades de networking.</p>
 
@@ -8467,7 +8467,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-disenador-flyers-materiales-promocionales-mandalatickets',
         body: `<h1>Entrevista con el diseñador de los flyers y materiales promocionales de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Diseñador trabajando en flyers y materiales promocionales de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Diseñador trabajando en flyers y materiales promocionales de MandalaTickets" />
 
 <p>El diseño visual de MandalaTickets es reconocible y distintivo, y detrás de cada flyer y material promocional hay un diseñador creativo que trabaja para capturar la esencia de cada evento. En esta entrevista exclusiva, conversamos con el diseñador sobre el proceso creativo, la filosofía de diseño, y cómo se crea la identidad visual que identifica a MandalaTickets.</p>
 
@@ -8497,7 +8497,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-mandalatickets-flyer-promotional-materials-designer',
         body: `<h1>Interview with MandalaTickets Flyer and Promotional Materials Designer</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Designer working on flyers and promotional materials for MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Designer working on flyers and promotional materials for MandalaTickets" />
 
 <p>MandalaTickets' visual design is recognizable and distinctive, and behind each flyer and promotional material is a creative designer working to capture the essence of each event. In this exclusive interview, we spoke with the designer about the creative process, design philosophy, and how the visual identity that identifies MandalaTickets is created.</p>
 
@@ -8527,7 +8527,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-concepteur-flyers-materiaux-promotionnels-mandalatickets',
         body: `<h1>Entretien avec le concepteur de flyers et matériaux promotionnels de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Concepteur travaillant sur des flyers et matériaux promotionnels pour MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Concepteur travaillant sur des flyers et matériaux promotionnels pour MandalaTickets" />
 
 <p>La conception visuelle de MandalaTickets est reconnaissable et distinctive, et derrière chaque flyer et matériau promotionnel se trouve un concepteur créatif qui travaille pour capturer l'essence de chaque événement. Dans cet entretien exclusif, nous avons parlé avec le concepteur sur le processus créatif, la philosophie de conception et comment l'identité visuelle qui identifie MandalaTickets est créée.</p>
 
@@ -8557,7 +8557,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-designer-flyers-materiais-promocionais-mandalatickets',
         body: `<h1>Entrevista com o designer de flyers e materiais promocionais da MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Designer trabalhando em flyers e materiais promocionais para MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Designer trabalhando em flyers e materiais promocionais para MandalaTickets" />
 
 <p>O design visual da MandalaTickets é reconhecível e distintivo, e por trás de cada flyer e material promocional há um designer criativo trabalhando para capturar a essência de cada evento. Nesta entrevista exclusiva, conversamos com o designer sobre o processo criativo, a filosofia de design e como a identidade visual que identifica a MandalaTickets é criada.</p>
 
@@ -8596,7 +8596,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-romanticos-parejas-cancun',
         body: `<h1>Los 5 eventos más románticos para parejas en Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista romántica de Cancún al atardecer con pareja disfrutando de la playa" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista romántica de Cancún al atardecer con pareja disfrutando de la playa" />
 
 <p>Cancún no es solo para fiestas intensas y spring breakers. La ciudad también ofrece experiencias románticas perfectas para parejas que buscan momentos especiales e inolvidables. Desde cenas con vista al mar hasta eventos nocturnos con ambiente íntimo, Cancún tiene opciones para cada tipo de pareja. Aquí te presentamos los 5 eventos más románticos para parejas en Cancún.</p>
 
@@ -8669,7 +8669,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-most-romantic-events-couples-cancun',
         body: `<h1>5 Most Romantic Events for Couples in Cancun</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Romantic view of Cancun at sunset with couple enjoying the beach" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Romantic view of Cancun at sunset with couple enjoying the beach" />
 
 <p>Cancun is not just for intense parties and spring breakers. The city also offers perfect romantic experiences for couples seeking special and unforgettable moments. From dinners with ocean views to nighttime events with intimate atmosphere, Cancun has options for every type of couple. Here are the 5 most romantic events for couples in Cancun.</p>
 
@@ -8742,7 +8742,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-evenements-plus-romantiques-couples-cancun',
         body: `<h1>5 événements les plus romantiques pour les couples à Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vue romantique de Cancún au coucher du soleil avec couple profitant de la plage" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vue romantique de Cancún au coucher du soleil avec couple profitant de la plage" />
 
 <p>Cancún n'est pas seulement pour les fêtes intenses et les spring breakers. La ville offre également des expériences romantiques parfaites pour les couples recherchant des moments spéciaux et inoubliables. Des dîners avec vue sur l'océan aux événements nocturnes avec atmosphère intime, Cancún a des options pour chaque type de couple. Voici les 5 événements les plus romantiques pour les couples à Cancún.</p>
 
@@ -8815,7 +8815,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-mais-romanticos-casais-cancun',
         body: `<h1>5 eventos mais românticos para casais em Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista romântica de Cancún ao pôr do sol com casal desfrutando da praia" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista romântica de Cancún ao pôr do sol com casal desfrutando da praia" />
 
 <p>Cancún não é apenas para festas intensas e spring breakers. A cidade também oferece experiências românticas perfeitas para casais que buscam momentos especiais e inesquecíveis. De jantares com vista para o oceano a eventos noturnos com atmosfera íntima, Cancún tem opções para cada tipo de casal. Aqui estão os 5 eventos mais românticos para casais em Cancún.</p>
 
@@ -8897,7 +8897,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'cuidar-pertenencias-noche-fiesta',
         body: `<h1>Cómo cuidar tus pertenencias durante una noche de fiesta</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas disfrutando de eventos de manera segura con sus pertenencias protegidas" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas disfrutando de eventos de manera segura con sus pertenencias protegidas" />
 
 <p>Disfrutar de una noche de fiesta en eventos de MandalaTickets es increíble, pero es importante cuidar tus pertenencias para que puedas relajarte y disfrutar completamente de la experiencia. Estos consejos prácticos te ayudarán a mantener seguras tus cosas mientras disfrutas de los eventos en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -8927,7 +8927,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'protect-belongings-during-party-night',
         body: `<h1>How to Protect Your Belongings During a Party Night</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People enjoying events safely with their belongings protected" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People enjoying events safely with their belongings protected" />
 
 <p>Enjoying a party night at MandalaTickets events is incredible, but it's important to take care of your belongings so you can relax and fully enjoy the experience. These practical tips will help you keep your things safe while enjoying events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -8957,7 +8957,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'proteger-biens-pendant-soiree',
         body: `<h1>Comment protéger vos biens pendant une soirée</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes profitant d'événements en toute sécurité avec leurs biens protégés" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes profitant d'événements en toute sécurité avec leurs biens protégés" />
 
 <p>Profiter d'une soirée lors d'événements MandalaTickets est incroyable, mais il est important de prendre soin de vos biens pour que vous puissiez vous détendre et profiter pleinement de l'expérience. Ces conseils pratiques vous aideront à garder vos affaires en sécurité tout en profitant des événements dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -8987,7 +8987,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'proteger-pertences-noite-festa',
         body: `<h1>Como proteger seus pertences durante uma noite de festa</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas desfrutando de eventos com segurança com seus pertences protegidos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas desfrutando de eventos com segurança com seus pertences protegidos" />
 
 <p>Desfrutar de uma noite de festa em eventos MandalaTickets é incrível, mas é importante cuidar de seus pertences para que você possa relaxar e desfrutar completamente da experiência. Estas dicas práticas ajudarão você a manter suas coisas seguras enquanto desfruta de eventos em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -9026,7 +9026,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-lugares-desayunar-despues-fiesta-tulum',
         body: `<h1>Los mejores lugares para desayunar después de una noche de fiesta en Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Desayuno saludable y delicioso en Tulum después de una noche de fiesta" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Desayuno saludable y delicioso en Tulum después de una noche de fiesta" />
 
 <p>Después de una noche increíble en Tulum, ya sea que hayas asistido a eventos en <a href="https://mandalatickets.com/es/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/vagalume">Vagalume Tulum</a> o <a href="https://mandalatickets.com/es/tulum/disco/bagatelle">Bagatelle Tulum</a>, un buen desayuno es esencial para recuperarte y recargar energías. Tulum ofrece excelentes opciones de desayuno que combinan sabores locales con opciones saludables y deliciosas.</p>
 
@@ -9082,7 +9082,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-places-breakfast-after-party-night-tulum',
         body: `<h1>Best Places to Have Breakfast After a Party Night in Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Healthy and delicious breakfast in Tulum after a party night" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Healthy and delicious breakfast in Tulum after a party night" />
 
 <p>After an incredible night in Tulum, whether you attended events at <a href="https://mandalatickets.com/en/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/vagalume">Vagalume Tulum</a>, or <a href="https://mandalatickets.com/en/tulum/disco/bagatelle">Bagatelle Tulum</a>, a good breakfast is essential to recover and recharge. Tulum offers excellent breakfast options that combine local flavors with healthy and delicious choices.</p>
 
@@ -9138,7 +9138,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-endroits-petit-dejeuner-apres-soiree-tulum',
         body: `<h1>Meilleurs endroits pour prendre le petit-déjeuner après une soirée à Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Petit-déjeuner sain et délicieux à Tulum après une soirée" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Petit-déjeuner sain et délicieux à Tulum après une soirée" />
 
 <p>Après une nuit incroyable à Tulum, que vous ayez assisté à des événements à <a href="https://mandalatickets.com/fr/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/vagalume">Vagalume Tulum</a> ou <a href="https://mandalatickets.com/fr/tulum/disco/bagatelle">Bagatelle Tulum</a>, un bon petit-déjeuner est essentiel pour récupérer et recharger vos batteries. Tulum offre d'excellentes options de petit-déjeuner qui combinent saveurs locales avec choix sains et délicieux.</p>
 
@@ -9164,7 +9164,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-lugares-cafe-manha-depois-noite-festa-tulum',
         body: `<h1>Melhores lugares para tomar café da manhã depois de uma noite de festa em Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Café da manhã saudável e delicioso em Tulum depois de uma noite de festa" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Café da manhã saudável e delicioso em Tulum depois de uma noite de festa" />
 
 <p>Depois de uma noite incrível em Tulum, se você participou de eventos em <a href="https://mandalatickets.com/pt/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/vagalume">Vagalume Tulum</a> ou <a href="https://mandalatickets.com/pt/tulum/disco/bagatelle">Bagatelle Tulum</a>, um bom café da manhã é essencial para se recuperar e recarregar as energias. Tulum oferece excelentes opções de café da manhã que combinam sabores locais com opções saudáveis e deliciosas.</p>
 
@@ -9199,7 +9199,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipo-marketing-mandalatickets',
         body: `<h1>Entrevista con el equipo de marketing de MandalaTickets: estrategias detrás del éxito</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipo de marketing de MandalaTickets trabajando en estrategias de marca y comunicación" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipo de marketing de MandalaTickets trabajando en estrategias de marca y comunicación" />
 
 <p>El éxito de MandalaTickets no es casualidad; es el resultado de estrategias de marketing cuidadosamente diseñadas y ejecutadas. En esta entrevista exclusiva, conversamos con el equipo de marketing sobre cómo MandalaTickets ha construido su marca, conectado con miles de asistentes, y se ha posicionado como líder en la industria de eventos en México.</p>
 
@@ -9229,7 +9229,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-mandalatickets-marketing-team-strategies-success',
         body: `<h1>Interview with MandalaTickets Marketing Team: Strategies Behind Success</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="MandalaTickets marketing team working on brand strategies and communication" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="MandalaTickets marketing team working on brand strategies and communication" />
 
 <p>MandalaTickets' success is no coincidence; it's the result of carefully designed and executed marketing strategies. In this exclusive interview, we spoke with the marketing team about how MandalaTickets has built its brand, connected with thousands of attendees, and positioned itself as a leader in Mexico's event industry.</p>
 
@@ -9259,7 +9259,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-equipe-marketing-mandalatickets-strategies-succes',
         body: `<h1>Entretien avec l'équipe marketing de MandalaTickets : stratégies derrière le succès</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Équipe marketing MandalaTickets travaillant sur stratégies de marque et communication" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Équipe marketing MandalaTickets travaillant sur stratégies de marque et communication" />
 
 <p>Le succès de MandalaTickets n'est pas une coïncidence ; c'est le résultat de stratégies marketing soigneusement conçues et exécutées. Dans cet entretien exclusif, nous avons parlé avec l'équipe marketing sur la façon dont MandalaTickets a construit sa marque, s'est connecté avec des milliers de participants et s'est positionné comme leader dans l'industrie des événements au Mexique.</p>
 
@@ -9289,7 +9289,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipe-marketing-mandalatickets-estrategias-sucesso',
         body: `<h1>Entrevista com a equipe de marketing da MandalaTickets: estratégias por trás do sucesso</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipe de marketing MandalaTickets trabalhando em estratégias de marca e comunicação" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipe de marketing MandalaTickets trabalhando em estratégias de marca e comunicação" />
 
 <p>O sucesso da MandalaTickets não é uma coincidência; é o resultado de estratégias de marketing cuidadosamente projetadas e executadas. Nesta entrevista exclusiva, conversamos com a equipe de marketing sobre como a MandalaTickets construiu sua marca, se conectou com milhares de participantes e se posicionou como líder na indústria de eventos no México.</p>
 
@@ -9328,7 +9328,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-mejores-momentos-fotos-eventos-mandalatickets',
         body: `<h1>Los 10 mejores momentos capturados en fotos en los eventos de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Galería de momentos especiales capturados en eventos de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Galería de momentos especiales capturados en eventos de MandalaTickets" />
 
 <p>A lo largo de los años, los eventos de MandalaTickets han creado innumerables momentos especiales que han sido capturados en fotografías. Esta galería te presenta los 10 mejores momentos que representan la esencia de lo que son los eventos de MandalaTickets: experiencias inolvidables, energía increíble, y momentos que duran para siempre.</p>
 
@@ -9358,7 +9358,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-best-moments-captured-photos-mandalatickets-events',
         body: `<h1>10 Best Moments Captured in Photos at MandalaTickets Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Gallery of special moments captured at MandalaTickets events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Gallery of special moments captured at MandalaTickets events" />
 
 <p>Over the years, MandalaTickets events have created countless special moments that have been captured in photographs. This gallery presents the 10 best moments that represent the essence of what MandalaTickets events are: unforgettable experiences, incredible energy, and moments that last forever.</p>
 
@@ -9388,7 +9388,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-meilleurs-moments-captures-photos-evenements-mandalatickets',
         body: `<h1>10 meilleurs moments capturés en photos lors d'événements MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Galerie de moments spéciaux capturés lors d'événements MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Galerie de moments spéciaux capturés lors d'événements MandalaTickets" />
 
 <p>Au fil des années, les événements MandalaTickets ont créé d'innombrables moments spéciaux qui ont été capturés en photographies. Cette galerie présente les 10 meilleurs moments qui représentent l'essence de ce que sont les événements MandalaTickets : des expériences inoubliables, une énergie incroyable et des moments qui durent pour toujours.</p>
 
@@ -9418,7 +9418,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-melhores-momentos-capturados-fotos-eventos-mandalatickets',
         body: `<h1>10 melhores momentos capturados em fotos nos eventos MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Galeria de momentos especiais capturados em eventos MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Galeria de momentos especiais capturados em eventos MandalaTickets" />
 
 <p>Ao longo dos anos, os eventos MandalaTickets criaram inúmeros momentos especiais que foram capturados em fotografias. Esta galeria apresenta os 10 melhores momentos que representam a essência do que são os eventos MandalaTickets: experiências inesquecíveis, energia incrível e momentos que duram para sempre.</p>
 
@@ -9457,7 +9457,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'organizar-propuesta-matrimonio-evento-mandalatickets',
         body: `<h1>Cómo organizar una propuesta de matrimonio inolvidable en un evento de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Propuesta de matrimonio romántica en evento de MandalaTickets con ambiente especial" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Propuesta de matrimonio romántica en evento de MandalaTickets con ambiente especial" />
 
 <p>Una propuesta de matrimonio en un evento de MandalaTickets puede ser una de las formas más memorables y emocionantes de pedir la mano de tu pareja. Con el ambiente perfecto, la energía increíble, y la producción espectacular, los eventos de MandalaTickets ofrecen el escenario ideal para crear un momento verdaderamente inolvidable.</p>
 
@@ -9487,7 +9487,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'organize-unforgettable-marriage-proposal-mandalatickets-event',
         body: `<h1>How to Organize an Unforgettable Marriage Proposal at a MandalaTickets Event</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Romantic marriage proposal at MandalaTickets event with special atmosphere" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Romantic marriage proposal at MandalaTickets event with special atmosphere" />
 
 <p>A marriage proposal at a MandalaTickets event can be one of the most memorable and exciting ways to propose to your partner. With the perfect atmosphere, incredible energy, and spectacular production, MandalaTickets events offer the ideal setting to create a truly unforgettable moment.</p>
 
@@ -9517,7 +9517,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'organiser-demande-mariage-inoubliable-evenement-mandalatickets',
         body: `<h1>Comment organiser une demande en mariage inoubliable lors d'un événement MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Demande en mariage romantique lors d'un événement MandalaTickets avec atmosphère spéciale" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Demande en mariage romantique lors d'un événement MandalaTickets avec atmosphère spéciale" />
 
 <p>Une demande en mariage lors d'un événement MandalaTickets peut être l'une des façons les plus mémorables et excitantes de demander la main de votre partenaire. Avec l'atmosphère parfaite, l'énergie incroyable et la production spectaculaire, les événements MandalaTickets offrent le cadre idéal pour créer un moment vraiment inoubliable.</p>
 
@@ -9547,7 +9547,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'organizar-pedido-casamento-inesquecivel-evento-mandalatickets',
         body: `<h1>Como organizar um pedido de casamento inesquecível em um evento MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pedido de casamento romântico em evento MandalaTickets com atmosfera especial" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pedido de casamento romântico em evento MandalaTickets com atmosfera especial" />
 
 <p>Um pedido de casamento em um evento MandalaTickets pode ser uma das formas mais memoráveis e emocionantes de pedir a mão de sua parceira. Com a atmosfera perfeita, energia incrível e produção espetacular, os eventos MandalaTickets oferecem o cenário ideal para criar um momento verdadeiramente inesquecível.</p>
 
@@ -9586,7 +9586,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-lugares-comprar-outfits-fiesta-playa-carmen',
         body: `<h1>Los mejores lugares para comprar outfits de fiesta en Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Tiendas y boutiques en Playa del Carmen con outfits de fiesta y moda nocturna" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Tiendas y boutiques en Playa del Carmen con outfits de fiesta y moda nocturna" />
 
 <p>Encontrar el outfit perfecto para tus eventos en Playa del Carmen es parte esencial de la experiencia. Ya sea que planees visitar <a href="https://mandalatickets.com/es/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/es/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, o <a href="https://mandalatickets.com/es/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, tener el outfit adecuado puede hacer la diferencia. Playa del Carmen ofrece excelentes opciones para encontrar todo lo que necesitas.</p>
 
@@ -9608,7 +9608,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-places-buy-party-outfits-playa-del-carmen',
         body: `<h1>Best Places to Buy Party Outfits in Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Stores and boutiques in Playa del Carmen with party outfits" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Stores and boutiques in Playa del Carmen with party outfits" />
 
 <p>Finding the perfect outfit for your events in Playa del Carmen is essential. Whether you plan to visit <a href="https://mandalatickets.com/en/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/en/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, or <a href="https://mandalatickets.com/en/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, Quinta Avenida offers excellent options. MandalaTickets is your best option to purchase tickets for all events.</p>`
       },
@@ -9618,7 +9618,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-endroits-acheter-tenues-fete-playa-del-carmen',
         body: `<h1>Meilleurs endroits pour acheter des tenues de fête à Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Magasins et boutiques à Playa del Carmen avec tenues de fête et mode nocturne" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Magasins et boutiques à Playa del Carmen avec tenues de fête et mode nocturne" />
 
 <p>Trouver la tenue parfaite pour vos événements à Playa del Carmen est une partie essentielle de l'expérience. Que vous planifiiez de visiter <a href="https://mandalatickets.com/fr/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/fr/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> ou <a href="https://mandalatickets.com/fr/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, avoir la tenue appropriée peut faire la différence. Playa del Carmen offre d'excellentes options pour trouver tout ce dont vous avez besoin.</p>
 
@@ -9640,7 +9640,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-lugares-comprar-roupas-festa-playa-del-carmen',
         body: `<h1>Melhores lugares para comprar roupas de festa em Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Lojas e boutiques em Playa del Carmen com roupas de festa e moda noturna" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Lojas e boutiques em Playa del Carmen com roupas de festa e moda noturna" />
 
 <p>Encontrar a roupa perfeita para seus eventos em Playa del Carmen é uma parte essencial da experiência. Se você planeja visitar <a href="https://mandalatickets.com/pt/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/pt/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> ou <a href="https://mandalatickets.com/pt/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, ter a roupa adequada pode fazer a diferença. Playa del Carmen oferece excelentes opções para encontrar tudo que você precisa.</p>
 
@@ -9671,7 +9671,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-bebidas-mixologia-eventos-2025',
         body: `<h1>Tendencias en bebidas y mixología para eventos en 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Cócteles innovadores y tendencias en mixología para eventos en 2025" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Cócteles innovadores y tendencias en mixología para eventos en 2025" />
 
 <p>La mixología está evolucionando rápidamente, y 2025 trae innovaciones emocionantes en cócteles y bebidas que están transformando la experiencia en eventos. Las innovaciones que verás este año van desde ingredientes únicos hasta técnicas de preparación avanzadas que crean experiencias de bebida completamente nuevas.</p>
 
@@ -9701,7 +9701,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'drink-mixology-trends-events-2025',
         body: `<h1>Drink and Mixology Trends for Events in 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Innovative cocktails and mixology trends for events in 2025" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Innovative cocktails and mixology trends for events in 2025" />
 
 <p>Mixology is evolving rapidly, and 2025 brings exciting innovations in cocktails and drinks that are transforming the experience at events. The innovations you'll see this year range from unique ingredients to advanced preparation techniques that create completely new drinking experiences.</p>
 
@@ -9731,7 +9731,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-boissons-mixologie-evenements-2025',
         body: `<h1>Tendances des boissons et de la mixologie pour événements en 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Cocktails innovants et tendances de mixologie pour événements en 2025" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Cocktails innovants et tendances de mixologie pour événements en 2025" />
 
 <p>La mixologie évolue rapidement, et 2025 apporte des innovations excitantes en cocktails et boissons qui transforment l'expérience lors d'événements. Les innovations que vous verrez cette année vont des ingrédients uniques aux techniques de préparation avancées qui créent des expériences de boisson complètement nouvelles.</p>
 
@@ -9761,7 +9761,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-bebidas-mixologia-eventos-2025',
         body: `<h1>Tendências de bebidas e mixologia para eventos em 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Coquetéis inovadores e tendências de mixologia para eventos em 2025" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Coquetéis inovadores e tendências de mixologia para eventos em 2025" />
 
 <p>A mixologia está evoluindo rapidamente, e 2025 traz inovações emocionantes em coquetéis e bebidas que estão transformando a experiência em eventos. As inovações que você verá este ano vão desde ingredientes únicos até técnicas de preparação avançadas que criam experiências de bebida completamente novas.</p>
 
@@ -9800,7 +9800,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mantener-energia-noche-fiesta-sin-excederte',
         body: `<h1>Cómo mantener la energía durante una noche de fiesta sin excederte</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas disfrutando de eventos de manera responsable manteniendo energía y equilibrio" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas disfrutando de eventos de manera responsable manteniendo energía y equilibrio" />
 
 <p>Disfrutar de una noche de fiesta en eventos de MandalaTickets es increíble, pero es importante mantener la energía sin excederte para poder aprovechar al máximo toda la experiencia. Estos consejos te ayudarán a disfrutar toda la noche manteniendo un equilibrio saludable.</p>
 
@@ -9830,7 +9830,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'maintain-energy-party-night-without-overdoing',
         body: `<h1>How to Maintain Energy During a Party Night Without Overdoing It</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People enjoying events responsibly maintaining energy and balance" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People enjoying events responsibly maintaining energy and balance" />
 
 <p>Enjoying a party night at MandalaTickets events is incredible, but it's important to maintain energy without overdoing it so you can make the most of the entire experience. These tips will help you enjoy the entire night while maintaining a healthy balance.</p>
 
@@ -9860,7 +9860,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'maintenir-energie-soiree-sans-en-faire-trop',
         body: `<h1>Comment maintenir l'énergie pendant une soirée sans en faire trop</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes profitant d'événements de manière responsable en maintenant l'énergie et l'équilibre" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes profitant d'événements de manière responsable en maintenant l'énergie et l'équilibre" />
 
 <p>Profiter d'une soirée lors d'événements MandalaTickets est incroyable, mais il est important de maintenir l'énergie sans en faire trop pour pouvoir profiter au maximum de toute l'expérience. Ces conseils vous aideront à profiter de toute la nuit tout en maintenant un équilibre sain.</p>
 
@@ -9890,7 +9890,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'manter-energia-noite-festa-sem-exagerar',
         body: `<h1>Como manter a energia durante uma noite de festa sem exagerar</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas desfrutando de eventos de forma responsável mantendo energia e equilíbrio" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas desfrutando de eventos de forma responsável mantendo energia e equilíbrio" />
 
 <p>Desfrutar de uma noite de festa em eventos MandalaTickets é incrível, mas é importante manter a energia sem exagerar para poder aproveitar ao máximo toda a experiência. Estas dicas ajudarão você a desfrutar a noite toda mantendo um equilíbrio saudável.</p>
 
@@ -9929,7 +9929,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipo-logistica-mandalatickets',
         body: `<h1>Entrevista con el equipo de logística de MandalaTickets: cómo organizan eventos exitosos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipo de logística de MandalaTickets coordinando eventos exitosos detrás de escena" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipo de logística de MandalaTickets coordinando eventos exitosos detrás de escena" />
 
 <p>Detrás de cada evento exitoso de MandalaTickets hay un equipo de logística que trabaja incansablemente para asegurar que todo funcione perfectamente. En esta entrevista exclusiva, conversamos con el equipo de logística sobre el trabajo detrás de escena que hace posible cada evento perfecto.</p>
 
@@ -9959,7 +9959,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-mandalatickets-logistics-team-organize-successful-events',
         body: `<h1>Interview with MandalaTickets Logistics Team: How They Organize Successful Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="MandalaTickets logistics team coordinating successful events behind the scenes" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="MandalaTickets logistics team coordinating successful events behind the scenes" />
 
 <p>Behind every successful MandalaTickets event is a logistics team that works tirelessly to ensure everything works perfectly. In this exclusive interview, we spoke with the logistics team about the behind-the-scenes work that makes every perfect event possible.</p>
 
@@ -9989,7 +9989,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-equipe-logistique-mandalatickets-organisent-evenements-reussis',
         body: `<h1>Entretien avec l'équipe de logistique de MandalaTickets : comment ils organisent des événements réussis</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Équipe de logistique MandalaTickets coordonnant des événements réussis dans les coulisses" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Équipe de logistique MandalaTickets coordonnant des événements réussis dans les coulisses" />
 
 <p>Derrière chaque événement réussi de MandalaTickets se trouve une équipe de logistique qui travaille sans relâche pour s'assurer que tout fonctionne parfaitement. Dans cet entretien exclusif, nous avons parlé avec l'équipe de logistique sur le travail dans les coulisses qui rend chaque événement parfait possible.</p>
 
@@ -10019,7 +10019,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipe-logistica-mandalatickets-organizam-eventos-bem-sucedidos',
         body: `<h1>Entrevista com a equipe de logística da MandalaTickets: como eles organizam eventos bem-sucedidos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipe de logística MandalaTickets coordenando eventos bem-sucedidos nos bastidores" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipe de logística MandalaTickets coordenando eventos bem-sucedidos nos bastidores" />
 
 <p>Por trás de cada evento bem-sucedido da MandalaTickets há uma equipe de logística que trabalha incansavelmente para garantir que tudo funcione perfeitamente. Nesta entrevista exclusiva, conversamos com a equipe de logística sobre o trabalho nos bastidores que torna cada evento perfeito possível.</p>
 
@@ -10058,7 +10058,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-exclusivos-ano-nuevo-los-cabos',
         body: `<h1>Los 5 eventos más exclusivos para celebrar Año Nuevo en Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Celebración de Año Nuevo en Los Cabos con eventos exclusivos y ambiente festivo" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Celebración de Año Nuevo en Los Cabos con eventos exclusivos y ambiente festivo" />
 
 <p>Celebrar Año Nuevo en Los Cabos es una experiencia única e inolvidable. Los venues más exclusivos como <a href="https://mandalatickets.com/es/cabos/disco/mandala">Mandala Los Cabos</a> y <a href="https://mandalatickets.com/es/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> organizan eventos especiales para recibir el año nuevo con estilo. Esta guía te presenta los 5 eventos más exclusivos para celebrar Año Nuevo en Los Cabos.</p>
 
@@ -10096,7 +10096,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-most-exclusive-events-celebrate-new-years-eve-los-cabos',
         body: `<h1>5 Most Exclusive Events to Celebrate New Year's Eve in Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="New Year's Eve celebration in Los Cabos with exclusive events and festive atmosphere" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="New Year's Eve celebration in Los Cabos with exclusive events and festive atmosphere" />
 
 <p>Celebrating New Year's Eve in Los Cabos is a unique and unforgettable experience. The most exclusive venues like <a href="https://mandalatickets.com/en/cabos/disco/mandala">Mandala Los Cabos</a> and <a href="https://mandalatickets.com/en/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> organize special events to welcome the new year in style. This guide presents the 5 most exclusive events to celebrate New Year's Eve in Los Cabos.</p>
 
@@ -10134,7 +10134,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-evenements-plus-exclusifs-celebrer-nouvel-an-los-cabos',
         body: `<h1>5 événements les plus exclusifs pour célébrer le Nouvel An à Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Célébration du Nouvel An à Los Cabos avec événements exclusifs et atmosphère festive" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Célébration du Nouvel An à Los Cabos avec événements exclusifs et atmosphère festive" />
 
 <p>Célébrer le Nouvel An à Los Cabos est une expérience unique et inoubliable. Les lieux les plus exclusifs comme <a href="https://mandalatickets.com/fr/cabos/disco/mandala">Mandala Los Cabos</a> et <a href="https://mandalatickets.com/fr/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> organisent des événements spéciaux pour accueillir la nouvelle année avec style. Ce guide présente les 5 événements les plus exclusifs pour célébrer le Nouvel An à Los Cabos.</p>
 
@@ -10172,7 +10172,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-mais-exclusivos-celebrar-ano-novo-los-cabos',
         body: `<h1>5 eventos mais exclusivos para celebrar o Ano Novo em Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Celebração de Ano Novo em Los Cabos com eventos exclusivos e atmosfera festiva" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Celebração de Ano Novo em Los Cabos com eventos exclusivos e atmosfera festiva" />
 
 <p>Celebrar o Ano Novo em Los Cabos é uma experiência única e inesquecível. Os locais mais exclusivos como <a href="https://mandalatickets.com/pt/cabos/disco/mandala">Mandala Los Cabos</a> e <a href="https://mandalatickets.com/pt/cabos/disco/la-vaquita">La Vaquita Los Cabos</a> organizam eventos especiais para receber o ano novo com estilo. Este guia apresenta os 5 eventos mais exclusivos para celebrar o Ano Novo em Los Cabos.</p>
 
@@ -10219,7 +10219,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'elegir-evento-perfecto-gustos-musicales',
         body: `<h1>Cómo elegir el evento perfecto según tus gustos musicales</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas disfrutando de eventos según sus gustos musicales con DJs y música perfecta" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas disfrutando de eventos según sus gustos musicales con DJs y música perfecta" />
 
 <p>Elegir el evento perfecto según tus gustos musicales es clave para tener una experiencia increíble. Con tantas opciones disponibles en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta, encontrar el evento que mejor se adapte a tu estilo musical preferido puede hacer la diferencia entre una noche buena y una noche inolvidable.</p>
 
@@ -10249,7 +10249,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'choose-perfect-event-based-music-tastes',
         body: `<h1>How to Choose the Perfect Event Based on Your Music Tastes</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People enjoying events according to their music tastes with DJs and perfect music" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People enjoying events according to their music tastes with DJs and perfect music" />
 
 <p>Choosing the perfect event based on your music tastes is key to having an incredible experience. With so many options available in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta, finding the event that best fits your preferred musical style can make the difference between a good night and an unforgettable night.</p>
 
@@ -10279,7 +10279,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'choisir-evenement-parfait-gouts-musicaux',
         body: `<h1>Comment choisir l'événement parfait selon vos goûts musicaux</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes profitant d'événements selon leurs goûts musicaux avec DJs et musique parfaite" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes profitant d'événements selon leurs goûts musicaux avec DJs et musique parfaite" />
 
 <p>Choisir l'événement parfait selon vos goûts musicaux est essentiel pour avoir une expérience incroyable. Avec tant d'options disponibles dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta, trouver l'événement qui correspond le mieux à votre style musical préféré peut faire la différence entre une bonne nuit et une nuit inoubliable.</p>
 
@@ -10309,7 +10309,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'escolher-evento-perfeito-gostos-musicais',
         body: `<h1>Como escolher o evento perfeito com base nos seus gostos musicais</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas desfrutando de eventos de acordo com seus gostos musicais com DJs e música perfeita" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas desfrutando de eventos de acordo com seus gostos musicais com DJs e música perfeita" />
 
 <p>Escolher o evento perfeito com base nos seus gostos musicais é fundamental para ter uma experiência incrível. Com tantas opções disponíveis em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta, encontrar o evento que melhor se adapta ao seu estilo musical preferido pode fazer a diferença entre uma boa noite e uma noite inesquecível.</p>
 
@@ -10348,7 +10348,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-lugares-relajarte-despues-fiesta-puerto-vallarta',
         body: `<h1>Los mejores lugares para relajarte después de una noche de fiesta en Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Lugares para relajarse después de fiestas en Puerto Vallarta con spas y playas tranquilas" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Lugares para relajarse después de fiestas en Puerto Vallarta con spas y playas tranquilas" />
 
 <p>Después de una increíble noche de fiesta en venues como <a href="https://mandalatickets.com/es/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/es/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, o <a href="https://mandalatickets.com/es/vallarta/disco/la-santa">La Santa Puerto Vallarta</a>, Puerto Vallarta ofrece excelentes opciones para relajarte y recuperarte. Desde spas de lujo hasta playas tranquilas, hay opciones para todos los gustos.</p>
 
@@ -10374,7 +10374,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-places-relax-after-party-night-puerto-vallarta',
         body: `<h1>Best Places to Relax After a Party Night in Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Places to relax after parties in Puerto Vallarta with spas and quiet beaches" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Places to relax after parties in Puerto Vallarta with spas and quiet beaches" />
 
 <p>After an incredible party night at venues like <a href="https://mandalatickets.com/en/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/en/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, or <a href="https://mandalatickets.com/en/vallarta/disco/la-santa">La Santa Puerto Vallarta</a>, Puerto Vallarta offers excellent options to relax and recover. From luxury spas to quiet beaches, there are options for all tastes.</p>
 
@@ -10400,7 +10400,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-endroits-detendre-apres-soiree-puerto-vallarta',
         body: `<h1>Meilleurs endroits pour se détendre après une soirée à Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Endroits pour se détendre après les fêtes à Puerto Vallarta avec spas et plages tranquilles" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Endroits pour se détendre après les fêtes à Puerto Vallarta avec spas et plages tranquilles" />
 
 <p>Après une soirée incroyable dans des lieux comme <a href="https://mandalatickets.com/fr/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/fr/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, ou <a href="https://mandalatickets.com/fr/vallarta/disco/la-santa">La Santa Puerto Vallarta</a>, Puerto Vallarta offre d'excellentes options pour se détendre et récupérer. Des spas de luxe aux plages tranquilles, il y a des options pour tous les goûts.</p>
 
@@ -10426,7 +10426,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-lugares-relaxar-depois-noite-festa-puerto-vallarta',
         body: `<h1>Melhores lugares para relaxar depois de uma noite de festa em Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Lugares para relaxar depois de festas em Puerto Vallarta com spas e praias tranquilas" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Lugares para relaxar depois de festas em Puerto Vallarta com spas e praias tranquilas" />
 
 <p>Depois de uma noite incrível de festa em locais como <a href="https://mandalatickets.com/pt/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, <a href="https://mandalatickets.com/pt/vallarta/disco/la-vaquita">La Vaquita Puerto Vallarta</a>, ou <a href="https://mandalatickets.com/pt/vallarta/disco/la-santa">La Santa Puerto Vallarta</a>, Puerto Vallarta oferece excelentes opções para relaxar e se recuperar. De spas de luxo a praias tranquilas, há opções para todos os gostos.</p>
 
@@ -10461,7 +10461,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipo-rrpp-mandalatickets',
         body: `<h1>Entrevista con el equipo de relaciones públicas de MandalaTickets: cómo construyen la comunidad</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipo de relaciones públicas de MandalaTickets construyendo comunidad de amantes de la fiesta" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipo de relaciones públicas de MandalaTickets construyendo comunidad de amantes de la fiesta" />
 
 <p>MandalaTickets ha creado una comunidad vibrante de amantes de la fiesta que se extiende más allá de los eventos. En esta entrevista exclusiva, conversamos con el equipo de relaciones públicas sobre cómo han construido esta comunidad, las estrategias que utilizan, y cómo mantienen la conexión con los asistentes.</p>
 
@@ -10491,7 +10491,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-mandalatickets-pr-team-build-community',
         body: `<h1>Interview with MandalaTickets Public Relations Team: How They Build Community</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="MandalaTickets public relations team building community of party lovers" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="MandalaTickets public relations team building community of party lovers" />
 
 <p>MandalaTickets has created a vibrant community of party lovers that extends beyond events. In this exclusive interview, we spoke with the public relations team about how they have built this community, the strategies they use, and how they maintain connection with attendees.</p>
 
@@ -10521,7 +10521,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-equipe-rp-mandalatickets-construisent-communaute',
         body: `<h1>Entretien avec l'équipe des relations publiques de MandalaTickets : comment ils construisent la communauté</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Équipe des relations publiques MandalaTickets construisant une communauté d'amateurs de fête" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Équipe des relations publiques MandalaTickets construisant une communauté d'amateurs de fête" />
 
 <p>MandalaTickets a créé une communauté vibrante d'amateurs de fête qui s'étend au-delà des événements. Dans cet entretien exclusif, nous avons parlé avec l'équipe des relations publiques sur la façon dont ils ont construit cette communauté, les stratégies qu'ils utilisent et comment ils maintiennent la connexion avec les participants.</p>
 
@@ -10551,7 +10551,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipe-rp-mandalatickets-constroem-comunidade',
         body: `<h1>Entrevista com a equipe de relações públicas da MandalaTickets: como eles constroem a comunidade</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipe de relações públicas MandalaTickets construindo comunidade de amantes de festa" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipe de relações públicas MandalaTickets construindo comunidade de amantes de festa" />
 
 <p>MandalaTickets criou uma comunidade vibrante de amantes de festa que se estende além dos eventos. Nesta entrevista exclusiva, conversamos com a equipe de relações públicas sobre como eles construíram esta comunidade, as estratégias que usam e como mantêm a conexão com os participantes.</p>
 
@@ -10590,7 +10590,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-mejores-momentos-video-eventos-mandalatickets',
         body: `<h1>Los 10 mejores momentos en video de los eventos de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Compilación de videos emocionantes y memorables de eventos de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Compilación de videos emocionantes y memorables de eventos de MandalaTickets" />
 
 <p>Los eventos de MandalaTickets han creado innumerables momentos increíbles que han sido capturados en video. Esta compilación te presenta los 10 mejores momentos en video que representan la energía, la emoción, y la magia de los eventos de MandalaTickets en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -10620,7 +10620,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-best-video-moments-mandalatickets-events',
         body: `<h1>10 Best Video Moments from MandalaTickets Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Compilation of exciting and memorable videos from MandalaTickets events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Compilation of exciting and memorable videos from MandalaTickets events" />
 
 <p>MandalaTickets events have created countless incredible moments that have been captured on video. This compilation presents the 10 best video moments that represent the energy, excitement, and magic of MandalaTickets events in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -10650,7 +10650,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-meilleurs-moments-video-evenements-mandalatickets',
         body: `<h1>10 meilleurs moments vidéo des événements MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Compilation de vidéos passionnantes et mémorables d'événements MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Compilation de vidéos passionnantes et mémorables d'événements MandalaTickets" />
 
 <p>Les événements MandalaTickets ont créé d'innombrables moments incroyables qui ont été capturés en vidéo. Cette compilation présente les 10 meilleurs moments vidéo qui représentent l'énergie, l'excitation et la magie des événements MandalaTickets dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -10680,7 +10680,7 @@ export const blogPosts: BlogPost[] = [
         slug: '10-melhores-momentos-video-eventos-mandalatickets',
         body: `<h1>10 melhores momentos em vídeo dos eventos MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Compilação de vídeos emocionantes e memoráveis de eventos MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Compilação de vídeos emocionantes e memoráveis de eventos MandalaTickets" />
 
 <p>Os eventos MandalaTickets criaram inúmeros momentos incríveis que foram capturados em vídeo. Esta compilação apresenta os 10 melhores momentos em vídeo que representam a energia, a emoção e a magia dos eventos MandalaTickets em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -10719,7 +10719,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'organizar-fiesta-sorpresa-evento-mandalatickets',
         body: `<h1>Cómo organizar una fiesta sorpresa en uno de los eventos de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Fiesta sorpresa organizada en evento de MandalaTickets con grupo de amigos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Fiesta sorpresa organizada en evento de MandalaTickets con grupo de amigos" />
 
 <p>Organizar una fiesta sorpresa en un evento de MandalaTickets puede ser una de las formas más emocionantes de celebrar a alguien especial. Con el ambiente perfecto, la energía increíble, y la producción espectacular, los eventos de MandalaTickets ofrecen el escenario ideal para crear una sorpresa verdaderamente inolvidable.</p>
 
@@ -10749,7 +10749,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'organize-surprise-party-mandalatickets-event',
         body: `<h1>How to Organize a Surprise Party at a MandalaTickets Event</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Surprise party organized at MandalaTickets event with group of friends" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Surprise party organized at MandalaTickets event with group of friends" />
 
 <p>Organizing a surprise party at a MandalaTickets event can be one of the most exciting ways to celebrate someone special. With the perfect atmosphere, incredible energy, and spectacular production, MandalaTickets events offer the ideal setting to create a truly unforgettable surprise.</p>
 
@@ -10779,7 +10779,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'organiser-fete-surprise-evenement-mandalatickets',
         body: `<h1>Comment organiser une fête surprise lors d'un événement MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Fête surprise organisée lors d'un événement MandalaTickets avec groupe d'amis" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Fête surprise organisée lors d'un événement MandalaTickets avec groupe d'amis" />
 
 <p>Organiser une fête surprise lors d'un événement MandalaTickets peut être l'une des façons les plus excitantes de célébrer quelqu'un de spécial. Avec l'atmosphère parfaite, l'énergie incroyable et la production spectaculaire, les événements MandalaTickets offrent le cadre idéal pour créer une surprise vraiment inoubliable.</p>
 
@@ -10809,7 +10809,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'organizar-festa-surpresa-evento-mandalatickets',
         body: `<h1>Como organizar uma festa surpresa em um evento MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Festa surpresa organizada em evento MandalaTickets com grupo de amigos" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Festa surpresa organizada em evento MandalaTickets com grupo de amigos" />
 
 <p>Organizar uma festa surpresa em um evento MandalaTickets pode ser uma das formas mais emocionantes de celebrar alguém especial. Com a atmosfera perfeita, energia incrível e produção espetacular, os eventos MandalaTickets oferecem o cenário ideal para criar uma surpresa verdadeiramente inesquecível.</p>
 
@@ -10848,7 +10848,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-lugares-comprar-accesorios-fiesta-cancun',
         body: `<h1>Los mejores lugares para comprar accesorios de fiesta en Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Tiendas y boutiques en la Zona Hotelera de Cancún con accesorios de fiesta" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Tiendas y boutiques en la Zona Hotelera de Cancún con accesorios de fiesta" />
 
 <p>Preparar tu look perfecto para los eventos en Cancún es parte esencial de la experiencia. Ya sea que planees visitar <a href="https://mandalatickets.com/es/cancun/disco/mandala">Mandala Cancún</a>, <a href="https://mandalatickets.com/es/cancun/disco/d-cave">D'Cave</a>, <a href="https://mandalatickets.com/es/cancun/disco/la-vaquita">La Vaquita</a> o <a href="https://mandalatickets.com/es/cancun/disco/rakata">Rakata</a>, tener los accesorios adecuados puede hacer la diferencia. La Zona Hotelera de Cancún cuenta con excelentes opciones para encontrar todo lo que necesitas.</p>
 
@@ -10888,7 +10888,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-places-buy-party-accessories-cancun',
         body: `<h1>Best Places to Buy Party Accessories in Cancun</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Stores and boutiques in Cancun Hotel Zone with party accessories" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Stores and boutiques in Cancun Hotel Zone with party accessories" />
 
 <p>Preparing your perfect look for events in Cancun is an essential part of the experience. Whether you plan to visit <a href="https://mandalatickets.com/en/cancun/disco/mandala">Mandala Cancun</a>, <a href="https://mandalatickets.com/en/cancun/disco/d-cave">D'Cave</a>, <a href="https://mandalatickets.com/en/cancun/disco/la-vaquita">La Vaquita</a>, or <a href="https://mandalatickets.com/en/cancun/disco/rakata">Rakata</a>, having the right accessories can make all the difference. The Hotel Zone offers excellent options to find everything you need.</p>
 
@@ -10928,7 +10928,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-endroits-acheter-accessoires-fete-cancun',
         body: `<h1>Meilleurs endroits pour acheter des accessoires de fête à Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Magasins et boutiques dans la Zone Hôtelière de Cancún avec accessoires de fête" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Magasins et boutiques dans la Zone Hôtelière de Cancún avec accessoires de fête" />
 
 <p>Préparer votre look parfait pour les événements à Cancún est une partie essentielle de l'expérience. Que vous prévoyiez de visiter <a href="https://mandalatickets.com/fr/cancun/disco/mandala">Mandala Cancún</a>, <a href="https://mandalatickets.com/fr/cancun/disco/d-cave">D'Cave</a>, <a href="https://mandalatickets.com/fr/cancun/disco/la-vaquita">La Vaquita</a> ou <a href="https://mandalatickets.com/fr/cancun/disco/rakata">Rakata</a>, avoir les bons accessoires peut faire toute la différence. La Zone Hôtelière offre d'excellentes options pour trouver tout ce dont vous avez besoin.</p>
 
@@ -10968,7 +10968,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-lugares-comprar-acessorios-festa-cancun',
         body: `<h1>Melhores lugares para comprar acessórios de festa em Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Lojas e boutiques na Zona Hoteleira de Cancún com acessórios de festa" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Lojas e boutiques na Zona Hoteleira de Cancún com acessórios de festa" />
 
 <p>Preparar seu look perfeito para eventos em Cancún é uma parte essencial da experiência. Se você planeja visitar <a href="https://mandalatickets.com/pt/cancun/disco/mandala">Mandala Cancún</a>, <a href="https://mandalatickets.com/pt/cancun/disco/d-cave">D'Cave</a>, <a href="https://mandalatickets.com/pt/cancun/disco/la-vaquita">La Vaquita</a> ou <a href="https://mandalatickets.com/pt/cancun/disco/rakata">Rakata</a>, ter os acessórios certos pode fazer toda a diferença. A Zona Hoteleira oferece excelentes opções para encontrar tudo o que você precisa.</p>
 
@@ -11017,7 +11017,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-decoracion-ambientacion-eventos-2025',
         body: `<h1>Tendencias en decoración y ambientación para eventos en 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Decoración y ambientación innovadora para eventos en 2025 con diseño moderno" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Decoración y ambientación innovadora para eventos en 2025 con diseño moderno" />
 
 <p>La decoración y ambientación de eventos está evolucionando, y 2025 trae tendencias de diseño que transformarán la experiencia visual de los eventos. Estas tendencias van desde estilos minimalistas hasta diseños inmersivos que crean ambientes completamente únicos.</p>
 
@@ -11047,7 +11047,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'decoration-ambiance-trends-events-2025',
         body: `<h1>Decoration and Ambiance Trends for Events in 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Innovative decoration and ambiance for events in 2025 with modern design" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Innovative decoration and ambiance for events in 2025 with modern design" />
 
 <p>Event decoration and ambiance is evolving, and 2025 brings design trends that will transform the visual experience of events. These trends range from minimalist styles to immersive designs that create completely unique environments.</p>
 
@@ -11077,7 +11077,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-decoration-ambiance-evenements-2025',
         body: `<h1>Tendances en décoration et ambiance pour événements en 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Décoration et ambiance innovantes pour événements en 2025 avec design moderne" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Décoration et ambiance innovantes pour événements en 2025 avec design moderne" />
 
 <p>La décoration et l'ambiance des événements évoluent, et 2025 apporte des tendances de design qui transformeront l'expérience visuelle des événements. Ces tendances vont des styles minimalistes aux designs immersifs qui créent des environnements complètement uniques.</p>
 
@@ -11107,7 +11107,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-decoracao-ambiente-eventos-2025',
         body: `<h1>Tendências de decoração e ambiente para eventos em 2025</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Decoração e ambiente inovadores para eventos em 2025 com design moderno" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Decoração e ambiente inovadores para eventos em 2025 com design moderno" />
 
 <p>A decoração e o ambiente de eventos estão evoluindo, e 2025 traz tendências de design que transformarão a experiência visual dos eventos. Essas tendências variam de estilos minimalistas a designs imersivos que criam ambientes completamente únicos.</p>
 
@@ -11146,7 +11146,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mantener-actitud-positiva-disfrutar-maximo-eventos',
         body: `<h1>Cómo mantener una actitud positiva y disfrutar al máximo de los eventos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas con actitud positiva disfrutando al máximo de eventos de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas con actitud positiva disfrutando al máximo de eventos de MandalaTickets" />
 
 <p>Mantener una actitud positiva es clave para disfrutar al máximo de los eventos de MandalaTickets. Tu actitud puede hacer la diferencia entre una noche buena y una noche inolvidable. Estos consejos te ayudarán a tener la mejor actitud y aprovechar cada momento de los eventos.</p>
 
@@ -11176,7 +11176,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'maintain-positive-attitude-enjoy-events-fullest',
         body: `<h1>How to Maintain a Positive Attitude and Enjoy Events to the Fullest</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People with positive attitude enjoying MandalaTickets events to the fullest" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People with positive attitude enjoying MandalaTickets events to the fullest" />
 
 <p>Maintaining a positive attitude is key to enjoying MandalaTickets events to the fullest. Your attitude can make the difference between a good night and an unforgettable night. These tips will help you have the best attitude and make the most of every moment at events.</p>
 
@@ -11206,7 +11206,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'maintenir-attitude-positive-profit-maximum-evenements',
         body: `<h1>Comment maintenir une attitude positive et profiter au maximum des événements</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes avec attitude positive profitant au maximum des événements MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes avec attitude positive profitant au maximum des événements MandalaTickets" />
 
 <p>Maintenir une attitude positive est essentiel pour profiter au maximum des événements MandalaTickets. Votre attitude peut faire la différence entre une bonne nuit et une nuit inoubliable. Ces conseils vous aideront à avoir la meilleure attitude et à profiter de chaque moment lors d'événements.</p>
 
@@ -11236,7 +11236,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'manter-atitude-positiva-aproveitar-eventos-maximo',
         body: `<h1>Como manter uma atitude positiva e aproveitar os eventos ao máximo</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas com atitude positiva aproveitando eventos MandalaTickets ao máximo" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas com atitude positiva aproveitando eventos MandalaTickets ao máximo" />
 
 <p>Manter uma atitude positiva é fundamental para aproveitar os eventos MandalaTickets ao máximo. Sua atitude pode fazer a diferença entre uma boa noite e uma noite inesquecível. Estas dicas ajudarão você a ter a melhor atitude e aproveitar cada momento nos eventos.</p>
 
@@ -11275,7 +11275,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipo-atencion-cliente-mandalatickets',
         body: `<h1>Entrevista con el equipo de atención al cliente de MandalaTickets: cómo garantizan una experiencia excepcional</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipo de atención al cliente de MandalaTickets garantizando experiencia excepcional" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipo de atención al cliente de MandalaTickets garantizando experiencia excepcional" />
 
 <p>El equipo de atención al cliente de MandalaTickets es fundamental para garantizar que cada asistente tenga la mejor experiencia posible. En esta entrevista exclusiva, conversamos con el equipo sobre cómo aseguran que cada asistente tenga una experiencia excepcional, desde la compra de boletos hasta después del evento.</p>
 
@@ -11305,7 +11305,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-mandalatickets-customer-service-team-exceptional-experience',
         body: `<h1>Interview with MandalaTickets Customer Service Team: How They Guarantee Exceptional Experience</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="MandalaTickets customer service team guaranteeing exceptional experience" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="MandalaTickets customer service team guaranteeing exceptional experience" />
 
 <p>MandalaTickets' customer service team is fundamental to ensuring that every attendee has the best possible experience. In this exclusive interview, we spoke with the team about how they ensure that every attendee has an exceptional experience, from ticket purchase to after the event.</p>
 
@@ -11335,7 +11335,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-equipe-service-client-mandalatickets-experience-exceptionnelle',
         body: `<h1>Entretien avec l'équipe du service client de MandalaTickets : comment ils garantissent une expérience exceptionnelle</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Équipe du service client MandalaTickets garantissant une expérience exceptionnelle" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Équipe du service client MandalaTickets garantissant une expérience exceptionnelle" />
 
 <p>L'équipe du service client de MandalaTickets est fondamentale pour garantir que chaque participant ait la meilleure expérience possible. Dans cet entretien exclusif, nous avons parlé avec l'équipe sur la façon dont ils s'assurent que chaque participant ait une expérience exceptionnelle, de l'achat de billets à après l'événement.</p>
 
@@ -11365,7 +11365,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipe-atendimento-cliente-mandalatickets-experiencia-excepcional',
         body: `<h1>Entrevista com a equipe de atendimento ao cliente da MandalaTickets: como eles garantem uma experiência excepcional</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipe de atendimento ao cliente MandalaTickets garantindo experiência excepcional" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipe de atendimento ao cliente MandalaTickets garantindo experiência excepcional" />
 
 <p>A equipe de atendimento ao cliente da MandalaTickets é fundamental para garantir que cada participante tenha a melhor experiência possível. Nesta entrevista exclusiva, conversamos com a equipe sobre como eles garantem que cada participante tenha uma experiência excepcional, desde a compra de ingressos até após o evento.</p>
 
@@ -11404,7 +11404,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-esperados-temporada-primavera-tulum',
         body: `<h1>Los 5 eventos más esperados para la temporada de primavera en Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BONBONNIERE/1.jpg" alt="Eventos de primavera en Tulum con música electrónica y ambiente festivo" />
+<img src="/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg" alt="Eventos de primavera en Tulum con música electrónica y ambiente festivo" />
 
 <p>La temporada de primavera en Tulum es una de las más emocionantes del año, con eventos increíbles que combinan música de clase mundial, producción impresionante, y el ambiente único de la Riviera Maya. Esta primavera, Tulum se prepara para recibir algunos de los eventos más esperados del año en venues como <a href="https://mandalatickets.com/es/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/vagalume">Vagalume Tulum</a> y <a href="https://mandalatickets.com/es/tulum/disco/bagatelle">Bagatelle Tulum</a>. Aquí te presentamos los 5 eventos más esperados.</p>
 
@@ -11462,7 +11462,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-most-anticipated-events-spring-season-tulum',
         body: `<h1>5 Most Anticipated Events for Spring Season in Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BONBONNIERE/1.jpg" alt="Spring events in Tulum with electronic music and festive atmosphere" />
+<img src="/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg" alt="Spring events in Tulum with electronic music and festive atmosphere" />
 
 <p>Spring season in Tulum is one of the most exciting times of the year, with incredible events combining world-class music, impressive production, and the unique atmosphere of the Riviera Maya. This spring, Tulum prepares to host some of the most anticipated events of the year at venues like <a href="https://mandalatickets.com/en/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/vagalume">Vagalume Tulum</a>, and <a href="https://mandalatickets.com/en/tulum/disco/bagatelle">Bagatelle Tulum</a>. Here are the 5 most anticipated events.</p>
 
@@ -11520,7 +11520,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-evenements-plus-attendus-saison-printemps-tulum',
         body: `<h1>5 événements les plus attendus pour la saison de printemps à Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BONBONNIERE/1.jpg" alt="Événements de printemps à Tulum avec musique électronique et atmosphère festive" />
+<img src="/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg" alt="Événements de printemps à Tulum avec musique électronique et atmosphère festive" />
 
 <p>La saison de printemps à Tulum est l'une des plus excitantes de l'année, avec des événements incroyables combinant musique de classe mondiale, production impressionnante et l'atmosphère unique de la Riviera Maya. Ce printemps, Tulum se prépare à accueillir certains des événements les plus attendus de l'année dans des lieux comme <a href="https://mandalatickets.com/fr/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/vagalume">Vagalume Tulum</a> et <a href="https://mandalatickets.com/fr/tulum/disco/bagatelle">Bagatelle Tulum</a>. Voici les 5 événements les plus attendus.</p>
 
@@ -11578,7 +11578,7 @@ export const blogPosts: BlogPost[] = [
         slug: '5-eventos-mais-aguardados-temporada-primavera-tulum',
         body: `<h1>5 eventos mais aguardados para a temporada de primavera em Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/BONBONNIERE/1.jpg" alt="Eventos de primavera em Tulum com música eletrônica e atmosfera festiva" />
+<img src="/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg" alt="Eventos de primavera em Tulum com música eletrônica e atmosfera festiva" />
 
 <p>A temporada de primavera em Tulum é uma das mais emocionantes do ano, com eventos incríveis combinando música de classe mundial, produção impressionante e a atmosfera única da Riviera Maya. Esta primavera, Tulum se prepara para receber alguns dos eventos mais aguardados do ano em locais como <a href="https://mandalatickets.com/pt/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/vagalume">Vagalume Tulum</a> e <a href="https://mandalatickets.com/pt/tulum/disco/bagatelle">Bagatelle Tulum</a>. Aqui estão os 5 eventos mais aguardados.</p>
 
@@ -11645,7 +11645,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-completa-cancun-playas-eventos-vida-nocturna',
         body: `<h1>Guía completa de Cancún: playas, eventos y vida nocturna</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista panorámica de Cancún con playas, hoteles y vida nocturna" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista panorámica de Cancún con playas, hoteles y vida nocturna" />
 
 <p>Cancún es uno de los destinos turísticos más importantes de México, conocido mundialmente por sus playas paradisíacas, aguas turquesas y una vida nocturna vibrante que atrae a visitantes de todo el mundo. Esta guía completa te llevará a través de todo lo que necesitas saber sobre Cancún, desde sus mejores playas hasta los eventos nocturnos más exclusivos.</p>
 
@@ -11721,7 +11721,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'complete-guide-cancun-beaches-events-nightlife',
         body: `<h1>Complete Guide to Cancun: Beaches, Events, and Nightlife</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Panoramic view of Cancun with beaches, hotels and nightlife" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Panoramic view of Cancun with beaches, hotels and nightlife" />
 
 <p>Cancun is one of Mexico's most important tourist destinations, known worldwide for its paradisiacal beaches, turquoise waters, and vibrant nightlife that attracts visitors from around the world. This complete guide will take you through everything you need to know about Cancun, from its best beaches to the most exclusive nightlife events.</p>
 
@@ -11797,7 +11797,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guide-complet-cancun-plages-evenements-vie-nocturne',
         body: `<h1>Guide complet de Cancún : plages, événements et vie nocturne</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vue panoramique de Cancún avec plages, hôtels et vie nocturne" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vue panoramique de Cancún avec plages, hôtels et vie nocturne" />
 
 <p>Cancún est l'une des destinations touristiques les plus importantes du Mexique, connue dans le monde entier pour ses plages paradisiaques, ses eaux turquoise et une vie nocturne vibrante qui attire des visiteurs du monde entier. Ce guide complet vous emmènera à travers tout ce que vous devez savoir sur Cancún, de ses meilleures plages aux événements nocturnes les plus exclusifs.</p>
 
@@ -11873,7 +11873,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-completo-cancun-praias-eventos-vida-noturna',
         body: `<h1>Guia completo de Cancún: praias, eventos e vida noturna</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Vista panorâmica de Cancún com praias, hotéis e vida noturna" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Vista panorâmica de Cancún com praias, hotéis e vida noturna" />
 
 <p>Cancún é um dos destinos turísticos mais importantes do México, conhecido mundialmente por suas praias paradisíacas, águas turquesas e uma vida noturna vibrante que atrai visitantes de todo o mundo. Este guia completo o levará através de tudo o que você precisa saber sobre Cancún, desde suas melhores praias até os eventos noturnos mais exclusivos.</p>
 
@@ -11958,7 +11958,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'aprovechar-paquetes-especiales-mandalatickets',
         body: `<h1>Cómo aprovechar los paquetes especiales de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Paquetes especiales de MandalaTickets incluyendo eventos, hospedaje y experiencias exclusivas" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Paquetes especiales de MandalaTickets incluyendo eventos, hospedaje y experiencias exclusivas" />
 
 <p>Los paquetes especiales de MandalaTickets ofrecen una forma conveniente y económica de disfrutar de eventos increíbles junto con hospedaje y otras experiencias. Esta guía te ayudará a elegir y aprovechar los mejores paquetes que incluyen eventos, hospedaje y más en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -11988,7 +11988,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'take-advantage-mandalatickets-special-packages',
         body: `<h1>How to Take Advantage of MandalaTickets Special Packages</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="MandalaTickets special packages including events, accommodation and exclusive experiences" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="MandalaTickets special packages including events, accommodation and exclusive experiences" />
 
 <p>MandalaTickets special packages offer a convenient and economical way to enjoy incredible events along with accommodation and other experiences. This guide will help you choose and take advantage of the best packages that include events, accommodation, and more in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -12018,7 +12018,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'profiter-forfaits-speciaux-mandalatickets',
         body: `<h1>Comment profiter des forfaits spéciaux de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Forfaits spéciaux MandalaTickets incluant événements, hébergement et expériences exclusives" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Forfaits spéciaux MandalaTickets incluant événements, hébergement et expériences exclusives" />
 
 <p>Les forfaits spéciaux de MandalaTickets offrent un moyen pratique et économique de profiter d'événements incroyables ainsi que d'un hébergement et d'autres expériences. Ce guide vous aidera à choisir et profiter des meilleurs forfaits qui incluent des événements, un hébergement et plus encore dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -12048,7 +12048,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'aproveitar-pacotes-especiais-mandalatickets',
         body: `<h1>Como aproveitar os pacotes especiais da MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pacotes especiais MandalaTickets incluindo eventos, hospedagem e experiências exclusivas" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pacotes especiais MandalaTickets incluindo eventos, hospedagem e experiências exclusivas" />
 
 <p>Os pacotes especiais da MandalaTickets oferecem uma forma conveniente e econômica de desfrutar de eventos incríveis junto com hospedagem e outras experiências. Este guia ajudará você a escolher e aproveitar os melhores pacotes que incluem eventos, hospedagem e muito mais em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -12087,7 +12087,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-solteros-playa-carmen',
         body: `<h1>Los mejores eventos para solteros en Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/LA_VAQUITA/1.jpg" alt="Eventos para solteros en Playa del Carmen con ambiente social y oportunidades para conocer gente nueva" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Eventos para solteros en Playa del Carmen con ambiente social y oportunidades para conocer gente nueva" />
 
 <p>Playa del Carmen es un destino perfecto para personas solteras que buscan conocer gente nueva mientras disfrutan de una increíble vida nocturna. Los venues en la Calle 12, como <a href="https://mandalatickets.com/es/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/es/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, y <a href="https://mandalatickets.com/es/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, ofrecen eventos y ambientes ideales para socializar y hacer nuevas conexiones.</p>
 
@@ -12135,7 +12135,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-events-singles-playa-del-carmen',
         body: `<h1>Best Events for Singles in Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/LA_VAQUITA/1.jpg" alt="Events for singles in Playa del Carmen with social atmosphere and opportunities to meet new people" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Events for singles in Playa del Carmen with social atmosphere and opportunities to meet new people" />
 
 <p>Playa del Carmen is a perfect destination for single people looking to meet new people while enjoying incredible nightlife. Venues on Calle 12 like <a href="https://mandalatickets.com/en/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/en/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, and <a href="https://mandalatickets.com/en/playa/disco/santito-tun-tun">Santito Tun-Tun</a> offer ideal events and atmospheres for socializing and making new connections.</p>
 
@@ -12183,7 +12183,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-celibataires-playa-del-carmen',
         body: `<h1>Meilleurs événements pour célibataires à Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/LA_VAQUITA/1.jpg" alt="Événements pour célibataires à Playa del Carmen avec atmosphère sociale et opportunités de rencontrer de nouvelles personnes" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Événements pour célibataires à Playa del Carmen avec atmosphère sociale et opportunités de rencontrer de nouvelles personnes" />
 
 <p>Playa del Carmen est une destination parfaite pour les célibataires qui cherchent à rencontrer de nouvelles personnes tout en profitant d'une vie nocturne incroyable. Les lieux sur la Calle 12 comme <a href="https://mandalatickets.com/fr/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/fr/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> et <a href="https://mandalatickets.com/fr/playa/disco/santito-tun-tun">Santito Tun-Tun</a> offrent des événements et atmosphères idéaux pour socialiser et créer de nouvelles connexions.</p>
 
@@ -12231,7 +12231,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-solteiros-playa-del-carmen',
         body: `<h1>Melhores eventos para solteiros em Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/LA_VAQUITA/1.jpg" alt="Eventos para solteiros em Playa del Carmen com atmosfera social e oportunidades para conhecer pessoas novas" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Eventos para solteiros em Playa del Carmen com atmosfera social e oportunidades para conhecer pessoas novas" />
 
 <p>Playa del Carmen é um destino perfeito para pessoas solteiras que buscam conhecer pessoas novas enquanto desfrutam de uma vida noturna incrível. Os locais na Calle 12 como <a href="https://mandalatickets.com/pt/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/pt/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> e <a href="https://mandalatickets.com/pt/playa/disco/santito-tun-tun">Santito Tun-Tun</a> oferecem eventos e atmosferas ideais para socializar e fazer novas conexões.</p>
 
@@ -12288,7 +12288,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'planificar-primera-visita-evento-mandalatickets',
         body: `<h1>Cómo planificar tu primera visita a un evento de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Primera visita a evento de MandalaTickets con personas disfrutando de experiencia única" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Primera visita a evento de MandalaTickets con personas disfrutando de experiencia única" />
 
 <p>Asistir a tu primer evento de MandalaTickets puede ser emocionante y un poco abrumador. Esta guía te ofrece todo lo que un principiante necesita saber antes de asistir a su primer evento, desde la compra de boletos hasta qué esperar durante el evento en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -12318,7 +12318,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'plan-first-visit-mandalatickets-event',
         body: `<h1>How to Plan Your First Visit to a MandalaTickets Event</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="First visit to MandalaTickets event with people enjoying unique experience" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="First visit to MandalaTickets event with people enjoying unique experience" />
 
 <p>Attending your first MandalaTickets event can be exciting and a bit overwhelming. This guide offers everything a beginner needs to know before attending their first event, from ticket purchase to what to expect during the event in destinations like Cancún, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -12348,7 +12348,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'planifier-premiere-visite-evenement-mandalatickets',
         body: `<h1>Comment planifier votre première visite à un événement MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Première visite à un événement MandalaTickets avec personnes profitant d'une expérience unique" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Première visite à un événement MandalaTickets avec personnes profitant d'une expérience unique" />
 
 <p>Assister à votre premier événement MandalaTickets peut être excitant et un peu accablant. Ce guide offre tout ce qu'un débutant doit savoir avant d'assister à son premier événement, de l'achat de billets à ce à quoi s'attendre pendant l'événement dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -12378,7 +12378,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'planejar-primeira-visita-evento-mandalatickets',
         body: `<h1>Como planejar sua primeira visita a um evento MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Primeira visita a evento MandalaTickets com pessoas desfrutando de experiência única" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Primeira visita a evento MandalaTickets com pessoas desfrutando de experiência única" />
 
 <p>Assistir ao seu primeiro evento MandalaTickets pode ser emocionante e um pouco avassalador. Este guia oferece tudo o que um iniciante precisa saber antes de assistir ao seu primeiro evento, desde a compra de ingressos até o que esperar durante o evento em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -12417,7 +12417,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-dj-internacional-debutara-los-cabos',
         body: `<h1>Entrevista con el DJ internacional que debutará en Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="DJ internacional debutando en Los Cabos con producción especial y ambiente festivo" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="DJ internacional debutando en Los Cabos con producción especial y ambiente festivo" />
 
 <p>Los Cabos continúa atrayendo a los mejores talentos internacionales de la música electrónica. Este mes, un reconocido DJ internacional hará su debut en Los Cabos, presentándose en venues exclusivos como <a href="https://mandalatickets.com/es/cabos/disco/mandala">Mandala Los Cabos</a> y <a href="https://mandalatickets.com/es/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>. Esta entrevista exclusiva te acerca a este artista y su visión sobre la escena musical en Los Cabos.</p>
 
@@ -12447,7 +12447,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-international-dj-debut-los-cabos',
         body: `<h1>Interview with International DJ Making Debut in Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="International DJ debuting in Los Cabos with special production and festive atmosphere" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="International DJ debuting in Los Cabos with special production and festive atmosphere" />
 
 <p>Los Cabos continues to attract the best international electronic music talent. This month, a recognized international DJ will make their debut in Los Cabos, performing at exclusive venues like <a href="https://mandalatickets.com/en/cabos/disco/mandala">Mandala Los Cabos</a> and <a href="https://mandalatickets.com/en/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>. This exclusive interview brings you closer to this artist and their vision of the music scene in Los Cabos.</p>
 
@@ -12477,7 +12477,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-dj-international-debut-los-cabos',
         body: `<h1>Entretien avec le DJ international qui fera ses débuts à Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="DJ international faisant ses débuts à Los Cabos avec production spéciale et atmosphère festive" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="DJ international faisant ses débuts à Los Cabos avec production spéciale et atmosphère festive" />
 
 <p>Los Cabos continue d'attirer les meilleurs talents internationaux de musique électronique. Ce mois-ci, un DJ international reconnu fera ses débuts à Los Cabos, se produisant dans des lieux exclusifs comme <a href="https://mandalatickets.com/fr/cabos/disco/mandala">Mandala Los Cabos</a> et <a href="https://mandalatickets.com/fr/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>. Cet entretien exclusif vous rapproche de cet artiste et de sa vision de la scène musicale à Los Cabos.</p>
 
@@ -12507,7 +12507,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-dj-internacional-estreia-los-cabos',
         body: `<h1>Entrevista com DJ internacional que fará estreia em Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="DJ internacional fazendo estreia em Los Cabos com produção especial e atmosfera festiva" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="DJ internacional fazendo estreia em Los Cabos com produção especial e atmosfera festiva" />
 
 <p>Los Cabos continua atraindo os melhores talentos internacionais de música eletrônica. Este mês, um DJ internacional reconhecido fará sua estreia em Los Cabos, se apresentando em locais exclusivos como <a href="https://mandalatickets.com/pt/cabos/disco/mandala">Mandala Los Cabos</a> e <a href="https://mandalatickets.com/pt/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>. Esta entrevista exclusiva o aproxima deste artista e sua visão sobre a cena musical em Los Cabos.</p>
 
@@ -12546,7 +12546,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-aire-libre-puerto-vallarta',
         body: `<h1>Los mejores eventos al aire libre en Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Eventos al aire libre en Puerto Vallarta con ambiente festivo y clima perfecto" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Eventos al aire libre en Puerto Vallarta con ambiente festivo y clima perfecto" />
 
 <p>Puerto Vallarta tiene un clima perfecto que permite disfrutar de eventos al aire libre durante todo el año. Los venues aprovechan este clima para crear experiencias únicas que combinan el ambiente natural con música, gastronomía, y entretenimiento. Esta guía te presenta los mejores eventos al aire libre en Puerto Vallarta, incluyendo <a href="https://mandalatickets.com/es/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, <a href="https://mandalatickets.com/es/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, y otros venues exclusivos.</p>
 
@@ -12578,7 +12578,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-outdoor-events-puerto-vallarta',
         body: `<h1>Best Outdoor Events in Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Outdoor events in Puerto Vallarta with festive atmosphere and perfect weather" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Outdoor events in Puerto Vallarta with festive atmosphere and perfect weather" />
 
 <p>Puerto Vallarta has perfect weather that allows enjoying outdoor events year-round. Venues take advantage of this climate to create unique experiences that combine natural atmosphere with music, gastronomy, and entertainment. This guide presents the best outdoor events in Puerto Vallarta, including <a href="https://mandalatickets.com/en/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, <a href="https://mandalatickets.com/en/vallarta/disco/mandala">Mandala Puerto Vallarta</a>, and other exclusive venues.</p>
 
@@ -12610,7 +12610,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-plein-air-puerto-vallarta',
         body: `<h1>Meilleurs événements en plein air à Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Événements en plein air à Puerto Vallarta avec atmosphère festive et climat parfait" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Événements en plein air à Puerto Vallarta avec atmosphère festive et climat parfait" />
 
 <p>Puerto Vallarta a un climat parfait qui permet de profiter d'événements en plein air toute l'année. Les lieux profitent de ce climat pour créer des expériences uniques qui combinent l'atmosphère naturelle avec musique, gastronomie et divertissement. Ce guide présente les meilleurs événements en plein air à Puerto Vallarta, y compris <a href="https://mandalatickets.com/fr/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, <a href="https://mandalatickets.com/fr/vallarta/disco/mandala">Mandala Puerto Vallarta</a> et d'autres lieux exclusifs.</p>
 
@@ -12642,7 +12642,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-ar-livre-puerto-vallarta',
         body: `<h1>Melhores eventos ao ar livre em Puerto Vallarta</h1>
 
-<img src="/assets/img/PoolFotos/VALLARTA/CHICABAL/1.jpg" alt="Eventos ao ar livre em Puerto Vallarta com atmosfera festiva e clima perfeito" />
+<img src="/assets/PoolFotos/VTA/CHICABAL/CHICABAL_VTA_FOTOGRAFIA_1.jpg" alt="Eventos ao ar livre em Puerto Vallarta com atmosfera festiva e clima perfeito" />
 
 <p>Puerto Vallarta tem um clima perfeito que permite desfrutar de eventos ao ar livre durante todo o ano. Os locais aproveitam este clima para criar experiências únicas que combinam a atmosfera natural com música, gastronomia e entretenimento. Este guia apresenta os melhores eventos ao ar livre em Puerto Vallarta, incluindo <a href="https://mandalatickets.com/pt/vallarta/disco/chicabal">Chicabal Sunset Club Puerto Vallarta</a>, <a href="https://mandalatickets.com/pt/vallarta/disco/mandala">Mandala Puerto Vallarta</a> e outros locais exclusivos.</p>
 
@@ -12683,7 +12683,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-tecnologia-eventos-realidad-aumentada',
         body: `<h1>Tendencias en tecnología para eventos: realidad aumentada y más</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Tecnología avanzada en eventos incluyendo realidad aumentada y experiencias inmersivas" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Tecnología avanzada en eventos incluyendo realidad aumentada y experiencias inmersivas" />
 
 <p>La tecnología está transformando la experiencia en eventos nocturnos de maneras increíbles. Desde realidad aumentada hasta inteligencia artificial y otras innovaciones, estas tecnologías están creando experiencias que eran imposibles hace solo unos años. Esta guía explora las tendencias tecnológicas más importantes que están definiendo el futuro de los eventos.</p>
 
@@ -12713,7 +12713,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'technology-trends-events-augmented-reality-more',
         body: `<h1>Technology Trends for Events: Augmented Reality and More</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Advanced technology in events including augmented reality and immersive experiences" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Advanced technology in events including augmented reality and immersive experiences" />
 
 <p>Technology is transforming the experience at nightlife events in incredible ways. From augmented reality to artificial intelligence and other innovations, these technologies are creating experiences that were impossible just a few years ago. This guide explores the most important technological trends that are defining the future of events.</p>
 
@@ -12743,7 +12743,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-technologiques-evenements-realite-augmentee-plus',
         body: `<h1>Tendances technologiques pour événements : réalité augmentée et plus encore</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Technologie avancée dans les événements incluant réalité augmentée et expériences immersives" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Technologie avancée dans les événements incluant réalité augmentée et expériences immersives" />
 
 <p>La technologie transforme l'expérience lors d'événements nocturnes de manières incroyables. De la réalité augmentée à l'intelligence artificielle et d'autres innovations, ces technologies créent des expériences qui étaient impossibles il y a seulement quelques années. Ce guide explore les tendances technologiques les plus importantes qui définissent l'avenir des événements.</p>
 
@@ -12773,7 +12773,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-tecnologicas-eventos-realidade-aumentada-mais',
         body: `<h1>Tendências tecnológicas para eventos: realidade aumentada e muito mais</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Tecnologia avançada em eventos incluindo realidade aumentada e experiências imersivas" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Tecnologia avançada em eventos incluindo realidade aumentada e experiências imersivas" />
 
 <p>A tecnologia está transformando a experiência em eventos noturnos de formas incríveis. Da realidade aumentada à inteligência artificial e outras inovações, essas tecnologias estão criando experiências que eram impossíveis há apenas alguns anos. Este guia explora as tendências tecnológicas mais importantes que estão definindo o futuro dos eventos.</p>
 
@@ -12812,7 +12812,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'combinar-eventos-turismo-visita-tulum',
         body: `<h1>Cómo combinar eventos y turismo en tu visita a Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/VAGALUME/1.jpg" alt="Combinando eventos nocturnos y turismo diurno en Tulum con ruinas mayas y playas" />
+<img src="/assets/PoolFotos/TULUM/VAGALUME/Pic-02_1500x1000.jpg" alt="Combinando eventos nocturnos y turismo diurno en Tulum con ruinas mayas y playas" />
 
 <p>Tulum es un destino único que ofrece tanto una escena nocturna vibrante como increíbles atracciones turísticas. Combinar eventos en venues como <a href="https://mandalatickets.com/es/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/vagalume">Vagalume Tulum</a> y <a href="https://mandalatickets.com/es/tulum/disco/bagatelle">Bagatelle Tulum</a> con las atracciones turísticas de la región crea una experiencia completa e inolvidable. Aquí te presentamos estrategias para aprovechar al máximo tu visita.</p>
 
@@ -12880,7 +12880,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'combine-events-tourism-visit-tulum',
         body: `<h1>How to Combine Events and Tourism on Your Visit to Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/VAGALUME/1.jpg" alt="Combining nightlife events and daytime tourism in Tulum with Mayan ruins and beaches" />
+<img src="/assets/PoolFotos/TULUM/VAGALUME/Pic-02_1500x1000.jpg" alt="Combining nightlife events and daytime tourism in Tulum with Mayan ruins and beaches" />
 
 <p>Tulum is a unique destination offering both a vibrant nightlife scene and incredible tourist attractions. Combining events at venues like <a href="https://mandalatickets.com/en/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/vagalume">Vagalume Tulum</a>, and <a href="https://mandalatickets.com/en/tulum/disco/bagatelle">Bagatelle Tulum</a> with the region's tourist attractions creates a complete and unforgettable experience. Here are strategies to make the most of your visit.</p>
 
@@ -12948,7 +12948,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'combiner-evenements-tourisme-visite-tulum',
         body: `<h1>Comment combiner événements et tourisme lors de votre visite à Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/VAGALUME/1.jpg" alt="Combiner événements nocturnes et tourisme diurne à Tulum avec ruines mayas et plages" />
+<img src="/assets/PoolFotos/TULUM/VAGALUME/Pic-02_1500x1000.jpg" alt="Combiner événements nocturnes et tourisme diurne à Tulum avec ruines mayas et plages" />
 
 <p>Tulum est une destination unique qui offre à la fois une scène nocturne vibrante et des attractions touristiques incroyables. Combiner des événements dans des lieux comme <a href="https://mandalatickets.com/fr/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/vagalume">Vagalume Tulum</a> et <a href="https://mandalatickets.com/fr/tulum/disco/bagatelle">Bagatelle Tulum</a> avec les attractions touristiques de la région crée une expérience complète et inoubliable. Voici des stratégies pour tirer le meilleur parti de votre visite.</p>
 
@@ -13016,7 +13016,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'combinar-eventos-turismo-visita-tulum',
         body: `<h1>Como combinar eventos e turismo em sua visita a Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/VAGALUME/1.jpg" alt="Combinando eventos noturnos e turismo diurno em Tulum com ruínas maias e praias" />
+<img src="/assets/PoolFotos/TULUM/VAGALUME/Pic-02_1500x1000.jpg" alt="Combinando eventos noturnos e turismo diurno em Tulum com ruínas maias e praias" />
 
 <p>Tulum é um destino único que oferece tanto uma cena noturna vibrante quanto atrações turísticas incríveis. Combinar eventos em locais como <a href="https://mandalatickets.com/pt/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/vagalume">Vagalume Tulum</a> e <a href="https://mandalatickets.com/pt/tulum/disco/bagatelle">Bagatelle Tulum</a> com as atrações turísticas da região cria uma experiência completa e inesquecível. Aqui estão estratégias para aproveitar ao máximo sua visita.</p>
 
@@ -13093,7 +13093,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-tematicos-80s-90s-cancun',
         body: `<h1>Los mejores eventos temáticos de los 80s y 90s en Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Evento temático de los 80s y 90s en Cancún con música retro y decoración nostálgica" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Evento temático de los 80s y 90s en Cancún con música retro y decoración nostálgica" />
 
 <p>Los eventos temáticos de los 80s y 90s en Cancún ofrecen una experiencia única que combina nostalgia con la energía vibrante de la vida nocturna actual. Estos eventos especiales reviven la música, el estilo y la cultura de décadas pasadas, creando noches inolvidables llenas de hits clásicos y ambiente retro. Si eres fanático de la música de los 80s y 90s, Cancún tiene eventos perfectos para ti.</p>
 
@@ -13157,7 +13157,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-80s-90s-themed-events-cancun',
         body: `<h1>Best 80s and 90s Themed Events in Cancun</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="80s and 90s themed event in Cancun with retro music and nostalgic decoration" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="80s and 90s themed event in Cancun with retro music and nostalgic decoration" />
 
 <p>Themed events of the 80s and 90s in Cancun offer a unique experience combining nostalgia with vibrant nightlife energy. These special events revive the music, style, and culture of past decades, creating unforgettable nights filled with classic hits and retro atmosphere. If you're a fan of 80s and 90s music, Cancun has perfect events for you.</p>
 
@@ -13221,7 +13221,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-theme-annees-80-90-cancun',
         body: `<h1>Meilleurs événements à thème des années 80 et 90 à Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Événement à thème des années 80 et 90 à Cancún avec musique rétro et décoration nostalgique" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Événement à thème des années 80 et 90 à Cancún avec musique rétro et décoration nostalgique" />
 
 <p>Les événements à thème des années 80 et 90 à Cancún offrent une expérience unique qui combine nostalgie avec l'énergie vibrante de la vie nocturne actuelle. Ces événements spéciaux font revivre la musique, le style et la culture des décennies passées, créant des nuits inoubliables remplies de hits classiques et d'atmosphère rétro. Si vous êtes fan de la musique des années 80 et 90, Cancún a des événements parfaits pour vous.</p>
 
@@ -13285,7 +13285,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-tematicos-anos-80-90-cancun',
         body: `<h1>Melhores eventos temáticos dos anos 80 e 90 em Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Evento temático dos anos 80 e 90 em Cancún com música retrô e decoração nostálgica" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Evento temático dos anos 80 e 90 em Cancún com música retrô e decoração nostálgica" />
 
 <p>Os eventos temáticos dos anos 80 e 90 em Cancún oferecem uma experiência única que combina nostalgia com a energia vibrante da vida noturna atual. Esses eventos especiais revivem a música, o estilo e a cultura de décadas passadas, criando noites inesquecíveis cheias de hits clássicos e atmosfera retrô. Se você é fã da música dos anos 80 e 90, Cancún tem eventos perfeitos para você.</p>
 
@@ -13358,7 +13358,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-etiqueta-eventos-vip-los-cabos',
         body: `<h1>Guía de etiqueta para eventos VIP en Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Eventos VIP en Los Cabos con mesas exclusivas y servicio premium" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Eventos VIP en Los Cabos con mesas exclusivas y servicio premium" />
 
 <p>Los eventos VIP en Los Cabos ofrecen experiencias exclusivas en venues como <a href="https://mandalatickets.com/es/cabos/disco/mandala">Mandala Los Cabos</a> y <a href="https://mandalatickets.com/es/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>. Conocer la etiqueta adecuada te ayuda a aprovechar al máximo estas experiencias y asegura que tanto tú como otros asistentes disfruten de la noche. Esta guía te presenta todo lo que necesitas saber sobre la etiqueta en eventos VIP.</p>
 
@@ -13392,7 +13392,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'etiquette-guide-vip-events-los-cabos',
         body: `<h1>Etiquette Guide for VIP Events in Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="VIP events in Los Cabos with exclusive tables and premium service" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="VIP events in Los Cabos with exclusive tables and premium service" />
 
 <p>VIP events in Los Cabos offer exclusive experiences at venues like <a href="https://mandalatickets.com/en/cabos/disco/mandala">Mandala Los Cabos</a> and <a href="https://mandalatickets.com/en/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>. Knowing proper etiquette helps you make the most of these experiences and ensures that both you and other attendees enjoy the night. This guide presents everything you need to know about etiquette at VIP events.</p>
 
@@ -13426,7 +13426,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guide-etiquette-evenements-vip-los-cabos',
         body: `<h1>Guide de l'étiquette pour événements VIP à Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Événements VIP à Los Cabos avec tables exclusives et service premium" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Événements VIP à Los Cabos avec tables exclusives et service premium" />
 
 <p>Les événements VIP à Los Cabos offrent des expériences exclusives dans des lieux comme <a href="https://mandalatickets.com/fr/cabos/disco/mandala">Mandala Los Cabos</a> et <a href="https://mandalatickets.com/fr/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>. Connaître l'étiquette appropriée vous aide à tirer le meilleur parti de ces expériences et garantit que vous et les autres participants profitez de la nuit. Ce guide présente tout ce que vous devez savoir sur l'étiquette lors d'événements VIP.</p>
 
@@ -13460,7 +13460,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-etiqueta-eventos-vip-los-cabos',
         body: `<h1>Guia de etiqueta para eventos VIP em Los Cabos</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Eventos VIP em Los Cabos com mesas exclusivas e serviço premium" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Eventos VIP em Los Cabos com mesas exclusivas e serviço premium" />
 
 <p>Os eventos VIP em Los Cabos oferecem experiências exclusivas em locais como <a href="https://mandalatickets.com/pt/cabos/disco/mandala">Mandala Los Cabos</a> e <a href="https://mandalatickets.com/pt/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>. Conhecer a etiqueta adequada ajuda você a aproveitar ao máximo essas experiências e garante que você e outros participantes desfrutem da noite. Este guia apresenta tudo o que você precisa saber sobre etiqueta em eventos VIP.</p>
 
@@ -13503,7 +13503,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-productor-musical-eventos-exitosos',
         body: `<h1>Entrevista con el productor musical detrás de los eventos más exitosos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Productor musical trabajando en eventos exitosos de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Productor musical trabajando en eventos exitosos de MandalaTickets" />
 
 <p>Detrás de los eventos más exitosos de MandalaTickets hay un productor musical que ha creado algunos de los eventos más memorables de la Riviera Maya y otros destinos. En esta entrevista exclusiva, conversamos con este productor sobre su proceso creativo, cómo selecciona artistas, y qué hace que un evento sea verdaderamente exitoso.</p>
 
@@ -13533,7 +13533,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-music-producer-behind-successful-events',
         body: `<h1>Interview with Music Producer Behind Most Successful Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Music producer working on successful MandalaTickets events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Music producer working on successful MandalaTickets events" />
 
 <p>Behind MandalaTickets' most successful events is a music producer who has created some of the most memorable events in the Riviera Maya and other destinations. In this exclusive interview, we spoke with this producer about their creative process, how they select artists, and what makes an event truly successful.</p>
 
@@ -13563,7 +13563,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-producteur-musical-evenements-reussis',
         body: `<h1>Entretien avec le producteur musical derrière les événements les plus réussis</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Producteur musical travaillant sur des événements réussis MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Producteur musical travaillant sur des événements réussis MandalaTickets" />
 
 <p>Derrière les événements les plus réussis de MandalaTickets se trouve un producteur musical qui a créé certains des événements les plus mémorables de la Riviera Maya et d'autres destinations. Dans cet entretien exclusif, nous avons parlé avec ce producteur sur son processus créatif, comment il sélectionne les artistes, et ce qui rend un événement vraiment réussi.</p>
 
@@ -13593,7 +13593,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-produtor-musical-eventos-bem-sucedidos',
         body: `<h1>Entrevista com o produtor musical por trás dos eventos mais bem-sucedidos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Produtor musical trabalhando em eventos bem-sucedidos MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Produtor musical trabalhando em eventos bem-sucedidos MandalaTickets" />
 
 <p>Por trás dos eventos mais bem-sucedidos da MandalaTickets há um produtor musical que criou alguns dos eventos mais memoráveis da Riviera Maya e outros destinos. Nesta entrevista exclusiva, conversamos com este produtor sobre seu processo criativo, como ele seleciona artistas e o que torna um evento verdadeiramente bem-sucedido.</p>
 
@@ -13632,7 +13632,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-grupos-grandes-playa-carmen',
         body: `<h1>Los mejores eventos para grupos grandes en Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Eventos para grupos grandes en Playa del Carmen con mesas VIP y áreas exclusivas" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Eventos para grupos grandes en Playa del Carmen con mesas VIP y áreas exclusivas" />
 
 <p>Playa del Carmen es perfecto para celebrar con grupos grandes de amigos o familiares. Los venues en la Calle 12, como <a href="https://mandalatickets.com/es/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/es/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, y <a href="https://mandalatickets.com/es/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, ofrecen opciones ideales para grupos grandes con paquetes especiales y áreas exclusivas.</p>
 
@@ -13662,7 +13662,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-events-large-groups-playa-del-carmen',
         body: `<h1>Best Events for Large Groups in Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Events for large groups in Playa del Carmen with VIP tables and exclusive areas" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Events for large groups in Playa del Carmen with VIP tables and exclusive areas" />
 
 <p>Playa del Carmen is perfect for celebrating with large groups of friends or family. Venues on Calle 12, like <a href="https://mandalatickets.com/en/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/en/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, and <a href="https://mandalatickets.com/en/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, offer ideal options for large groups with special packages and exclusive areas.</p>
 
@@ -13692,7 +13692,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-grands-groupes-playa-del-carmen',
         body: `<h1>Meilleurs événements pour grands groupes à Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Événements pour grands groupes à Playa del Carmen avec tables VIP et zones exclusives" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Événements pour grands groupes à Playa del Carmen avec tables VIP et zones exclusives" />
 
 <p>Playa del Carmen est parfait pour célébrer avec de grands groupes d'amis ou de famille. Les lieux sur la Calle 12, comme <a href="https://mandalatickets.com/fr/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/fr/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> et <a href="https://mandalatickets.com/fr/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, offrent des options idéales pour grands groupes avec forfaits spéciaux et zones exclusives.</p>
 
@@ -13722,7 +13722,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-grupos-grandes-playa-del-carmen',
         body: `<h1>Melhores eventos para grupos grandes em Playa del Carmen</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Eventos para grupos grandes em Playa del Carmen com mesas VIP e áreas exclusivas" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Eventos para grupos grandes em Playa del Carmen com mesas VIP e áreas exclusivas" />
 
 <p>Playa del Carmen é perfeito para celebrar com grandes grupos de amigos ou familiares. Os locais na Calle 12, como <a href="https://mandalatickets.com/pt/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/pt/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> e <a href="https://mandalatickets.com/pt/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, oferecem opções ideais para grandes grupos com pacotes especiais e áreas exclusivas.</p>
 
@@ -13761,7 +13761,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'documentar-experiencia-eventos-fotografia-video',
         body: `<h1>Cómo documentar tu experiencia en eventos: fotografía y video</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas documentando eventos con fotografía y video profesional" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas documentando eventos con fotografía y video profesional" />
 
 <p>Documentar tu experiencia en eventos de MandalaTickets es una forma increíble de preservar recuerdos y compartir momentos especiales. Estos tips profesionales te ayudarán a capturar los mejores momentos de los eventos, desde técnicas de fotografía hasta consejos de video.</p>
 
@@ -13791,7 +13791,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'document-event-experience-photography-video',
         body: `<h1>How to Document Your Event Experience: Photography and Video</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People documenting events with professional photography and video" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People documenting events with professional photography and video" />
 
 <p>Documenting your experience at MandalaTickets events is an incredible way to preserve memories and share special moments. These professional tips will help you capture the best moments from events, from photography techniques to video tips.</p>
 
@@ -13821,7 +13821,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'documenter-experience-evenement-photographie-video',
         body: `<h1>Comment documenter votre expérience d'événement : photographie et vidéo</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes documentant des événements avec photographie et vidéo professionnelles" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes documentant des événements avec photographie et vidéo professionnelles" />
 
 <p>Documenter votre expérience lors d'événements MandalaTickets est un moyen incroyable de préserver des souvenirs et de partager des moments spéciaux. Ces conseils professionnels vous aideront à capturer les meilleurs moments des événements, des techniques de photographie aux conseils vidéo.</p>
 
@@ -13851,7 +13851,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'documentar-experiencia-eventos-fotografia-video',
         body: `<h1>Como documentar sua experiência em eventos: fotografia e vídeo</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas documentando eventos com fotografia e vídeo profissionais" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas documentando eventos com fotografia e vídeo profissionais" />
 
 <p>Documentar sua experiência em eventos MandalaTickets é uma forma incrível de preservar memórias e compartilhar momentos especiais. Estas dicas profissionais ajudarão você a capturar os melhores momentos dos eventos, desde técnicas de fotografia até dicas de vídeo.</p>
 
@@ -13890,7 +13890,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-sostenibilidad-eventos-nocturnos',
         body: `<h1>Tendencias en sostenibilidad en eventos nocturnos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Eventos nocturnos sostenibles con prácticas ecológicas y responsables" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Eventos nocturnos sostenibles con prácticas ecológicas y responsables" />
 
 <p>La industria de eventos nocturnos está adoptando prácticas más sostenibles y ecológicas, reconociendo la importancia de proteger el medio ambiente mientras se crean experiencias increíbles. Esta guía explora las tendencias en sostenibilidad que están transformando la industria de eventos.</p>
 
@@ -13920,7 +13920,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'sustainability-trends-nightlife-events',
         body: `<h1>Sustainability Trends in Nightlife Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Sustainable nightlife events with eco-friendly and responsible practices" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Sustainable nightlife events with eco-friendly and responsible practices" />
 
 <p>The nightlife event industry is adopting more sustainable and eco-friendly practices, recognizing the importance of protecting the environment while creating incredible experiences. This guide explores sustainability trends that are transforming the event industry.</p>
 
@@ -13950,7 +13950,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-durabilite-evenements-nocturnes',
         body: `<h1>Tendances de durabilité dans les événements nocturnes</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Événements nocturnes durables avec pratiques écologiques et responsables" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Événements nocturnes durables avec pratiques écologiques et responsables" />
 
 <p>L'industrie des événements nocturnes adopte des pratiques plus durables et écologiques, reconnaissant l'importance de protéger l'environnement tout en créant des expériences incroyables. Ce guide explore les tendances de durabilité qui transforment l'industrie des événements.</p>
 
@@ -13980,7 +13980,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-sustentabilidade-eventos-noturnos',
         body: `<h1>Tendências de sustentabilidade em eventos noturnos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Eventos noturnos sustentáveis com práticas ecológicas e responsáveis" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Eventos noturnos sustentáveis com práticas ecológicas e responsáveis" />
 
 <p>A indústria de eventos noturnos está adotando práticas mais sustentáveis e ecológicas, reconhecendo a importância de proteger o meio ambiente enquanto cria experiências incríveis. Este guia explora as tendências de sustentabilidade que estão transformando a indústria de eventos.</p>
 
@@ -14019,7 +14019,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-san-valentin-cancun',
         body: `<h1>Los mejores eventos para celebrar San Valentín en Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebración romántica de San Valentín en Cancún con pareja disfrutando del atardecer" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebración romántica de San Valentín en Cancún con pareja disfrutando del atardecer" />
 
 <p>San Valentín en Cancún es una oportunidad perfecta para crear recuerdos románticos inolvidables. La combinación de playas paradisíacas, aguas turquesas y eventos especiales crea el escenario ideal para celebrar el amor. Cancún ofrece opciones únicas que van desde experiencias íntimas en beach clubs hasta noches elegantes en los mejores antros de la ciudad.</p>
 
@@ -14071,7 +14071,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-events-celebrate-valentines-day-cancun',
         body: `<h1>Best Events to Celebrate Valentine's Day in Cancun</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Romantic Valentine's Day celebration in Cancun with couple enjoying sunset" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Romantic Valentine's Day celebration in Cancun with couple enjoying sunset" />
 
 <p>Valentine's Day in Cancun is a perfect opportunity to create unforgettable romantic memories. The combination of paradisiacal beaches, turquoise waters, and special events creates the ideal setting to celebrate love. Cancun offers unique options ranging from intimate experiences at beach clubs to elegant nights at the city's best clubs.</p>
 
@@ -14123,7 +14123,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-celebrer-saint-valentin-cancun',
         body: `<h1>Meilleurs événements pour célébrer la Saint-Valentin à Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Célébration romantique de la Saint-Valentin à Cancún avec couple profitant du coucher de soleil" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Célébration romantique de la Saint-Valentin à Cancún avec couple profitant du coucher de soleil" />
 
 <p>La Saint-Valentin à Cancún est une opportunité parfaite pour créer des souvenirs romantiques inoubliables. La combinaison de plages paradisiaques, d'eaux turquoise et d'événements spéciaux crée le cadre idéal pour célébrer l'amour. Cancún offre des options uniques allant d'expériences intimes dans les beach clubs aux nuits élégantes dans les meilleures boîtes de nuit de la ville.</p>
 
@@ -14175,7 +14175,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-celebrar-dia-namorados-cancun',
         body: `<h1>Melhores eventos para celebrar o Dia dos Namorados em Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebração romântica do Dia dos Namorados em Cancún com casal desfrutando do pôr do sol" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebração romântica do Dia dos Namorados em Cancún com casal desfrutando do pôr do sol" />
 
 <p>O Dia dos Namorados em Cancún é uma oportunidade perfeita para criar memórias românticas inesquecíveis. A combinação de praias paradisíacas, águas turquesas e eventos especiais cria o cenário ideal para celebrar o amor. Cancún oferece opções únicas que vão desde experiências íntimas em beach clubs até noites elegantes nas melhores boates da cidade.</p>
 
@@ -14236,7 +14236,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-seguridad-personal-eventos-nocturnos',
         body: `<h1>Guía de seguridad personal para eventos nocturnos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas disfrutando de eventos nocturnos de manera segura y responsable" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas disfrutando de eventos nocturnos de manera segura y responsable" />
 
 <p>La seguridad personal es fundamental para disfrutar de eventos nocturnos de manera responsable. Estos consejos importantes te ayudarán a mantenerte seguro mientras disfrutas de eventos de MandalaTickets en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -14266,7 +14266,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'personal-safety-guide-nightlife-events',
         body: `<h1>Personal Safety Guide for Nightlife Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People enjoying nightlife events safely and responsibly" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People enjoying nightlife events safely and responsibly" />
 
 <p>Personal safety is fundamental to enjoying nightlife events responsibly. These important tips will help you stay safe while enjoying MandalaTickets events in destinations like Cancun, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -14296,7 +14296,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guide-securite-personnelle-evenements-nocturnes',
         body: `<h1>Guide de sécurité personnelle pour événements nocturnes</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes profitant d'événements nocturnes de manière sûre et responsable" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes profitant d'événements nocturnes de manière sûre et responsable" />
 
 <p>La sécurité personnelle est fondamentale pour profiter des événements nocturnes de manière responsable. Ces conseils importants vous aideront à rester en sécurité tout en profitant des événements MandalaTickets dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -14326,7 +14326,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-seguranca-pessoal-eventos-noturnos',
         body: `<h1>Guia de segurança pessoal para eventos noturnos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas desfrutando de eventos noturnos de forma segura e responsável" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas desfrutando de eventos noturnos de forma segura e responsável" />
 
 <p>A segurança pessoal é fundamental para desfrutar de eventos noturnos com responsabilidade. Estas dicas importantes ajudarão você a se manter seguro enquanto desfruta de eventos MandalaTickets em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -14365,7 +14365,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-creador-contenido-documenta-eventos-mandalatickets',
         body: `<h1>Entrevista con el creador de contenido que documenta los eventos de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Creador de contenido documentando eventos de MandalaTickets con fotografía y video" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Creador de contenido documentando eventos de MandalaTickets con fotografía y video" />
 
 <p>Los creadores de contenido están jugando un papel importante en compartir la experiencia de MandalaTickets con el mundo. En esta entrevista exclusiva, conversamos con un influencer que está documentando estos eventos, aprendiendo sobre su proceso creativo, cómo captura momentos únicos, y cómo está ayudando a otros a descubrir estos eventos increíbles.</p>
 
@@ -14395,7 +14395,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-content-creator-documenting-mandalatickets-events',
         body: `<h1>Interview with Content Creator Documenting MandalaTickets Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Content creator documenting MandalaTickets events with photography and video" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Content creator documenting MandalaTickets events with photography and video" />
 
 <p>Content creators are playing an important role in sharing the MandalaTickets experience with the world. In this exclusive interview, we spoke with an influencer who is documenting these events, learning about their creative process, how they capture unique moments, and how they're helping others discover these incredible events.</p>
 
@@ -14425,7 +14425,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-createur-contenu-documente-evenements-mandalatickets',
         body: `<h1>Entretien avec le créateur de contenu qui documente les événements MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Créateur de contenu documentant des événements MandalaTickets avec photographie et vidéo" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Créateur de contenu documentant des événements MandalaTickets avec photographie et vidéo" />
 
 <p>Les créateurs de contenu jouent un rôle important dans le partage de l'expérience MandalaTickets avec le monde. Dans cet entretien exclusif, nous avons parlé avec un influenceur qui documente ces événements, apprenant sur son processus créatif, comment il capture des moments uniques, et comment il aide les autres à découvrir ces événements incroyables.</p>
 
@@ -14455,7 +14455,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-criador-conteudo-documenta-eventos-mandalatickets',
         body: `<h1>Entrevista com criador de contenido que documenta eventos MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Criador de conteúdo documentando eventos MandalaTickets com fotografia e vídeo" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Criador de conteúdo documentando eventos MandalaTickets com fotografia e vídeo" />
 
 <p>Os criadores de conteúdo estão desempenhando um papel importante em compartilhar a experiência MandalaTickets com o mundo. Nesta entrevista exclusiva, conversamos com um influencer que está documentando esses eventos, aprendendo sobre seu processo criativo, como ele captura momentos únicos e como está ajudando outros a descobrir esses eventos incríveis.</p>
 
@@ -14494,7 +14494,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-musica-house-tulum',
         body: `<h1>Los mejores eventos de música house en Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Evento de música house en Tulum con DJ y ambiente electrónico" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Evento de música house en Tulum con DJ y ambiente electrónico" />
 
 <p>Tulum es reconocido mundialmente como uno de los mejores destinos para música house y electrónica. La combinación de venues únicos, producción de clase mundial, y la atmósfera mágica de la Riviera Maya crea el escenario perfecto para eventos de música house. Ya sea que busques deep house, tech house, o progressive house, Tulum tiene eventos perfectos para ti en venues como <a href="https://mandalatickets.com/es/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/vagalume">Vagalume Tulum</a>, y <a href="https://mandalatickets.com/es/tulum/disco/bagatelle">Bagatelle Tulum</a>.</p>
 
@@ -14524,7 +14524,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-house-music-events-tulum',
         body: `<h1>Best House Music Events in Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="House music event in Tulum with DJ and electronic atmosphere" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="House music event in Tulum with DJ and electronic atmosphere" />
 
 <p>Tulum is recognized worldwide as one of the best destinations for house and electronic music. The combination of unique venues, world-class production, and the magical atmosphere of the Riviera Maya creates the perfect setting for house music events. Whether you're looking for deep house, tech house, or progressive house, Tulum has perfect events for you at venues like <a href="https://mandalatickets.com/en/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/en/tulum/disco/vagalume">Vagalume Tulum</a>, and <a href="https://mandalatickets.com/en/tulum/disco/bagatelle">Bagatelle Tulum</a>.</p>
 
@@ -14554,7 +14554,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-musique-house-tulum',
         body: `<h1>Meilleurs événements de musique house à Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Événement de musique house à Tulum avec DJ et atmosphère électronique" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Événement de musique house à Tulum avec DJ et atmosphère électronique" />
 
 <p>Tulum est reconnu mondialement comme l'une des meilleures destinations pour la musique house et électronique. La combinaison de lieux uniques, de production de classe mondiale et de l'atmosphère magique de la Riviera Maya crée le cadre parfait pour les événements de musique house. Que vous recherchiez du deep house, tech house ou progressive house, Tulum a des événements parfaits pour vous dans des venues comme <a href="https://mandalatickets.com/fr/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/fr/tulum/disco/vagalume">Vagalume Tulum</a> et <a href="https://mandalatickets.com/fr/tulum/disco/bagatelle">Bagatelle Tulum</a>.</p>
 
@@ -14584,7 +14584,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-musica-house-tulum',
         body: `<h1>Melhores eventos de música house em Tulum</h1>
 
-<img src="/assets/img/PoolFotos/TULUM/TEHMPLO/1.jpg" alt="Evento de música house em Tulum com DJ e atmosfera eletrônica" />
+<img src="/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg" alt="Evento de música house em Tulum com DJ e atmosfera eletrônica" />
 
 <p>Tulum é reconhecido mundialmente como um dos melhores destinos para música house e eletrônica. A combinação de locais únicos, produção de classe mundial e a atmosfera mágica da Riviera Maya cria o cenário perfeito para eventos de música house. Se você procura deep house, tech house ou progressive house, Tulum tem eventos perfeitos para você em venues como <a href="https://mandalatickets.com/pt/tulum/disco/tehmplo">Tehmplo Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/bonbonniere">Bonbonniere Tulum</a>, <a href="https://mandalatickets.com/pt/tulum/disco/vagalume">Vagalume Tulum</a> e <a href="https://mandalatickets.com/pt/tulum/disco/bagatelle">Bagatelle Tulum</a>.</p>
 
@@ -14623,7 +14623,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'crear-playlist-perfecto-prepararse-evento',
         body: `<h1>Cómo crear el playlist perfecto para prepararte para un evento</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Persona creando playlist perfecto para prepararse para evento de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Persona creando playlist perfecto para prepararse para evento de MandalaTickets" />
 
 <p>Crear el playlist perfecto para prepararte para un evento de MandalaTickets puede mejorar significativamente tu experiencia. Esta guía te ofrece tips para crear una lista de reproducción que te ponga en el mood perfecto antes del evento, ayudándote a llegar con la energía y actitud correctas.</p>
 
@@ -14653,7 +14653,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'create-perfect-playlist-prepare-event',
         body: `<h1>How to Create the Perfect Playlist to Prepare for an Event</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Person creating perfect playlist to prepare for MandalaTickets event" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Person creating perfect playlist to prepare for MandalaTickets event" />
 
 <p>Creating the perfect playlist to prepare for a MandalaTickets event can significantly improve your experience. This guide offers tips to create a playlist that puts you in the perfect mood before the event, helping you arrive with the right energy and attitude.</p>
 
@@ -14683,7 +14683,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'creer-playlist-parfaite-preparer-evenement',
         body: `<h1>Comment créer la playlist parfaite pour se préparer à un événement</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personne créant playlist parfaite pour se préparer à événement MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personne créant playlist parfaite pour se préparer à événement MandalaTickets" />
 
 <p>Créer la playlist parfaite pour se préparer à un événement MandalaTickets peut améliorer considérablement votre expérience. Ce guide offre des conseils pour créer une playlist qui vous met dans l'ambiance parfaite avant l'événement, vous aidant à arriver avec la bonne énergie et attitude.</p>
 
@@ -14713,7 +14713,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'criar-playlist-perfeita-preparar-evento',
         body: `<h1>Como criar a playlist perfeita para se preparar para um evento</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoa criando playlist perfeita para se preparar para evento MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoa criando playlist perfeita para se preparar para evento MandalaTickets" />
 
 <p>Criar a playlist perfeita para se preparar para um evento MandalaTickets pode melhorar significativamente sua experiência. Este guia oferece dicas para criar uma playlist que te coloque no clima perfeito antes do evento, ajudando você a chegar com a energia e atitude corretas.</p>
 
@@ -14752,7 +14752,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-dia-independencia-mexico',
         body: `<h1>Los mejores eventos para celebrar el Día de la Independencia en México</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebración del Día de la Independencia en México con eventos especiales de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebración del Día de la Independencia en México con eventos especiales de MandalaTickets" />
 
 <p>El Día de la Independencia en México es una celebración importante, y los eventos de MandalaTickets ofrecen formas increíbles de celebrar las fiestas patrias. Esta guía te presenta los mejores eventos especiales para celebrar en los destinos de MandalaTickets, desde Cancún hasta Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -14782,7 +14782,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-events-celebrate-mexican-independence-day',
         body: `<h1>Best Events to Celebrate Mexican Independence Day</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Mexican Independence Day celebration with special MandalaTickets events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Mexican Independence Day celebration with special MandalaTickets events" />
 
 <p>Mexican Independence Day is an important celebration, and MandalaTickets events offer incredible ways to celebrate the patriotic holidays. This guide presents the best special events to celebrate in MandalaTickets destinations, from Cancun to Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -14812,7 +14812,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-celebrer-jour-independance-mexique',
         body: `<h1>Meilleurs événements pour célébrer le Jour de l'Indépendance au Mexique</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Célébration du Jour de l'Indépendance au Mexique avec événements spéciaux MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Célébration du Jour de l'Indépendance au Mexique avec événements spéciaux MandalaTickets" />
 
 <p>Le Jour de l'Indépendance au Mexique est une célébration importante, et les événements MandalaTickets offrent des moyens incroyables de célébrer les fêtes patriotiques. Ce guide présente les meilleurs événements spéciaux pour célébrer dans les destinations MandalaTickets, de Cancún à Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -14842,7 +14842,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-celebrar-dia-independencia-mexico',
         body: `<h1>Melhores eventos para celebrar o Dia da Independência do México</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebração do Dia da Independência do México com eventos especiais MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebração do Dia da Independência do México com eventos especiais MandalaTickets" />
 
 <p>O Dia da Independência do México é uma celebração importante, e os eventos MandalaTickets oferecem formas incríveis de celebrar as festas patrióticas. Este guia apresenta os melhores eventos especiais para celebrar nos destinos MandalaTickets, de Cancún a Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -14881,7 +14881,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-experiencias-inmersivas-eventos',
         body: `<h1>Tendencias en experiencias inmersivas en eventos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Experiencias inmersivas en eventos con tecnología avanzada y ambientes envolventes" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Experiencias inmersivas en eventos con tecnología avanzada y ambientes envolventes" />
 
 <p>Los eventos están evolucionando para crear experiencias más inmersivas y envolventes que transportan a los asistentes a mundos completamente nuevos. Esta guía explora las tendencias en experiencias inmersivas que están transformando la industria de eventos nocturnos.</p>
 
@@ -14911,7 +14911,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'trends-immersive-experiences-events',
         body: `<h1>Trends in Immersive Experiences at Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Immersive experiences at events with advanced technology and engaging environments" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Immersive experiences at events with advanced technology and engaging environments" />
 
 <p>Events are evolving to create more immersive and engaging experiences that transport attendees to completely new worlds. This guide explores trends in immersive experiences that are transforming the nightlife event industry.</p>
 
@@ -14941,7 +14941,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-experiences-immersives-evenements',
         body: `<h1>Tendances des expériences immersives lors d'événements</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Expériences immersives lors d'événements avec technologie avancée et environnements engageants" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Expériences immersives lors d'événements avec technologie avancée et environnements engageants" />
 
 <p>Les événements évoluent pour créer des expériences plus immersives et engageantes qui transportent les participants vers des mondes complètement nouveaux. Ce guide explore les tendances des expériences immersives qui transforment l'industrie des événements nocturnes.</p>
 
@@ -14971,7 +14971,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-experiencias-imersivas-eventos',
         body: `<h1>Tendências de experiências imersivas em eventos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Experiências imersivas em eventos com tecnologia avançada e ambientes envolventes" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Experiências imersivas em eventos com tecnologia avançada e ambientes envolventes" />
 
 <p>Os eventos estão evoluindo para criar experiências mais imersivas e envolventes que transportam os participantes para mundos completamente novos. Este guia explora as tendências de experiências imersivas que estão transformando a indústria de eventos noturnos.</p>
 
@@ -15010,7 +15010,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-completa-los-cabos-eventos-playas-aventuras',
         body: `<h1>Guía completa de Los Cabos: eventos, playas y aventuras</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Vista panorámica de Los Cabos con playas, actividades de aventura y vida nocturna" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Vista panorámica de Los Cabos con playas, actividades de aventura y vida nocturna" />
 
 <p>Los Cabos es uno de los destinos más completos de México, combinando increíbles playas, actividades de aventura emocionantes, y una vida nocturna vibrante. Esta guía completa te lleva a través de todo lo que necesitas saber sobre Los Cabos, desde los mejores eventos en venues como <a href="https://mandalatickets.com/es/cabos/disco/mandala">Mandala Los Cabos</a> y <a href="https://mandalatickets.com/es/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, hasta las mejores playas y actividades de aventura.</p>
 
@@ -15046,7 +15046,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'complete-guide-los-cabos-events-beaches-adventures',
         body: `<h1>Complete Guide to Los Cabos: Events, Beaches, and Adventures</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Panoramic view of Los Cabos with beaches, adventure activities and nightlife" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Panoramic view of Los Cabos with beaches, adventure activities and nightlife" />
 
 <p>Los Cabos is one of Mexico's most complete destinations, combining incredible beaches, exciting adventure activities, and vibrant nightlife. This complete guide takes you through everything you need to know about Los Cabos, from the best events at venues like <a href="https://mandalatickets.com/en/cabos/disco/mandala">Mandala Los Cabos</a> and <a href="https://mandalatickets.com/en/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, to the best beaches and adventure activities.</p>
 
@@ -15082,7 +15082,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guide-complet-los-cabos-evenements-plages-aventures',
         body: `<h1>Guide complet de Los Cabos : événements, plages et aventures</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Vue panoramique de Los Cabos avec plages, activités d'aventure et vie nocturne" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Vue panoramique de Los Cabos avec plages, activités d'aventure et vie nocturne" />
 
 <p>Los Cabos est l'une des destinations les plus complètes du Mexique, combinant des plages incroyables, des activités d'aventure passionnantes et une vie nocturne vibrante. Ce guide complet vous emmène à travers tout ce que vous devez savoir sur Los Cabos, des meilleurs événements dans des lieux comme <a href="https://mandalatickets.com/fr/cabos/disco/mandala">Mandala Los Cabos</a> et <a href="https://mandalatickets.com/fr/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, aux meilleures plages et activités d'aventure.</p>
 
@@ -15118,7 +15118,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-completo-los-cabos-eventos-praias-aventuras',
         body: `<h1>Guia completo de Los Cabos: eventos, praias e aventuras</h1>
 
-<img src="/assets/img/PoolFotos/CABOS/MANDALA/1.jpg" alt="Vista panorâmica de Los Cabos com praias, atividades de aventura e vida noturna" />
+<img src="/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_10_V01.jpg" alt="Vista panorâmica de Los Cabos com praias, atividades de aventura e vida noturna" />
 
 <p>Los Cabos é um dos destinos mais completos do México, combinando praias incríveis, atividades de aventura emocionantes e vida noturna vibrante. Este guia completo leva você através de tudo o que precisa saber sobre Los Cabos, dos melhores eventos em locais como <a href="https://mandalatickets.com/pt/cabos/disco/mandala">Mandala Los Cabos</a> e <a href="https://mandalatickets.com/pt/cabos/disco/la-vaquita">La Vaquita Los Cabos</a>, às melhores praias e atividades de aventura.</p>
 
@@ -15163,7 +15163,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'aprovechar-descuentos-ultimo-minuto-mandalatickets',
         body: `<h1>Cómo aprovechar los descuentos de último minuto en MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Descuentos de último minuto en MandalaTickets con ofertas especiales" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Descuentos de último minuto en MandalaTickets con ofertas especiales" />
 
 <p>Los descuentos de último minuto en MandalaTickets pueden ofrecer excelentes oportunidades para asistir a eventos increíbles a precios reducidos. Esta guía te ofrece estrategias para encontrar y aprovechar las mejores ofertas de último minuto en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -15193,7 +15193,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'take-advantage-last-minute-discounts-mandalatickets',
         body: `<h1>How to Take Advantage of Last-Minute Discounts at MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Last-minute discounts at MandalaTickets with special offers" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Last-minute discounts at MandalaTickets with special offers" />
 
 <p>Last-minute discounts at MandalaTickets can offer excellent opportunities to attend incredible events at reduced prices. This guide offers strategies to find and take advantage of the best last-minute deals in destinations like Cancun, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -15223,7 +15223,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'profiter-reductions-derniere-minute-mandalatickets',
         body: `<h1>Comment profiter des réductions de dernière minute chez MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Réductions de dernière minute chez MandalaTickets avec offres spéciales" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Réductions de dernière minute chez MandalaTickets avec offres spéciales" />
 
 <p>Les réductions de dernière minute chez MandalaTickets peuvent offrir d'excellentes opportunités pour assister à des événements incroyables à prix réduits. Ce guide offre des stratégies pour trouver et profiter des meilleures offres de dernière minute dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -15253,7 +15253,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'aproveitar-descontos-ultima-hora-mandalatickets',
         body: `<h1>Como aproveitar descontos de última hora na MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Descontos de última hora na MandalaTickets com ofertas especiais" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Descontos de última hora na MandalaTickets com ofertas especiais" />
 
 <p>Os descontos de última hora na MandalaTickets podem oferecer excelentes oportunidades para assistir a eventos incríveis a preços reduzidos. Este guia oferece estratégias para encontrar e aproveitar as melhores ofertas de última hora em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -15292,7 +15292,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-reggaeton-cancun',
         body: `<h1>Los mejores eventos para amantes del reggaetón en Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/RAKATA/1.jpg" alt="Evento de reggaetón en Cancún con DJ y ambiente urbano latino" />
+<img src="/assets/PoolFotos/CUN/RAKATA/RAKATA_CUN_FOTOGRAFIA_1.jpg" alt="Evento de reggaetón en Cancún con DJ y ambiente urbano latino" />
 
 <p>El reggaetón y la música urbana latina han conquistado el mundo, y Cancún no es la excepción. La ciudad ofrece algunos de los mejores eventos dedicados exclusivamente a estos géneros, creando experiencias únicas donde el perreo, el dembow y los hits latinos son los protagonistas. Si eres amante del reggaetón, Cancún tiene eventos perfectos para ti.</p>
 
@@ -15356,7 +15356,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-events-reggaeton-lovers-cancun',
         body: `<h1>Best Events for Reggaeton Lovers in Cancun</h1>
 
-<img src="/assets/img/PoolFotos/CUN/RAKATA/1.jpg" alt="Reggaeton event in Cancun with DJ and Latin urban atmosphere" />
+<img src="/assets/PoolFotos/CUN/RAKATA/RAKATA_CUN_FOTOGRAFIA_1.jpg" alt="Reggaeton event in Cancun with DJ and Latin urban atmosphere" />
 
 <p>Reggaeton and Latin urban music have conquered the world, and Cancun is no exception. The city offers some of the best events dedicated exclusively to these genres, creating unique experiences where perreo, dembow, and Latin hits are the protagonists. If you're a reggaeton lover, Cancun has perfect events for you.</p>
 
@@ -15420,7 +15420,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-amateurs-reggaeton-cancun',
         body: `<h1>Meilleurs événements pour les amateurs de reggaeton à Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/RAKATA/1.jpg" alt="Événement reggaeton à Cancún avec DJ et atmosphère urbaine latine" />
+<img src="/assets/PoolFotos/CUN/RAKATA/RAKATA_CUN_FOTOGRAFIA_1.jpg" alt="Événement reggaeton à Cancún avec DJ et atmosphère urbaine latine" />
 
 <p>Le reggaeton et la musique urbaine latine ont conquis le monde, et Cancún ne fait pas exception. La ville offre certains des meilleurs événements dédiés exclusivement à ces genres, créant des expériences uniques où le perreo, le dembow et les hits latins sont les protagonistes. Si vous êtes amateur de reggaeton, Cancún a des événements parfaits pour vous.</p>
 
@@ -15484,7 +15484,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-amantes-reggaeton-cancun',
         body: `<h1>Melhores eventos para amantes de reggaeton em Cancún</h1>
 
-<img src="/assets/img/PoolFotos/CUN/RAKATA/1.jpg" alt="Evento de reggaeton em Cancún com DJ e atmosfera urbana latina" />
+<img src="/assets/PoolFotos/CUN/RAKATA/RAKATA_CUN_FOTOGRAFIA_1.jpg" alt="Evento de reggaeton em Cancún com DJ e atmosfera urbana latina" />
 
 <p>O reggaeton e a música urbana latina conquistaram o mundo, e Cancún não é exceção. A cidade oferece alguns dos melhores eventos dedicados exclusivamente a esses gêneros, criando experiências únicas onde o perreo, o dembow e os hits latinos são os protagonistas. Se você é amante de reggaeton, Cancún tem eventos perfeitos para você.</p>
 
@@ -15557,7 +15557,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mantenerse-conectado-eventos-wifi-carga-bateria',
         body: `<h1>Cómo mantenerte conectado durante los eventos: WiFi y carga de batería</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas manteniéndose conectadas durante eventos con WiFi y carga de batería" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas manteniéndose conectadas durante eventos con WiFi y carga de batería" />
 
 <p>Mantenerte conectado durante eventos de MandalaTickets es importante para compartir momentos, comunicarte con amigos, y documentar tu experiencia. Esta guía te ofrece tips para mantener tu dispositivo cargado y conectado durante los eventos en destinos como Cancún, Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -15587,7 +15587,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'stay-connected-during-events-wifi-battery-charging',
         body: `<h1>How to Stay Connected During Events: WiFi and Battery Charging</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People staying connected during events with WiFi and battery charging" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People staying connected during events with WiFi and battery charging" />
 
 <p>Staying connected during MandalaTickets events is important for sharing moments, communicating with friends, and documenting your experience. This guide offers tips to keep your device charged and connected during events in destinations like Cancun, Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -15617,7 +15617,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'rester-connecte-pendant-evenements-wifi-charge-batterie',
         body: `<h1>Comment rester connecté pendant les événements : WiFi et charge de batterie</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes restant connectées pendant les événements avec WiFi et charge de batterie" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes restant connectées pendant les événements avec WiFi et charge de batterie" />
 
 <p>Rester connecté pendant les événements MandalaTickets est important pour partager des moments, communiquer avec des amis et documenter votre expérience. Ce guide offre des conseils pour garder votre appareil chargé et connecté pendant les événements dans des destinations comme Cancún, Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -15647,7 +15647,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'manter-conectado-durante-eventos-wifi-carregamento-bateria',
         body: `<h1>Como se manter conectado durante eventos: WiFi e carregamento de bateria</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas se mantendo conectadas durante eventos com WiFi e carregamento de bateria" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas se mantendo conectadas durante eventos com WiFi e carregamento de bateria" />
 
 <p>Manter-se conectado durante eventos MandalaTickets é importante para compartilhar momentos, comunicar-se com amigos e documentar sua experiência. Este guia oferece dicas para manter seu dispositivo carregado e conectado durante eventos em destinos como Cancún, Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -15686,7 +15686,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipo-sonido-mandalatickets',
         body: `<h1>Entrevista con el equipo de sonido de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipo de sonido de MandalaTickets creando experiencia de audio perfecta" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipo de sonido de MandalaTickets creando experiencia de audio perfecta" />
 
 <p>El sonido es fundamental para la experiencia en eventos de MandalaTickets, y detrás de cada evento hay un equipo de sonido dedicado que trabaja para crear la experiencia de audio perfecta. En esta entrevista exclusiva, conversamos con el equipo de sonido sobre cómo se crea esta experiencia, las tecnologías que utilizan, y qué hace que el sonido sea excepcional.</p>
 
@@ -15716,7 +15716,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'interview-mandalatickets-sound-team',
         body: `<h1>Interview with MandalaTickets Sound Team</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="MandalaTickets sound team creating perfect audio experience" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="MandalaTickets sound team creating perfect audio experience" />
 
 <p>Sound is fundamental to the experience at MandalaTickets events, and behind each event there is a dedicated sound team working to create the perfect audio experience. In this exclusive interview, we spoke with the sound team about how this experience is created, the technologies they use, and what makes the sound exceptional.</p>
 
@@ -15746,7 +15746,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entretien-equipe-son-mandalatickets',
         body: `<h1>Entretien avec l'équipe son de MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Équipe son de MandalaTickets créant expérience audio parfaite" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Équipe son de MandalaTickets créant expérience audio parfaite" />
 
 <p>Le son est fondamental pour l'expérience lors d'événements MandalaTickets, et derrière chaque événement il y a une équipe son dédiée qui travaille pour créer l'expérience audio parfaite. Dans cet entretien exclusif, nous avons parlé avec l'équipe son sur la façon dont cette expérience est créée, les technologies qu'ils utilisent, et ce qui rend le son exceptionnel.</p>
 
@@ -15776,7 +15776,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'entrevista-equipe-som-mandalatickets',
         body: `<h1>Entrevista com a equipe de som da MandalaTickets</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Equipe de som da MandalaTickets criando experiência de áudio perfeita" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Equipe de som da MandalaTickets criando experiência de áudio perfeita" />
 
 <p>O som é fundamental para a experiência em eventos MandalaTickets, e por trás de cada evento há uma equipe de som dedicada trabalhando para criar a experiência de áudio perfeita. Nesta entrevista exclusiva, conversamos com a equipe de som sobre como essa experiência é criada, as tecnologias que eles usam e o que torna o som excepcional.</p>
 
@@ -15815,7 +15815,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-dia-madres',
         body: `<h1>Los mejores eventos para celebrar el Día de las Madres</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebración del Día de las Madres en eventos especiales de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebración del Día de las Madres en eventos especiales de MandalaTickets" />
 
 <p>El Día de las Madres es una ocasión especial para celebrar a las mamás, y los eventos de MandalaTickets ofrecen formas increíbles de hacerlo. Esta guía te presenta los mejores eventos especiales para celebrar a las mamás en los destinos de MandalaTickets, desde Cancún hasta Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -15845,7 +15845,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-events-celebrate-mothers-day',
         body: `<h1>Best Events to Celebrate Mother's Day</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Mother's Day celebration at special MandalaTickets events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Mother's Day celebration at special MandalaTickets events" />
 
 <p>Mother's Day is a special occasion to celebrate moms, and MandalaTickets events offer incredible ways to do so. This guide presents the best special events to celebrate moms in MandalaTickets destinations, from Cancun to Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -15875,7 +15875,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-celebrer-fete-meres',
         body: `<h1>Meilleurs événements pour célébrer la Fête des Mères</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Célébration de la Fête des Mères lors d'événements spéciaux MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Célébration de la Fête des Mères lors d'événements spéciaux MandalaTickets" />
 
 <p>La Fête des Mères est une occasion spéciale pour célébrer les mamans, et les événements MandalaTickets offrent des moyens incroyables de le faire. Ce guide présente les meilleurs événements spéciaux pour célébrer les mamans dans les destinations MandalaTickets, de Cancún à Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -15905,7 +15905,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-celebrar-dia-maes',
         body: `<h1>Melhores eventos para celebrar o Dia das Mães</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebração do Dia das Mães em eventos especiais MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebração do Dia das Mães em eventos especiais MandalaTickets" />
 
 <p>O Dia das Mães é uma ocasião especial para celebrar as mães, e os eventos MandalaTickets oferecem formas incríveis de fazê-lo. Este guia apresenta os melhores eventos especiais para celebrar as mães nos destinos MandalaTickets, de Cancún a Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -15944,7 +15944,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-eventos-hibridos-presenciales-virtuales',
         body: `<h1>Tendencias en eventos híbridos: presenciales y virtuales</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Eventos híbridos combinando experiencias presenciales y virtuales" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Eventos híbridos combinando experiencias presenciales y virtuales" />
 
 <p>Los eventos híbridos están combinando experiencias presenciales y virtuales de maneras innovadoras, permitiendo que más personas participen y creando nuevas formas de engagement. Esta guía explora las tendencias en eventos híbridos que están transformando la industria de eventos nocturnos.</p>
 
@@ -15974,7 +15974,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'trends-hybrid-events-in-person-virtual',
         body: `<h1>Trends in Hybrid Events: In-Person and Virtual</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Hybrid events combining in-person and virtual experiences" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Hybrid events combining in-person and virtual experiences" />
 
 <p>Hybrid events are combining in-person and virtual experiences in innovative ways, allowing more people to participate and creating new forms of engagement. This guide explores trends in hybrid events that are transforming the nightlife event industry.</p>
 
@@ -16004,7 +16004,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendances-evenements-hybrides-personne-virtuels',
         body: `<h1>Tendances des événements hybrides : en personne et virtuels</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Événements hybrides combinant expériences en personne et virtuelles" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Événements hybrides combinant expériences en personne et virtuelles" />
 
 <p>Les événements hybrides combinent des expériences en personne et virtuelles de manières innovantes, permettant à plus de personnes de participer et créant de nouvelles formes d'engagement. Ce guide explore les tendances des événements hybrides qui transforment l'industrie des événements nocturnes.</p>
 
@@ -16034,7 +16034,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'tendencias-eventos-hibridos-presenciais-virtuais',
         body: `<h1>Tendências em eventos híbridos: presenciais e virtuais</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Eventos híbridos combinando experiências presenciais e virtuais" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Eventos híbridos combinando experiências presenciais e virtuais" />
 
 <p>Os eventos híbridos estão combinando experiências presenciais e virtuais de formas inovadoras, permitindo que mais pessoas participem e criando novas formas de engajamento. Este guia explora as tendências em eventos híbridos que estão transformando a indústria de eventos noturnos.</p>
 
@@ -16073,7 +16073,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-completa-playa-carmen-eventos-atracciones',
         body: `<h1>Guía completa de Playa del Carmen: eventos y atracciones</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Vista panorámica de Playa del Carmen con Quinta Avenida, playas y vida nocturna" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Vista panorámica de Playa del Carmen con Quinta Avenida, playas y vida nocturna" />
 
 <p>Playa del Carmen es uno de los destinos más vibrantes de la Riviera Maya, combinando increíbles playas, atracciones turísticas únicas, y una escena nocturna de clase mundial. Esta guía completa te llevará a través de todo lo que necesitas saber sobre Playa del Carmen, desde sus mejores eventos en venues como <a href="https://mandalatickets.com/es/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/es/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, y <a href="https://mandalatickets.com/es/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, hasta sus atracciones turísticas más importantes.</p>
 
@@ -16111,7 +16111,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'complete-guide-playa-del-carmen-events-attractions',
         body: `<h1>Complete Guide to Playa del Carmen: Events and Attractions</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Panoramic view of Playa del Carmen with Quinta Avenida, beaches and nightlife" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Panoramic view of Playa del Carmen with Quinta Avenida, beaches and nightlife" />
 
 <p>Playa del Carmen is one of the most vibrant destinations in the Riviera Maya, combining incredible beaches, unique tourist attractions, and world-class nightlife. This complete guide takes you through everything you need to know about Playa del Carmen, from its best events at venues like <a href="https://mandalatickets.com/en/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/en/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a>, and <a href="https://mandalatickets.com/en/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, to its most important tourist attractions.</p>
 
@@ -16149,7 +16149,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guide-complet-playa-del-carmen-evenements-attractions',
         body: `<h1>Guide complet de Playa del Carmen : événements et attractions</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Vue panoramique de Playa del Carmen avec Quinta Avenida, plages et vie nocturne" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Vue panoramique de Playa del Carmen avec Quinta Avenida, plages et vie nocturne" />
 
 <p>Playa del Carmen est l'une des destinations les plus vibrantes de la Riviera Maya, combinant des plages incroyables, des attractions touristiques uniques et une vie nocturne de classe mondiale. Ce guide complet vous emmène à travers tout ce que vous devez savoir sur Playa del Carmen, de ses meilleurs événements dans des lieux comme <a href="https://mandalatickets.com/fr/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/fr/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> et <a href="https://mandalatickets.com/fr/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, à ses attractions touristiques les plus importantes.</p>
 
@@ -16187,7 +16187,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'guia-completo-playa-del-carmen-eventos-atracoes',
         body: `<h1>Guia completo de Playa del Carmen: eventos e atrações</h1>
 
-<img src="/assets/img/PoolFotos/PLAYA/MANDALA/1.jpg" alt="Vista panorâmica de Playa del Carmen com Quinta Avenida, praias e vida noturna" />
+<img src="/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg" alt="Vista panorâmica de Playa del Carmen com Quinta Avenida, praias e vida noturna" />
 
 <p>Playa del Carmen é um dos destinos mais vibrantes da Riviera Maya, combinando praias incríveis, atrações turísticas únicas e vida noturna de classe mundial. Este guia completo leva você através de tudo o que precisa saber sobre Playa del Carmen, de seus melhores eventos em locais como <a href="https://mandalatickets.com/pt/playa/disco/mandala">Mandala Playa del Carmen</a>, <a href="https://mandalatickets.com/pt/playa/disco/la-vaquita">La Vaquita Playa del Carmen</a> e <a href="https://mandalatickets.com/pt/playa/disco/santito-tun-tun">Santito Tun-Tun</a>, às suas atrações turísticas mais importantes.</p>
 
@@ -16234,7 +16234,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'crear-recuerdos-duraderos-eventos-favoritos',
         body: `<h1>Cómo crear recuerdos duraderos de tus eventos favoritos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personas creando recuerdos duraderos de eventos favoritos con fotos y momentos especiales" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personas creando recuerdos duraderos de eventos favoritos con fotos y momentos especiales" />
 
 <p>Los eventos de MandalaTickets crean momentos increíbles que querrás recordar para siempre. Esta guía te ofrece ideas creativas para preservar y recordar tus mejores momentos en los eventos, desde técnicas de documentación hasta formas únicas de mantener vivos esos recuerdos.</p>
 
@@ -16264,7 +16264,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'create-lasting-memories-favorite-events',
         body: `<h1>How to Create Lasting Memories from Your Favorite Events</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="People creating lasting memories from favorite events with photos and special moments" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="People creating lasting memories from favorite events with photos and special moments" />
 
 <p>MandalaTickets events create incredible moments that you'll want to remember forever. This guide offers creative ideas to preserve and remember your best moments at events, from documentation techniques to unique ways to keep those memories alive.</p>
 
@@ -16294,7 +16294,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'creer-souvenirs-durables-evenements-favoris',
         body: `<h1>Comment créer des souvenirs durables de vos événements favoris</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Personnes créant des souvenirs durables d'événements favoris avec photos et moments spéciaux" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Personnes créant des souvenirs durables d'événements favoris avec photos et moments spéciaux" />
 
 <p>Les événements MandalaTickets créent des moments incroyables que vous voudrez vous rappeler pour toujours. Ce guide offre des idées créatives pour préserver et se souvenir de vos meilleurs moments lors d'événements, des techniques de documentation aux moyens uniques de garder ces souvenirs vivants.</p>
 
@@ -16324,7 +16324,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'criar-lembrancas-duradouras-eventos-favoritos',
         body: `<h1>Como criar lembranças duradouras dos seus eventos favoritos</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Pessoas criando lembranças duradouras de eventos favoritos com fotos e momentos especiais" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Pessoas criando lembranças duradouras de eventos favoritos com fotos e momentos especiais" />
 
 <p>Os eventos MandalaTickets criam momentos incríveis que você vai querer lembrar para sempre. Este guia oferece ideias criativas para preservar e lembrar de seus melhores momentos em eventos, desde técnicas de documentação até formas únicas de manter essas memórias vivas.</p>
 
@@ -16363,7 +16363,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mejores-eventos-dia-padre',
         body: `<h1>Los mejores eventos para celebrar el Día del Padre</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebración del Día del Padre en eventos especiales de MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebración del Día del Padre en eventos especiales de MandalaTickets" />
 
 <p>El Día del Padre es una ocasión especial para celebrar a los papás, y los eventos de MandalaTickets ofrecen formas increíbles de hacerlo. Esta guía te presenta los mejores eventos especiales para celebrar a los papás en los destinos de MandalaTickets, desde Cancún hasta Tulum, Playa del Carmen, Los Cabos y Puerto Vallarta.</p>
 
@@ -16393,7 +16393,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'best-events-celebrate-fathers-day',
         body: `<h1>Best Events to Celebrate Father's Day</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Father's Day celebration at special MandalaTickets events" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Father's Day celebration at special MandalaTickets events" />
 
 <p>Father's Day is a special occasion to celebrate dads, and MandalaTickets events offer incredible ways to do so. This guide presents the best special events to celebrate dads in MandalaTickets destinations, from Cancun to Tulum, Playa del Carmen, Los Cabos, and Puerto Vallarta.</p>
 
@@ -16423,7 +16423,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'meilleurs-evenements-celebrer-fete-peres',
         body: `<h1>Meilleurs événements pour célébrer la Fête des Pères</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Célébration de la Fête des Pères lors d'événements spéciaux MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Célébration de la Fête des Pères lors d'événements spéciaux MandalaTickets" />
 
 <p>La Fête des Pères est une occasion spéciale pour célébrer les papas, et les événements MandalaTickets offrent des moyens incroyables de le faire. Ce guide présente les meilleurs événements spéciaux pour célébrer les papas dans les destinations MandalaTickets, de Cancún à Tulum, Playa del Carmen, Los Cabos et Puerto Vallarta.</p>
 
@@ -16453,7 +16453,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'melhores-eventos-celebrar-dia-pais',
         body: `<h1>Melhores eventos para celebrar o Dia dos Pais</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Celebração do Dia dos Pais em eventos especiais MandalaTickets" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Celebração do Dia dos Pais em eventos especiais MandalaTickets" />
 
 <p>O Dia dos Pais é uma ocasião especial para celebrar os pais, e os eventos MandalaTickets oferecem formas incríveis de fazê-lo. Este guia apresenta os melhores eventos especiais para celebrar os pais nos destinos MandalaTickets, de Cancún a Tulum, Playa del Carmen, Los Cabos e Puerto Vallarta.</p>
 
@@ -16492,7 +16492,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'futuro-eventos-nocturnos-predicciones-2026',
         body: `<h1>El futuro de los eventos nocturnos: predicciones para 2026</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Futuro de eventos nocturnos con tecnología avanzada y experiencias innovadoras" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Futuro de eventos nocturnos con tecnología avanzada y experiencias innovadoras" />
 
 <p>El futuro de los eventos nocturnos está lleno de posibilidades emocionantes. Esta guía ofrece una mirada hacia el futuro de la industria de eventos nocturnos y las tendencias que veremos en 2026, desde avances tecnológicos hasta nuevas formas de experiencia.</p>
 
@@ -16522,7 +16522,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'future-nightlife-events-predictions-2026',
         body: `<h1>The Future of Nightlife Events: Predictions for 2026</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Future of nightlife events with advanced technology and innovative experiences" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Future of nightlife events with advanced technology and innovative experiences" />
 
 <p>The future of nightlife events is full of exciting possibilities. This guide offers a look into the future of the nightlife event industry and trends we'll see in 2026, from technological advances to new forms of experience.</p>
 
@@ -16552,7 +16552,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'avenir-evenements-nocturnes-predictions-2026',
         body: `<h1>L'avenir des événements nocturnes : prédictions pour 2026</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Avenir des événements nocturnes avec technologie avancée et expériences innovantes" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Avenir des événements nocturnes avec technologie avancée et expériences innovantes" />
 
 <p>L'avenir des événements nocturnes est plein de possibilités excitantes. Ce guide offre un regard sur l'avenir de l'industrie des événements nocturnes et les tendances que nous verrons en 2026, des avancées technologiques aux nouvelles formes d'expérience.</p>
 
@@ -16582,7 +16582,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'futuro-eventos-noturnos-previsoes-2026',
         body: `<h1>O futuro dos eventos noturnos: previsões para 2026</h1>
 
-<img src="/assets/img/PoolFotos/CUN/MANDALA/1.jpg" alt="Futuro dos eventos noturnos com tecnologia avançada e experiências inovadoras" />
+<img src="/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg" alt="Futuro dos eventos noturnos com tecnologia avançada e experiências inovadoras" />
 
 <p>O futuro dos eventos noturnos está cheio de possibilidades emocionantes. Este guia oferece uma olhada para o futuro da indústria de eventos noturnos e as tendências que veremos em 2026, desde avanços tecnológicos até novas formas de experiência.</p>
 

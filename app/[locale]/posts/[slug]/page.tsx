@@ -342,7 +342,58 @@ export default async function PostPage({ params }: PostPageProps) {
                           style={{ width: '100%', height: 'auto' }}
                           loading="lazy"
                         />
-                        <p className="post-image-caption">{t.postContent.imageCaption} {category?.name || t.category.postsIn}</p>
+                        <p className="post-image-caption">
+                          {(() => {
+                            // Generar caption específico basado en el título del post
+                            const titleLower = content.title.toLowerCase();
+                            let specificCaption = '';
+                            
+                            if (titleLower.includes('evento') || titleLower.includes('event')) {
+                              specificCaption = resolvedParams.locale === 'es' 
+                                ? `Eventos exclusivos en ${category?.name || 'Cancún'}`
+                                : resolvedParams.locale === 'en'
+                                ? `Exclusive events in ${category?.name || 'Cancun'}`
+                                : resolvedParams.locale === 'fr'
+                                ? `Événements exclusifs à ${category?.name || 'Cancún'}`
+                                : `Eventos exclusivos em ${category?.name || 'Cancún'}`;
+                            } else if (titleLower.includes('guía') || titleLower.includes('guide')) {
+                              specificCaption = resolvedParams.locale === 'es'
+                                ? `Guía completa de ${category?.name || 'Cancún'}`
+                                : resolvedParams.locale === 'en'
+                                ? `Complete guide to ${category?.name || 'Cancun'}`
+                                : resolvedParams.locale === 'fr'
+                                ? `Guide complet de ${category?.name || 'Cancún'}`
+                                : `Guia completa de ${category?.name || 'Cancún'}`;
+                            } else if (titleLower.includes('vida nocturna') || titleLower.includes('nightlife')) {
+                              specificCaption = resolvedParams.locale === 'es'
+                                ? `Vida nocturna en ${category?.name || 'Cancún'}`
+                                : resolvedParams.locale === 'en'
+                                ? `Nightlife in ${category?.name || 'Cancun'}`
+                                : resolvedParams.locale === 'fr'
+                                ? `Vie nocturne à ${category?.name || 'Cancún'}`
+                                : `Vida noturna em ${category?.name || 'Cancún'}`;
+                            } else if (titleLower.includes('beach club') || titleLower.includes('beach')) {
+                              specificCaption = resolvedParams.locale === 'es'
+                                ? `Beach clubs en ${category?.name || 'Cancún'}`
+                                : resolvedParams.locale === 'en'
+                                ? `Beach clubs in ${category?.name || 'Cancun'}`
+                                : resolvedParams.locale === 'fr'
+                                ? `Beach clubs à ${category?.name || 'Cancún'}`
+                                : `Beach clubs em ${category?.name || 'Cancún'}`;
+                            } else {
+                              // Caption genérico mejorado
+                              specificCaption = resolvedParams.locale === 'es'
+                                ? `${content.title} - ${category?.name || 'MandalaTickets'}`
+                                : resolvedParams.locale === 'en'
+                                ? `${content.title} - ${category?.name || 'MandalaTickets'}`
+                                : resolvedParams.locale === 'fr'
+                                ? `${content.title} - ${category?.name || 'MandalaTickets'}`
+                                : `${content.title} - ${category?.name || 'MandalaTickets'}`;
+                            }
+                            
+                            return specificCaption;
+                          })()}
+                        </p>
                       </div>
                     )}
 
