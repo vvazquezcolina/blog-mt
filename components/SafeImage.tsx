@@ -20,10 +20,13 @@ export default function SafeImage({ src, alt, title, className, style, loading =
       loading={loading}
       onError={(e) => {
         const img = e.target as HTMLImageElement;
-        if (!(img as any).__errorHandled) {
-          (img as any).__errorHandled = true;
-          img.style.display = 'none';
+        if ((img as any).__errorHandled) {
+          return;
         }
+        (img as any).__errorHandled = true;
+        img.style.display = 'none';
+        // Remover el handler para evitar que se ejecute de nuevo
+        img.onerror = null;
       }}
     />
   );

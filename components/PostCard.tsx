@@ -135,42 +135,14 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
             }}
             onError={(e) => {
               const img = e.target as HTMLImageElement;
-              // Evitar loops infinitos - solo intentar fallback una vez
-              const hasAttemptedFallback = (img as any).__fallbackAttempted;
-              
-              // Si ya intentamos el fallback, detener inmediatamente
-              if (hasAttemptedFallback) {
-                img.style.display = 'none';
+              // Detener inmediatamente - no intentar fallbacks para evitar loops infinitos
+              if ((img as any).__errorHandled) {
                 return;
               }
-              
-              // Marcar que ya intentamos el fallback ANTES de cambiar la src
-              (img as any).__fallbackAttempted = true;
-              
-              // Solo intentar fallback si hay imágenes disponibles y la URL actual no es una de fallback
-              if (imageList.length > 0 && !imageList.some(url => img.src.includes(url.split('/').pop() || ''))) {
-                // Intentar con una imagen diferente de la lista
-                const currentIndex = imageList.findIndex(url => 
-                  img.src.includes(url.split('/').pop() || '')
-                );
-                const nextIndex = currentIndex >= 0 ? (currentIndex + 1) % imageList.length : 0;
-                const fallbackUrl = encodeUrl(imageList[nextIndex] || imageList[0]);
-                
-                // Verificar que la nueva URL sea diferente a la actual
-                if (fallbackUrl !== img.src) {
-                  if (process.env.NODE_ENV === 'development') {
-                    console.log('🔄 Trying fallback image:', fallbackUrl);
-                  }
-                  img.src = fallbackUrl;
-                  return;
-                }
-              }
-              
-              // Si llegamos aquí, ocultar la imagen
+              (img as any).__errorHandled = true;
               img.style.display = 'none';
-              if (process.env.NODE_ENV === 'development') {
-                console.error('❌ Image failed to load:', img.src);
-              }
+              // Remover el handler para evitar que se ejecute de nuevo
+              img.onerror = null;
             }}
             onLoad={() => {
               if (process.env.NODE_ENV === 'development') {
