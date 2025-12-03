@@ -8,20 +8,8 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/assets/:path*",
-      "destination": "/assets/:path*"
-    },
-    {
       "source": "/blog/assets/:path*",
-      "destination": "/assets/:path*"
-    },
-    {
-      "source": "/blog/blog/assets/:path*",
-      "destination": "/assets/:path*"
-    },
-    {
-      "source": "/blog/blog/blog/assets/:path*",
-      "destination": "/assets/:path*"
+      "destination": "/blog/assets/:path*"
     },
     {
       "source": "/blog/css/:path*",

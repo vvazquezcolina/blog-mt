@@ -79,17 +79,17 @@ function getAbsoluteAssetPath(assetPath: string): string {
 function getAssetPath(assetPath: string): string {
   if (assetPath.startsWith('http')) return assetPath;
   
-  // Si tenemos contexto, usar path relativo (para src, href en HTML)
-  if (currentContextPath) {
-    return getRelativeAssetPath(assetPath, currentContextPath);
+  // Usar paths absolutos desde la raíz del sitio servido (/blog/)
+  // Normalizar: remover /blog/ si está presente, luego agregarlo
+  let normalized = assetPath;
+  if (normalized.startsWith(`${BASE_PATH}/`)) {
+    normalized = normalized.substring(BASE_PATH.length);
   }
-  
-  // Fallback: remover /blog/ si está presente (para compatibilidad)
-  if (assetPath.startsWith(`${BASE_PATH}/`)) {
-    return assetPath.substring(BASE_PATH.length);
+  if (!normalized.startsWith('/')) {
+    normalized = `/${normalized}`;
   }
-  if (assetPath.startsWith('/')) return assetPath;
-  return `/${assetPath}`;
+  // Retornar path absoluto desde /blog/
+  return `${BASE_PATH}${normalized}`;
 }
 
 // Generar metadata HTML
