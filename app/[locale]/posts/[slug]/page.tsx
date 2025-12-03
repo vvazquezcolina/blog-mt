@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import PostTracker from '@/components/PostTracker';
 import CTAButton from '@/components/CTAButton';
 import StickyCTA from '@/components/StickyCTA';
+import SafeImage from '@/components/SafeImage';
 import { blogPosts, getCategoryById, getPostContent, findPostBySlug } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -287,11 +288,12 @@ export default async function PostPage({ params }: PostPageProps) {
         </div>
 
         <div className="post-featured-image">
-          <img
+          <SafeImage
             src={imageUrl!}
             alt={imageAlt}
             title={imageTitle}
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            loading="eager"
           />
         </div>
 
@@ -335,7 +337,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     {/* Imagen mediana con caption */}
                     {contentImages[0] && (
                       <div className="post-image-wrapper">
-                        <img
+                        <SafeImage
                           src={contentImages[0]}
                           alt={generateImageAltText(contentImages[0], content.title, category?.name)}
                           className="post-image-medium"
@@ -400,7 +402,7 @@ export default async function PostPage({ params }: PostPageProps) {
                     {/* Imagen pequeña */}
                     {contentImages[1] && (
                       <div className="post-image-wrapper">
-                        <img
+                        <SafeImage
                           src={contentImages[1]}
                           alt={generateImageAltText(contentImages[1], content.title, category?.name)}
                           className="post-image-small"

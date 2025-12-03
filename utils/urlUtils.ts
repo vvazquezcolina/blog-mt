@@ -1,4 +1,5 @@
-import { CategoryId, type Locale } from '@/data/blogPosts';
+import { CategoryId } from '@/data/blogPosts';
+import { type Locale } from '@/i18n';
 
 /**
  * Mapeo de categorías del blog a URLs del sitio principal

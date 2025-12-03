@@ -138,27 +138,38 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
               // Evitar loops infinitos - solo intentar fallback una vez
               const hasAttemptedFallback = (img as any).__fallbackAttempted;
               
-              if (!hasAttemptedFallback && imageList.length > 0) {
-                // Marcar que ya intentamos el fallback
-                (img as any).__fallbackAttempted = true;
-                
+              // Si ya intentamos el fallback, detener inmediatamente
+              if (hasAttemptedFallback) {
+                img.style.display = 'none';
+                return;
+              }
+              
+              // Marcar que ya intentamos el fallback ANTES de cambiar la src
+              (img as any).__fallbackAttempted = true;
+              
+              // Solo intentar fallback si hay imágenes disponibles y la URL actual no es una de fallback
+              if (imageList.length > 0 && !imageList.some(url => img.src.includes(url.split('/').pop() || ''))) {
                 // Intentar con una imagen diferente de la lista
                 const currentIndex = imageList.findIndex(url => 
                   img.src.includes(url.split('/').pop() || '')
                 );
-                const nextIndex = (currentIndex + 1) % imageList.length;
+                const nextIndex = currentIndex >= 0 ? (currentIndex + 1) % imageList.length : 0;
                 const fallbackUrl = encodeUrl(imageList[nextIndex] || imageList[0]);
                 
-                if (process.env.NODE_ENV === 'development') {
-                  console.log('🔄 Trying fallback image:', fallbackUrl);
+                // Verificar que la nueva URL sea diferente a la actual
+                if (fallbackUrl !== img.src) {
+                  if (process.env.NODE_ENV === 'development') {
+                    console.log('🔄 Trying fallback image:', fallbackUrl);
+                  }
+                  img.src = fallbackUrl;
+                  return;
                 }
-                img.src = fallbackUrl;
-              } else {
-                // Si ya intentamos el fallback o no hay lista, ocultar la imagen
-                img.style.display = 'none';
-                if (process.env.NODE_ENV === 'development') {
-                  console.error('❌ Image failed to load after fallback attempt:', img.src);
-                }
+              }
+              
+              // Si llegamos aquí, ocultar la imagen
+              img.style.display = 'none';
+              if (process.env.NODE_ENV === 'development') {
+                console.error('❌ Image failed to load:', img.src);
               }
             }}
             onLoad={() => {
