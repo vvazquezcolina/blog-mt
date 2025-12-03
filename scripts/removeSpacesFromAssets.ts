@@ -107,7 +107,7 @@ function updateCodeReferences(): void {
     { pattern: /MT_Señor Frogs/g, replacement: 'MT_Senior_Frogs' },
     // Reemplazar cualquier espacio restante en nombres de archivos dentro de rutas
     { pattern: /\/assets\/PoolFotos\/([^"']*?)\s+([^"']*?)\.(jpg|png|jpeg)/g, replacement: (match, p1, p2, ext) => {
-      return `/assets/PoolFotos/${p1}${p2.replace(/\s+/g, '_')}.${ext}`;
+      return `/blog/assets/PoolFotos/${p1}${p2.replace(/\s+/g, '_')}.${ext}`;
     }},
   ];
 

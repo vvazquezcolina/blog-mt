@@ -57,7 +57,7 @@ function getRandomImage(dest: string, venue: string, index: number): string | nu
 }
 
 function fixImagePaths(content: string): string {
-  // Patrón: /assets/PoolFotos/DEST/VENUE/NUMBER.jpg
+  // Patrón: /blog/assets/PoolFotos/DEST/VENUE/NUMBER.jpg
   const pattern = /\/assets\/PoolFotos\/([^\/]+)\/([^\/]+)\/(\d+)\.jpg/g;
   
   return content.replace(pattern, (match, dest, venue, numStr) => {
