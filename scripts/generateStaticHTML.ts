@@ -29,11 +29,52 @@ function getPath(route: string): string {
   return `${BASE_PATH}${route}`;
 }
 
-// Helper para generar URLs de assets con prefijo /blog
+// Helper para generar paths relativos a assets desde una ruta dada
+// Calcula cuántos niveles subir para llegar a /blog/ y luego ir a assets
+function getRelativeAssetPath(assetPath: string, fromPath: string): string {
+  if (assetPath.startsWith('http')) return assetPath;
+  
+  // Normalizar el asset path: remover /blog/ si está presente
+  let normalizedAsset = assetPath;
+  if (normalizedAsset.startsWith(`${BASE_PATH}/`)) {
+    normalizedAsset = normalizedAsset.substring(BASE_PATH.length);
+  }
+  if (!normalizedAsset.startsWith('/')) {
+    normalizedAsset = `/${normalizedAsset}`;
+  }
+  
+  // Calcular niveles de profundidad desde fromPath hasta /blog/
+  // fromPath es algo como: /es/posts/slug o /es/categorias/cancun
+  const depth = fromPath.split('/').filter(p => p && p !== BASE_PATH.substring(1)).length;
+  
+  // Generar path relativo: subir 'depth' niveles, luego ir a assets
+  const relativePath = '../'.repeat(depth) + normalizedAsset.substring(1); // Remover el / inicial
+  
+  return relativePath;
+}
+
+// Helper para generar URLs de assets - mantiene compatibilidad pero ahora usa paths relativos
+// Se debe pasar el contexto (ruta desde donde se genera) para calcular el path relativo correcto
+let currentContextPath = ''; // Contexto actual para generar paths relativos
+
+function setAssetContext(contextPath: string): void {
+  currentContextPath = contextPath;
+}
+
 function getAssetPath(assetPath: string): string {
   if (assetPath.startsWith('http')) return assetPath;
-  if (assetPath.startsWith('/')) return `${BASE_PATH}${assetPath}`;
-  return `${BASE_PATH}/${assetPath}`;
+  
+  // Si tenemos contexto, usar path relativo
+  if (currentContextPath) {
+    return getRelativeAssetPath(assetPath, currentContextPath);
+  }
+  
+  // Fallback: remover /blog/ si está presente (para compatibilidad)
+  if (assetPath.startsWith(`${BASE_PATH}/`)) {
+    return assetPath.substring(BASE_PATH.length);
+  }
+  if (assetPath.startsWith('/')) return assetPath;
+  return `/${assetPath}`;
 }
 
 // Generar metadata HTML
@@ -582,6 +623,8 @@ function generatePageHTML(content: {
 // Generar página home
 function generateHomePage(locale: Locale): void {
   const t = getTranslations(locale);
+  // Establecer contexto para paths relativos: /locale
+  setAssetContext(`/${locale}`);
   const featuredPosts = blogPosts.filter(post => post.featured).slice(0, 3);
   const recentPosts = blogPosts.slice(0, 6);
 
@@ -655,6 +698,8 @@ function generateHomePage(locale: Locale): void {
 
 // Generar página de categorías
 function generateCategoriesPage(locale: Locale): void {
+  // Establecer contexto para paths relativos: /locale/categorias
+  setAssetContext(`/${locale}/categorias`);
   const t = getTranslations(locale);
   const header = generateHeader(locale, `/${locale}/categorias`);
   const footer = generateFooter(locale);
@@ -708,6 +753,8 @@ function generateCategoryPage(locale: Locale, categoryId: string): void {
     return;
   }
 
+  // Establecer contexto para paths relativos: /locale/categorias/categoryId
+  setAssetContext(`/${locale}/categorias/${categoryId}`);
   const t = getTranslations(locale);
   const categoryPosts = blogPosts.filter(post => post.category === categoryId);
   const header = generateHeader(locale, `/${locale}/categorias/${categoryId}`);
@@ -758,6 +805,8 @@ function generateCategoryPage(locale: Locale, categoryId: string): void {
 
 // Generar página de todos los posts
 function generateAllPostsPage(locale: Locale): void {
+  // Establecer contexto para paths relativos: /locale/posts
+  setAssetContext(`/${locale}/posts`);
   const t = getTranslations(locale);
   const header = generateHeader(locale, `/${locale}/posts`);
   const footer = generateFooter(locale);
@@ -803,6 +852,9 @@ function generatePostPage(locale: Locale, post: typeof blogPosts[0]): void {
   const t = getTranslations(locale);
   const content = getPostContent(post, locale);
   const category = getCategoryById(post.category);
+  
+  // Establecer contexto para paths relativos: /locale/posts/slug
+  setAssetContext(`/${locale}/posts/${content.slug}`);
   
   const postBody = content.body || generatePostContent(post, locale);
   
