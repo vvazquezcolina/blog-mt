@@ -61,10 +61,25 @@ function setAssetContext(contextPath: string): void {
   currentContextPath = contextPath;
 }
 
+// Función para obtener path absoluto (para URLs completas en metadata, structured data, etc.)
+function getAbsoluteAssetPath(assetPath: string): string {
+  if (assetPath.startsWith('http')) return assetPath;
+  
+  // Normalizar: remover /blog/ si está presente, luego agregarlo
+  let normalized = assetPath;
+  if (normalized.startsWith(`${BASE_PATH}/`)) {
+    normalized = normalized.substring(BASE_PATH.length);
+  }
+  if (!normalized.startsWith('/')) {
+    normalized = `/${normalized}`;
+  }
+  return `${BASE_PATH}${normalized}`;
+}
+
 function getAssetPath(assetPath: string): string {
   if (assetPath.startsWith('http')) return assetPath;
   
-  // Si tenemos contexto, usar path relativo
+  // Si tenemos contexto, usar path relativo (para src, href en HTML)
   if (currentContextPath) {
     return getRelativeAssetPath(assetPath, currentContextPath);
   }
@@ -94,7 +109,7 @@ function generateMetadata(metadata: {
   ).join('\n    ');
 
   const ogImage = metadata.image 
-    ? (metadata.image.startsWith('http') ? metadata.image : `https://www.mandalatickets.com${getAssetPath(metadata.image)}`)
+    ? (metadata.image.startsWith('http') ? metadata.image : `https://www.mandalatickets.com${getAbsoluteAssetPath(metadata.image)}`)
     : undefined;
 
   let meta = `
@@ -921,7 +936,7 @@ function generatePostPage(locale: Locale, post: typeof blogPosts[0]): void {
   const fullImageUrl = imageUrl 
     ? imageUrl.startsWith('http') 
       ? imageUrl 
-      : `${baseUrl}${getAssetPath(imageUrl)}`
+      : `${baseUrl}${getAbsoluteAssetPath(imageUrl)}`
     : undefined;
 
   const structuredData = {
@@ -940,7 +955,7 @@ function generatePostPage(locale: Locale, post: typeof blogPosts[0]): void {
       name: 'MandalaTickets',
       logo: {
         '@type': 'ImageObject',
-        url: `${baseUrl}${getAssetPath('/assets/img/logo.png')}`,
+        url: `${baseUrl}${getAbsoluteAssetPath('/assets/img/logo.png')}`,
       },
     },
     mainEntityOfPage: {
