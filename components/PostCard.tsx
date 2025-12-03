@@ -1,29 +1,23 @@
 'use client';
 
-import Link from 'next/link';
-import { BlogPost, getCategoryById, getPostContent } from '@/data/blogPosts';
-import { type Locale } from '@/i18n';
-import { generateImageAltText, generateImageTitle } from '@/utils/imageUtils';
+import { BlogPost } from '@/data/blogPosts';
+import SafeImage from './SafeImage';
 
 interface PostCardProps {
   post: BlogPost;
-  featured?: boolean;
-  locale: Locale;
+  locale: string;
 }
 
-export default function PostCard({ post, featured = false, locale }: PostCardProps) {
-  const category = getCategoryById(post.category);
-  const cardClass = featured ? 'post-card featured-post' : 'post-card';
+export default function PostCard({ post, locale }: PostCardProps) {
+  const postUrl = `/${locale}/posts/${post.slug}`;
   
-  // Obtener contenido traducido según el locale
-  const content = getPostContent(post, locale);
-  
-  // Listas de imágenes verificadas que realmente existen
+  // Listas COMPLETAS de imágenes verificadas que realmente existen
   const categoryImages: Record<string, string[]> = {
     'cancun': [
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_03.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_04.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_05.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_06.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_07.jpg',
@@ -45,6 +39,31 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_23.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_24.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_25.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_26.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_27.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_28.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_29.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_30.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_31.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_32.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_33.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_34.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_35.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_36.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_37.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_38.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_39.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_40.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_41.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_42.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_43.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_44.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_45.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_46.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_47.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_48.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_49.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_50.jpg',
       '/assets/PoolFotos/CUN/VAQUITA/MT_Vaquita_Cancun_01.jpg',
       '/assets/PoolFotos/CUN/VAQUITA/MT_Vaquita_Cancun_02.jpg',
       '/assets/PoolFotos/CUN/VAQUITA/MT_Vaquita_Cancun_03.jpg',
@@ -76,6 +95,11 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
       '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_13.jpg',
       '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_14.jpg',
       '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_15.jpg',
+      '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_16.jpg',
+      '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_17.jpg',
+      '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_18.jpg',
+      '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_19.jpg',
+      '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_20.jpg',
       '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg',
       '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_02.jpg',
       '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_03.jpg',
@@ -96,12 +120,64 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
       '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_18.jpg',
       '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_19.jpg',
       '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_20.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_21.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_22.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_23.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_24.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_25.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_26.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_27.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_28.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_29.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_30.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_31.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_32.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_33.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_34.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_35.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_36.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_37.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_38.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_39.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_40.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_41.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_42.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_43.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_44.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_45.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_46.jpg',
+      '/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_47.jpg',
       '/assets/PoolFotos/TULUM/VAGALUME/MT_Vagalume_1.jpg',
       '/assets/PoolFotos/TULUM/BAGATELLE/Pic_1.jpg',
       '/assets/PoolFotos/TULUM/BAGATELLE/Pic_3.jpg',
       '/assets/PoolFotos/TULUM/BAGATELLE/Pic_5.jpg',
       '/assets/PoolFotos/TULUM/BAGATELLE/Pic_7.jpg',
       '/assets/PoolFotos/TULUM/BAGATELLE/Pic_9.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_13.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_14.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_17.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_19.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_20.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_21.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_22.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_23.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_24.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_25.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_26.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_27.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_29.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_30.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_31.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_32.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_33.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_34.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_35.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_36.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_37.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_38.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_39.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_40.jpg',
+      '/assets/PoolFotos/TULUM/BAGATELLE/Pic_41.jpg',
     ],
     'playa-del-carmen': [
       '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg',
@@ -124,6 +200,33 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
       '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_18.jpg',
       '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_19.jpg',
       '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_20.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_21.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_22.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_23.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_24.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_25.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_26.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_27.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_28.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_29.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_30.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_31.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_32.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_33.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_34.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_35.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_36.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_37.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_38.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_39.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_40.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_41.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_42.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_43.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_44.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_45.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_46.jpg',
+      '/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_47.jpg',
       '/assets/PoolFotos/PDC/VAQUITA/MT_Vaquita_PDC_1.jpg',
       '/assets/PoolFotos/PDC/SANTITO/MT_SANTITO_01.png',
     ],
@@ -148,6 +251,37 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
       '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_18_V01.jpg',
       '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_19_V01.jpg',
       '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_20_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_21_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_22_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_23_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_24_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_25_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_26_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_27_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_28_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_29_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_30_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_31_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_32_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_33_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_34_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_35_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_36_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_37_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_38_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_39_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_40_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_41_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_42_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_43_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_44_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_45_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_46_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_47_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_48_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_49_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_50_V01.jpg',
+      '/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_51_V01.jpg',
       '/assets/PoolFotos/CSL/VAQUITAA/LaVaquita_CSL_MandalaTickets_2025_NOV_Fotos_V01_U01.jpg',
       '/assets/PoolFotos/CSL/VAQUITAA/LaVaquita_CSL_MandalaTickets_2025_NOV_Fotos_V01_U02.jpg',
       '/assets/PoolFotos/CSL/VAQUITAA/LaVaquita_CSL_MandalaTickets_2025_NOV_Fotos_V01_U03.jpg',
@@ -174,6 +308,7 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_03.jpg',
+      '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_04.jpg',
       '/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_05.jpg',
       '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
       '/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_02.jpg',
@@ -183,7 +318,7 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
       '/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg',
     ],
   };
-  
+
   // Función hash simple para mejor distribución
   const hashPostId = (id: string): number => {
     let hash = 0;
@@ -194,62 +329,36 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
     }
     return Math.abs(hash);
   };
-  
-  // Asignar imagen determinística con mejor distribución
+
+  // Obtener lista de imágenes disponibles para esta categoría
   const imageList = categoryImages[post.category] || categoryImages['general'];
-  const postIdNum = parseInt(post.id) || 1;
-  // Usar hash para mejor distribución y evitar repeticiones
-  const hashValue = hashPostId(post.id);
-  const imageIndex = (postIdNum + hashValue) % imageList.length;
-  const imageUrl = post.image || imageList[imageIndex] || imageList[0];
   
-  // Generar alt text y title optimizados para SEO
-  const imageAlt = generateImageAltText(imageUrl, content.title, category?.name);
-  const imageTitle = generateImageTitle(imageUrl, content.title, category?.name);
+  // Usar hash determinístico basado en el ID del post
+  const postIdNum = parseInt(post.id) || 1;
+  const hash = hashPostId(post.id);
+  const imageIndex = hash % imageList.length;
+  const imageUrl = imageList[imageIndex] || imageList[0];
 
   return (
-    <Link href={`/${locale}/posts/${content.slug}`}>
-      <div className={cardClass}>
-        <div className="post-image" style={{ position: 'relative', width: '100%', height: featured ? '300px' : '200px', overflow: 'hidden', backgroundColor: '#1a1a1a' }}>
-          <img
+    <article className="post-card">
+      <a href={postUrl} className="post-card-link">
+        <div className="post-card-image-wrapper">
+          <SafeImage
             src={imageUrl}
-            alt={imageAlt}
-            title={imageTitle}
-            loading={featured ? 'eager' : 'lazy'}
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              display: 'block',
-              zIndex: 10,
-              minWidth: '100%',
-              minHeight: '100%'
-            }}
+            alt={post.title}
+            className="post-card-image"
+            loading="lazy"
           />
         </div>
-        <div className="post-content">
-          {category && (
-            <span 
-              className="post-category"
-              style={{ backgroundColor: category.color }}
-            >
-              {category.name}
-            </span>
-          )}
-          <h2 className="post-title">{content.title}</h2>
-          <p className="post-excerpt">{content.excerpt}</p>
-          <div className="post-meta">
-            <span>{new Date(post.date).toLocaleDateString(locale, { 
-              year: 'numeric', 
-              month: 'long', 
-              day: 'numeric' 
-            })}</span>
+        <div className="post-card-content">
+          <h2 className="post-card-title">{post.title}</h2>
+          <p className="post-card-excerpt">{post.excerpt}</p>
+          <div className="post-card-meta">
+            <span className="post-card-category">{post.category}</span>
+            <span className="post-card-date">{new Date(post.date).toLocaleDateString(locale)}</span>
           </div>
         </div>
-      </div>
-    </Link>
+      </a>
+    </article>
   );
 }
