@@ -11,6 +11,16 @@ interface PostCardProps {
 export default function PostCard({ post, locale }: PostCardProps) {
   const postUrl = `/${locale}/posts/${post.slug}`;
   
+  // Función para construir la URL correcta de la imagen
+  const getImageUrl = (path: string): string => {
+    // Si la ruta ya empieza con /, usarla directamente
+    // Next.js servirá desde public/ automáticamente
+    if (path.startsWith('/')) {
+      return path;
+    }
+    return `/${path}`;
+  };
+
   // Listas COMPLETAS de imágenes verificadas que realmente existen
   const categoryImages: Record<string, string[]> = {
     'cancun': [
@@ -338,13 +348,15 @@ export default function PostCard({ post, locale }: PostCardProps) {
   const hash = hashPostId(post.id);
   const imageIndex = hash % imageList.length;
   const imageUrl = imageList[imageIndex] || imageList[0];
+  // Asegurar que la URL sea absoluta desde la raíz
+  const finalImageUrl = imageUrl.startsWith('/') ? imageUrl : `/${imageUrl}`;
 
   return (
     <article className="post-card">
       <a href={postUrl} className="post-card-link">
         <div className="post-card-image-wrapper">
           <SafeImage
-            src={imageUrl}
+            src={finalImageUrl}
             alt={post.title}
             className="post-card-image"
             loading="lazy"
