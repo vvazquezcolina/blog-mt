@@ -9,7 +9,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getTranslations, type Locale } from '@/i18n';
 import { locales } from '@/i18n/config';
-import { getImageForPost, getMultipleImagesForPost, generateImageAltText, generateImageTitle } from '@/utils/imageUtils';
+import { generateImageAltText, generateImageTitle } from '@/utils/imageUtils';
 import { generatePostContent } from '@/utils/contentGenerator';
 import { getMandalaTicketsUrl } from '@/utils/urlUtils';
 import type { Metadata } from 'next';
@@ -62,7 +62,19 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
   const postUrl = `${baseUrl}/${locale}/posts/${content.slug}`;
   
   // Obtener la imagen del post para metadata
-  const imageUrl = post.image || getImageForPost(post.category, post.id, content.title, content.slug);
+  // Asignar imagen determinística para metadata
+  const categoryImageLists: Record<string, string[]> = {
+    'cancun': ['/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg'],
+    'tulum': ['/blog/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg'],
+    'playa-del-carmen': ['/blog/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg'],
+    'los-cabos': ['/blog/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg'],
+    'puerto-vallarta': ['/blog/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg'],
+    'general': ['/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg'],
+  };
+  const imageList = categoryImageLists[post.category] || categoryImageLists['general'];
+  const postIdNum = parseInt(post.id) || 1;
+  const imageIndex = (postIdNum - 1) % imageList.length;
+  const imageUrl = post.image || imageList[imageIndex] || imageList[0];
   const imageAlt = imageUrl 
     ? generateImageAltText(imageUrl, content.title, category?.name)
     : content.title;
@@ -147,59 +159,57 @@ export default async function PostPage({ params }: PostPageProps) {
   // Generar contenido completo si no existe
   const postBody = content.body || generatePostContent(post, resolvedParams.locale);
   
-  let imageUrl = post.image || getImageForPost(post.category, post.id, content.title, content.slug);
+  // Asignar imágenes determinísticas basadas en el ID del post
+  const categoryImageLists: Record<string, string[]> = {
+    'cancun': [
+      '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
+      '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
+      '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_03.jpg',
+      '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_04.jpg',
+      '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_05.jpg',
+      '/blog/assets/PoolFotos/CUN/VAQUITA/MT_Vaquita_Cancun_01.jpg',
+      '/blog/assets/PoolFotos/CUN/RAKATA/RAKATA_CUN_FOTOGRAFIA_1.jpg',
+    ],
+    'tulum': [
+      '/blog/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
+      '/blog/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_02.jpg',
+      '/blog/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_03.jpg',
+      '/blog/assets/PoolFotos/TULUM/TEHMPLO/MT_Themplo_01.jpg',
+      '/blog/assets/PoolFotos/TULUM/VAGALUME/MT_Vagalume_1.jpg',
+    ],
+    'playa-del-carmen': [
+      '/blog/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg',
+      '/blog/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_2.jpg',
+      '/blog/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_3.jpg',
+      '/blog/assets/PoolFotos/PDC/VAQUITA/MT_Vaquita_PDC_1.jpg',
+    ],
+    'los-cabos': [
+      '/blog/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
+      '/blog/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_2_V01.jpg',
+      '/blog/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_3_V01.jpg',
+    ],
+    'puerto-vallarta': [
+      '/blog/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg',
+      '/blog/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_2.jpg',
+      '/blog/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_3.jpg',
+    ],
+    'general': [
+      '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
+      '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
+      '/blog/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
+    ],
+  };
   
-  // Si no hay imagen, usar fallback según categoría
-  if (!imageUrl) {
-    const fallbackImages: Record<string, string> = {
-      'cancun': '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
-      'tulum': '/blog/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
-      'playa-del-carmen': '/blog/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg',
-      'los-cabos': '/blog/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
-      'puerto-vallarta': '/blog/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg',
-      'general': '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
-    };
-    imageUrl = fallbackImages[post.category] || fallbackImages['general'];
-  }
+  const imageList = categoryImageLists[post.category] || categoryImageLists['general'];
+  const postIdNum = parseInt(post.id) || 1;
+  const imageIndex = (postIdNum - 1) % imageList.length;
+  const imageUrl = post.image || imageList[imageIndex] || imageList[0];
   
-  // Obtener imágenes adicionales para usar en el contenido (con fallback si es necesario)
-  let contentImages = getMultipleImagesForPost(post.category, post.id, 3, content.title, content.slug);
-  if (contentImages.length === 0) {
-    // Si no hay imágenes, usar la imagen principal repetida o fallbacks
-    const fallbackImages: Record<string, string[]> = {
-      'cancun': [
-        '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
-        '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
-        '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_03.jpg',
-      ],
-      'tulum': [
-        '/blog/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_01.jpg',
-        '/blog/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_02.jpg',
-        '/blog/assets/PoolFotos/TULUM/BONBONNIERE/MT_Bonbinniere_03.jpg',
-      ],
-      'playa-del-carmen': [
-        '/blog/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_1.jpg',
-        '/blog/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_2.jpg',
-        '/blog/assets/PoolFotos/PDC/MANDALA/MT_Mandala_PDC_3.jpg',
-      ],
-      'los-cabos': [
-        '/blog/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_1_V01.jpg',
-        '/blog/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_2_V01.jpg',
-        '/blog/assets/PoolFotos/CSL/MANDALA/Mandala_CSL_MT_Fotos1500x1000_3_V01.jpg',
-      ],
-      'puerto-vallarta': [
-        '/blog/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_1.jpg',
-        '/blog/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_2.jpg',
-        '/blog/assets/PoolFotos/VTA/MANDALA/MT_Mandala_Vta_3.jpg',
-      ],
-      'general': [
-        '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
-        '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
-        '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_03.jpg',
-      ],
-    };
-    contentImages = fallbackImages[post.category] || fallbackImages['general'] || [imageUrl || ''];
-  }
+  // Imágenes para el contenido - usar diferentes índices
+  const contentImages = [
+    imageList[(imageIndex + 1) % imageList.length] || imageList[0],
+    imageList[(imageIndex + 2) % imageList.length] || imageList[1] || imageList[0],
+  ];
   
   const imageAlt = imageUrl 
     ? generateImageAltText(imageUrl, content.title, category?.name)

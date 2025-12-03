@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { BlogPost, getCategoryById, getPostContent } from '@/data/blogPosts';
 import { type Locale } from '@/i18n';
-import { getImageForPost, generateImageAltText, generateImageTitle } from '@/utils/imageUtils';
+import { generateImageAltText, generateImageTitle } from '@/utils/imageUtils';
 
 interface PostCardProps {
   post: BlogPost;
@@ -18,8 +18,8 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
   // Obtener contenido traducido según el locale
   const content = getPostContent(post, locale);
   
-  // Mapeo de categorías a arrays de imágenes (usaremos estas si getImageForPost falla)
-  const fallbackImageLists: Record<string, string[]> = {
+  // Listas simples de imágenes por categoría - SIN ESPACIOS en nombres
+  const categoryImages: Record<string, string[]> = {
     'cancun': [
       '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_01.jpg',
       '/blog/assets/PoolFotos/CUN/MANDALA/MT_Mandala_Cancun_02.jpg',
@@ -68,49 +68,15 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
     ],
   };
   
-  // Obtener lista de imágenes disponibles para esta categoría
-  const imageList = fallbackImageLists[post.category] || fallbackImageLists['general'];
-  
-  // Determinar qué imagen usar - priorizar post.image, luego getImageForPost, luego fallback
-  let rawImageUrl: string;
-  
-  if (post.image) {
-    rawImageUrl = post.image;
-  } else {
-    // Intentar obtener del imageMap con título y slug para mejor detección de venues
-    const imageMapImage = getImageForPost(post.category, post.id, content.title, content.slug);
-    if (imageMapImage) {
-      rawImageUrl = imageMapImage;
-    } else {
-      // Usar fallback determinístico basado en el ID del post
-      const postIdNum = parseInt(post.id) || 1;
-      const imageIndex = (postIdNum - 1) % imageList.length;
-      rawImageUrl = imageList[imageIndex] || imageList[0];
-    }
-  }
-  
-  // Función helper para codificar espacios en URLs correctamente
-  // Next.js maneja las rutas estáticas en public/, pero necesitamos codificar espacios para el navegador
-  const encodeUrl = (url: string): string => {
-    // Si la URL ya está codificada, no hacer nada
-    if (url.includes('%20') || url.includes('%2F')) {
-      return url;
-    }
-    // Codificar cada segmento que tenga espacios
-    return url.split('/').map(segment => {
-      if (segment && segment.includes(' ')) {
-        return encodeURIComponent(segment);
-      }
-      return segment;
-    }).join('/');
-  };
-  
-  // Codificar la URL para que funcione correctamente
-  const imageUrl = encodeUrl(rawImageUrl);
+  // Asignar imagen determinística basada en el ID del post
+  const imageList = categoryImages[post.category] || categoryImages['general'];
+  const postIdNum = parseInt(post.id) || 1;
+  const imageIndex = (postIdNum - 1) % imageList.length;
+  const imageUrl = post.image || imageList[imageIndex] || imageList[0];
   
   // Generar alt text y title optimizados para SEO
-  const imageAlt = generateImageAltText(rawImageUrl, content.title, category?.name);
-  const imageTitle = generateImageTitle(rawImageUrl, content.title, category?.name);
+  const imageAlt = generateImageAltText(imageUrl, content.title, category?.name);
+  const imageTitle = generateImageTitle(imageUrl, content.title, category?.name);
 
   return (
     <Link href={`/${locale}/posts/${content.slug}`}>
@@ -132,22 +98,6 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
               zIndex: 10,
               minWidth: '100%',
               minHeight: '100%'
-            }}
-            onError={(e) => {
-              const img = e.target as HTMLImageElement;
-              // Detener inmediatamente - no intentar fallbacks para evitar loops infinitos
-              if ((img as any).__errorHandled) {
-                return;
-              }
-              (img as any).__errorHandled = true;
-              img.style.display = 'none';
-              // Remover el handler para evitar que se ejecute de nuevo
-              img.onerror = null;
-            }}
-            onLoad={() => {
-              if (process.env.NODE_ENV === 'development') {
-                console.log('✅ Image loaded successfully:', imageUrl);
-              }
             }}
           />
         </div>
@@ -174,4 +124,3 @@ export default function PostCard({ post, featured = false, locale }: PostCardPro
     </Link>
   );
 }
-
