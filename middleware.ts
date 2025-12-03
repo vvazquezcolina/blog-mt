@@ -1,43 +1,16 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { locales, defaultLocale } from './i18n/config';
 
+// Middleware deshabilitado - Vercel rewrites manejan las redirecciones
 export function middleware(request: NextRequest) {
-  const pathname = request.nextUrl.pathname;
-  
-  // Skip middleware for static assets, API routes, and Next.js internals
-  if (
-    pathname.startsWith('/_next') ||
-    pathname.startsWith('/api') ||
-    pathname.startsWith('/assets') ||
-    pathname.startsWith('/blog/assets') ||
-    pathname.startsWith('/favicon.ico') ||
-    pathname.includes('.')
-  ) {
-    return NextResponse.next();
-  }
-  
-  // Check if there is any supported locale in the pathname
-  const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
-
-  // If there's no locale in the pathname, redirect to default locale
-  if (!pathnameHasLocale && pathname !== '/') {
-    const locale = defaultLocale;
-    const newPathname = `/${locale}${pathname}`;
-    
-    return NextResponse.redirect(
-      new URL(newPathname, request.url)
-    );
-  }
-  
+  // Simplemente pasar todas las solicitudes sin procesar
+  // Las redirecciones se manejan en vercel.json
   return NextResponse.next();
 }
 
 export const config = {
   matcher: [
-    // Skip all internal paths (_next), API, assets, and files with extensions
+    // Matcher vacío para deshabilitar efectivamente el middleware
     '/((?!_next|api|favicon.ico|assets|.*\\..*).*)',
   ],
 };
