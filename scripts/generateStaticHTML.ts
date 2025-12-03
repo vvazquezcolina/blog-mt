@@ -1241,6 +1241,50 @@ function main(): void {
     fs.writeFileSync(path.join(DIST_ROOT, 'index.html'), rootRedirect, 'utf-8');
     console.log(`\n✓ Generated root redirect`);
 
+    // Generar páginas 404 para cada locale
+    for (const locale of locales) {
+      const t = getTranslations(locale);
+      const header = generateHeader(locale, `/${locale}`);
+      const footer = generateFooter(locale);
+      
+      const notFoundTitle = locale === 'es' ? 'Página no encontrada' : 
+                           locale === 'en' ? 'Page Not Found' :
+                           locale === 'fr' ? 'Page non trouvée' : 'Página não encontrada';
+      const notFoundDescription = locale === 'es' ? 'La página que buscas no existe.' :
+                                 locale === 'en' ? 'The page you are looking for does not exist.' :
+                                 locale === 'fr' ? 'La page que vous recherchez n\'existe pas.' : 'A página que você procura não existe.';
+      const backToHome = locale === 'es' ? 'Volver al inicio' :
+                        locale === 'en' ? 'Back to Home' :
+                        locale === 'fr' ? 'Retour à l\'accueil' : 'Voltar ao início';
+      
+      const notFoundBody = `
+        ${header}
+        <section class="category-header">
+          <div class="container">
+            <h1>404 - ${escapeHtml(notFoundTitle)}</h1>
+            <p>${escapeHtml(notFoundDescription)}</p>
+            <a href="${getPath(`/${locale}`)}" class="cta-button" style="display: inline-block; margin-top: 2rem;">
+              ${escapeHtml(backToHome)}
+            </a>
+          </div>
+        </section>
+        ${footer}
+      `;
+
+      const notFoundHtml = generatePageHTML({
+        title: `404 - ${notFoundTitle} | ${t.metadata.siteName}`,
+        description: notFoundDescription,
+        locale,
+        url: `${BASE_PATH}/${locale}/404`,
+        body: notFoundBody,
+        type: 'website',
+      });
+
+      const notFoundPath = path.join(OUTPUT_DIR, locale, '404.html');
+      fs.writeFileSync(notFoundPath, notFoundHtml, 'utf-8');
+      console.log(`✓ Generated 404 page for locale: ${locale}`);
+    }
+
     console.log('\n✅ Static HTML generation complete!');
     console.log(`📁 Output directory: ${OUTPUT_DIR}`);
   } catch (error) {
