@@ -51,7 +51,7 @@ export default function StickyCTA({ locale, categoryId, postTitle }: StickyCTAPr
         backdropFilter: 'blur(10px)',
       }}
     >
-      <div style={{ flex: 1, maxWidth: '600px' }}>
+      <div style={{ maxWidth: '600px', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <CTAButton
           href={getMandalaTicketsUrl(categoryId, locale)}
           text={t.post.buyTicketsNow || 'Reservar Ahora'}

@@ -40,7 +40,7 @@ async function getAllImages(): Promise<ImageMap> {
       const files = await readdir(venuePath);
       const imageFiles = files
         .filter(file => /\.(jpg|jpeg|png)$/i.test(file))
-        .map(file => `/blog/assets/PoolFotos/${destination}/${venueName}/${file}`)
+        .map(file => `/assets/PoolFotos/${destination}/${venueName}/${file}`)
         .sort(); // Ordenar para consistencia
 
       if (imageFiles.length > 0) {

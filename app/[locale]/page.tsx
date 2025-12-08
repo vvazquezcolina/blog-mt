@@ -17,6 +17,10 @@ export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+/**
+ * Genera metadata SEO para la página principal del blog
+ * Incluye título, descripción, Open Graph, Twitter Cards y alternates para multiidioma
+ */
 export async function generateMetadata({ params }: HomeProps): Promise<Metadata> {
   if (!params) {
     throw new Error('Params are required');
@@ -73,9 +77,42 @@ export default async function Home({ params }: HomeProps) {
   const featuredPosts = blogPosts.filter(post => post.featured).slice(0, 3);
   const recentPosts = blogPosts.slice(0, 6);
 
+  // Structured data JSON-LD para SEO (WebSite schema)
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
+  const websiteStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: t.metadata.siteName,
+    description: t.metadata.description,
+    url: `${baseUrl}/${resolvedParams.locale}`,
+    inLanguage: resolvedParams.locale,
+    publisher: {
+      '@type': 'Organization',
+      name: 'MandalaTickets',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/assets/img/logo.png`,
+      },
+    },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${baseUrl}/${resolvedParams.locale}/posts?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
     <>
       <Header locale={resolvedParams.locale} />
+      
+      {/* Structured Data JSON-LD para SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteStructuredData) }}
+      />
       
       <section className="hero">
         <video 

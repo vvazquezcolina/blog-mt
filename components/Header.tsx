@@ -9,9 +9,10 @@ import { trackBlogEvent } from '@/utils/analytics';
 
 interface HeaderProps {
   locale: Locale;
+  alternateUrls?: Record<Locale, string>;
 }
 
-export default function Header({ locale }: HeaderProps) {
+export default function Header({ locale, alternateUrls }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const t = getTranslations(locale);
 
@@ -59,11 +60,11 @@ export default function Header({ locale }: HeaderProps) {
                 {t.nav.buyTickets}
               </Link>
               <div className="nav-language-switcher">
-                <LanguageSwitcher currentLocale={locale} />
+                <LanguageSwitcher currentLocale={locale} alternateUrls={alternateUrls} />
               </div>
             </nav>
             <div className="desktop-language-switcher">
-              <LanguageSwitcher currentLocale={locale} />
+              <LanguageSwitcher currentLocale={locale} alternateUrls={alternateUrls} />
             </div>
           </div>
         </div>

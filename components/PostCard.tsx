@@ -1,15 +1,18 @@
 'use client';
 
-import { BlogPost } from '@/data/blogPosts';
+import { BlogPost, getPostContent, getCategoryById } from '@/data/blogPosts';
 import SafeImage from './SafeImage';
 
 interface PostCardProps {
   post: BlogPost;
   locale: string;
+  featured?: boolean;
 }
 
-export default function PostCard({ post, locale }: PostCardProps) {
-  const postUrl = `/${locale}/posts/${post.slug}`;
+export default function PostCard({ post, locale, featured }: PostCardProps) {
+  const content = getPostContent(post, locale as 'es' | 'en' | 'fr' | 'pt');
+  const category = getCategoryById(post.category);
+  const postUrl = `/${locale}/posts/${content.slug}`;
   
   // Listas COMPLETAS de imágenes verificadas que realmente existen
   const categoryImages: Record<string, string[]> = {
@@ -342,23 +345,34 @@ export default function PostCard({ post, locale }: PostCardProps) {
   // El rewrite de Vercel manejará /blog/assets/ -> /assets/
   const finalImageUrl = imageUrl.startsWith('/') ? imageUrl : `/${imageUrl}`;
 
+  // Formatear fecha según el locale
+  const formattedDate = new Date(post.date).toLocaleDateString(locale, {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+
   return (
     <article className="post-card">
       <a href={postUrl} className="post-card-link">
         <div className="post-card-image-wrapper">
           <SafeImage
             src={finalImageUrl}
-            alt={post.title}
+            alt={content.title}
             className="post-card-image"
             loading="lazy"
           />
         </div>
-        <div className="post-card-content">
-          <h2 className="post-card-title">{post.title}</h2>
-          <p className="post-card-excerpt">{post.excerpt}</p>
-          <div className="post-card-meta">
-            <span className="post-card-category">{post.category}</span>
-            <span className="post-card-date">{new Date(post.date).toLocaleDateString(locale)}</span>
+        <div className="post-content">
+          {category && (
+            <span className="post-category" style={{ backgroundColor: category.color }}>
+              {category.name}
+            </span>
+          )}
+          <h2 className="post-title">{content.title}</h2>
+          <p className="post-excerpt">{content.excerpt}</p>
+          <div className="post-meta">
+            <span>{formattedDate}</span>
           </div>
         </div>
       </a>

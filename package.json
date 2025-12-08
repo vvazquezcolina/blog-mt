@@ -9,10 +9,17 @@
     "start": "next start -p 3000",
     "lint": "next lint",
     "generate-image-map": "tsx scripts/generateImageMap.ts",
-    "generate-static": "tsx scripts/generateStaticHTML.ts"
+    "generate-static": "tsx scripts/generateStaticHTML.ts",
+    "test-download-image": "tsx scripts/testDownloadImage.ts",
+    "remove-blog-images": "tsx scripts/removeBlogImages.ts",
+    "download-all-blog-images": "tsx scripts/downloadAllBlogImages.ts",
+    "generate-image-list": "tsx scripts/generateImageList.ts",
+    "redownload-problematic": "tsx scripts/redownloadProblematicImages.ts",
+    "insert-poolfotos": "tsx scripts/insertPoolFotosImages.ts"
   },
   "dependencies": {
     "next": "^14.0.0",
+    "puppeteer": "^24.32.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -24,4 +31,3 @@
     "typescript": "^5.0.0"
   }
 }
-

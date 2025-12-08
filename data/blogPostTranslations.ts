@@ -55,3 +55,10 @@ export function generateSEOSlug(text: string, locale: 'es' | 'en' | 'fr' | 'pt')
     .replace(/^-+|-+$/g, '');
 }
 
+
+
+
+
+
+
+

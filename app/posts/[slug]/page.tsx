@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import { blogPosts, getCategoryById, findPostBySlug, getPostContent } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { defaultLocale } from '@/i18n/config';
+import { defaultLocale, locales, type Locale } from '@/i18n/config';
 import { getMandalaTicketsUrl } from '@/utils/urlUtils';
 
 interface PostPageProps {
@@ -22,11 +22,18 @@ export default function PostPage({ params }: PostPageProps) {
   const content = getPostContent(post, defaultLocale);
   const category = getCategoryById(post.category);
 
+  // Generar URLs alternativas para el language switcher
+  const alternateUrls: Record<Locale, string> = {} as Record<Locale, string>;
+  locales.forEach((loc) => {
+    const locContent = getPostContent(post, loc);
+    alternateUrls[loc] = `/${loc}/posts/${locContent.slug}`;
+  });
+
   return (
     <>
-      <Header locale={defaultLocale} />
+      <Header locale={defaultLocale} alternateUrls={alternateUrls} />
       
-      <article style={{ padding: '4rem 0', background: '#000' }}>
+      <article style={{ padding: '4rem 0', background: '#1a1a1a' }}>
         <div className="container" style={{ maxWidth: '800px' }}>
           {category && (
             <Link 

@@ -3,14 +3,25 @@
 import { usePathname, useRouter } from 'next/navigation';
 import { locales, localeNames, type Locale } from '@/i18n/config';
 
-export default function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
+interface LanguageSwitcherProps {
+  currentLocale: Locale;
+  alternateUrls?: Record<Locale, string>;
+}
+
+export default function LanguageSwitcher({ currentLocale, alternateUrls }: LanguageSwitcherProps) {
   const router = useRouter();
   const pathname = usePathname();
 
   const switchLocale = (newLocale: Locale) => {
     if (newLocale === currentLocale) return;
     
-    // Remove current locale from pathname
+    // Si tenemos URLs alternativas (por ejemplo, para posts), usarlas directamente
+    if (alternateUrls && alternateUrls[newLocale]) {
+      router.push(alternateUrls[newLocale]);
+      return;
+    }
+    
+    // Si no hay URLs alternativas, usar la lógica original para otras páginas
     let pathWithoutLocale = pathname;
     
     // Check if pathname starts with current locale

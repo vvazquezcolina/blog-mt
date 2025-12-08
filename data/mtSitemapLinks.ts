@@ -106,3 +106,10 @@ export function getDestinationAnchorTexts(destination: string, locale: 'es' | 'e
   return dest ? dest.anchorTexts[locale] : [];
 }
 
+
+
+
+
+
+
+

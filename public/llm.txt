@@ -1,0 +1,162 @@
+# llm.txt for MandalaTickets Blog
+
+This file provides information about the MandalaTickets Blog website to help LLMs understand its structure, content, and capabilities.
+
+## About
+
+**Site Name:** Blog MandalaTickets
+**Description:** Official blog of MandalaTickets featuring content about events, parties, and nightlife in the best destinations in Mexico.
+**URL:** https://blog.mandalatickets.com
+**Language:** Multi-language (Spanish, English, French, Portuguese)
+**Default Language:** Spanish (es)
+
+## Site Structure
+
+### Main Routes
+
+- `/` - Redirects to default locale (es)
+- `/{locale}` - Home page for each locale (es, en, fr, pt)
+- `/{locale}/categorias` - All categories listing
+- `/{locale}/categorias/{categoryId}` - Category page
+- `/{locale}/posts` - All posts listing
+- `/{locale}/posts/{slug}` - Individual post page
+
+### Categories
+
+1. **cancun** - Events, parties, and nightlife in Cancún
+2. **tulum** - Guides, events, and unique experiences in Tulum
+3. **playa-del-carmen** - Nightlife scene and events in Playa del Carmen
+4. **los-cabos** - Exclusive events and experiences in Los Cabos
+5. **puerto-vallarta** - Beach clubs, parties, and events in Puerto Vallarta
+6. **general** - General content about events and nightlife
+
+### Content
+
+- **Total Posts:** 100 blog articles
+- **Total Pages:** ~436 pages (100 posts × 4 languages + category pages + listing pages)
+- **Content Type:** Blog articles about events, destinations, guides, and nightlife
+- **Content Language:** Multi-language support (ES, EN, FR, PT)
+
+## Technical Stack
+
+### Framework & Libraries
+- **Next.js 14** - React framework with App Router
+- **React 18** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **Puppeteer** - For static HTML generation
+
+### Features
+- Static Site Generation (SSG)
+- Multi-language support (i18n)
+- SEO optimized (metadata, Open Graph, Twitter Cards, Structured Data)
+- Responsive design
+- Image optimization with lazy loading
+
+### SEO Files
+- `/robots.txt` - Search engine crawler instructions
+- `/sitemap.xml` - Sitemap with all pages
+- Structured Data: Article schema (posts), WebSite schema (home)
+
+## Directory Structure
+
+```
+/
+├── app/
+│   ├── [locale]/              # Localized routes
+│   │   ├── page.tsx          # Home page
+│   │   ├── categorias/        # Category pages
+│   │   └── posts/             # Post pages
+│   ├── layout.tsx            # Root layout
+│   ├── globals.css           # Global styles
+│   ├── robots.ts             # Robots.txt generator
+│   └── sitemap.ts            # Sitemap generator
+├── components/                # React components
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── PostCard.tsx
+│   ├── CategoryCard.tsx
+│   └── LanguageSwitcher.tsx
+├── data/                      # Content data
+│   ├── blogPosts.ts          # Blog posts data
+│   ├── blogPostTranslations.ts
+│   └── imageMap.json
+├── i18n/                      # Internationalization
+│   ├── config.ts
+│   ├── index.ts
+│   └── translations/
+└── utils/                     # Utility functions
+    ├── imageUtils.ts
+    └── urlUtils.ts
+```
+
+## Content Guidelines
+
+### Post Structure
+- Each post has translations in 4 languages (es, en, fr, pt)
+- Posts include: title, excerpt, slug, category, date, author, featured status
+- Posts can be featured (displayed prominently on home page)
+- Each post belongs to one category
+
+### Image Handling
+- Images stored in `/assets/PoolFotos/` directory
+- Images organized by destination/category
+- Automatic image selection based on post ID and category
+- Images optimized for web (lazy loading, responsive)
+
+### URL Structure
+- Clean, SEO-friendly URLs
+- Format: `/{locale}/posts/{slug}` or `/{locale}/categorias/{categoryId}`
+- Slugs are unique per language
+- No special characters or accents in URLs
+
+## API & Data
+
+### No Public API
+This is a static blog site. All content is pre-rendered at build time.
+
+### Data Sources
+- Blog posts: `data/blogPosts.ts`
+- Translations: `i18n/translations/`
+- Images: `public/assets/PoolFotos/`
+
+## Contact & Links
+
+- **Main Website:** https://mandalatickets.com
+- **Facebook:** https://www.facebook.com/Mandalatickets
+- **Instagram:** https://www.instagram.com/mandalatickets/
+- **WhatsApp:** https://wa.me/5215649802193
+
+## Policies
+
+### Content Policy
+- All content is about events, nightlife, and destinations in Mexico
+- Content is family-friendly but focused on adult entertainment venues
+- No explicit content
+
+### Technical Policies
+- Static site generation for performance
+- Multi-language content with proper hreflang tags
+- SEO best practices implemented
+- WCAG AA accessibility compliance
+
+## Build & Deployment
+
+### Build Process
+- Static HTML generation via `npm run build`
+- Generates ~436 static pages
+- Optimized for production
+
+### Environment Variables
+- `NEXT_PUBLIC_SITE_URL` - Base URL for the site (default: https://blog.mandalatickets.com)
+
+## For LLMs
+
+When interacting with this site:
+1. All content is available in 4 languages (es, en, fr, pt)
+2. Use locale-specific URLs when referencing content
+3. Posts are organized by destination categories
+4. Each post has structured data (Article schema) for better understanding
+5. Images are contextually related to destinations and events
+6. The site focuses on event tickets, nightlife, and travel experiences in Mexico
+
+Last Updated: 2025-01-27

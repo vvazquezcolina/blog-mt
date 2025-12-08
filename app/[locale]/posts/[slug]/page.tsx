@@ -37,6 +37,11 @@ export async function generateStaticParams() {
   return params;
 }
 
+/**
+ * Genera metadata SEO completa para páginas de posts individuales
+ * Incluye: título, descripción, Open Graph, Twitter Cards, imágenes, fechas
+ * Configura URLs alternativas para todos los idiomas (hreflang)
+ */
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
   if (!params) {
     throw new Error('Params are required');
@@ -506,6 +511,7 @@ export default async function PostPage({ params }: PostPageProps) {
     : undefined;
 
   // Structured data JSON-LD para SEO
+  // Article schema para mejor indexación en motores de búsqueda
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -534,9 +540,49 @@ export default async function PostPage({ params }: PostPageProps) {
     }),
   };
 
+  // BreadcrumbList schema para navegación estructurada
+  // Mejora la comprensión de la jerarquía del sitio por parte de los motores de búsqueda
+  const breadcrumbStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: t.nav.home,
+        item: `${baseUrl}/${resolvedParams.locale}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: t.nav.categories,
+        item: `${baseUrl}/${resolvedParams.locale}/categorias`,
+      },
+      ...(category ? [{
+        '@type': 'ListItem',
+        position: 3,
+        name: category.name,
+        item: `${baseUrl}/${resolvedParams.locale}/categorias/${category.id}`,
+      }] : []),
+      {
+        '@type': 'ListItem',
+        position: category ? 4 : 3,
+        name: content.title,
+        item: postUrl,
+      },
+    ],
+  };
+
+  // Generar URLs alternativas para el language switcher
+  const alternateUrls: Record<Locale, string> = {} as Record<Locale, string>;
+  locales.forEach((loc) => {
+    const locContent = getPostContent(post, loc);
+    alternateUrls[loc] = `/${loc}/posts/${locContent.slug}`;
+  });
+
   return (
     <>
-      <Header locale={resolvedParams.locale} />
+      <Header locale={resolvedParams.locale} alternateUrls={alternateUrls} />
       <PostTracker 
         postTitle={content.title}
         categoryName={category?.name || ''}
@@ -544,9 +590,15 @@ export default async function PostPage({ params }: PostPageProps) {
       />
       
       {/* Structured Data JSON-LD para SEO */}
+      {/* Article schema para mejor indexación del contenido */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      {/* BreadcrumbList schema para navegación estructurada */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
       />
       
       <article className="post-article">
