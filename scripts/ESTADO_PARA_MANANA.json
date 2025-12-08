@@ -1,0 +1,34 @@
+{
+  "fecha": "2024-12-05",
+  "estado": "Quota agotada - Continuar mañana",
+  "progreso": {
+    "totalTareas": 102,
+    "completadas": 102,
+    "exitosas": 79,
+    "fallidas": 23,
+    "ultimaProcesada": 102
+  },
+  "quota": {
+    "agotada": true,
+    "mensaje": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day'",
+    "reinicio": "Medianoche PST (mañana)"
+  },
+  "pendientes": [
+    {
+      "nota": "Las últimas 23 imágenes fallaron por quota. Se reintentarán mañana automáticamente al ejecutar el script."
+    }
+  ],
+  "instrucciones": {
+    "continuar": "npm run download-all-blog-images",
+    "verificar": "cat scripts/download-log.txt | tail -30",
+    "verProgreso": "find public/assets/blog-images -name '*.jpg' | wc -l"
+  },
+  "archivosGenerados": {
+    "rutas": "scripts/RUTAS_IMAGENES_COMPLETO.txt (1163 imágenes totales)",
+    "nuevasHoy": "scripts/NUEVAS_IMAGENES_HOY.txt (79 nuevas descargadas hoy)",
+    "reporte": "scripts/image-download-report.json",
+    "listaDetallada": "scripts/IMAGENES_DESCARGADAS.txt"
+  }
+}
+
+

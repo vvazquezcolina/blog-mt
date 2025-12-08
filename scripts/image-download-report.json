@@ -1,0 +1,1305 @@
+[
+  {
+    "task": {
+      "postId": "1",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/1/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "1",
+      "locale": "es",
+      "imageNumber": "2",
+      "venueName": "D'Cave",
+      "destination": "Cancun",
+      "query": "\"D'Cave\" Cancun club underground -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/1/es/image-2.jpg"
+    },
+    "success": true,
+    "url": "https://images.musement.com/cover/0170/27/thumb_16926381_cover_header.jpg?q=50&fit=crop&auto=format&w=1024&h=400&dpr=1"
+  },
+  {
+    "task": {
+      "postId": "1",
+      "locale": "es",
+      "imageNumber": "3",
+      "venueName": "La Vaquita",
+      "destination": "Cancun",
+      "query": "\"La Vaquita\" Cancun antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/1/es/image-3.jpg"
+    },
+    "success": true,
+    "url": "https://i.ytimg.com/vi/7mgNOHkTMDM/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGCMgSih_MA8=&rs=AOn4CLCXL7gWQgO125WvrA7k8OL1R4IFRA"
+  },
+  {
+    "task": {
+      "postId": "2",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/2/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january2026.jpg"
+  },
+  {
+    "task": {
+      "postId": "3",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/3/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "4",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/4/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "5",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Playa del Carmen",
+      "query": "\"La Vaquita\" Playa del Carmen antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/5/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/29/34/15/la-vaquita-2-32-8th-of.jpg"
+  },
+  {
+    "task": {
+      "postId": "6",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Los Cabos",
+      "query": "\"La Vaquita\" Los Cabos antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/6/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/0a/glow-party-is-massive.jpg?w=900&h=500&s=1"
+  },
+  {
+    "task": {
+      "postId": "7",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Puerto Vallarta",
+      "query": "\"La Vaquita\" Puerto Vallarta antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/7/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://s3-media0.fl.yelpcdn.com/bphoto/V_IGNbItDkxtydR18lUY2w/348s.jpg"
+  },
+  {
+    "task": {
+      "postId": "8",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/8/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "9",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/9/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "10",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/10/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january2026.jpg"
+  },
+  {
+    "task": {
+      "postId": "11",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Los Cabos",
+      "query": "\"La Vaquita\" Los Cabos antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/11/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/29/friends-don-t-let-you.jpg?w=900&h=500&s=1"
+  },
+  {
+    "task": {
+      "postId": "12",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/12/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "13",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Playa del Carmen",
+      "query": "\"La Vaquita\" Playa del Carmen antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/13/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/29/34/15/la-vaquita-2-32-8th-of.jpg"
+  },
+  {
+    "task": {
+      "postId": "14",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/14/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january2026.jpg"
+  },
+  {
+    "task": {
+      "postId": "15",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/15/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "16",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/16/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "17",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/17/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "18",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Los Cabos",
+      "query": "\"La Vaquita\" Los Cabos antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/18/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/0a/glow-party-is-massive.jpg?w=900&h=500&s=1"
+  },
+  {
+    "task": {
+      "postId": "19",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/19/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "20",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Playa del Carmen",
+      "query": "\"La Vaquita\" Playa del Carmen antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/20/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/photo-s/08/30/f3/5e/la-vaquita.jpg"
+  },
+  {
+    "task": {
+      "postId": "21",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/21/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january2026.jpg"
+  },
+  {
+    "task": {
+      "postId": "22",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/22/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "23",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/23/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "24",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Puerto Vallarta",
+      "query": "\"La Vaquita\" Puerto Vallarta antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/24/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://s3-media0.fl.yelpcdn.com/bphoto/Vg6jyi4apwyKZ0vqsU5m3Q/348s.jpg"
+  },
+  {
+    "task": {
+      "postId": "25",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/25/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "26",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/26/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "27",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/27/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "28",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/28/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "29",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/29/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "30",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/30/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january2026.jpg"
+  },
+  {
+    "task": {
+      "postId": "31",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/31/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "32",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/32/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "33",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/33/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "34",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/34/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "35",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/35/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "36",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/36/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "37",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/37/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "38",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Playa del Carmen",
+      "query": "\"La Vaquita\" Playa del Carmen antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/38/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/29/34/15/la-vaquita-2-32-8th-of.jpg"
+  },
+  {
+    "task": {
+      "postId": "39",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/39/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "40",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/40/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january2026.jpg"
+  },
+  {
+    "task": {
+      "postId": "41",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/41/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "42",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/42/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "43",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Los Cabos",
+      "query": "\"La Vaquita\" Los Cabos antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/43/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/29/friends-don-t-let-you.jpg?w=900&h=500&s=1"
+  },
+  {
+    "task": {
+      "postId": "44",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Puerto Vallarta",
+      "query": "\"La Vaquita\" Puerto Vallarta antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/44/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://s3-media0.fl.yelpcdn.com/bphoto/V_IGNbItDkxtydR18lUY2w/348s.jpg"
+  },
+  {
+    "task": {
+      "postId": "45",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Rakata",
+      "destination": "Cancun",
+      "query": "\"Rakata\" Cancun reggaeton club -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/45/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://i.ytimg.com/vi/DLqFyf87cG8/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGFYgRChyMA8=&rs=AOn4CLBmzqpKZZkgqRhgDloSzd_aeXY5Hw"
+  },
+  {
+    "task": {
+      "postId": "46",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/46/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "47",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/47/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "48",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/48/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "49",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/49/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "50",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/50/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january2026.jpg"
+  },
+  {
+    "task": {
+      "postId": "51",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/51/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "52",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/52/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "53",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/53/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "54",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Playa del Carmen",
+      "query": "\"La Vaquita\" Playa del Carmen antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/54/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/photo-s/08/30/f3/5e/la-vaquita.jpg"
+  },
+  {
+    "task": {
+      "postId": "55",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/55/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "56",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/56/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "57",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/57/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "58",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Los Cabos",
+      "query": "\"La Vaquita\" Los Cabos antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/58/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/29/friends-don-t-let-you.jpg?w=900&h=500&s=1"
+  },
+  {
+    "task": {
+      "postId": "59",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/59/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "60",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Puerto Vallarta",
+      "query": "\"La Vaquita\" Puerto Vallarta antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/60/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://s3-media0.fl.yelpcdn.com/bphoto/V_IGNbItDkxtydR18lUY2w/348s.jpg"
+  },
+  {
+    "task": {
+      "postId": "61",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/61/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "62",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/62/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "63",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/63/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "64",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/64/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "65",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/65/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "66",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/66/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "67",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/67/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "68",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/68/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january2026.jpg"
+  },
+  {
+    "task": {
+      "postId": "69",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/69/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "70",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/70/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg"
+  },
+  {
+    "task": {
+      "postId": "71",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Playa del Carmen",
+      "query": "\"La Vaquita\" Playa del Carmen antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/71/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/29/34/15/la-vaquita-2-32-8th-of.jpg"
+  },
+  {
+    "task": {
+      "postId": "72",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/72/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "73",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Los Cabos",
+      "query": "\"La Vaquita\" Los Cabos antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/73/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/29/friends-don-t-let-you.jpg?w=900&h=500&s=1"
+  },
+  {
+    "task": {
+      "postId": "74",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Puerto Vallarta",
+      "query": "\"Mandala Beach\" Puerto Vallarta -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/74/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://www.lokuradespedidas.es/wp-content/uploads/2019/03/packs-mandala-maui.jpg"
+  },
+  {
+    "task": {
+      "postId": "75",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/75/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "76",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/76/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january2026.jpg"
+  },
+  {
+    "task": {
+      "postId": "77",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "D'Cave",
+      "destination": "Cancun",
+      "query": "\"D'Cave\" Cancun club underground -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/77/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://i.ytimg.com/vi/baiUVIsq1fk/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBMgHSh_MA8=&rs=AOn4CLDKwQDSBVtqdv0HPK-RSSrOzE_qfw"
+  },
+  {
+    "task": {
+      "postId": "78",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Los Cabos",
+      "query": "\"La Vaquita\" Los Cabos antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/78/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "79",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/79/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "80",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Playa del Carmen",
+      "query": "\"La Vaquita\" Playa del Carmen antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/80/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "81",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/81/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "82",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/82/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "83",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/83/es/image-1.jpg"
+    },
+    "success": true,
+    "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/be.jpg?w=3840"
+  },
+  {
+    "task": {
+      "postId": "84",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/84/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "85",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/85/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "86",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Tulum",
+      "query": "\"Mandala Beach\" Tulum -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/86/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "87",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/87/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "88",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/88/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "89",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/89/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "90",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Los Cabos",
+      "query": "\"La Vaquita\" Los Cabos antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/90/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "91",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/91/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "92",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Cancun",
+      "query": "\"La Vaquita\" Cancun antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/92/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "93",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/93/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "94",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/94/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "95",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/95/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "96",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/96/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "97",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "La Vaquita",
+      "destination": "Playa del Carmen",
+      "query": "\"La Vaquita\" Playa del Carmen antro -hotel -resort",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/97/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "98",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/98/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "99",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/99/es/image-1.jpg"
+    },
+    "success": false
+  },
+  {
+    "task": {
+      "postId": "100",
+      "locale": "es",
+      "imageNumber": "1",
+      "venueName": "Mandala Beach",
+      "destination": "Cancun",
+      "query": "\"Mandala Beach\" Cancun -\"Coco Bongo\" -\"Coco Beach\" -hotel -resort -booking -expedia -\"Señor Frog\"",
+      "savePath": "/Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/100/es/image-1.jpg"
+    },
+    "success": false
+  }
+]

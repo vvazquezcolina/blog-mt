@@ -1,0 +1,632 @@
+
+> mandalatickets-blog@1.0.0 download-all-blog-images
+> tsx scripts/downloadAllBlogImages.ts
+
+📋 Analizando posts para generar tareas de descarga...
+
+📊 Procesando 100 posts...
+
+✅ Encontradas 102 imágenes para descargar
+
+============================================================
+
+[1/102] Post 1, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/1/es/image-1.jpg
+
+[2/102] Post 1, es, imagen 2
+   Venue: D'Cave en Cancun
+   Query: ""D'Cave" Cancun club underground -hotel -resort"
+   ✅ Imagen encontrada: https://images.musement.com/cover/0170/27/thumb_16926381_cover_header.jpg?q=50&f...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/1/es/image-2.jpg
+
+[3/102] Post 1, es, imagen 3
+   Venue: La Vaquita en Cancun
+   Query: ""La Vaquita" Cancun antro -hotel -resort"
+   ✅ Imagen encontrada: https://i.ytimg.com/vi/7mgNOHkTMDM/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARU...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/1/es/image-3.jpg
+
+[4/102] Post 2, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/2/es/image-1.jpg
+
+[5/102] Post 3, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/3/es/image-1.jpg
+
+[6/102] Post 4, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/4/es/image-1.jpg
+
+[7/102] Post 5, es, imagen 1
+   Venue: La Vaquita en Playa del Carmen
+   Query: ""La Vaquita" Playa del Carmen antro -hotel -resort"
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/photo-s/07/29/34/15/la-vaquita-2-32-8th-...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/5/es/image-1.jpg
+
+[8/102] Post 6, es, imagen 1
+   Venue: La Vaquita en Los Cabos
+   Query: ""La Vaquita" Los Cabos antro -hotel -resort"
+   ✅ Imagen encontrada: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/0a/glow-party-i...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/6/es/image-1.jpg
+
+[9/102] Post 7, es, imagen 1
+   Venue: La Vaquita en Puerto Vallarta
+   Query: ""La Vaquita" Puerto Vallarta antro -hotel -resort"
+   ✅ Imagen encontrada: https://s3-media0.fl.yelpcdn.com/bphoto/V_IGNbItDkxtydR18lUY2w/348s.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/7/es/image-1.jpg
+
+[10/102] Post 8, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/8/es/image-1.jpg
+
+[11/102] Post 9, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/9/es/image-1.jpg
+
+[12/102] Post 10, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/10/es/image-1.jpg
+
+[13/102] Post 11, es, imagen 1
+   Venue: La Vaquita en Los Cabos
+   Query: ""La Vaquita" Los Cabos antro -hotel -resort"
+   ✅ Imagen encontrada: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/29/friends-don-...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/11/es/image-1.jpg
+
+[14/102] Post 12, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/12/es/image-1.jpg
+
+[15/102] Post 13, es, imagen 1
+   Venue: La Vaquita en Playa del Carmen
+   Query: ""La Vaquita" Playa del Carmen antro -hotel -resort"
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/photo-s/07/29/34/15/la-vaquita-2-32-8th-...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/13/es/image-1.jpg
+
+[16/102] Post 14, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/14/es/image-1.jpg
+
+[17/102] Post 15, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/15/es/image-1.jpg
+
+[18/102] Post 16, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/16/es/image-1.jpg
+
+[19/102] Post 17, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/17/es/image-1.jpg
+
+[20/102] Post 18, es, imagen 1
+   Venue: La Vaquita en Los Cabos
+   Query: ""La Vaquita" Los Cabos antro -hotel -resort"
+   ✅ Imagen encontrada: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/0a/glow-party-i...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/18/es/image-1.jpg
+
+[21/102] Post 19, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/19/es/image-1.jpg
+
+[22/102] Post 20, es, imagen 1
+   Venue: La Vaquita en Playa del Carmen
+   Query: ""La Vaquita" Playa del Carmen antro -hotel -resort"
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/photo-s/08/30/f3/5e/la-vaquita.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/20/es/image-1.jpg
+
+[23/102] Post 21, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/21/es/image-1.jpg
+
+[24/102] Post 22, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/22/es/image-1.jpg
+
+[25/102] Post 23, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/23/es/image-1.jpg
+
+[26/102] Post 24, es, imagen 1
+   Venue: La Vaquita en Puerto Vallarta
+   Query: ""La Vaquita" Puerto Vallarta antro -hotel -resort"
+   ✅ Imagen encontrada: https://s3-media0.fl.yelpcdn.com/bphoto/Vg6jyi4apwyKZ0vqsU5m3Q/348s.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/24/es/image-1.jpg
+
+[27/102] Post 25, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/25/es/image-1.jpg
+
+[28/102] Post 26, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/26/es/image-1.jpg
+
+[29/102] Post 27, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/27/es/image-1.jpg
+
+[30/102] Post 28, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/28/es/image-1.jpg
+
+[31/102] Post 29, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/29/es/image-1.jpg
+
+[32/102] Post 30, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/30/es/image-1.jpg
+
+[33/102] Post 31, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/31/es/image-1.jpg
+
+[34/102] Post 32, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/32/es/image-1.jpg
+
+[35/102] Post 33, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/33/es/image-1.jpg
+
+[36/102] Post 34, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/34/es/image-1.jpg
+
+[37/102] Post 35, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/35/es/image-1.jpg
+
+[38/102] Post 36, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/36/es/image-1.jpg
+
+[39/102] Post 37, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/37/es/image-1.jpg
+
+[40/102] Post 38, es, imagen 1
+   Venue: La Vaquita en Playa del Carmen
+   Query: ""La Vaquita" Playa del Carmen antro -hotel -resort"
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/photo-s/07/29/34/15/la-vaquita-2-32-8th-...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/38/es/image-1.jpg
+
+[41/102] Post 39, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/39/es/image-1.jpg
+
+[42/102] Post 40, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/40/es/image-1.jpg
+
+[43/102] Post 41, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/41/es/image-1.jpg
+
+[44/102] Post 42, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/42/es/image-1.jpg
+
+[45/102] Post 43, es, imagen 1
+   Venue: La Vaquita en Los Cabos
+   Query: ""La Vaquita" Los Cabos antro -hotel -resort"
+   ✅ Imagen encontrada: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/29/friends-don-...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/43/es/image-1.jpg
+
+[46/102] Post 44, es, imagen 1
+   Venue: La Vaquita en Puerto Vallarta
+   Query: ""La Vaquita" Puerto Vallarta antro -hotel -resort"
+   ✅ Imagen encontrada: https://s3-media0.fl.yelpcdn.com/bphoto/V_IGNbItDkxtydR18lUY2w/348s.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/44/es/image-1.jpg
+
+[47/102] Post 45, es, imagen 1
+   Venue: Rakata en Cancun
+   Query: ""Rakata" Cancun reggaeton club -hotel -resort"
+   ✅ Imagen encontrada: https://i.ytimg.com/vi/DLqFyf87cG8/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARU...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/45/es/image-1.jpg
+
+[48/102] Post 46, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/46/es/image-1.jpg
+
+[49/102] Post 47, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/47/es/image-1.jpg
+
+[50/102] Post 48, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/48/es/image-1.jpg
+
+[51/102] Post 49, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/49/es/image-1.jpg
+
+[52/102] Post 50, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/50/es/image-1.jpg
+
+[53/102] Post 51, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/51/es/image-1.jpg
+
+[54/102] Post 52, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/52/es/image-1.jpg
+
+[55/102] Post 53, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/53/es/image-1.jpg
+
+[56/102] Post 54, es, imagen 1
+   Venue: La Vaquita en Playa del Carmen
+   Query: ""La Vaquita" Playa del Carmen antro -hotel -resort"
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/photo-s/08/30/f3/5e/la-vaquita.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/54/es/image-1.jpg
+
+[57/102] Post 55, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/55/es/image-1.jpg
+
+[58/102] Post 56, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/56/es/image-1.jpg
+
+[59/102] Post 57, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/57/es/image-1.jpg
+
+[60/102] Post 58, es, imagen 1
+   Venue: La Vaquita en Los Cabos
+   Query: ""La Vaquita" Los Cabos antro -hotel -resort"
+   ✅ Imagen encontrada: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/29/friends-don-...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/58/es/image-1.jpg
+
+[61/102] Post 59, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/59/es/image-1.jpg
+
+[62/102] Post 60, es, imagen 1
+   Venue: La Vaquita en Puerto Vallarta
+   Query: ""La Vaquita" Puerto Vallarta antro -hotel -resort"
+   ✅ Imagen encontrada: https://s3-media0.fl.yelpcdn.com/bphoto/V_IGNbItDkxtydR18lUY2w/348s.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/60/es/image-1.jpg
+
+[63/102] Post 61, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/61/es/image-1.jpg
+
+[64/102] Post 62, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/62/es/image-1.jpg
+
+[65/102] Post 63, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/63/es/image-1.jpg
+
+[66/102] Post 64, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/64/es/image-1.jpg
+
+[67/102] Post 65, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/65/es/image-1.jpg
+
+[68/102] Post 66, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/66/es/image-1.jpg
+
+[69/102] Post 67, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/67/es/image-1.jpg
+
+[70/102] Post 68, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/68/es/image-1.jpg
+
+[71/102] Post 69, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/69/es/image-1.jpg
+
+[72/102] Post 70, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://lookaside.fbsbx.com/lookaside/crawler/instagram/DFK0mX2pR6X/0/image.jpg...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/70/es/image-1.jpg
+
+[73/102] Post 71, es, imagen 1
+   Venue: La Vaquita en Playa del Carmen
+   Query: ""La Vaquita" Playa del Carmen antro -hotel -resort"
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/photo-s/07/29/34/15/la-vaquita-2-32-8th-...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/71/es/image-1.jpg
+
+[74/102] Post 72, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/72/es/image-1.jpg
+
+[75/102] Post 73, es, imagen 1
+   Venue: La Vaquita en Los Cabos
+   Query: ""La Vaquita" Los Cabos antro -hotel -resort"
+   ✅ Imagen encontrada: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/82/d9/29/friends-don-...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/73/es/image-1.jpg
+
+[76/102] Post 74, es, imagen 1
+   Venue: Mandala Beach en Puerto Vallarta
+   Query: ""Mandala Beach" Puerto Vallarta -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://www.lokuradespedidas.es/wp-content/uploads/2019/03/packs-mandala-maui.jp...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/74/es/image-1.jpg
+
+[77/102] Post 75, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[78/102] Post 76, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://mandalatickets.com/assets/uploads/link/Solomun-Tehmplo-Tulum2026-january...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/76/es/image-1.jpg
+
+[79/102] Post 77, es, imagen 1
+   Venue: D'Cave en Cancun
+   Query: ""D'Cave" Cancun club underground -hotel -resort"
+   ✅ Imagen encontrada: https://i.ytimg.com/vi/baiUVIsq1fk/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARU...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/77/es/image-1.jpg
+
+[80/102] Post 78, es, imagen 1
+   Venue: La Vaquita en Los Cabos
+   Query: ""La Vaquita" Los Cabos antro -hotel -resort"
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[81/102] Post 79, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[82/102] Post 80, es, imagen 1
+   Venue: La Vaquita en Playa del Carmen
+   Query: ""La Vaquita" Playa del Carmen antro -hotel -resort"
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[83/102] Post 81, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[84/102] Post 82, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[85/102] Post 83, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+   ✅ Imagen encontrada: https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/59/bf/...
+   ✅ Descargada: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/public/assets/blog-images/83/es/image-1.jpg
+
+[86/102] Post 84, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[87/102] Post 85, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[88/102] Post 86, es, imagen 1
+   Venue: Mandala Beach en Tulum
+   Query: ""Mandala Beach" Tulum -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[89/102] Post 87, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[90/102] Post 88, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[91/102] Post 89, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[92/102] Post 90, es, imagen 1
+   Venue: La Vaquita en Los Cabos
+   Query: ""La Vaquita" Los Cabos antro -hotel -resort"
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[93/102] Post 91, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[94/102] Post 92, es, imagen 1
+   Venue: La Vaquita en Cancun
+   Query: ""La Vaquita" Cancun antro -hotel -resort"
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[95/102] Post 93, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[96/102] Post 94, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[97/102] Post 95, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[98/102] Post 96, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[99/102] Post 97, es, imagen 1
+   Venue: La Vaquita en Playa del Carmen
+   Query: ""La Vaquita" Playa del Carmen antro -hotel -resort"
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[100/102] Post 98, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[101/102] Post 99, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+[102/102] Post 100, es, imagen 1
+   Venue: Mandala Beach en Cancun
+   Query: ""Mandala Beach" Cancun -"Coco Bongo" -"Coco Beach" -hotel -resort -booking -expedia -"Señor Frog""
+❌ Error de API: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:571535387336'.
+   ⚠️  No se encontró imagen
+
+============================================================
+📊 RESUMEN
+============================================================
+✅ Exitosas: 79
+❌ Fallidas: 23
+📁 Total: 102
+
+📄 Reporte guardado en: /Users/vvazquez/Desktop/Proyectos/MandalaTickets Blog/scripts/image-download-report.json

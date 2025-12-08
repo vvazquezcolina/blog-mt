@@ -1,0 +1,48 @@
+{
+  "fecha": "2024-12-05",
+  "estado": "Actualización completada - Listo para continuar mañana",
+  "cambiosRealizados": {
+    "tamañoImagen": "Cambiado de 'large' a 'xxlarge'",
+    "imagenesEliminadas": 50,
+    "imagenesRedescargadas": 50,
+    "filtrosMejorados": [
+      "Excluye thumbnails Instagram/Facebook",
+      "Excluye duplicados TripAdvisor",
+      "Excluye packs de despedidas",
+      "Tamaño mínimo: 1000x800px",
+      "Solo imágenes XXLARGE"
+    ]
+  },
+  "progreso": {
+    "totalImagenes": 1131,
+    "redescargadasHoy": 50,
+    "pendientesGeneral": 23,
+    "quotaAgotada": true
+  },
+  "archivosRevision": {
+    "rutasCompletas": "scripts/RUTAS_FINALES_REVISION.txt (1131 imágenes)",
+    "rutasActualizadas": "scripts/RUTAS_ACTUALIZADAS.txt",
+    "nuevasHoy": "scripts/NUEVAS_IMAGENES_HOY.txt (79 nuevas descargadas hoy)"
+  },
+  "instrucciones": {
+    "continuarGeneral": "npm run download-all-blog-images (23 pendientes, mañana)",
+    "redescargarProblemas": "npm run redownload-problematic (si hay más problemas)",
+    "verificar": "find public/assets/blog-images -name '*.jpg' | wc -l"
+  },
+  "filtrosActuales": {
+    "tamaño": "xxlarge",
+    "fecha": "Desde 2022",
+    "tipo": "photo",
+    "color": "color",
+    "formato": "jpg",
+    "excluye": [
+      "Hoteles, resorts",
+      "Competencia (Coco Bongo, Coco Beach, Señor Frog)",
+      "Thumbnails Instagram/Facebook",
+      "Duplicados conocidos",
+      "Packs de despedidas"
+    ]
+  }
+}
+
+
