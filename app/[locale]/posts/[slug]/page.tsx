@@ -161,8 +161,8 @@ export default async function PostPage({ params }: PostPageProps) {
   const content = getPostContent(post, resolvedParams.locale);
   const category = getCategoryById(post.category);
   
-  // Generar contenido completo si no existe
-  const postBody = content.body || generatePostContent(post, resolvedParams.locale);
+  // Generar contenido completo del post
+  const postBody = generatePostContent(post, resolvedParams.locale);
   
   // Función hash simple para mejor distribución
   const hashPostId = (id: string): number => {
