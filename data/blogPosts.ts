@@ -137,6 +137,54 @@ export function isValidCategoryId(id: string): id is CategoryId {
   return categories.some(cat => cat.id === id);
 }
 
+// Helper para generar slug SEO-friendly desde un texto
+function generateSlugFromTitle(title: string, locale: 'es' | 'en' | 'fr' | 'pt'): string {
+  return title
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+// Traducciones básicas para títulos comunes cuando no hay traducciones completas
+const titleTranslations: Record<string, Record<'en' | 'fr' | 'pt', string>> = {
+  'Entrevista exclusiva con el DJ residente de Mandala Beach': {
+    en: 'Exclusive Interview with Mandala Beach Resident DJ',
+    fr: 'Interview exclusive avec le DJ résident de Mandala Beach',
+    pt: 'Entrevista exclusiva com o DJ residente do Mandala Beach'
+  },
+  'Cómo planificar tu itinerario de fiestas en Cancún': {
+    en: 'How to Plan Your Party Itinerary in Cancun',
+    fr: 'Comment planifier votre itinéraire de fêtes à Cancún',
+    pt: 'Como planejar seu itinerário de festas em Cancún'
+  },
+  // Agregar más traducciones según sea necesario
+};
+
+// Helper para traducir título cuando no hay traducciones completas
+function translateTitleFallback(title: string, locale: 'es' | 'en' | 'fr' | 'pt'): string {
+  if (locale === 'es') return title;
+  return titleTranslations[title]?.[locale] || title;
+}
+
+// Helper para traducir excerpt cuando no hay traducciones completas
+function translateExcerptFallback(excerpt: string, locale: 'es' | 'en' | 'fr' | 'pt'): string {
+  if (locale === 'es') return excerpt;
+  
+  // Traducciones básicas para excerpts comunes
+  const excerptTranslations: Record<string, Record<'en' | 'fr' | 'pt', string>> = {
+    'Conoce la historia detrás de uno de los DJs más reconocidos de la Riviera Maya y sus planes para los próximos eventos.': {
+      en: 'Learn the story behind one of the most recognized DJs in the Riviera Maya and their plans for upcoming events.',
+      fr: 'Découvrez l\'histoire derrière l\'un des DJ les plus reconnus de la Riviera Maya et leurs projets pour les prochains événements.',
+      pt: 'Conheça a história por trás de um dos DJs mais reconhecidos da Riviera Maya e seus planos para os próximos eventos.'
+    },
+    // Agregar más traducciones según sea necesario
+  };
+  
+  return excerptTranslations[excerpt]?.[locale] || excerpt;
+}
+
 // Helper para convertir estructura antigua a nueva
 function createBlogPost(
   id: string,
@@ -149,8 +197,41 @@ function createBlogPost(
   featured: boolean,
   image?: string
 ): BlogPost {
-  // Intentar usar traducciones si existen, sino usar los datos en español para todos
+  // Intentar usar traducciones si existen
   const translations = postTranslations[id];
+  
+  // Si hay traducciones completas, usarlas
+  if (translations) {
+    return {
+      id,
+      category,
+      date,
+      author,
+      featured,
+      image,
+      content: {
+        es: translations.es,
+        en: translations.en,
+        fr: translations.fr,
+        pt: translations.pt,
+      },
+    };
+  }
+  
+  // Si no hay traducciones, usar traducciones básicas cuando estén disponibles
+  // y generar slugs únicos por idioma basados en el título traducido
+  const translatedTitleEn = translateTitleFallback(title, 'en');
+  const translatedTitleFr = translateTitleFallback(title, 'fr');
+  const translatedTitlePt = translateTitleFallback(title, 'pt');
+  
+  const translatedExcerptEn = translateExcerptFallback(excerpt, 'en');
+  const translatedExcerptFr = translateExcerptFallback(excerpt, 'fr');
+  const translatedExcerptPt = translateExcerptFallback(excerpt, 'pt');
+  
+  // Generar slugs únicos por idioma basados en el título traducido
+  const slugEn = generateSlugFromTitle(translatedTitleEn, 'en');
+  const slugFr = generateSlugFromTitle(translatedTitleFr, 'fr');
+  const slugPt = generateSlugFromTitle(translatedTitlePt, 'pt');
   
   return {
     id,
@@ -160,10 +241,10 @@ function createBlogPost(
     featured,
     image,
     content: {
-      es: translations?.es || { title, excerpt, slug },
-      en: translations?.en || { title, excerpt, slug },
-      fr: translations?.fr || { title, excerpt, slug },
-      pt: translations?.pt || { title, excerpt, slug },
+      es: { title, excerpt, slug },
+      en: { title: translatedTitleEn, excerpt: translatedExcerptEn, slug: slugEn },
+      fr: { title: translatedTitleFr, excerpt: translatedExcerptFr, slug: slugFr },
+      pt: { title: translatedTitlePt, excerpt: translatedExcerptPt, slug: slugPt },
     },
   };
 }
