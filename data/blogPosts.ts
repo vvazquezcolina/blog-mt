@@ -55,17 +55,24 @@ export function getPostContent(post: BlogPost, locale: 'es' | 'en' | 'fr' | 'pt'
 
 /**
  * Busca un post por su slug en cualquier idioma
- * Si se especifica locale, busca solo en ese idioma; si no, busca en todos
+ * Primero intenta buscar en el locale especificado, si no encuentra, busca en todos los idiomas
+ * Esto permite que slugs compartidos funcionen cuando no hay traducciones específicas
  * @param slug - Slug del post a buscar
- * @param locale - Idioma opcional para limitar la búsqueda
+ * @param locale - Idioma opcional para priorizar la búsqueda
  * @returns El post encontrado o undefined si no existe
  */
 export function findPostBySlug(slug: string, locale?: 'es' | 'en' | 'fr' | 'pt'): BlogPost | undefined {
-  return blogPosts.find(post => {
-    if (locale) {
-      return post.content[locale]?.slug === slug;
+  // Primero intentar buscar en el locale específico si se proporciona
+  if (locale) {
+    const postByLocale = blogPosts.find(post => post.content[locale]?.slug === slug);
+    if (postByLocale) {
+      return postByLocale;
     }
-    // Buscar en todos los idiomas
+  }
+  
+  // Si no se encuentra en el locale específico, buscar en todos los idiomas
+  // Esto es útil cuando los slugs son compartidos entre idiomas (sin traducciones específicas)
+  return blogPosts.find(post => {
     return Object.values(post.content).some(content => content.slug === slug);
   });
 }
