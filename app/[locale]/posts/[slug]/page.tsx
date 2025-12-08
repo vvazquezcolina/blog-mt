@@ -519,6 +519,13 @@ export default async function PostPage({ params }: PostPageProps) {
 
   // Structured data JSON-LD para SEO
   // Article schema para mejor indexación en motores de búsqueda
+  const localeMap: Record<Locale, string> = {
+    es: 'es-MX',
+    en: 'en-US',
+    fr: 'fr-FR',
+    pt: 'pt-BR',
+  };
+  
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -526,6 +533,7 @@ export default async function PostPage({ params }: PostPageProps) {
     description: content.excerpt || '',
     image: fullImageUrl ? [fullImageUrl] : [],
     datePublished: post.date,
+    inLanguage: localeMap[resolvedParams.locale] || 'es-MX',
     author: {
       '@type': 'Organization',
       name: post.author,
