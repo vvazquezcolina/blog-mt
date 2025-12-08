@@ -5,7 +5,7 @@ import CTAButton from '@/components/CTAButton';
 import StickyCTA from '@/components/StickyCTA';
 import SafeImage from '@/components/SafeImage';
 import { blogPosts, getCategoryById, getPostContent, findPostBySlug } from '@/data/blogPosts';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import Link from 'next/link';
 import { getTranslations, type Locale } from '@/i18n';
 import { locales } from '@/i18n/config';
@@ -160,6 +160,13 @@ export default async function PostPage({ params }: PostPageProps) {
 
   const content = getPostContent(post, resolvedParams.locale);
   const category = getCategoryById(post.category);
+  
+  // Si el slug actual no coincide con el slug del locale, redirigir al slug correcto
+  // Esto asegura que cada idioma tenga su propio slug único y mejora el SEO
+  if (content.slug !== resolvedParams.slug) {
+    // Redirigir al slug correcto para este idioma (301 permanente para SEO)
+    redirect(`/${resolvedParams.locale}/posts/${content.slug}`);
+  }
   
   // Generar contenido completo del post
   const postBody = generatePostContent(post, resolvedParams.locale);
