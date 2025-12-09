@@ -2,7 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PostCard from '@/components/PostCard';
 import CategoryTracker from '@/components/CategoryTracker';
-import { blogPosts, getCategoryById, isValidCategoryId, categories } from '@/data/blogPosts';
+import { blogPosts, getCategoryById, isValidCategoryId, categories, getPostContent } from '@/data/blogPosts';
 import { notFound } from 'next/navigation';
 import { getTranslations, type Locale } from '@/i18n';
 import { locales } from '@/i18n/config';
@@ -115,6 +115,53 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   }
 
   const categoryPosts = blogPosts.filter(post => post.category === resolvedParams.categoryId);
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
+  const categoryUrl = `${baseUrl}/${resolvedParams.locale}/categorias/${resolvedParams.categoryId}`;
+
+  // CollectionPage schema para páginas de categorías
+  const collectionPageStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: category.name,
+    description: category.description,
+    url: categoryUrl,
+    inLanguage: resolvedParams.locale,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: categoryPosts.length,
+      itemListElement: categoryPosts.map((post, index) => {
+        const postContent = getPostContent(post, resolvedParams.locale);
+        return {
+          '@type': 'ListItem',
+          position: index + 1,
+          item: {
+            '@type': 'Article',
+            '@id': `${baseUrl}/${resolvedParams.locale}/posts/${postContent.slug}`,
+            name: postContent.title,
+            description: postContent.excerpt,
+          },
+        };
+      }),
+    },
+  };
+
+  // ItemList schema adicional para mejor indexación de listas
+  const itemListStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `${t.category.postsIn} ${category.name}`,
+    description: `${t.category.postsIn} ${category.name}. ${category.description}`,
+    numberOfItems: categoryPosts.length,
+    itemListElement: categoryPosts.map((post, index) => {
+      const postContent = getPostContent(post, resolvedParams.locale);
+      return {
+        '@type': 'ListItem',
+        position: index + 1,
+        url: `${baseUrl}/${resolvedParams.locale}/posts/${postContent.slug}`,
+        name: postContent.title,
+      };
+    }),
+  };
 
   return (
     <>
@@ -122,6 +169,18 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       <CategoryTracker 
         categoryName={category.name}
         locale={resolvedParams.locale}
+      />
+      
+      {/* Structured Data JSON-LD para SEO */}
+      {/* CollectionPage schema para páginas de categorías */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageStructuredData) }}
+      />
+      {/* ItemList schema para mejor indexación de listas de posts */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListStructuredData) }}
       />
       
       <section className="category-header" style={{ background: `linear-gradient(135deg, ${category.color} 0%, ${category.color}dd 100%)` }}>

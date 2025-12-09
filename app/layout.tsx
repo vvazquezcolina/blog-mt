@@ -22,6 +22,28 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.mandalatickets.com';
+  
+  // Organization schema para SEO de marca - importante para Google Knowledge Graph
+  const organizationStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'MandalaTickets',
+    url: 'https://mandalatickets.com',
+    logo: `${baseUrl}/assets/img/logo.png`,
+    description: 'Plataforma líder para comprar boletos de eventos, fiestas y vida nocturna en los mejores destinos de México',
+    sameAs: [
+      'https://www.facebook.com/mandalatickets',
+      'https://www.instagram.com/mandalatickets',
+      'https://twitter.com/mandalatickets',
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'Customer Service',
+      availableLanguage: ['Spanish', 'English', 'French', 'Portuguese'],
+    },
+  };
+
   return (
     <html lang="es">
       <head>
@@ -37,6 +59,12 @@ export default function RootLayout({
         <link rel="apple-touch-startup-image" href="https://mandalatickets.com/assets/img/start-up.png" />
         {/* Para Acumin Variable desde Adobe Fonts, descomenta y agrega tu kit ID: */}
         {/* <link rel="stylesheet" href="https://use.typekit.net/[tu-kit-id].css" /> */}
+        
+        {/* Organization Structured Data JSON-LD para SEO de marca */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationStructuredData) }}
+        />
       </head>
       <body>{children}</body>
     </html>
