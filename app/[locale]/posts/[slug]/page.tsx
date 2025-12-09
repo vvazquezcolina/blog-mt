@@ -66,6 +66,23 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
   const category = getCategoryById(post.category);
   const postUrl = `${baseUrl}/${locale}/posts/${content.slug}`;
   
+  // Extraer keywords para metadata GEO
+  const extractKeywordsForMetadata = (title: string, excerpt: string, categoryName?: string): string[] => {
+    const text = `${title} ${excerpt}`.toLowerCase();
+    const keywords: string[] = [];
+    
+    const commonKeywords = ['eventos', 'events', 'fiestas', 'parties', 'vida nocturna', 'nightlife', 'beach club', 'cancún', 'cancun', 'tulum', 'playa del carmen', 'los cabos', 'puerto vallarta', 'mandalatickets'];
+    commonKeywords.forEach(kw => {
+      if (text.includes(kw.toLowerCase())) keywords.push(kw);
+    });
+    
+    if (categoryName) keywords.push(categoryName);
+    
+    return [...new Set(keywords)];
+  };
+  
+  const keywords = extractKeywordsForMetadata(content.title, content.excerpt, category?.name);
+  
   // Obtener la imagen del post para metadata
   // Asignar imagen determinística para metadata
   const categoryImageLists: Record<string, string[]> = {
@@ -104,6 +121,7 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
   return {
     title: `${content.title} | ${t.metadata.siteName}`,
     description: content.excerpt || t.metadata.post.defaultDescription,
+    keywords: keywords.join(', '),
     alternates: {
       canonical: postUrl,
       languages: alternates.languages,
@@ -167,6 +185,13 @@ export default async function PostPage({ params }: PostPageProps) {
     // Redirigir al slug correcto para este idioma (301 permanente para SEO)
     redirect(`/${resolvedParams.locale}/posts/${content.slug}`);
   }
+  
+  // Detectar tipo de contenido para schemas GEO (ya definido arriba, reutilizar)
+  // titleLower ya está definido en la sección de structuredData, pero lo necesitamos aquí también
+  const titleLowerForSchema = content.title.toLowerCase();
+  const isGuide = titleLowerForSchema.includes('guía') || titleLowerForSchema.includes('guide') || titleLowerForSchema.includes('guia');
+  const isTips = titleLowerForSchema.includes('consejo') || titleLowerForSchema.includes('tip') || titleLowerForSchema.includes('conseil') || titleLowerForSchema.includes('dica') || titleLowerForSchema.includes('preparar') || titleLowerForSchema.includes('prepare') || titleLowerForSchema.includes('how to') || titleLowerForSchema.includes('cómo');
+  const isFAQRelevant = isGuide || isTips;
   
   // Generar contenido completo del post
   const postBody = generatePostContent(post, resolvedParams.locale);
@@ -517,14 +542,45 @@ export default async function PostPage({ params }: PostPageProps) {
       : `${baseUrl}${imageUrl}`
     : undefined;
 
-  // Structured data JSON-LD para SEO
-  // Article schema para mejor indexación en motores de búsqueda
+  // Structured data JSON-LD para SEO y GEO
+  // Article schema mejorado para motores generativos de IA
   const localeMap: Record<Locale, string> = {
     es: 'es-MX',
     en: 'en-US',
     fr: 'fr-FR',
     pt: 'pt-BR',
   };
+  
+  // Extraer keywords del título y contenido
+  const extractKeywords = (title: string, excerpt: string): string[] => {
+    const text = `${title} ${excerpt}`.toLowerCase();
+    const keywords: string[] = [];
+    
+    // Keywords comunes
+    const commonKeywords = ['eventos', 'events', 'fiestas', 'parties', 'vida nocturna', 'nightlife', 'beach club', 'cancún', 'cancun', 'tulum', 'playa del carmen', 'los cabos', 'puerto vallarta'];
+    commonKeywords.forEach(kw => {
+      if (text.includes(kw.toLowerCase())) keywords.push(kw);
+    });
+    
+    // Agregar categoría como keyword
+    if (category) keywords.push(category.name);
+    
+    // Agregar destino
+    const destination = category?.name || 'México';
+    keywords.push(destination);
+    
+    return [...new Set(keywords)]; // Eliminar duplicados
+  };
+  
+  const keywords = extractKeywords(content.title, content.excerpt);
+  
+  // Detectar entidades mencionadas
+  const mentions: string[] = [];
+  const titleLower = content.title.toLowerCase();
+  const venues = ['mandala', 'vaquita', 'rakata', 'hof', 'dcave', 'santito', 'bagatelle', 'bonbonniere', 'themplo', 'vagalume'];
+  venues.forEach(venue => {
+    if (titleLower.includes(venue)) mentions.push(venue);
+  });
   
   const structuredData = {
     '@context': 'https://schema.org',
@@ -534,6 +590,7 @@ export default async function PostPage({ params }: PostPageProps) {
     image: fullImageUrl ? [fullImageUrl] : [],
     datePublished: post.date,
     inLanguage: localeMap[resolvedParams.locale] || 'es-MX',
+    keywords: keywords.join(', '),
     author: {
       '@type': 'Organization',
       name: post.author,
@@ -552,7 +609,31 @@ export default async function PostPage({ params }: PostPageProps) {
     },
     ...(category && {
       articleSection: category.name,
+      about: {
+        '@type': 'Place',
+        name: category.name,
+        description: category.description,
+      },
     }),
+    ...(mentions.length > 0 && {
+      mentions: mentions.map(mention => ({
+        '@type': 'Organization',
+        name: mention.charAt(0).toUpperCase() + mention.slice(1),
+      })),
+    }),
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.post-excerpt-large'],
+    },
+    citation: {
+      '@type': 'CreativeWork',
+      name: content.title,
+      url: postUrl,
+      publisher: {
+        '@type': 'Organization',
+        name: 'MandalaTickets',
+      },
+    },
   };
 
   // BreadcrumbList schema para navegación estructurada
@@ -588,6 +669,130 @@ export default async function PostPage({ params }: PostPageProps) {
     ],
   };
 
+  // FAQ Schema para posts tipo guía o consejos (GEO Optimization)
+  const generateFAQSchema = () => {
+    if (!isFAQRelevant) return null;
+    
+    const faqQuestions: Array<{ question: string; answer: string }> = [];
+    
+    // Generar preguntas basadas en el título y contenido
+    if (isGuide) {
+      const destination = category?.name || 'México';
+      faqQuestions.push({
+        question: resolvedParams.locale === 'es' 
+          ? `¿Qué información incluye esta guía sobre ${destination}?`
+          : resolvedParams.locale === 'en'
+          ? `What information does this guide about ${destination} include?`
+          : resolvedParams.locale === 'fr'
+          ? `Quelles informations cette guide sur ${destination} inclut-elle?`
+          : `Que informações este guia sobre ${destination} inclui?`,
+        answer: content.excerpt || content.title,
+      });
+      
+      faqQuestions.push({
+        question: resolvedParams.locale === 'es'
+          ? `¿Dónde puedo comprar boletos para eventos en ${destination}?`
+          : resolvedParams.locale === 'en'
+          ? `Where can I buy tickets for events in ${destination}?`
+          : resolvedParams.locale === 'fr'
+          ? `Où puis-je acheter des billets pour des événements à ${destination}?`
+          : `Onde posso comprar ingressos para eventos em ${destination}?`,
+        answer: resolvedParams.locale === 'es'
+          ? `Puedes comprar boletos para eventos en ${destination} a través de MandalaTickets en mandalatickets.com`
+          : resolvedParams.locale === 'en'
+          ? `You can buy tickets for events in ${destination} through MandalaTickets at mandalatickets.com`
+          : resolvedParams.locale === 'fr'
+          ? `Vous pouvez acheter des billets pour des événements à ${destination} via MandalaTickets sur mandalatickets.com`
+          : `Você pode comprar ingressos para eventos em ${destination} através da MandalaTickets em mandalatickets.com`,
+      });
+    }
+    
+    if (isTips) {
+      faqQuestions.push({
+        question: resolvedParams.locale === 'es'
+          ? `¿Qué consejos prácticos ofrece este artículo?`
+          : resolvedParams.locale === 'en'
+          ? `What practical tips does this article offer?`
+          : resolvedParams.locale === 'fr'
+          ? `Quels conseils pratiques cet article offre-t-il?`
+          : `Que dicas práticas este artigo oferece?`,
+        answer: content.excerpt || content.title,
+      });
+    }
+    
+    if (faqQuestions.length === 0) return null;
+    
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqQuestions.map(faq => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer,
+        },
+      })),
+    };
+  };
+
+  // HowTo Schema para posts tipo guía (GEO Optimization)
+  const generateHowToSchema = () => {
+    if (!isGuide) return null;
+    
+    const destination = category?.name || 'México';
+    
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'HowTo',
+      name: content.title,
+      description: content.excerpt,
+      image: fullImageUrl ? [fullImageUrl] : [],
+      estimatedCost: {
+        '@type': 'MonetaryAmount',
+        currency: 'MXN',
+        value: '0',
+      },
+      totalTime: resolvedParams.locale === 'es' ? 'PT1H' : 'PT1H', // 1 hora estimada
+      step: [
+        {
+          '@type': 'HowToStep',
+          position: 1,
+          name: resolvedParams.locale === 'es'
+            ? `Lee la guía completa sobre ${destination}`
+            : resolvedParams.locale === 'en'
+            ? `Read the complete guide about ${destination}`
+            : resolvedParams.locale === 'fr'
+            ? `Lisez le guide complet sur ${destination}`
+            : `Leia o guia completo sobre ${destination}`,
+          text: content.excerpt,
+        },
+        {
+          '@type': 'HowToStep',
+          position: 2,
+          name: resolvedParams.locale === 'es'
+            ? 'Compra tus boletos en MandalaTickets'
+            : resolvedParams.locale === 'en'
+            ? 'Buy your tickets on MandalaTickets'
+            : resolvedParams.locale === 'fr'
+            ? 'Achetez vos billets sur MandalaTickets'
+            : 'Compre seus ingressos na MandalaTickets',
+          text: resolvedParams.locale === 'es'
+            ? 'Visita mandalatickets.com para comprar boletos de eventos'
+            : resolvedParams.locale === 'en'
+            ? 'Visit mandalatickets.com to buy event tickets'
+            : resolvedParams.locale === 'fr'
+            ? 'Visitez mandalatickets.com pour acheter des billets d\'événements'
+            : 'Visite mandalatickets.com para comprar ingressos de eventos',
+          url: 'https://mandalatickets.com',
+        },
+      ],
+    };
+  };
+
+  const faqSchema = generateFAQSchema();
+  const howToSchema = generateHowToSchema();
+
   // Generar URLs alternativas para el language switcher
   const alternateUrls: Record<Locale, string> = {} as Record<Locale, string>;
   locales.forEach((loc) => {
@@ -604,8 +809,8 @@ export default async function PostPage({ params }: PostPageProps) {
         locale={resolvedParams.locale}
       />
       
-      {/* Structured Data JSON-LD para SEO */}
-      {/* Article schema para mejor indexación del contenido */}
+      {/* Structured Data JSON-LD para SEO y GEO */}
+      {/* Article schema mejorado para motores generativos de IA */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -615,6 +820,20 @@ export default async function PostPage({ params }: PostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
       />
+      {/* FAQ Schema para posts tipo guía o consejos (GEO Optimization) */}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      {/* HowTo Schema para posts tipo guía (GEO Optimization) */}
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      )}
       
       <article className="post-article">
         <div className="post-header">
