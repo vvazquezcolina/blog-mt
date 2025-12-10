@@ -40,7 +40,7 @@ export async function GET() {
         
         if (category) keywords.push(category.name);
         
-        return [...new Set(keywords)];
+        return Array.from(new Set(keywords));
       };
       
       // Detectar tipo de contenido
