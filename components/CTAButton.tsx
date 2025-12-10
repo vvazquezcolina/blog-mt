@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { trackBlogEvent } from '@/utils/analytics';
 
 interface CTAButtonProps {
@@ -23,7 +22,16 @@ export default function CTAButton({
   rel = 'noopener noreferrer'
 }: CTAButtonProps) {
   const handleClick = () => {
-    trackBlogEvent.clickCTA(location, postTitle, 'mandalatickets.com');
+    // Extraer el dominio del href
+    let destination = 'mandalatickets.com';
+    try {
+      const url = new URL(href);
+      destination = url.hostname.replace('www.', '');
+    } catch {
+      // Si href no es una URL válida, usar el valor por defecto
+    }
+    
+    trackBlogEvent.clickCTA(location, postTitle, destination);
   };
 
   return (
@@ -38,6 +46,14 @@ export default function CTAButton({
     </a>
   );
 }
+
+
+
+
+
+
+
+
 
 
 

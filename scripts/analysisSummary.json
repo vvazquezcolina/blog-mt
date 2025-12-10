@@ -1,0 +1,12 @@
+{
+  "totalPosts": 100,
+  "totalLocales": 400,
+  "postsWithIssues": 89,
+  "totalIssues": 1443,
+  "issuesByType": {
+    "missing_backlink": 801,
+    "suspicious_info": 7
+  },
+  "postsWithMissingBacklinks": 78,
+  "postsWithGenericContent": 0
+}

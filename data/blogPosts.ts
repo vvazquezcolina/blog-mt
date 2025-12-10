@@ -271,21 +271,11 @@ export const blogPosts: BlogPost[] = [
     true
   ),
   createBlogPost(
-    '3',
-    'Entrevista exclusiva con el DJ residente de Mandala Beach',
-    'entrevista-dj-residente-mandala-beach',
-    CATEGORY_IDS.GENERAL,
-    'Conoce la historia detrás de uno de los DJs más reconocidos de la Riviera Maya y sus planes para los próximos eventos.',
-    '2024-01-25',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
     '4',
     'Cómo aprovechar al máximo las promociones de MandalaTickets',
     'aprovechar-promociones-mandalatickets',
     CATEGORY_IDS.GENERAL,
-    'Tips y estrategias para obtener los mejores descuentos y ofertas especiales en tus compras de boletos.',
+    'Consejos y estrategias para obtener los mejores descuentos y ofertas especiales en tus compras de boletos.',
     '2024-02-01',
     'Equipo MandalaTickets',
     false
@@ -341,16 +331,6 @@ export const blogPosts: BlogPost[] = [
     false
   ),
   createBlogPost(
-    '10',
-    'Entrevista con el organizador del festival anual en Tulum',
-    'entrevista-organizador-festival-anual-tulum',
-    CATEGORY_IDS.TULUM,
-    'Descubre los secretos detrás de la organización de uno de los festivales más esperados del año en Tulum.',
-    '2024-03-01',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
     '11',
     'Los secretos mejor guardados de la vida nocturna en Los Cabos',
     'secretos-vida-nocturna-los-cabos',
@@ -385,18 +365,8 @@ export const blogPosts: BlogPost[] = [
     'Cómo vestirse para una noche de fiesta en Tulum',
     'vestirse-noche-fiesta-tulum',
     CATEGORY_IDS.TULUM,
-    'Guía de estilo para lucir perfecto en los eventos de Tulum, desde looks casuales hasta outfits más formales.',
+    'Guía de estilo para lucir perfecto en los eventos de Tulum, desde estilos casuales hasta vestimentas más formales.',
     '2024-03-20',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '15',
-    'Entrevista con el chef detrás de la gastronomía en Mandala Beach',
-    'entrevista-chef-gastronomia-mandala-beach',
-    CATEGORY_IDS.GENERAL,
-    'Conoce la visión culinaria y los platillos exclusivos que encontrarás en los eventos de Mandala Beach.',
-    '2024-03-25',
     'Equipo MandalaTickets',
     false
   ),
@@ -431,42 +401,12 @@ export const blogPosts: BlogPost[] = [
     false
   ),
   createBlogPost(
-    '19',
-    'Los mejores cócteles para probar en los eventos de MandalaTickets',
-    'mejores-cocteles-eventos-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Una selección de las bebidas más populares y deliciosas que encontrarás en nuestros eventos.',
-    '2024-04-15',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
     '20',
     'Guía de transporte: cómo moverse entre eventos en Playa del Carmen',
     'guia-transporte-moverse-eventos-playa-carmen',
     CATEGORY_IDS.PLAYA_DEL_CARMEN,
-    'Opciones de transporte y tips para moverte eficientemente entre diferentes eventos en Playa del Carmen.',
+    'Opciones de transporte y consejos para moverte eficientemente entre diferentes eventos en Playa del Carmen.',
     '2024-04-20',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '21',
-    'Entrevista con el diseñador de los escenarios en Tulum',
-    'entrevista-disenador-escenarios-tulum',
-    CATEGORY_IDS.TULUM,
-    'Descubre el proceso creativo detrás de los impresionantes escenarios que hacen únicos los eventos en Tulum.',
-    '2024-04-25',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '22',
-    'Los 10 artistas emergentes que debes conocer este año',
-    '10-artistas-emergentes-conocer-ano',
-    CATEGORY_IDS.GENERAL,
-    'Una lista de los talentos nuevos que están revolucionando la escena musical y que verás en nuestros eventos.',
-    '2024-05-01',
     'Equipo MandalaTickets',
     false
   ),
@@ -505,28 +445,8 @@ export const blogPosts: BlogPost[] = [
     'Cómo evitar las filas y entrar rápido a los eventos',
     'evitar-filas-entrar-rapido-eventos',
     CATEGORY_IDS.GENERAL,
-    'Estrategias y tips para acceder rápidamente a los eventos sin perder tiempo en filas.',
+    'Estrategias y consejos para acceder rápidamente a los eventos sin perder tiempo en filas.',
     '2024-05-20',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '27',
-    'Entrevista con el fotógrafo oficial de MandalaTickets',
-    'entrevista-fotografo-oficial-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Conoce al artista detrás de las increíbles fotografías que capturan la esencia de nuestros eventos.',
-    '2024-05-25',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '28',
-    'Los 5 festivales de música más esperados en México este año',
-    '5-festivales-musica-esperados-mexico',
-    CATEGORY_IDS.GENERAL,
-    'Una guía completa de los festivales musicales más importantes que se realizarán en México durante este año.',
-    '2024-06-01',
     'Equipo MandalaTickets',
     false
   ),
@@ -547,26 +467,6 @@ export const blogPosts: BlogPost[] = [
     CATEGORY_IDS.TULUM,
     'Ideas de recuerdos únicos que puedes llevar contigo para recordar tu increíble experiencia en Tulum.',
     '2024-06-10',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '31',
-    'Entrevista con el equipo de seguridad de MandalaTickets: cómo garantizan tu bienestar',
-    'entrevista-equipo-seguridad-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Conoce las medidas de seguridad implementadas para garantizar una experiencia segura en todos nuestros eventos.',
-    '2024-06-15',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '32',
-    'Los 10 mejores DJs que han pasado por los eventos de MandalaTickets',
-    '10-mejores-djs-eventos-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Un recuento de los artistas más destacados que han animado nuestros eventos a lo largo del tiempo.',
-    '2024-06-20',
     'Equipo MandalaTickets',
     false
   ),
@@ -605,18 +505,8 @@ export const blogPosts: BlogPost[] = [
     'Cómo aprovechar las redes sociales para compartir tu experiencia en los eventos',
     'aprovechar-redes-sociales-compartir-experiencia-eventos',
     CATEGORY_IDS.GENERAL,
-    'Tips para crear contenido atractivo y compartir tus mejores momentos de los eventos en redes sociales.',
+    'Consejos para crear contenido atractivo y compartir tus mejores momentos de los eventos en redes sociales.',
     '2024-07-10',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '37',
-    'Entrevista con el bartender estrella de Mandala Beach',
-    'entrevista-bartender-estrella-mandala-beach',
-    CATEGORY_IDS.GENERAL,
-    'Conoce los secretos detrás de los cócteles más populares y la filosofía del mejor bartender de la Riviera Maya.',
-    '2024-07-15',
     'Equipo MandalaTickets',
     false
   ),
@@ -647,26 +537,6 @@ export const blogPosts: BlogPost[] = [
     CATEGORY_IDS.TULUM,
     'Guía de los after-parties más exclusivos y vibrantes que continúan la fiesta después del evento principal.',
     '2024-08-01',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '41',
-    'Entrevista con el equipo de producción detrás de los eventos de MandalaTickets',
-    'entrevista-equipo-produccion-eventos-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Descubre cómo se crea la magia detrás de escena en cada uno de nuestros eventos.',
-    '2024-08-05',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '42',
-    'Los 10 momentos más memorables en la historia de MandalaTickets',
-    '10-momentos-memorables-historia-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Un recorrido por los hitos más importantes que han marcado la trayectoria de MandalaTickets.',
-    '2024-08-10',
     'Equipo MandalaTickets',
     false
   ),
@@ -711,16 +581,6 @@ export const blogPosts: BlogPost[] = [
     false
   ),
   createBlogPost(
-    '47',
-    'Entrevista con el diseñador de los flyers y materiales promocionales de MandalaTickets',
-    'entrevista-disenador-flyers-materiales-promocionales-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Conoce el proceso creativo detrás del diseño visual que identifica a MandalaTickets.',
-    '2024-09-05',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
     '48',
     'Los 5 eventos más románticos para parejas en Cancún',
     '5-eventos-romanticos-parejas-cancun',
@@ -751,26 +611,6 @@ export const blogPosts: BlogPost[] = [
     false
   ),
   createBlogPost(
-    '51',
-    'Entrevista con el equipo de marketing de MandalaTickets: estrategias detrás del éxito',
-    'entrevista-equipo-marketing-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Descubre cómo MandalaTickets ha construido su marca y conectado con miles de asistentes.',
-    '2024-09-25',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '52',
-    'Los 10 mejores momentos capturados en fotos en los eventos de MandalaTickets',
-    '10-mejores-momentos-fotos-eventos-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Una galería de los momentos más especiales capturados en nuestros eventos a lo largo del tiempo.',
-    '2024-10-01',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
     '53',
     'Cómo organizar una propuesta de matrimonio inolvidable en un evento de MandalaTickets',
     'organizar-propuesta-matrimonio-evento-mandalatickets',
@@ -782,10 +622,10 @@ export const blogPosts: BlogPost[] = [
   ),
   createBlogPost(
     '54',
-    'Los mejores lugares para comprar outfits de fiesta en Playa del Carmen',
-    'mejores-lugares-comprar-outfits-fiesta-playa-carmen',
+    'Los mejores lugares para comprar vestimenta de fiesta en Playa del Carmen',
+    'mejores-lugares-comprar-vestimenta-fiesta-playa-carmen',
     CATEGORY_IDS.PLAYA_DEL_CARMEN,
-    'Tiendas y boutiques donde encontrarás el outfit perfecto para tus eventos en Playa del Carmen.',
+    'Tiendas y boutiques donde encontrarás la vestimenta perfecta para tus eventos en Playa del Carmen.',
     '2024-10-10',
     'Equipo MandalaTickets',
     false
@@ -807,16 +647,6 @@ export const blogPosts: BlogPost[] = [
     CATEGORY_IDS.GENERAL,
     'Consejos para disfrutar toda la noche manteniendo un equilibrio saludable.',
     '2024-10-20',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '57',
-    'Entrevista con el equipo de logística de MandalaTickets: cómo organizan eventos exitosos',
-    'entrevista-equipo-logistica-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Conoce el trabajo detrás de escena que hace posible cada evento perfecto.',
-    '2024-10-25',
     'Equipo MandalaTickets',
     false
   ),
@@ -847,26 +677,6 @@ export const blogPosts: BlogPost[] = [
     CATEGORY_IDS.PUERTO_VALLARTA,
     'Spas, playas y lugares tranquilos para recuperarte después de una noche increíble.',
     '2024-11-10',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '61',
-    'Entrevista con el equipo de relaciones públicas de MandalaTickets: cómo construyen la comunidad',
-    'entrevista-equipo-rrpp-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Descubre cómo MandalaTickets ha creado una comunidad vibrante de amantes de la fiesta.',
-    '2024-11-15',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '62',
-    'Los 10 mejores momentos en video de los eventos de MandalaTickets',
-    '10-mejores-momentos-video-eventos-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Una compilación de los videos más emocionantes y memorables de nuestros eventos.',
-    '2024-11-20',
     'Equipo MandalaTickets',
     false
   ),
@@ -907,16 +717,6 @@ export const blogPosts: BlogPost[] = [
     CATEGORY_IDS.GENERAL,
     'Consejos para tener la mejor actitud y aprovechar cada momento de los eventos.',
     '2024-12-10',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '67',
-    'Entrevista con el equipo de atención al cliente de MandalaTickets: cómo garantizan una experiencia excepcional',
-    'entrevista-equipo-atencion-cliente-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Conoce cómo el equipo de atención al cliente asegura que cada asistente tenga la mejor experiencia.',
-    '2024-12-15',
     'Equipo MandalaTickets',
     false
   ),
@@ -971,16 +771,6 @@ export const blogPosts: BlogPost[] = [
     false
   ),
   createBlogPost(
-    '73',
-    'Entrevista con el DJ internacional que debutará en Los Cabos',
-    'entrevista-dj-internacional-debutara-los-cabos',
-    CATEGORY_IDS.LOS_CABOS,
-    'Conoce al artista internacional que por primera vez se presentará en Los Cabos.',
-    '2025-01-15',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
     '74',
     'Los mejores eventos al aire libre en Puerto Vallarta',
     'mejores-eventos-aire-libre-puerto-vallarta',
@@ -1031,16 +821,6 @@ export const blogPosts: BlogPost[] = [
     false
   ),
   createBlogPost(
-    '79',
-    'Entrevista con el productor musical detrás de los eventos más exitosos',
-    'entrevista-productor-musical-eventos-exitosos',
-    CATEGORY_IDS.GENERAL,
-    'Conoce al productor que ha creado algunos de los eventos más memorables de la Riviera Maya.',
-    '2025-02-15',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
     '80',
     'Los mejores eventos para grupos grandes en Playa del Carmen',
     'mejores-eventos-grupos-grandes-playa-carmen',
@@ -1055,7 +835,7 @@ export const blogPosts: BlogPost[] = [
     'Cómo documentar tu experiencia en eventos: fotografía y video',
     'documentar-experiencia-eventos-fotografia-video',
     CATEGORY_IDS.GENERAL,
-    'Tips profesionales para capturar los mejores momentos de los eventos.',
+    'Consejos profesionales para capturar los mejores momentos de los eventos.',
     '2025-02-25',
     'Equipo MandalaTickets',
     false
@@ -1091,16 +871,6 @@ export const blogPosts: BlogPost[] = [
     false
   ),
   createBlogPost(
-    '85',
-    'Entrevista con el creador de contenido que documenta los eventos de MandalaTickets',
-    'entrevista-creador-contenido-documenta-eventos-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Conoce al influencer que está compartiendo la experiencia de MandalaTickets con el mundo.',
-    '2025-03-15',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
     '86',
     'Los mejores eventos de música house en Tulum',
     'mejores-eventos-musica-house-tulum',
@@ -1112,10 +882,10 @@ export const blogPosts: BlogPost[] = [
   ),
   createBlogPost(
     '87',
-    'Cómo crear el playlist perfecto para prepararte para un evento',
-    'crear-playlist-perfecto-prepararse-evento',
+    'Cómo crear la lista de reproducción perfecta para prepararte para un evento',
+    'crear-lista-reproduccion-perfecta-prepararse-evento',
     CATEGORY_IDS.GENERAL,
-    'Tips para crear una lista de reproducción que te ponga en el mood perfecto antes del evento.',
+    'Consejos para crear una lista de reproducción que te ponga en el estado de ánimo perfecto antes del evento.',
     '2025-03-25',
     'Equipo MandalaTickets',
     false
@@ -1175,18 +945,8 @@ export const blogPosts: BlogPost[] = [
     'Cómo mantenerte conectado durante los eventos: WiFi y carga de batería',
     'mantenerse-conectado-eventos-wifi-carga-bateria',
     CATEGORY_IDS.GENERAL,
-    'Tips para mantener tu dispositivo cargado y conectado durante los eventos.',
+    'Consejos para mantener tu dispositivo cargado y conectado durante los eventos.',
     '2025-04-25',
-    'Equipo MandalaTickets',
-    false
-  ),
-  createBlogPost(
-    '94',
-    'Entrevista con el equipo de sonido de MandalaTickets',
-    'entrevista-equipo-sonido-mandalatickets',
-    CATEGORY_IDS.GENERAL,
-    'Conoce cómo se crea la experiencia de audio perfecta en cada evento.',
-    '2025-05-01',
     'Equipo MandalaTickets',
     false
   ),

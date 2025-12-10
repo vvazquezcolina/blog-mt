@@ -27,8 +27,15 @@ const results: ValidationResult[] = [];
 console.log('🔍 VALIDACIÓN EXHAUSTIVA DE TODOS LOS POSTS\n');
 console.log('='.repeat(100));
 
+// Obtener el número total de posts dinámicamente
+const totalPosts = blogPosts.length;
+const maxPostId = Math.max(...blogPosts.map(p => parseInt(p.id, 10)));
+
+console.log(`📊 Total de posts encontrados: ${totalPosts}`);
+console.log(`📊 ID máximo: ${maxPostId}\n`);
+
 // Verificar todos los posts
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= maxPostId; i++) {
   const postId = i.toString();
   const post = blogPosts.find(p => p.id === postId);
   const translation = postTranslations[postId];
@@ -81,8 +88,14 @@ for (let i = 1; i <= 100; i++) {
           langResult.contentLength = generatedContent.length;
           
           // Verificar texto en español (solo para idiomas no-español)
+          // Mejorar detección: buscar palabras con contexto (espacios alrededor)
           if (locale !== 'es') {
-            const spanishWords = ['los ', 'las ', ' del ', ' para ', ' con ', ' que ', ' una ', ' este ', ' esta '];
+            const spanishWords = [
+              ' los ', ' las ', ' del ', ' para ', ' con ', ' que ', ' una ', ' este ', ' esta ',
+              ' los.', ' las.', ' del.', ' para.', ' con.', ' que.', ' una.', ' este.', ' esta.',
+              ' los,', ' las,', ' del,', ' para,', ' con,', ' que,', ' una,', ' este,', ' esta,',
+              ' de la ', ' de los ', ' en la ', ' en el ', ' por la ', ' por el '
+            ];
             const contentLower = generatedContent.toLowerCase();
             
             for (const word of spanishWords) {
@@ -94,7 +107,8 @@ for (let i = 1; i <= 100; i++) {
           }
         }
       } catch (error) {
-        // Error al generar contenido
+        // Reportar error al generar contenido
+        console.error(`❌ Post ${postId} [${locale}]: Error al generar contenido: ${error instanceof Error ? error.message : String(error)}`);
       }
     }
     
@@ -163,11 +177,17 @@ for (const result of results) {
 console.log('\n' + '='.repeat(100));
 console.log('📈 RESUMEN');
 console.log('='.repeat(100));
+console.log(`Total de posts en blogPosts: ${totalPosts}`);
 console.log(`Total de posts verificados: ${results.length}`);
 console.log(`Posts con errores: ${postsWithErrors.length}`);
 console.log(`Posts con advertencias: ${postsWithWarnings.length}`);
 console.log(`Total de errores: ${totalErrors}`);
 console.log(`Total de advertencias: ${totalWarnings}`);
+
+// Verificar que el número de posts coincida
+if (results.length !== totalPosts) {
+  console.warn(`\n⚠️  ADVERTENCIA: Se esperaban ${totalPosts} posts pero se verificaron ${results.length}`);
+}
 
 if (postsWithErrors.length > 0) {
   console.log(`\n❌ Posts con errores: ${postsWithErrors.join(', ')}`);
@@ -217,3 +237,11 @@ if (totalErrors === 0) {
   console.log('❌ Se encontraron errores que deben corregirse.');
   process.exit(1);
 }
+
+
+
+
+
+
+
+

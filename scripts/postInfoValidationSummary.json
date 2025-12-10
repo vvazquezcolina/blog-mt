@@ -1,0 +1,180 @@
+{
+  "totalValidations": 400,
+  "averageScore": 38.025,
+  "postsWithIssues": 384,
+  "postsWithSuspiciousInfo": 252,
+  "totalIssues": 1430,
+  "totalSuspiciousInfo": 919,
+  "issuesByType": {
+    "incorrect_music_type": 1423,
+    "inconsistent_info": 7
+  },
+  "suspiciousInfoByType": {
+    "specific_date_without_source": 9,
+    "specific_dj_name": 39,
+    "unverifiable_event": 840,
+    "specific_price": 31
+  },
+  "worstPosts": [
+    {
+      "postId": "1",
+      "locale": "es",
+      "title": "Los 10 eventos imperdibles en Cancún este verano",
+      "score": 0,
+      "issuesCount": 8,
+      "suspiciousCount": 15
+    },
+    {
+      "postId": "1",
+      "locale": "en",
+      "title": "The 10 Unmissable Events in Cancun This Summer",
+      "score": 0,
+      "issuesCount": 12,
+      "suspiciousCount": 14
+    },
+    {
+      "postId": "1",
+      "locale": "pt",
+      "title": "Os 10 Eventos Imperdíveis em Cancún neste Verão",
+      "score": 0,
+      "issuesCount": 5,
+      "suspiciousCount": 10
+    },
+    {
+      "postId": "3",
+      "locale": "es",
+      "title": "Entrevista exclusiva con el DJ residente de Mandala Beach",
+      "score": 0,
+      "issuesCount": 6,
+      "suspiciousCount": 3
+    },
+    {
+      "postId": "3",
+      "locale": "en",
+      "title": "Exclusive Interview with Mandala Beach Resident DJ",
+      "score": 0,
+      "issuesCount": 6,
+      "suspiciousCount": 15
+    },
+    {
+      "postId": "5",
+      "locale": "es",
+      "title": "Historia y evolución de la vida nocturna en Playa del Carmen",
+      "score": 0,
+      "issuesCount": 10,
+      "suspiciousCount": 3
+    },
+    {
+      "postId": "7",
+      "locale": "es",
+      "title": "Los mejores beach clubs en Puerto Vallarta para este año",
+      "score": 0,
+      "issuesCount": 8,
+      "suspiciousCount": 0
+    },
+    {
+      "postId": "8",
+      "locale": "es",
+      "title": "Tendencias en música electrónica para 2025",
+      "score": 0,
+      "issuesCount": 6,
+      "suspiciousCount": 2
+    },
+    {
+      "postId": "9",
+      "locale": "es",
+      "title": "Cómo planificar tu itinerario de fiestas en Cancún",
+      "score": 0,
+      "issuesCount": 12,
+      "suspiciousCount": 3
+    },
+    {
+      "postId": "10",
+      "locale": "es",
+      "title": "Entrevista con el organizador del festival anual en Tulum",
+      "score": 0,
+      "issuesCount": 0,
+      "suspiciousCount": 20
+    },
+    {
+      "postId": "12",
+      "locale": "pt",
+      "title": "Guia para Iniciantes: Como Comprar Ingressos na MandalaTickets",
+      "score": 0,
+      "issuesCount": 7,
+      "suspiciousCount": 0
+    },
+    {
+      "postId": "13",
+      "locale": "es",
+      "title": "Los 5 eventos más exclusivos en Playa del Carmen este mes",
+      "score": 0,
+      "issuesCount": 9,
+      "suspiciousCount": 2
+    },
+    {
+      "postId": "15",
+      "locale": "en",
+      "title": "Interview with the Chef Behind the Gastronomy at Mandala Beach",
+      "score": 0,
+      "issuesCount": 6,
+      "suspiciousCount": 3
+    },
+    {
+      "postId": "16",
+      "locale": "es",
+      "title": "Los beneficios de reservar tus boletos con anticipación",
+      "score": 0,
+      "issuesCount": 11,
+      "suspiciousCount": 0
+    },
+    {
+      "postId": "19",
+      "locale": "es",
+      "title": "Los mejores cócteles para probar en los eventos de MandalaTickets",
+      "score": 0,
+      "issuesCount": 6,
+      "suspiciousCount": 2
+    },
+    {
+      "postId": "19",
+      "locale": "en",
+      "title": "The Best Cocktails to Try at MandalaTickets Events",
+      "score": 0,
+      "issuesCount": 6,
+      "suspiciousCount": 5
+    },
+    {
+      "postId": "20",
+      "locale": "es",
+      "title": "Guía de transporte: cómo moverse entre eventos en Playa del Carmen",
+      "score": 0,
+      "issuesCount": 10,
+      "suspiciousCount": 2
+    },
+    {
+      "postId": "21",
+      "locale": "en",
+      "title": "Interview with the Stage Designer in Tulum",
+      "score": 0,
+      "issuesCount": 6,
+      "suspiciousCount": 5
+    },
+    {
+      "postId": "23",
+      "locale": "es",
+      "title": "Cómo organizar una fiesta privada en Mandala Beach",
+      "score": 0,
+      "issuesCount": 6,
+      "suspiciousCount": 8
+    },
+    {
+      "postId": "23",
+      "locale": "en",
+      "title": "How to Organize a Private Party at Mandala Beach",
+      "score": 0,
+      "issuesCount": 6,
+      "suspiciousCount": 6
+    }
+  ]
+}

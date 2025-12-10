@@ -1,0 +1,159 @@
+{
+  "totalValidations": 400,
+  "averageScore": 61.9,
+  "postsWithIssues": 32,
+  "totalIssues": 89,
+  "issuesByType": {
+    "missing": 89
+  },
+  "issuesBySeverity": {
+    "high": 89,
+    "medium": 0,
+    "low": 0
+  },
+  "postsWithMissingBacklinks": 32,
+  "postsWithIncorrectBacklinks": 0,
+  "postsWithWrongAnchors": 0,
+  "worstPosts": [
+    {
+      "postId": "10",
+      "locale": "es",
+      "title": "Entrevista con el organizador del festival anual en Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "10",
+      "locale": "en",
+      "title": "Interview with the Organizer of the Annual Festival in Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "10",
+      "locale": "fr",
+      "title": "Interview avec l'organisateur du festival annuel à Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "10",
+      "locale": "pt",
+      "title": "Entrevista com o Organizador do Festival Anual em Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "30",
+      "locale": "en",
+      "title": "The Best Souvenirs to Take Home from Your Tulum Experience",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "30",
+      "locale": "fr",
+      "title": "Les meilleurs souvenirs à rapporter de votre expérience à Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "30",
+      "locale": "pt",
+      "title": "Os Melhores Souvenirs para Levar da sua Experiência em Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "40",
+      "locale": "en",
+      "title": "The Best After-Parties in Tulum You Can't Miss",
+      "score": 0,
+      "issuesCount": 1
+    },
+    {
+      "postId": "40",
+      "locale": "fr",
+      "title": "Les meilleurs after-parties à Tulum que vous ne pouvez pas manquer",
+      "score": 0,
+      "issuesCount": 1
+    },
+    {
+      "postId": "40",
+      "locale": "pt",
+      "title": "Os Melhores After-Parties em Tulum que Você Não Pode Perder",
+      "score": 0,
+      "issuesCount": 1
+    },
+    {
+      "postId": "42",
+      "locale": "es",
+      "title": "Los 10 momentos más memorables en la historia de MandalaTickets",
+      "score": 0,
+      "issuesCount": 1
+    },
+    {
+      "postId": "50",
+      "locale": "en",
+      "title": "The Best Places to Have Breakfast After a Party Night in Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "50",
+      "locale": "fr",
+      "title": "Les meilleurs endroits pour prendre le petit-déjeuner après une nuit de fête à Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "50",
+      "locale": "pt",
+      "title": "Os Melhores Lugares para Tomar Café da Manhã Depois de uma Noite de Festa em Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "52",
+      "locale": "es",
+      "title": "Los 10 mejores momentos capturados en fotos en los eventos de MandalaTickets",
+      "score": 0,
+      "issuesCount": 1
+    },
+    {
+      "postId": "62",
+      "locale": "es",
+      "title": "Los 10 mejores momentos en video de los eventos de MandalaTickets",
+      "score": 0,
+      "issuesCount": 1
+    },
+    {
+      "postId": "65",
+      "locale": "es",
+      "title": "Tendencias en decoración y ambientación para eventos en 2025",
+      "score": 0,
+      "issuesCount": 1
+    },
+    {
+      "postId": "68",
+      "locale": "en",
+      "title": "The 5 Most Anticipated Events for Spring Season in Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "68",
+      "locale": "fr",
+      "title": "Les 5 événements les plus attendus pour la saison de printemps à Tulum",
+      "score": 0,
+      "issuesCount": 4
+    },
+    {
+      "postId": "68",
+      "locale": "pt",
+      "title": "Os 5 Eventos Mais Esperados para a Temporada de Primavera em Tulum",
+      "score": 0,
+      "issuesCount": 4
+    }
+  ]
+}

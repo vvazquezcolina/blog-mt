@@ -66,14 +66,27 @@ export async function GET() {
       
       locales.forEach(locale => {
         const content = getPostContent(post, locale);
-        translations[locale] = {
-          title: content.title,
-          excerpt: content.excerpt,
-          slug: content.slug,
-          url: `${baseUrl}/${locale}/posts/${content.slug}`,
-          keywords: extractKeywords(content.title),
-          contentType: detectContentType(content.title),
-        };
+        if (!content || !content.title || !content.slug) {
+          // Si no hay contenido válido, usar el contenido en español como fallback
+          const fallbackContent = getPostContent(post, 'es');
+          translations[locale] = {
+            title: fallbackContent?.title || post.content.es.title,
+            excerpt: fallbackContent?.excerpt || post.content.es.excerpt,
+            slug: fallbackContent?.slug || post.content.es.slug,
+            url: `${baseUrl}/${locale}/posts/${fallbackContent?.slug || post.content.es.slug}`,
+            keywords: extractKeywords(fallbackContent?.title || post.content.es.title),
+            contentType: detectContentType(fallbackContent?.title || post.content.es.title),
+          };
+        } else {
+          translations[locale] = {
+            title: content.title,
+            excerpt: content.excerpt,
+            slug: content.slug,
+            url: `${baseUrl}/${locale}/posts/${content.slug}`,
+            keywords: extractKeywords(content.title),
+            contentType: detectContentType(content.title),
+          };
+        }
       });
       
       return {
@@ -128,3 +141,10 @@ export async function GET() {
     },
   });
 }
+
+
+
+
+
+
+

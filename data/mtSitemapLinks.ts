@@ -90,21 +90,47 @@ export const MT_SITEMAP_LINKS = {
   }
 };
 
+// Tipo para las claves válidas de destinos
+type DestinationKey = keyof typeof MT_SITEMAP_LINKS.destinations;
+
+/**
+ * Verifica si un destino es válido
+ */
+function isValidDestination(destination: string): destination is DestinationKey {
+  return destination in MT_SITEMAP_LINKS.destinations;
+}
+
 /**
  * Obtiene un link de destino según el locale
  */
 export function getDestinationLink(destination: string, locale: 'es' | 'en' | 'fr' | 'pt'): string {
-  const dest = MT_SITEMAP_LINKS.destinations[destination as keyof typeof MT_SITEMAP_LINKS.destinations];
-  return dest ? dest[locale] : MT_SITEMAP_LINKS.main[locale];
+  if (isValidDestination(destination)) {
+    const dest = MT_SITEMAP_LINKS.destinations[destination];
+    return dest[locale] || MT_SITEMAP_LINKS.main[locale];
+  }
+  // Si el destino no es válido, retornar el link principal
+  return MT_SITEMAP_LINKS.main[locale];
 }
 
 /**
  * Obtiene anchor texts disponibles para un destino
  */
 export function getDestinationAnchorTexts(destination: string, locale: 'es' | 'en' | 'fr' | 'pt'): string[] {
-  const dest = MT_SITEMAP_LINKS.destinations[destination as keyof typeof MT_SITEMAP_LINKS.destinations];
-  return dest ? dest.anchorTexts[locale] : [];
+  if (isValidDestination(destination)) {
+    const dest = MT_SITEMAP_LINKS.destinations[destination];
+    return dest.anchorTexts[locale] || [];
+  }
+  // Si el destino no es válido, retornar array vacío
+  return [];
 }
+
+
+
+
+
+
+
+
 
 
 

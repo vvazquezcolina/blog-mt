@@ -15,7 +15,18 @@
     "download-all-blog-images": "tsx scripts/downloadAllBlogImages.ts",
     "generate-image-list": "tsx scripts/generateImageList.ts",
     "redownload-problematic": "tsx scripts/redownloadProblematicImages.ts",
-    "insert-poolfotos": "tsx scripts/insertPoolFotosImages.ts"
+    "insert-poolfotos": "tsx scripts/insertPoolFotosImages.ts",
+    "qa:full": "tsx scripts/runFullQA.ts",
+    "qa:analyze": "tsx scripts/analyzePostContent.ts",
+    "qa:backlinks": "tsx scripts/validateBacklinks.ts",
+    "qa:generic": "tsx scripts/detectGenericContent.ts",
+    "qa:info": "tsx scripts/validatePostInfo.ts",
+    "qa:translations": "tsx scripts/validateTranslations.ts",
+    "qa:fixes": "tsx scripts/fixBacklinks.ts",
+    "qa:translations-fix": "tsx scripts/fixTranslationIssues.ts",
+    "qa:report": "tsx scripts/generateQAReport.ts",
+    "qa:post": "tsx scripts/generatePostReport.ts",
+    "review:manual": "tsx scripts/manualPostReview.ts"
   },
   "dependencies": {
     "next": "^14.0.0",

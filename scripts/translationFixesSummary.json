@@ -1,0 +1,134 @@
+{
+  "totalPostsWithIssues": 56,
+  "totalIssues": 203,
+  "issuesByLocale": {
+    "es": 54,
+    "en": 48,
+    "fr": 50,
+    "pt": 51
+  },
+  "totalMissingVenues": 622,
+  "totalExtraVenues": 192,
+  "worstPosts": [
+    {
+      "postId": "2",
+      "title": "Guía completa para disfrutar de Tulum: playas, fiestas y más",
+      "issuesCount": 4,
+      "totalMissing": 14
+    },
+    {
+      "postId": "5",
+      "title": "Historia y evolución de la vida nocturna en Playa del Carmen",
+      "issuesCount": 4,
+      "totalMissing": 18
+    },
+    {
+      "postId": "7",
+      "title": "Los mejores beach clubs en Puerto Vallarta para este año",
+      "issuesCount": 4,
+      "totalMissing": 12
+    },
+    {
+      "postId": "8",
+      "title": "Tendencias en música electrónica para 2025",
+      "issuesCount": 4,
+      "totalMissing": 6
+    },
+    {
+      "postId": "9",
+      "title": "Cómo planificar tu itinerario de fiestas en Cancún",
+      "issuesCount": 4,
+      "totalMissing": 24
+    },
+    {
+      "postId": "12",
+      "title": "Guía para principiantes: cómo comprar boletos en MandalaTickets",
+      "issuesCount": 4,
+      "totalMissing": 5
+    },
+    {
+      "postId": "13",
+      "title": "Los 5 eventos más exclusivos en Playa del Carmen este mes",
+      "issuesCount": 4,
+      "totalMissing": 18
+    },
+    {
+      "postId": "14",
+      "title": "Cómo vestirse para una noche de fiesta en Tulum",
+      "issuesCount": 4,
+      "totalMissing": 9
+    },
+    {
+      "postId": "16",
+      "title": "Los beneficios de reservar tus boletos con anticipación",
+      "issuesCount": 4,
+      "totalMissing": 24
+    },
+    {
+      "postId": "17",
+      "title": "Historia de los clubes nocturnos más icónicos de Cancún",
+      "issuesCount": 4,
+      "totalMissing": 24
+    },
+    {
+      "postId": "18",
+      "title": "Cómo disfrutar de una fiesta segura y responsable en Los Cabos",
+      "issuesCount": 4,
+      "totalMissing": 3
+    },
+    {
+      "postId": "20",
+      "title": "Guía de transporte: cómo moverse entre eventos en Playa del Carmen",
+      "issuesCount": 4,
+      "totalMissing": 21
+    },
+    {
+      "postId": "21",
+      "title": "Entrevista con el diseñador de los escenarios en Tulum",
+      "issuesCount": 4,
+      "totalMissing": 9
+    },
+    {
+      "postId": "22",
+      "title": "Los 10 artistas emergentes que debes conocer este año",
+      "issuesCount": 4,
+      "totalMissing": 3
+    },
+    {
+      "postId": "24",
+      "title": "Los mejores lugares para ver el atardecer antes de una fiesta en Puerto Vallarta",
+      "issuesCount": 4,
+      "totalMissing": 12
+    },
+    {
+      "postId": "25",
+      "title": "Tendencias en moda para la vida nocturna en 2025",
+      "issuesCount": 4,
+      "totalMissing": 24
+    },
+    {
+      "postId": "32",
+      "title": "Los 10 mejores DJs que han pasado por los eventos de MandalaTickets",
+      "issuesCount": 4,
+      "totalMissing": 15
+    },
+    {
+      "postId": "33",
+      "title": "Cómo celebrar tu cumpleaños en grande con MandalaTickets",
+      "issuesCount": 4,
+      "totalMissing": 25
+    },
+    {
+      "postId": "34",
+      "title": "Los mejores lugares para cenar antes de una fiesta en Cancún",
+      "issuesCount": 4,
+      "totalMissing": 24
+    },
+    {
+      "postId": "36",
+      "title": "Cómo aprovechar las redes sociales para compartir tu experiencia en los eventos",
+      "issuesCount": 4,
+      "totalMissing": 6
+    }
+  ]
+}

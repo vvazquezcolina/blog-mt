@@ -65,34 +65,11 @@ export const postTranslations: Record<string, PostTranslations> = {
       slug: 'guia-completo-aproveitar-tulum-praias-festas-mais'
     }
   },
-  // Post 3: Entrevista exclusiva con el DJ residente de Mandala Beach
-  '3': {
-    es: {
-      title: 'Entrevista exclusiva con el DJ residente de Mandala Beach',
-      excerpt: 'Conoce la historia detrás de uno de los DJs más reconocidos de la Riviera Maya y sus planes para los próximos eventos.',
-      slug: 'entrevista-dj-residente-mandala-beach'
-    },
-    en: {
-      title: 'Exclusive Interview with Mandala Beach Resident DJ',
-      excerpt: 'Learn the story behind one of the most recognized DJs in the Riviera Maya and their plans for upcoming events.',
-      slug: 'exclusive-interview-mandala-beach-resident-dj'
-    },
-    fr: {
-      title: 'Interview exclusive avec le DJ résident de Mandala Beach',
-      excerpt: 'Découvrez l\'histoire derrière l\'un des DJ les plus reconnus de la Riviera Maya et leurs projets pour les prochains événements.',
-      slug: 'interview-exclusive-dj-resident-mandala-beach'
-    },
-    pt: {
-      title: 'Entrevista Exclusiva com o DJ Residente do Mandala Beach',
-      excerpt: 'Conheça a história por trás de um dos DJs mais reconhecidos da Riviera Maya e seus planos para os próximos eventos.',
-      slug: 'entrevista-exclusiva-dj-residente-mandala-beach'
-    }
-  },
   // Post 4: Cómo aprovechar al máximo las promociones de MandalaTickets
   '4': {
     es: {
       title: 'Cómo aprovechar al máximo las promociones de MandalaTickets',
-      excerpt: 'Tips y estrategias para obtener los mejores descuentos y ofertas especiales en tus compras de boletos.',
+      excerpt: 'Consejos y estrategias para obtener los mejores descuentos y ofertas especiales en tus compras de boletos.',
       slug: 'aprovechar-promociones-mandalatickets'
     },
     en: {
@@ -226,29 +203,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       slug: 'planejar-itinerario-festas-cancun'
     }
   },
-  // Post 10: Entrevista con el organizador del festival anual en Tulum
-  '10': {
-    es: {
-      title: 'Entrevista con el organizador del festival anual en Tulum',
-      excerpt: 'Descubre los secretos detrás de la organización de uno de los festivales más esperados del año en Tulum.',
-      slug: 'entrevista-organizador-festival-anual-tulum'
-    },
-    en: {
-      title: 'Interview with the Organizer of the Annual Festival in Tulum',
-      excerpt: 'Discover the secrets behind organizing one of the most anticipated festivals of the year in Tulum.',
-      slug: 'interview-organizer-annual-festival-tulum'
-    },
-    fr: {
-      title: 'Interview avec l\'organisateur du festival annuel à Tulum',
-      excerpt: 'Découvrez les secrets derrière l\'organisation de l\'un des festivals les plus attendus de l\'année à Tulum.',
-      slug: 'interview-organisateur-festival-annuel-tulum'
-    },
-    pt: {
-      title: 'Entrevista com o Organizador do Festival Anual em Tulum',
-      excerpt: 'Descubra os segredos por trás da organização de um dos festivais mais esperados do ano em Tulum.',
-      slug: 'entrevista-organizador-festival-anual-tulum'
-    }
-  },
   // Post 11: Los secretos mejor guardados de la vida nocturna en Los Cabos
   '11': {
     es: {
@@ -322,7 +276,7 @@ export const postTranslations: Record<string, PostTranslations> = {
   '14': {
     es: {
       title: 'Cómo vestirse para una noche de fiesta en Tulum',
-      excerpt: 'Guía de estilo para lucir perfecto en los eventos de Tulum, desde looks casuales hasta outfits más formales.',
+      excerpt: 'Guía de estilo para lucir perfecto en los eventos de Tulum, desde estilos casuales hasta vestimentas más formales.',
       slug: 'vestirse-noche-fiesta-tulum'
     },
     en: {
@@ -332,36 +286,13 @@ export const postTranslations: Record<string, PostTranslations> = {
     },
     fr: {
       title: 'Comment s\'habiller pour une nuit de fête à Tulum',
-      excerpt: 'Guide de style pour paraître parfait aux événements de Tulum, des looks décontractés aux tenues plus formelles.',
+      excerpt: 'Guide de style pour paraître parfait aux événements de Tulum, des styles décontractés aux tenues plus formelles.',
       slug: 'comment-habiller-nuit-fete-tulum'
     },
     pt: {
       title: 'Como Se Vestir para uma Noite de Festa em Tulum',
-      excerpt: 'Guia de estilo para ficar perfeito nos eventos de Tulum, desde looks casuais até outfits mais formais.',
+      excerpt: 'Guia de estilo para ficar perfeito nos eventos de Tulum, desde estilos casuais até roupas mais formais.',
       slug: 'como-vestir-noite-festa-tulum'
-    }
-  },
-  // Post 15: Entrevista con el chef detrás de la gastronomía en Mandala Beach
-  '15': {
-    es: {
-      title: 'Entrevista con el chef detrás de la gastronomía en Mandala Beach',
-      excerpt: 'Conoce la visión culinaria y los platillos exclusivos que encontrarás en los eventos de Mandala Beach.',
-      slug: 'entrevista-chef-gastronomia-mandala-beach'
-    },
-    en: {
-      title: 'Interview with the Chef Behind the Gastronomy at Mandala Beach',
-      excerpt: 'Learn about the culinary vision and exclusive dishes you\'ll find at Mandala Beach events.',
-      slug: 'interview-chef-gastronomy-mandala-beach'
-    },
-    fr: {
-      title: 'Interview avec le chef derrière la gastronomie à Mandala Beach',
-      excerpt: 'Découvrez la vision culinaire et les plats exclusifs que vous trouverez aux événements de Mandala Beach.',
-      slug: 'interview-chef-gastronomie-mandala-beach'
-    },
-    pt: {
-      title: 'Entrevista com o Chef por Trás da Gastronomia do Mandala Beach',
-      excerpt: 'Conheça a visão culinária e os pratos exclusivos que você encontrará nos eventos do Mandala Beach.',
-      slug: 'entrevista-chef-gastronomia-mandala-beach'
     }
   },
   // Post 16: Los beneficios de reservar tus boletos con anticipación
@@ -433,34 +364,11 @@ export const postTranslations: Record<string, PostTranslations> = {
       slug: 'aproveitar-festa-segura-responsavel-los-cabos'
     }
   },
-  // Post 19: Los mejores cócteles para probar en los eventos de MandalaTickets
-  '19': {
-    es: {
-      title: 'Los mejores cócteles para probar en los eventos de MandalaTickets',
-      excerpt: 'Una selección de las bebidas más populares y deliciosas que encontrarás en nuestros eventos.',
-      slug: 'mejores-cocteles-eventos-mandalatickets'
-    },
-    en: {
-      title: 'The Best Cocktails to Try at MandalaTickets Events',
-      excerpt: 'A selection of the most popular and delicious drinks you\'ll find at our events.',
-      slug: 'best-cocktails-try-mandalatickets-events'
-    },
-    fr: {
-      title: 'Les meilleurs cocktails à essayer aux événements MandalaTickets',
-      excerpt: 'Une sélection des boissons les plus populaires et délicieuses que vous trouverez à nos événements.',
-      slug: 'meilleurs-cocktails-essayer-evenements-mandalatickets'
-    },
-    pt: {
-      title: 'Os Melhores Coquetéis para Experimentar nos Eventos da MandalaTickets',
-      excerpt: 'Uma seleção das bebidas mais populares e deliciosas que você encontrará em nossos eventos.',
-      slug: 'melhores-coqueteis-experimentar-eventos-mandalatickets'
-    }
-  },
   // Post 20: Guía de transporte: cómo moverse entre eventos en Playa del Carmen
   '20': {
     es: {
       title: 'Guía de transporte: cómo moverse entre eventos en Playa del Carmen',
-      excerpt: 'Opciones de transporte y tips para moverte eficientemente entre diferentes eventos en Playa del Carmen.',
+      excerpt: 'Opciones de transporte y consejos para moverte eficientemente entre diferentes eventos en Playa del Carmen.',
       slug: 'guia-transporte-moverse-eventos-playa-carmen'
     },
     en: {
@@ -477,52 +385,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       title: 'Guia de Transporte: Como Se Locomover Entre Eventos em Playa del Carmen',
       excerpt: 'Opções de transporte e dicas para se mover com eficiência entre diferentes eventos em Playa del Carmen.',
       slug: 'guia-transporte-locomover-eventos-playa-del-carmen'
-    }
-  },
-  // Post 21: Entrevista con el diseñador de los escenarios en Tulum
-  '21': {
-    es: {
-      title: 'Entrevista con el diseñador de los escenarios en Tulum',
-      excerpt: 'Descubre el proceso creativo detrás de los impresionantes escenarios que hacen únicos los eventos en Tulum.',
-      slug: 'entrevista-disenador-escenarios-tulum'
-    },
-    en: {
-      title: 'Interview with the Stage Designer in Tulum',
-      excerpt: 'Discover the creative process behind the impressive stages that make Tulum events unique.',
-      slug: 'interview-stage-designer-tulum'
-    },
-    fr: {
-      title: 'Interview avec le concepteur de scènes à Tulum',
-      excerpt: 'Découvrez le processus créatif derrière les scènes impressionnantes qui rendent les événements de Tulum uniques.',
-      slug: 'interview-concepteur-scenes-tulum'
-    },
-    pt: {
-      title: 'Entrevista com o Designer de Palcos em Tulum',
-      excerpt: 'Descubra o processo criativo por trás dos palcos impressionantes que tornam os eventos de Tulum únicos.',
-      slug: 'entrevista-designer-palcos-tulum'
-    }
-  },
-  // Post 22: Los 10 artistas emergentes que debes conocer este año
-  '22': {
-    es: {
-      title: 'Los 10 artistas emergentes que debes conocer este año',
-      excerpt: 'Una lista de los talentos nuevos que están revolucionando la escena musical y que verás en nuestros eventos.',
-      slug: '10-artistas-emergentes-conocer-ano'
-    },
-    en: {
-      title: 'The 10 Emerging Artists You Should Know This Year',
-      excerpt: 'A list of new talents who are revolutionizing the music scene and who you\'ll see at our events.',
-      slug: '10-emerging-artists-know-year'
-    },
-    fr: {
-      title: 'Les 10 artistes émergents que vous devriez connaître cette année',
-      excerpt: 'Une liste des nouveaux talents qui révolutionnent la scène musicale et que vous verrez à nos événements.',
-      slug: '10-artistes-emergents-connaitre-annee'
-    },
-    pt: {
-      title: 'Os 10 Artistas Emergentes que Você Deve Conhecer Este Ano',
-      excerpt: 'Uma lista dos novos talentos que estão revolucionando a cena musical e que você verá em nossos eventos.',
-      slug: '10-artistas-emergentes-conhecer-ano'
     }
   },
   // Post 23: Cómo organizar una fiesta privada en Mandala Beach
@@ -598,7 +460,7 @@ export const postTranslations: Record<string, PostTranslations> = {
   '26': {
     es: {
       title: 'Cómo evitar las filas y entrar rápido a los eventos',
-      excerpt: 'Estrategias y tips para acceder rápidamente a los eventos sin perder tiempo en filas.',
+      excerpt: 'Estrategias y consejos para acceder rápidamente a los eventos sin perder tiempo en filas.',
       slug: 'evitar-filas-entrar-rapido-eventos'
     },
     en: {
@@ -615,52 +477,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       title: 'Como Evitar Filas e Entrar Rápido nos Eventos',
       excerpt: 'Estratégias e dicas para acessar rapidamente os eventos sem perder tempo em filas.',
       slug: 'evitar-filas-entrar-rapido-eventos'
-    }
-  },
-  // Post 27: Entrevista con el fotógrafo oficial de MandalaTickets
-  '27': {
-    es: {
-      title: 'Entrevista con el fotógrafo oficial de MandalaTickets',
-      excerpt: 'Conoce al artista detrás de las increíbles fotografías que capturan la esencia de nuestros eventos.',
-      slug: 'entrevista-fotografo-oficial-mandalatickets'
-    },
-    en: {
-      title: 'Interview with MandalaTickets Official Photographer',
-      excerpt: 'Meet the artist behind the incredible photographs that capture the essence of our events.',
-      slug: 'interview-mandalatickets-official-photographer'
-    },
-    fr: {
-      title: 'Interview avec le photographe officiel de MandalaTickets',
-      excerpt: 'Rencontrez l\'artiste derrière les photographies incroyables qui capturent l\'essence de nos événements.',
-      slug: 'interview-photographe-officiel-mandalatickets'
-    },
-    pt: {
-      title: 'Entrevista com o Fotógrafo Oficial da MandalaTickets',
-      excerpt: 'Conheça o artista por trás das fotografias incríveis que capturam a essência de nossos eventos.',
-      slug: 'entrevista-fotografo-oficial-mandalatickets'
-    }
-  },
-  // Post 28: Los 5 festivales de música más esperados en México este año
-  '28': {
-    es: {
-      title: 'Los 5 festivales de música más esperados en México este año',
-      excerpt: 'Una guía completa de los festivales musicales más importantes que se realizarán en México durante este año.',
-      slug: '5-festivales-musica-esperados-mexico'
-    },
-    en: {
-      title: 'The 5 Most Anticipated Music Festivals in Mexico This Year',
-      excerpt: 'A complete guide to the most important music festivals that will take place in Mexico this year.',
-      slug: '5-most-anticipated-music-festivals-mexico-year'
-    },
-    fr: {
-      title: 'Les 5 festivals de musique les plus attendus au Mexique cette année',
-      excerpt: 'Un guide complet des festivals de musique les plus importants qui se dérouleront au Mexique cette année.',
-      slug: '5-festivals-musique-plus-attendus-mexique-annee'
-    },
-    pt: {
-      title: 'Os 5 Festivais de Música Mais Esperados no México Este Ano',
-      excerpt: 'Um guia completo dos festivais de música mais importantes que acontecerão no México este ano.',
-      slug: '5-festivais-musica-mais-esperados-mexico-ano'
     }
   },
   // Post 29: Cómo mantenerte hidratado y energizado durante una noche de fiesta
@@ -707,52 +523,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       title: 'Os Melhores Souvenirs para Levar da sua Experiência em Tulum',
       excerpt: 'Ideias de lembranças únicas que você pode levar para lembrar sua experiência incrível em Tulum.',
       slug: 'melhores-souvenirs-levar-experiencia-tulum'
-    }
-  },
-  // Post 31: Entrevista con el equipo de seguridad de MandalaTickets
-  '31': {
-    es: {
-      title: 'Entrevista con el equipo de seguridad de MandalaTickets: cómo garantizan tu bienestar',
-      excerpt: 'Conoce las medidas de seguridad implementadas para garantizar una experiencia segura en todos nuestros eventos.',
-      slug: 'entrevista-equipo-seguridad-mandalatickets'
-    },
-    en: {
-      title: 'Interview with MandalaTickets Security Team: How They Ensure Your Wellbeing',
-      excerpt: 'Learn about the security measures implemented to guarantee a safe experience at all our events.',
-      slug: 'interview-mandalatickets-security-team-wellbeing'
-    },
-    fr: {
-      title: 'Interview avec l\'équipe de sécurité de MandalaTickets : comment ils garantissent votre bien-être',
-      excerpt: 'Découvrez les mesures de sécurité mises en place pour garantir une expérience sûre à tous nos événements.',
-      slug: 'interview-equipe-securite-mandalatickets-bien-etre'
-    },
-    pt: {
-      title: 'Entrevista com a Equipe de Segurança da MandalaTickets: Como Garantem seu Bem-Estar',
-      excerpt: 'Conheça as medidas de segurança implementadas para garantir uma experiência segura em todos os nossos eventos.',
-      slug: 'entrevista-equipe-seguranca-mandalatickets-bem-estar'
-    }
-  },
-  // Post 32: Los 10 mejores DJs que han pasado por los eventos de MandalaTickets
-  '32': {
-    es: {
-      title: 'Los 10 mejores DJs que han pasado por los eventos de MandalaTickets',
-      excerpt: 'Un recuento de los artistas más destacados que han animado nuestros eventos a lo largo del tiempo.',
-      slug: '10-mejores-djs-eventos-mandalatickets'
-    },
-    en: {
-      title: 'The 10 Best DJs Who Have Performed at MandalaTickets Events',
-      excerpt: 'A recount of the most outstanding artists who have entertained at our events over time.',
-      slug: '10-best-djs-performed-mandalatickets-events'
-    },
-    fr: {
-      title: 'Les 10 meilleurs DJ qui ont joué aux événements MandalaTickets',
-      excerpt: 'Un récit des artistes les plus remarquables qui ont animé nos événements au fil du temps.',
-      slug: '10-meilleurs-djs-joue-evenements-mandalatickets'
-    },
-    pt: {
-      title: 'Os 10 Melhores DJs que Passaram pelos Eventos da MandalaTickets',
-      excerpt: 'Um relato dos artistas mais destacados que animaram nossos eventos ao longo do tempo.',
-      slug: '10-melhores-djs-eventos-mandalatickets'
     }
   },
   // Post 33: Cómo celebrar tu cumpleaños en grande con MandalaTickets
@@ -828,7 +598,7 @@ export const postTranslations: Record<string, PostTranslations> = {
   '36': {
     es: {
       title: 'Cómo aprovechar las redes sociales para compartir tu experiencia en los eventos',
-      excerpt: 'Tips para crear contenido atractivo y compartir tus mejores momentos de los eventos en redes sociales.',
+      excerpt: 'Consejos para crear contenido atractivo y compartir tus mejores momentos de los eventos en redes sociales.',
       slug: 'aprovechar-redes-sociales-compartir-experiencia-eventos'
     },
     en: {
@@ -845,29 +615,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       title: 'Como Aproveitar as Redes Sociais para Compartilhar sua Experiência nos Eventos',
       excerpt: 'Dicas para criar conteúdo atraente e compartilhar seus melhores momentos dos eventos nas redes sociais.',
       slug: 'aproveitar-redes-sociais-compartilhar-experiencia-eventos'
-    }
-  },
-  // Post 37: Entrevista con el bartender estrella de Mandala Beach
-  '37': {
-    es: {
-      title: 'Entrevista con el bartender estrella de Mandala Beach',
-      excerpt: 'Conoce los secretos detrás de los cócteles más populares y la filosofía del mejor bartender de la Riviera Maya.',
-      slug: 'entrevista-bartender-estrella-mandala-beach'
-    },
-    en: {
-      title: 'Interview with Mandala Beach Star Bartender',
-      excerpt: 'Learn the secrets behind the most popular cocktails and the philosophy of the best bartender in the Riviera Maya.',
-      slug: 'interview-mandala-beach-star-bartender'
-    },
-    fr: {
-      title: 'Interview avec le barman vedette de Mandala Beach',
-      excerpt: 'Découvrez les secrets derrière les cocktails les plus populaires et la philosophie du meilleur barman de la Riviera Maya.',
-      slug: 'interview-barman-vedette-mandala-beach'
-    },
-    pt: {
-      title: 'Entrevista com o Barman Estrela do Mandala Beach',
-      excerpt: 'Conheça os segredos por trás dos coquetéis mais populares e a filosofia do melhor barman da Riviera Maya.',
-      slug: 'entrevista-barman-estrela-mandala-beach'
     }
   },
   // Post 38: Los 5 eventos temáticos más divertidos en Playa del Carmen
@@ -937,52 +684,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       title: 'Os Melhores After-Parties em Tulum que Você Não Pode Perder',
       excerpt: 'Guia dos after-parties mais exclusivos e vibrantes que continuam a festa após o evento principal.',
       slug: 'melhores-after-parties-tulum-nao-perder'
-    }
-  },
-  // Post 41: Entrevista con el equipo de producción detrás de los eventos de MandalaTickets
-  '41': {
-    es: {
-      title: 'Entrevista con el equipo de producción detrás de los eventos de MandalaTickets',
-      excerpt: 'Descubre cómo se crea la magia detrás de escena en cada uno de nuestros eventos.',
-      slug: 'entrevista-equipo-produccion-eventos-mandalatickets'
-    },
-    en: {
-      title: 'Interview with the Production Team Behind MandalaTickets Events',
-      excerpt: 'Discover how the magic is created behind the scenes at each of our events.',
-      slug: 'interview-production-team-mandalatickets-events'
-    },
-    fr: {
-      title: 'Interview avec l\'équipe de production derrière les événements MandalaTickets',
-      excerpt: 'Découvrez comment la magie est créée dans les coulisses de chacun de nos événements.',
-      slug: 'interview-equipe-production-evenements-mandalatickets'
-    },
-    pt: {
-      title: 'Entrevista com a Equipe de Produção por Trás dos Eventos da MandalaTickets',
-      excerpt: 'Descubra como a mágica é criada nos bastidores de cada um de nossos eventos.',
-      slug: 'entrevista-equipe-producao-eventos-mandalatickets'
-    }
-  },
-  // Post 42: Los 10 momentos más memorables en la historia de MandalaTickets
-  '42': {
-    es: {
-      title: 'Los 10 momentos más memorables en la historia de MandalaTickets',
-      excerpt: 'Un recorrido por los hitos más importantes que han marcado la trayectoria de MandalaTickets.',
-      slug: '10-momentos-memorables-historia-mandalatickets'
-    },
-    en: {
-      title: 'The 10 Most Memorable Moments in MandalaTickets History',
-      excerpt: 'A journey through the most important milestones that have marked MandalaTickets\' trajectory.',
-      slug: '10-most-memorable-moments-mandalatickets-history'
-    },
-    fr: {
-      title: 'Les 10 moments les plus mémorables de l\'histoire de MandalaTickets',
-      excerpt: 'Un voyage à travers les jalons les plus importants qui ont marqué la trajectoire de MandalaTickets.',
-      slug: '10-moments-plus-memorables-histoire-mandalatickets'
-    },
-    pt: {
-      title: 'Os 10 Momentos Mais Memoráveis na História da MandalaTickets',
-      excerpt: 'Uma jornada pelos marcos mais importantes que marcaram a trajetória da MandalaTickets.',
-      slug: '10-momentos-memoraveis-historia-mandalatickets'
     }
   },
   // Post 43: Cómo planificar una escapada de fin de semana llena de fiestas en Los Cabos
@@ -1077,29 +778,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       slug: 'fazer-networking-conhecer-pessoas-eventos'
     }
   },
-  // Post 47: Entrevista con el diseñador de los flyers y materiales promocionales de MandalaTickets
-  '47': {
-    es: {
-      title: 'Entrevista con el diseñador de los flyers y materiales promocionales de MandalaTickets',
-      excerpt: 'Conoce el proceso creativo detrás del diseño visual que identifica a MandalaTickets.',
-      slug: 'entrevista-disenador-flyers-materiales-promocionales-mandalatickets'
-    },
-    en: {
-      title: 'Interview with the Designer of MandalaTickets Flyers and Promotional Materials',
-      excerpt: 'Learn about the creative process behind the visual design that identifies MandalaTickets.',
-      slug: 'interview-designer-flyers-promotional-materials-mandalatickets'
-    },
-    fr: {
-      title: 'Interview avec le concepteur des flyers et matériaux promotionnels de MandalaTickets',
-      excerpt: 'Découvrez le processus créatif derrière le design visuel qui identifie MandalaTickets.',
-      slug: 'interview-concepteur-flyers-materiaux-promotionnels-mandalatickets'
-    },
-    pt: {
-      title: 'Entrevista com o Designer dos Flyers e Materiais Promocionais da MandalaTickets',
-      excerpt: 'Conheça o processo criativo por trás do design visual que identifica a MandalaTickets.',
-      slug: 'entrevista-designer-flyers-materiais-promocionais-mandalatickets'
-    }
-  },
   // Post 48: Los 5 eventos más románticos para parejas en Cancún
   '48': {
     es: {
@@ -1169,52 +847,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       slug: 'melhores-lugares-cafe-manha-depois-festa-tulum'
     }
   },
-  // Post 51: Entrevista con el equipo de marketing de MandalaTickets
-  '51': {
-    es: {
-      title: 'Entrevista con el equipo de marketing de MandalaTickets: estrategias detrás del éxito',
-      excerpt: 'Descubre cómo MandalaTickets ha construido su marca y conectado con miles de asistentes.',
-      slug: 'entrevista-equipo-marketing-mandalatickets'
-    },
-    en: {
-      title: 'Interview with MandalaTickets Marketing Team: Strategies Behind Success',
-      excerpt: 'Discover how MandalaTickets has built its brand and connected with thousands of attendees.',
-      slug: 'interview-mandalatickets-marketing-team-strategies'
-    },
-    fr: {
-      title: 'Interview avec l\'équipe marketing de MandalaTickets : stratégies derrière le succès',
-      excerpt: 'Découvrez comment MandalaTickets a construit sa marque et connecté avec des milliers de participants.',
-      slug: 'interview-equipe-marketing-mandalatickets-strategies'
-    },
-    pt: {
-      title: 'Entrevista com a Equipe de Marketing da MandalaTickets: Estratégias por Trás do Sucesso',
-      excerpt: 'Descubra como a MandalaTickets construiu sua marca e se conectou com milhares de participantes.',
-      slug: 'entrevista-equipe-marketing-mandalatickets-estrategias'
-    }
-  },
-  // Post 52: Los 10 mejores momentos capturados en fotos en los eventos de MandalaTickets
-  '52': {
-    es: {
-      title: 'Los 10 mejores momentos capturados en fotos en los eventos de MandalaTickets',
-      excerpt: 'Una galería de los momentos más especiales capturados en nuestros eventos a lo largo del tiempo.',
-      slug: '10-mejores-momentos-fotos-eventos-mandalatickets'
-    },
-    en: {
-      title: 'The 10 Best Moments Captured in Photos at MandalaTickets Events',
-      excerpt: 'A gallery of the most special moments captured at our events over time.',
-      slug: '10-best-moments-captured-photos-mandalatickets-events'
-    },
-    fr: {
-      title: 'Les 10 meilleurs moments capturés en photos aux événements MandalaTickets',
-      excerpt: 'Une galerie des moments les plus spéciaux capturés à nos événements au fil du temps.',
-      slug: '10-meilleurs-moments-captures-photos-evenements-mandalatickets'
-    },
-    pt: {
-      title: 'Os 10 Melhores Momentos Capturados em Fotos nos Eventos da MandalaTickets',
-      excerpt: 'Uma galeria dos momentos mais especiais capturados em nossos eventos ao longo do tempo.',
-      slug: '10-melhores-momentos-fotos-eventos-mandalatickets'
-    }
-  },
   // Post 53: Cómo organizar una propuesta de matrimonio inolvidable en un evento de MandalaTickets
   '53': {
     es: {
@@ -1241,9 +873,9 @@ export const postTranslations: Record<string, PostTranslations> = {
   // Post 54: Los mejores lugares para comprar outfits de fiesta en Playa del Carmen
   '54': {
     es: {
-      title: 'Los mejores lugares para comprar outfits de fiesta en Playa del Carmen',
-      excerpt: 'Tiendas y boutiques donde encontrarás el outfit perfecto para tus eventos en Playa del Carmen.',
-      slug: 'mejores-lugares-comprar-outfits-fiesta-playa-carmen'
+      title: 'Los mejores lugares para comprar vestimenta de fiesta en Playa del Carmen',
+      excerpt: 'Tiendas y boutiques donde encontrarás la vestimenta perfecta para tus eventos en Playa del Carmen.',
+      slug: 'mejores-lugares-comprar-vestimenta-fiesta-playa-carmen'
     },
     en: {
       title: 'The Best Places to Buy Party Outfits in Playa del Carmen',
@@ -1256,8 +888,8 @@ export const postTranslations: Record<string, PostTranslations> = {
       slug: 'meilleurs-endroits-acheter-tenues-fete-playa-del-carmen'
     },
     pt: {
-      title: 'Os Melhores Lugares para Comprar Outfits de Festa em Playa del Carmen',
-      excerpt: 'Lojas e boutiques onde você encontrará o outfit perfeito para seus eventos em Playa del Carmen.',
+      title: 'Os Melhores Lugares para Comprar Roupas de Festa em Playa del Carmen',
+      excerpt: 'Lojas e boutiques onde você encontrará a roupa perfeita para seus eventos em Playa del Carmen.',
       slug: 'melhores-lugares-comprar-outfits-festa-playa-del-carmen'
     }
   },
@@ -1305,29 +937,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       title: 'Como Manter a Energia Durante uma Noite de Festa sem Exagerar',
       excerpt: 'Dicas para aproveitar a noite toda mantendo um equilíbrio saudável.',
       slug: 'manter-energia-noite-festa-sem-exagerar'
-    }
-  },
-  // Post 57: Entrevista con el equipo de logística de MandalaTickets
-  '57': {
-    es: {
-      title: 'Entrevista con el equipo de logística de MandalaTickets: cómo organizan eventos exitosos',
-      excerpt: 'Conoce el trabajo detrás de escena que hace posible cada evento perfecto.',
-      slug: 'entrevista-equipo-logistica-mandalatickets'
-    },
-    en: {
-      title: 'Interview with MandalaTickets Logistics Team: How They Organize Successful Events',
-      excerpt: 'Learn about the behind-the-scenes work that makes each perfect event possible.',
-      slug: 'interview-mandalatickets-logistics-team-successful-events'
-    },
-    fr: {
-      title: 'Interview avec l\'équipe logistique de MandalaTickets : comment ils organisent des événements réussis',
-      excerpt: 'Découvrez le travail dans les coulisses qui rend chaque événement parfait possible.',
-      slug: 'interview-equipe-logistique-mandalatickets-evenements-reussis'
-    },
-    pt: {
-      title: 'Entrevista com a Equipe de Logística da MandalaTickets: Como Organizam Eventos Bem-Sucedidos',
-      excerpt: 'Conheça o trabalho nos bastidores que torna cada evento perfeito possível.',
-      slug: 'entrevista-equipe-logistica-mandalatickets-eventos-sucesso'
     }
   },
   // Post 58: Los 5 eventos más exclusivos para celebrar Año Nuevo en Los Cabos
@@ -1397,52 +1006,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       title: 'Os Melhores Lugares para Relaxar Depois de uma Noite de Festa em Puerto Vallarta',
       excerpt: 'Spas, praias e lugares tranquilos para se recuperar após uma noite incrível.',
       slug: 'melhores-lugares-relaxar-depois-festa-puerto-vallarta'
-    }
-  },
-  // Post 61: Entrevista con el equipo de relaciones públicas de MandalaTickets
-  '61': {
-    es: {
-      title: 'Entrevista con el equipo de relaciones públicas de MandalaTickets: cómo construyen la comunidad',
-      excerpt: 'Descubre cómo MandalaTickets ha creado una comunidad vibrante de amantes de la fiesta.',
-      slug: 'entrevista-equipo-rrpp-mandalatickets'
-    },
-    en: {
-      title: 'Interview with MandalaTickets Public Relations Team: How They Build Community',
-      excerpt: 'Discover how MandalaTickets has created a vibrant community of party lovers.',
-      slug: 'interview-mandalatickets-pr-team-build-community'
-    },
-    fr: {
-      title: 'Interview avec l\'équipe des relations publiques de MandalaTickets : comment ils construisent la communauté',
-      excerpt: 'Découvrez comment MandalaTickets a créé une communauté vibrante d\'amateurs de fête.',
-      slug: 'interview-equipe-relations-publiques-mandalatickets-communaute'
-    },
-    pt: {
-      title: 'Entrevista com a Equipe de Relações Públicas da MandalaTickets: Como Constroem a Comunidade',
-      excerpt: 'Descubra como a MandalaTickets criou uma comunidade vibrante de amantes de festa.',
-      slug: 'entrevista-equipe-rp-mandalatickets-comunidade'
-    }
-  },
-  // Post 62: Los 10 mejores momentos en video de los eventos de MandalaTickets
-  '62': {
-    es: {
-      title: 'Los 10 mejores momentos en video de los eventos de MandalaTickets',
-      excerpt: 'Una compilación de los videos más emocionantes y memorables de nuestros eventos.',
-      slug: '10-mejores-momentos-video-eventos-mandalatickets'
-    },
-    en: {
-      title: 'The 10 Best Video Moments from MandalaTickets Events',
-      excerpt: 'A compilation of the most exciting and memorable videos from our events.',
-      slug: '10-best-video-moments-mandalatickets-events'
-    },
-    fr: {
-      title: 'Les 10 meilleurs moments vidéo des événements MandalaTickets',
-      excerpt: 'Une compilation des vidéos les plus excitantes et mémorables de nos événements.',
-      slug: '10-meilleurs-moments-video-evenements-mandalatickets'
-    },
-    pt: {
-      title: 'Os 10 Melhores Momentos em Vídeo dos Eventos da MandalaTickets',
-      excerpt: 'Uma compilação dos vídeos mais emocionantes e memoráveis de nossos eventos.',
-      slug: '10-melhores-momentos-video-eventos-mandalatickets'
     }
   },
   // Post 63: Cómo organizar una fiesta sorpresa en uno de los eventos de MandalaTickets
@@ -1535,29 +1098,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       title: 'Como Manter uma Atitude Positiva e Aproveitar os Eventos ao Máximo',
       excerpt: 'Dicas para ter a melhor atitude e aproveitar cada momento dos eventos.',
       slug: 'manter-atitude-positiva-aproveitar-eventos-maximo'
-    }
-  },
-  // Post 67: Entrevista con el equipo de atención al cliente de MandalaTickets
-  '67': {
-    es: {
-      title: 'Entrevista con el equipo de atención al cliente de MandalaTickets: cómo garantizan una experiencia excepcional',
-      excerpt: 'Conoce cómo el equipo de atención al cliente asegura que cada asistente tenga la mejor experiencia.',
-      slug: 'entrevista-equipo-atencion-cliente-mandalatickets'
-    },
-    en: {
-      title: 'Interview with MandalaTickets Customer Service Team: How They Ensure an Exceptional Experience',
-      excerpt: 'Learn how the customer service team ensures that each attendee has the best experience.',
-      slug: 'interview-mandalatickets-customer-service-exceptional-experience'
-    },
-    fr: {
-      title: 'Interview avec l\'équipe du service client de MandalaTickets : comment ils garantissent une expérience exceptionnelle',
-      excerpt: 'Découvrez comment l\'équipe du service client assure que chaque participant ait la meilleure expérience.',
-      slug: 'interview-equipe-service-client-mandalatickets-experience-exceptionnelle'
-    },
-    pt: {
-      title: 'Entrevista com a Equipe de Atendimento ao Cliente da MandalaTickets: Como Garantem uma Experiência Excepcional',
-      excerpt: 'Conheça como a equipe de atendimento ao cliente garante que cada participante tenha a melhor experiência.',
-      slug: 'entrevista-equipe-atendimento-cliente-mandalatickets-experiencia-excepcional'
     }
   },
   // Post 68: Los 5 eventos más esperados para la temporada de primavera en Tulum
@@ -1675,29 +1215,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       slug: 'planejar-primeira-visita-evento-mandalatickets'
     }
   },
-  // Post 73: Entrevista con el DJ internacional que debutará en Los Cabos
-  '73': {
-    es: {
-      title: 'Entrevista con el DJ internacional que debutará en Los Cabos',
-      excerpt: 'Conoce al artista internacional que por primera vez se presentará en Los Cabos.',
-      slug: 'entrevista-dj-internacional-debutara-los-cabos'
-    },
-    en: {
-      title: 'Interview with the International DJ Making Debut in Los Cabos',
-      excerpt: 'Meet the international artist who will perform in Los Cabos for the first time.',
-      slug: 'interview-international-dj-debut-los-cabos'
-    },
-    fr: {
-      title: 'Interview avec le DJ international qui fera ses débuts à Los Cabos',
-      excerpt: 'Rencontrez l\'artiste international qui se produira à Los Cabos pour la première fois.',
-      slug: 'interview-dj-international-debut-los-cabos'
-    },
-    pt: {
-      title: 'Entrevista com o DJ Internacional que Estreará em Los Cabos',
-      excerpt: 'Conheça o artista internacional que se apresentará em Los Cabos pela primeira vez.',
-      slug: 'entrevista-dj-internacional-estreia-los-cabos'
-    }
-  },
   // Post 74: Los mejores eventos al aire libre en Puerto Vallarta
   '74': {
     es: {
@@ -1813,29 +1330,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       slug: 'guia-etiqueta-eventos-vip-los-cabos'
     }
   },
-  // Post 79: Entrevista con el productor musical detrás de los eventos más exitosos
-  '79': {
-    es: {
-      title: 'Entrevista con el productor musical detrás de los eventos más exitosos',
-      excerpt: 'Conoce al productor que ha creado algunos de los eventos más memorables de la Riviera Maya.',
-      slug: 'entrevista-productor-musical-eventos-exitosos'
-    },
-    en: {
-      title: 'Interview with the Music Producer Behind the Most Successful Events',
-      excerpt: 'Meet the producer who has created some of the most memorable events in the Riviera Maya.',
-      slug: 'interview-music-producer-successful-events'
-    },
-    fr: {
-      title: 'Interview avec le producteur musical derrière les événements les plus réussis',
-      excerpt: 'Rencontrez le producteur qui a créé certains des événements les plus mémorables de la Riviera Maya.',
-      slug: 'interview-producteur-musical-evenements-reussis'
-    },
-    pt: {
-      title: 'Entrevista com o Produtor Musical por Trás dos Eventos Mais Bem-Sucedidos',
-      excerpt: 'Conheça o produtor que criou alguns dos eventos mais memoráveis da Riviera Maya.',
-      slug: 'entrevista-produtor-musical-eventos-sucesso'
-    }
-  },
   // Post 80: Los mejores eventos para grupos grandes en Playa del Carmen
   '80': {
     es: {
@@ -1863,7 +1357,7 @@ export const postTranslations: Record<string, PostTranslations> = {
   '81': {
     es: {
       title: 'Cómo documentar tu experiencia en eventos: fotografía y video',
-      excerpt: 'Tips profesionales para capturar los mejores momentos de los eventos.',
+      excerpt: 'Consejos profesionales para capturar los mejores momentos de los eventos.',
       slug: 'documentar-experiencia-eventos-fotografia-video'
     },
     en: {
@@ -1951,29 +1445,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       slug: 'guia-seguranca-pessoal-eventos-noturnos'
     }
   },
-  // Post 85: Entrevista con el creador de contenido que documenta los eventos de MandalaTickets
-  '85': {
-    es: {
-      title: 'Entrevista con el creador de contenido que documenta los eventos de MandalaTickets',
-      excerpt: 'Conoce al influencer que está compartiendo la experiencia de MandalaTickets con el mundo.',
-      slug: 'entrevista-creador-contenido-documenta-eventos-mandalatickets'
-    },
-    en: {
-      title: 'Interview with the Content Creator Documenting MandalaTickets Events',
-      excerpt: 'Meet the influencer who is sharing the MandalaTickets experience with the world.',
-      slug: 'interview-content-creator-documenting-mandalatickets-events'
-    },
-    fr: {
-      title: 'Interview avec le créateur de contenu qui documente les événements MandalaTickets',
-      excerpt: 'Rencontrez l\'influenceur qui partage l\'expérience MandalaTickets avec le monde.',
-      slug: 'interview-createur-contenu-documente-evenements-mandalatickets'
-    },
-    pt: {
-      title: 'Entrevista com o Criador de Conteúdo que Documenta os Eventos da MandalaTickets',
-      excerpt: 'Conheça o influencer que está compartilhando a experiência da MandalaTickets com o mundo.',
-      slug: 'entrevista-criador-conteudo-documenta-eventos-mandalatickets'
-    }
-  },
   // Post 86: Los mejores eventos de música house en Tulum
   '86': {
     es: {
@@ -2000,9 +1471,9 @@ export const postTranslations: Record<string, PostTranslations> = {
   // Post 87: Cómo crear el playlist perfecto para prepararte para un evento
   '87': {
     es: {
-      title: 'Cómo crear el playlist perfecto para prepararte para un evento',
-      excerpt: 'Tips para crear una lista de reproducción que te ponga en el mood perfecto antes del evento.',
-      slug: 'crear-playlist-perfecto-prepararse-evento'
+      title: 'Cómo crear la lista de reproducción perfecta para prepararte para un evento',
+      excerpt: 'Consejos para crear una lista de reproducción que te ponga en el estado de ánimo perfecto antes del evento.',
+      slug: 'crear-lista-reproduccion-perfecta-prepararse-evento'
     },
     en: {
       title: 'How to Create the Perfect Playlist to Prepare for an Event',
@@ -2139,7 +1610,7 @@ export const postTranslations: Record<string, PostTranslations> = {
   '93': {
     es: {
       title: 'Cómo mantenerte conectado durante los eventos: WiFi y carga de batería',
-      excerpt: 'Tips para mantener tu dispositivo cargado y conectado durante los eventos.',
+      excerpt: 'Consejos para mantener tu dispositivo cargado y conectado durante los eventos.',
       slug: 'mantenerse-conectado-eventos-wifi-carga-bateria'
     },
     en: {
@@ -2156,29 +1627,6 @@ export const postTranslations: Record<string, PostTranslations> = {
       title: 'Como Se Manter Conectado Durante os Eventos: WiFi e Carga de Bateria',
       excerpt: 'Dicas para manter seu dispositivo carregado e conectado durante os eventos.',
       slug: 'manter-conectado-eventos-wifi-carga-bateria'
-    }
-  },
-  // Post 94: Entrevista con el equipo de sonido de MandalaTickets
-  '94': {
-    es: {
-      title: 'Entrevista con el equipo de sonido de MandalaTickets',
-      excerpt: 'Conoce cómo se crea la experiencia de audio perfecta en cada evento.',
-      slug: 'entrevista-equipo-sonido-mandalatickets'
-    },
-    en: {
-      title: 'Interview with MandalaTickets Sound Team',
-      excerpt: 'Learn how the perfect audio experience is created at each event.',
-      slug: 'interview-mandalatickets-sound-team'
-    },
-    fr: {
-      title: 'Interview avec l\'équipe son de MandalaTickets',
-      excerpt: 'Découvrez comment l\'expérience audio parfaite est créée à chaque événement.',
-      slug: 'interview-equipe-son-mandalatickets'
-    },
-    pt: {
-      title: 'Entrevista com a Equipe de Som da MandalaTickets',
-      excerpt: 'Conheça como a experiência de áudio perfeita é criada em cada evento.',
-      slug: 'entrevista-equipe-som-mandalatickets'
     }
   },
   // Post 95: Los mejores eventos para celebrar el Día de las Madres

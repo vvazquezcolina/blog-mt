@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
     
     if (categoryName) keywords.push(categoryName);
     
-    return [...new Set(keywords)];
+    return Array.from(new Set(keywords));
   };
   
   const keywords = extractKeywordsForMetadata(content.title, content.excerpt, category?.name);
@@ -569,7 +569,7 @@ export default async function PostPage({ params }: PostPageProps) {
     const destination = category?.name || 'México';
     keywords.push(destination);
     
-    return [...new Set(keywords)]; // Eliminar duplicados
+    return Array.from(new Set(keywords)); // Eliminar duplicados
   };
   
   const keywords = extractKeywords(content.title, content.excerpt);

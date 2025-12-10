@@ -80,7 +80,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
   blogPosts.forEach((post) => {
     locales.forEach((locale) => {
       const content = getPostContent(post, locale);
-      const postDate = new Date(post.date);
+      if (!content || !content.slug) {
+        // Si no hay contenido válido, saltar este locale para este post
+        return;
+      }
+
+      // Validar y parsear fecha del post
+      let postDate: Date;
+      try {
+        postDate = new Date(post.date);
+        // Verificar que la fecha sea válida
+        if (isNaN(postDate.getTime())) {
+          postDate = new Date(); // Usar fecha actual como fallback
+        }
+      } catch {
+        postDate = new Date(); // Usar fecha actual como fallback
+      }
+      
+      // Construir alternates con validación
+      const alternates: Record<string, string> = {};
+      locales.forEach((loc) => {
+        const locContent = getPostContent(post, loc);
+        if (locContent && locContent.slug) {
+          alternates[loc] = `${baseUrl}/${loc}/posts/${locContent.slug}`;
+        }
+      });
       
       sitemapEntries.push({
         url: `${baseUrl}/${locale}/posts/${content.slug}`,
@@ -88,12 +112,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: post.featured ? 0.8 : 0.7,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((loc) => {
-              const locContent = getPostContent(post, loc);
-              return [loc, `${baseUrl}/${loc}/posts/${locContent.slug}`];
-            })
-          ),
+          languages: alternates,
         },
       });
     });
@@ -101,3 +120,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return sitemapEntries;
 }
+

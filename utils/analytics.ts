@@ -1,9 +1,13 @@
+// Tipos para parámetros de analytics
+type GAEventParams = Record<string, string | number | boolean | undefined>;
+type FBEventParams = Record<string, string | number | undefined>;
+
 // Declarar tipos para window
 declare global {
   interface Window {
-    gtag?: (...args: any[]) => void;
-    fbq?: (...args: any[]) => void;
-    dataLayer?: any[];
+    gtag?: (command: string, eventName: string, params?: GAEventParams) => void;
+    fbq?: (command: string, eventName: string, params?: FBEventParams) => void;
+    dataLayer?: unknown[];
   }
 }
 
@@ -12,13 +16,22 @@ declare global {
  */
 export const trackGAEvent = (
   eventName: string,
-  params?: Record<string, any>
+  params?: GAEventParams
 ) => {
-  if (typeof window !== 'undefined' && window.gtag) {
+  if (typeof window === 'undefined' || !window.gtag) {
+    return;
+  }
+
+  try {
     window.gtag('event', eventName, {
       content_type: 'blog',
       ...params,
     });
+  } catch (error) {
+    // Silently fail in production, but log in development
+    if (process.env.NODE_ENV === 'development') {
+      console.error('Error tracking GA event:', error);
+    }
   }
 };
 
@@ -27,10 +40,19 @@ export const trackGAEvent = (
  */
 export const trackFBEvent = (
   eventName: string,
-  params?: Record<string, any>
+  params?: FBEventParams
 ) => {
-  if (typeof window !== 'undefined' && window.fbq) {
+  if (typeof window === 'undefined' || !window.fbq) {
+    return;
+  }
+
+  try {
     window.fbq('track', eventName, params);
+  } catch (error) {
+    // Silently fail in production, but log in development
+    if (process.env.NODE_ENV === 'development') {
+      console.error('Error tracking FB event:', error);
+    }
   }
 };
 
@@ -99,9 +121,17 @@ export const trackBlogEvent = {
       post_title: postTitle,
       destination: 'mandalatickets.com',
     });
-    trackFBEvent('InitiateCheckout', {
-      content_name: postTitle,
-    });
+    // Solo trackear InitiateCheckout si es un link de checkout/tickets
+    if (url.includes('mandalatickets.com') && (url.includes('/checkout') || url.includes('/tickets'))) {
+      trackFBEvent('InitiateCheckout', {
+        content_name: postTitle,
+      });
+    } else {
+      // Para otros links externos, usar evento más apropiado
+      trackFBEvent('Lead', {
+        content_name: postTitle,
+      });
+    }
   },
 
   // Track search (if implementas búsqueda)
@@ -111,6 +141,14 @@ export const trackBlogEvent = {
     });
   },
 };
+
+
+
+
+
+
+
+
 
 
 

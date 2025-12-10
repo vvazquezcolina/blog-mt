@@ -1,0 +1,1816 @@
+{
+  "summary": {
+    "totalPosts": 100,
+    "totalLocales": 400,
+    "postsWithIssues": 100,
+    "totalIssues": 3586,
+    "issuesByCategory": {
+      "backlinks": 89,
+      "genericContent": 18,
+      "postInfo": 2349,
+      "translations": 1130
+    }
+  },
+  "posts": [
+    {
+      "postId": "33",
+      "category": "general",
+      "title": "Cómo celebrar tu cumpleaños en grande con MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 34,
+        "translations": 47
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "1",
+      "category": "cancun",
+      "title": "Los 10 eventos imperdibles en Cancún este verano",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 73,
+        "translations": 0
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "92",
+      "category": "cancun",
+      "title": "Los mejores eventos para amantes del reggaetón en Cancún",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 31,
+        "translations": 42
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "9",
+      "category": "cancun",
+      "title": "Cómo planificar tu itinerario de fiestas en Cancún",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 29,
+        "translations": 42
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "34",
+      "category": "cancun",
+      "title": "Los mejores lugares para cenar antes de una fiesta en Cancún",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 29,
+        "translations": 42
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "86",
+      "category": "tulum",
+      "title": "Los mejores eventos de música house en Tulum",
+      "priority": "high",
+      "issues": {
+        "backlinks": 12,
+        "genericContent": 0,
+        "postInfo": 26,
+        "translations": 33
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "25",
+      "category": "general",
+      "title": "Tendencias en moda para la vida nocturna en 2025",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 28,
+        "translations": 42
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "16",
+      "category": "general",
+      "title": "Los beneficios de reservar tus boletos con anticipación",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 27,
+        "translations": 42
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "59",
+      "category": "general",
+      "title": "Cómo elegir el evento perfecto según tus gustos musicales",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 41,
+        "translations": 27
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "69",
+      "category": "cancun",
+      "title": "Guía completa de Cancún: playas, eventos y vida nocturna",
+      "priority": "high",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 0,
+        "postInfo": 23,
+        "translations": 43
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "68",
+      "category": "tulum",
+      "title": "Los 5 eventos más esperados para la temporada de primavera en Tulum",
+      "priority": "high",
+      "issues": {
+        "backlinks": 12,
+        "genericContent": 0,
+        "postInfo": 17,
+        "translations": 33
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "76",
+      "category": "tulum",
+      "title": "Cómo combinar eventos y turismo en tu visita a Tulum",
+      "priority": "high",
+      "issues": {
+        "backlinks": 12,
+        "genericContent": 0,
+        "postInfo": 17,
+        "translations": 33
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "17",
+      "category": "cancun",
+      "title": "Historia de los clubes nocturnos más icónicos de Cancún",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 42
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "32",
+      "category": "general",
+      "title": "Los 10 mejores DJs que han pasado por los eventos de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 32,
+        "translations": 27
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "5",
+      "category": "playa-del-carmen",
+      "title": "Historia y evolución de la vida nocturna en Playa del Carmen",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 26,
+        "translations": 31
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "53",
+      "category": "general",
+      "title": "Cómo organizar una propuesta de matrimonio inolvidable en un evento de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 40,
+        "translations": 17
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "13",
+      "category": "playa-del-carmen",
+      "title": "Los 5 eventos más exclusivos en Playa del Carmen este mes",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 24,
+        "translations": 31
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "38",
+      "category": "playa-del-carmen",
+      "title": "Los 5 eventos temáticos más divertidos en Playa del Carmen",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 24,
+        "translations": 31
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "54",
+      "category": "playa-del-carmen",
+      "title": "Los mejores lugares para comprar outfits de fiesta en Playa del Carmen",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 24,
+        "translations": 31
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "63",
+      "category": "general",
+      "title": "Cómo organizar una fiesta sorpresa en uno de los eventos de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 44,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "80",
+      "category": "playa-del-carmen",
+      "title": "Los mejores eventos para grupos grandes en Playa del Carmen",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 24,
+        "translations": 31
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "71",
+      "category": "playa-del-carmen",
+      "title": "Los mejores eventos para solteros en Playa del Carmen",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 22,
+        "translations": 31
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "20",
+      "category": "playa-del-carmen",
+      "title": "Guía de transporte: cómo moverse entre eventos en Playa del Carmen",
+      "priority": "high",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 0,
+        "postInfo": 16,
+        "translations": 32
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "50",
+      "category": "tulum",
+      "title": "Los mejores lugares para desayunar después de una noche de fiesta en Tulum",
+      "priority": "high",
+      "issues": {
+        "backlinks": 12,
+        "genericContent": 0,
+        "postInfo": 15,
+        "translations": 22
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "72",
+      "category": "general",
+      "title": "Cómo planificar tu primera visita a un evento de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 37,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "74",
+      "category": "puerto-vallarta",
+      "title": "Los mejores eventos al aire libre en Puerto Vallarta",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 27,
+        "translations": 21
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "24",
+      "category": "puerto-vallarta",
+      "title": "Los mejores lugares para ver el atardecer antes de una fiesta en Puerto Vallarta",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 26,
+        "translations": 21
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "97",
+      "category": "playa-del-carmen",
+      "title": "Guía completa de Playa del Carmen: eventos y atracciones",
+      "priority": "high",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 0,
+        "postInfo": 14,
+        "translations": 32
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "10",
+      "category": "tulum",
+      "title": "Entrevista con el organizador del festival anual en Tulum",
+      "priority": "high",
+      "issues": {
+        "backlinks": 16,
+        "genericContent": 0,
+        "postInfo": 29,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "3",
+      "category": "general",
+      "title": "Entrevista exclusiva con el DJ residente de Mandala Beach",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 43,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "44",
+      "category": "puerto-vallarta",
+      "title": "Los mejores lugares para tomar fotos durante los eventos en Puerto Vallarta",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 21,
+        "translations": 21
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "12",
+      "category": "general",
+      "title": "Guía para principiantes: cómo comprar boletos en MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 25,
+        "translations": 16
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "36",
+      "category": "general",
+      "title": "Cómo aprovechar las redes sociales para compartir tu experiencia en los eventos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 30,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "19",
+      "category": "general",
+      "title": "Los mejores cócteles para probar en los eventos de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 29,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "23",
+      "category": "general",
+      "title": "Cómo organizar una fiesta privada en Mandala Beach",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 39,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "46",
+      "category": "general",
+      "title": "Cómo hacer networking y conocer gente nueva en los eventos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 29,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "7",
+      "category": "puerto-vallarta",
+      "title": "Los mejores beach clubs en Puerto Vallarta para este año",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 21
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "49",
+      "category": "general",
+      "title": "Cómo cuidar tus pertenencias durante una noche de fiesta",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 27,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "70",
+      "category": "general",
+      "title": "Cómo aprovechar los paquetes especiales de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 25,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "8",
+      "category": "general",
+      "title": "Tendencias en música electrónica para 2025",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 24,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "4",
+      "category": "general",
+      "title": "Cómo aprovechar al máximo las promociones de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 23,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "2",
+      "category": "tulum",
+      "title": "Guía completa para disfrutar de Tulum: playas, fiestas y más",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 33,
+        "translations": 0
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "29",
+      "category": "general",
+      "title": "Cómo mantenerte hidratado y energizado durante una noche de fiesta",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 2,
+        "postInfo": 30,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "39",
+      "category": "general",
+      "title": "Cómo prepararte para una fiesta en la playa: consejos y trucos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 21,
+        "translations": 12
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "64",
+      "category": "cancun",
+      "title": "Los mejores lugares para comprar accesorios de fiesta en Cancún",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 32,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "84",
+      "category": "general",
+      "title": "Guía de seguridad personal para eventos nocturnos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 17,
+        "translations": 16
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "21",
+      "category": "tulum",
+      "title": "Entrevista con el diseñador de los escenarios en Tulum",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 31,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "45",
+      "category": "general",
+      "title": "Tendencias en música latina para 2025",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 21,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "91",
+      "category": "general",
+      "title": "Cómo aprovechar los descuentos de último minuto en MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 21,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "66",
+      "category": "general",
+      "title": "Cómo mantener una actitud positiva y disfrutar al máximo de los eventos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 30,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "56",
+      "category": "general",
+      "title": "Cómo mantener la energía durante una noche de fiesta sin excederte",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 29,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "81",
+      "category": "general",
+      "title": "Cómo documentar tu experiencia en eventos: fotografía y video",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 29,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "15",
+      "category": "general",
+      "title": "Entrevista con el chef detrás de la gastronomía en Mandala Beach",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 27,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "75",
+      "category": "general",
+      "title": "Tendencias en tecnología para eventos: realidad aumentada y más",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 3,
+        "postInfo": 24,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "77",
+      "category": "cancun",
+      "title": "Los mejores eventos temáticos de los 80s y 90s en Cancún",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 17,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "83",
+      "category": "cancun",
+      "title": "Los mejores eventos para celebrar San Valentín en Cancún",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 17,
+        "translations": 11
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "37",
+      "category": "general",
+      "title": "Entrevista con el bartender estrella de Mandala Beach",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 26,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "14",
+      "category": "tulum",
+      "title": "Cómo vestirse para una noche de fiesta en Tulum",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 25,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "22",
+      "category": "general",
+      "title": "Los 10 artistas emergentes que debes conocer este año",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 20,
+        "translations": 6
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "26",
+      "category": "general",
+      "title": "Cómo evitar las filas y entrar rápido a los eventos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 25,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "35",
+      "category": "general",
+      "title": "Tendencias en iluminación y efectos visuales para eventos en 2025",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 25,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "42",
+      "category": "general",
+      "title": "Los 10 momentos más memorables en la historia de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 1,
+        "postInfo": 22,
+        "translations": 2
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "52",
+      "category": "general",
+      "title": "Los 10 mejores momentos capturados en fotos en los eventos de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 1,
+        "postInfo": 22,
+        "translations": 2
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "55",
+      "category": "general",
+      "title": "Tendencias en bebidas y mixología para eventos en 2025",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 25,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "62",
+      "category": "general",
+      "title": "Los 10 mejores momentos en video de los eventos de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 1,
+        "postInfo": 22,
+        "translations": 2
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "88",
+      "category": "general",
+      "title": "Los mejores eventos para celebrar el Día de la Independencia en México",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 25,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "89",
+      "category": "general",
+      "title": "Tendencias en experiencias inmersivas en eventos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 3,
+        "postInfo": 22,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "98",
+      "category": "general",
+      "title": "Cómo crear recuerdos duraderos de tus eventos favoritos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 25,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "99",
+      "category": "general",
+      "title": "Los mejores eventos para celebrar el Día del Padre",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 25,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "100",
+      "category": "general",
+      "title": "El futuro de los eventos nocturnos: predicciones para 2026",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 3,
+        "postInfo": 22,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "30",
+      "category": "tulum",
+      "title": "Los mejores souvenirs para llevar de tu experiencia en Tulum",
+      "priority": "high",
+      "issues": {
+        "backlinks": 12,
+        "genericContent": 0,
+        "postInfo": 8,
+        "translations": 5
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "95",
+      "category": "general",
+      "title": "Los mejores eventos para celebrar el Día de las Madres",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 24,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "28",
+      "category": "general",
+      "title": "Los 5 festivales de música más esperados en México este año",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 22,
+        "translations": 2
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "65",
+      "category": "general",
+      "title": "Tendencias en decoración y ambientación para eventos en 2025",
+      "priority": "high",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 1,
+        "postInfo": 20,
+        "translations": 2
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "93",
+      "category": "general",
+      "title": "Cómo mantenerte conectado durante los eventos: WiFi y carga de batería",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 23,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "82",
+      "category": "general",
+      "title": "Tendencias en sostenibilidad en eventos nocturnos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 22,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "96",
+      "category": "general",
+      "title": "Tendencias en eventos híbridos: presenciales y virtuales",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 21,
+        "translations": 2
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "57",
+      "category": "general",
+      "title": "Entrevista con el equipo de logística de MandalaTickets: cómo organizan eventos exitosos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 21,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "40",
+      "category": "tulum",
+      "title": "Los mejores after-parties en Tulum que no te puedes perder",
+      "priority": "high",
+      "issues": {
+        "backlinks": 3,
+        "genericContent": 3,
+        "postInfo": 11,
+        "translations": 3
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "61",
+      "category": "general",
+      "title": "Entrevista con el equipo de relaciones públicas de MandalaTickets: cómo construyen la comunidad",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 19,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "73",
+      "category": "los-cabos",
+      "title": "Entrevista con el DJ internacional que debutará en Los Cabos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 19,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "18",
+      "category": "los-cabos",
+      "title": "Cómo disfrutar de una fiesta segura y responsable en Los Cabos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 0,
+        "postInfo": 16,
+        "translations": 2
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "27",
+      "category": "general",
+      "title": "Entrevista con el fotógrafo oficial de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "31",
+      "category": "general",
+      "title": "Entrevista con el equipo de seguridad de MandalaTickets: cómo garantizan tu bienestar",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "41",
+      "category": "general",
+      "title": "Entrevista con el equipo de producción detrás de los eventos de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "47",
+      "category": "general",
+      "title": "Entrevista con el diseñador de los flyers y materiales promocionales de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "51",
+      "category": "general",
+      "title": "Entrevista con el equipo de marketing de MandalaTickets: estrategias detrás del éxito",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "67",
+      "category": "general",
+      "title": "Entrevista con el equipo de atención al cliente de MandalaTickets: cómo garantizan una experiencia excepcional",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "85",
+      "category": "general",
+      "title": "Entrevista con el creador de contenido que documenta los eventos de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "94",
+      "category": "general",
+      "title": "Entrevista con el equipo de sonido de MandalaTickets",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 18,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "48",
+      "category": "cancun",
+      "title": "Los 5 eventos más románticos para parejas en Cancún",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 17,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "60",
+      "category": "puerto-vallarta",
+      "title": "Los mejores lugares para relajarte después de una noche de fiesta en Puerto Vallarta",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 17,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "87",
+      "category": "general",
+      "title": "Cómo crear el playlist perfecto para prepararte para un evento",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 14,
+        "translations": 2
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "43",
+      "category": "los-cabos",
+      "title": "Cómo planificar una escapada de fin de semana llena de fiestas en Los Cabos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 14,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "58",
+      "category": "los-cabos",
+      "title": "Los 5 eventos más exclusivos para celebrar Año Nuevo en Los Cabos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 14,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "11",
+      "category": "los-cabos",
+      "title": "Los secretos mejor guardados de la vida nocturna en Los Cabos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 12,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "6",
+      "category": "los-cabos",
+      "title": "Consejos para organizar una despedida de soltero/a en Los Cabos",
+      "priority": "high",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 11,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "90",
+      "category": "los-cabos",
+      "title": "Guía completa de Los Cabos: eventos, playas y aventuras",
+      "priority": "high",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 0,
+        "postInfo": 8,
+        "translations": 2
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "78",
+      "category": "los-cabos",
+      "title": "Guía de etiqueta para eventos VIP en Los Cabos",
+      "priority": "medium",
+      "issues": {
+        "backlinks": 1,
+        "genericContent": 0,
+        "postInfo": 6,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "postId": "79",
+      "category": "general",
+      "title": "Entrevista con el productor musical detrás de los eventos más exitosos",
+      "priority": "medium",
+      "issues": {
+        "backlinks": 0,
+        "genericContent": 0,
+        "postInfo": 6,
+        "translations": 1
+      },
+      "locales": [
+        "es",
+        "en",
+        "fr",
+        "pt"
+      ]
+    }
+  ]
+}

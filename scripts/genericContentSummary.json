@@ -1,0 +1,154 @@
+{
+  "totalDetections": 400,
+  "postsWithGenericContent": 11,
+  "averageGenericScore": 26.8475,
+  "totalIssues": 598,
+  "issuesByType": {
+    "generic_phrase": 318,
+    "vague_references": 43,
+    "no_venue_details": 236,
+    "missing_specifics": 1
+  },
+  "worstPosts": [
+    {
+      "postId": "40",
+      "locale": "en",
+      "title": "The Best After-Parties in Tulum You Can't Miss",
+      "genericScore": 100,
+      "issuesCount": 1
+    },
+    {
+      "postId": "40",
+      "locale": "fr",
+      "title": "Les meilleurs after-parties à Tulum que vous ne pouvez pas manquer",
+      "genericScore": 100,
+      "issuesCount": 1
+    },
+    {
+      "postId": "40",
+      "locale": "pt",
+      "title": "Os Melhores After-Parties em Tulum que Você Não Pode Perder",
+      "genericScore": 100,
+      "issuesCount": 1
+    },
+    {
+      "postId": "42",
+      "locale": "es",
+      "title": "Los 10 momentos más memorables en la historia de MandalaTickets",
+      "genericScore": 100,
+      "issuesCount": 1
+    },
+    {
+      "postId": "52",
+      "locale": "es",
+      "title": "Los 10 mejores momentos capturados en fotos en los eventos de MandalaTickets",
+      "genericScore": 100,
+      "issuesCount": 1
+    },
+    {
+      "postId": "62",
+      "locale": "es",
+      "title": "Los 10 mejores momentos en video de los eventos de MandalaTickets",
+      "genericScore": 100,
+      "issuesCount": 1
+    },
+    {
+      "postId": "65",
+      "locale": "es",
+      "title": "Tendencias en decoración y ambientación para eventos en 2025",
+      "genericScore": 100,
+      "issuesCount": 1
+    },
+    {
+      "postId": "89",
+      "locale": "es",
+      "title": "Tendencias en experiencias inmersivas en eventos",
+      "genericScore": 60,
+      "issuesCount": 3
+    },
+    {
+      "postId": "100",
+      "locale": "es",
+      "title": "El futuro de los eventos nocturnos: predicciones para 2026",
+      "genericScore": 57,
+      "issuesCount": 3
+    },
+    {
+      "postId": "75",
+      "locale": "es",
+      "title": "Tendencias en tecnología para eventos: realidad aumentada y más",
+      "genericScore": 55,
+      "issuesCount": 3
+    },
+    {
+      "postId": "29",
+      "locale": "es",
+      "title": "Cómo mantenerte hidratado y energizado durante una noche de fiesta",
+      "genericScore": 54,
+      "issuesCount": 2
+    },
+    {
+      "postId": "67",
+      "locale": "fr",
+      "title": "Interview avec l'équipe du service client de MandalaTickets : comment ils garantissent une expérience exceptionnelle",
+      "genericScore": 50,
+      "issuesCount": 2
+    },
+    {
+      "postId": "82",
+      "locale": "es",
+      "title": "Tendencias en sostenibilidad en eventos nocturnos",
+      "genericScore": 48,
+      "issuesCount": 2
+    },
+    {
+      "postId": "96",
+      "locale": "es",
+      "title": "Tendencias en eventos híbridos: presenciales y virtuales",
+      "genericScore": 46,
+      "issuesCount": 3
+    },
+    {
+      "postId": "10",
+      "locale": "fr",
+      "title": "Interview avec l'organisateur du festival annuel à Tulum",
+      "genericScore": 45,
+      "issuesCount": 2
+    },
+    {
+      "postId": "15",
+      "locale": "fr",
+      "title": "Interview avec le chef derrière la gastronomie à Mandala Beach",
+      "genericScore": 45,
+      "issuesCount": 2
+    },
+    {
+      "postId": "27",
+      "locale": "fr",
+      "title": "Interview avec le photographe officiel de MandalaTickets",
+      "genericScore": 45,
+      "issuesCount": 2
+    },
+    {
+      "postId": "31",
+      "locale": "fr",
+      "title": "Interview avec l'équipe de sécurité de MandalaTickets : comment ils garantissent votre bien-être",
+      "genericScore": 45,
+      "issuesCount": 2
+    },
+    {
+      "postId": "37",
+      "locale": "fr",
+      "title": "Interview avec le barman vedette de Mandala Beach",
+      "genericScore": 45,
+      "issuesCount": 2
+    },
+    {
+      "postId": "41",
+      "locale": "fr",
+      "title": "Interview avec l'équipe de production derrière les événements MandalaTickets",
+      "genericScore": 45,
+      "issuesCount": 2
+    }
+  ]
+}
