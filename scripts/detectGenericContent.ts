@@ -181,7 +181,7 @@ function detectGenericContent(
   }
   
   if (foundGenericPhrases.length > 0) {
-    const uniquePhrases = [...new Set(foundGenericPhrases)];
+    const uniquePhrases = Array.from(new Set(foundGenericPhrases));
     genericScore += Math.min(30, uniquePhrases.length * 5);
     
     issues.push({
@@ -212,7 +212,7 @@ function detectGenericContent(
       type: 'vague_references',
       severity: foundVagueRefs.length > 10 ? 'high' : 'medium',
       message: `Se encontraron ${foundVagueRefs.length} referencias vagas (deberían ser nombres específicos de venues)`,
-      examples: [...new Set(foundVagueRefs)].slice(0, 10),
+      examples: Array.from(new Set(foundVagueRefs)).slice(0, 10),
       suggestion: 'Reemplazar referencias vagas como "el club" o "el lugar" con nombres específicos de venues',
     });
   }

@@ -219,7 +219,7 @@ function generateKeywords(venueName: string, city: string): string[] {
   const cityLower = city.toLowerCase();
   keywords.push(`${venueLower} ${cityLower}`);
   
-  return [...new Set(keywords)];
+  return Array.from(new Set(keywords));
 }
 
 /**
