@@ -357,7 +357,6 @@ function getContentPlanificarItinerarioFiestasCancun(title: string, excerpt: str
   content += `<p>Los fines de semana son perfectos para:</p>\n\n`;
   content += `<ul>\n`;
   content += `<li><strong>Rakata:</strong> Abierto viernes y sábados, es el lugar ideal para reggaetón y música latina.</li>\n`;
-  content += `<li><strong>Mandala Beach Night:</strong> Los miércoles por la noche, pero también hay eventos especiales los fines de semana.</li>\n`;
   content += `<li><strong>Eventos especiales:</strong> Muchos venues organizan eventos exclusivos los fines de semana.</li>\n`;
   content += `</ul>\n\n`;
   
@@ -697,19 +696,11 @@ function getContent5EventosRomanticosParejasCancun(title: string, excerpt: strin
   content += `<li><strong>Experiencias Gratuitas:</strong> Paseos en la playa al atardecer, disfrutar del amanecer juntos</li>\n`;
   content += `</ul>\n\n`;
   
-  content += `<h3>Por Qué Elegir MandalaTickets para tus Experiencias Románticas</h3>\n\n`;
-  content += `<p>Con <strong>MandalaTickets</strong>, puedes acceder a experiencias románticas exclusivas y eventos especiales para parejas:</p>\n\n`;
-  content += `<ul>\n`;
-  content += `<li><strong>Acceso a eventos exclusivos:</strong> Eventos especiales para parejas y ocasiones románticas</li>\n`;
-  content += `<li><strong>Asesoramiento personalizado:</strong> Nuestro equipo te ayuda a planificar la experiencia perfecta</li>\n`;
-  content += `<li><strong>Precios competitivos:</strong> Obtén los mejores precios en experiencias románticas</li>\n`;
-  content += `<li><strong>Garantía de calidad:</strong> Todas las experiencias son verificadas y de alta calidad</li>\n`;
-  content += `</ul>\n\n`;
   
   content += `<h3>Conclusión</h3>\n\n`;
   content += `<p>Cancún ofrece una increíble variedad de eventos románticos diseñados especialmente para parejas. Desde cenas privadas en la playa hasta cruceros al atardecer y experiencias de relajación, hay algo para cada tipo de pareja y cada ocasión especial.</p>\n\n`;
   content += `<p>Estos 5 eventos representan lo mejor de las experiencias románticas disponibles en Cancún, cada uno ofreciendo algo único y especial. Ya sea que estés celebrando un aniversario, planeando una propuesta, o simplemente buscando crear momentos inolvidables juntos, Cancún tiene la experiencia perfecta para ti.</p>\n\n`;
-  content += `<p>Comienza a planificar tu experiencia romántica hoy visitando <strong>MandalaTickets</strong>. Nuestro equipo está listo para ayudarte a crear la experiencia perfecta que se adapte a tus preferencias y ocasión especial, asegurando que cada momento sea verdaderamente inolvidable.</p>\n\n`;
+  content += `<p>Para reservar estas experiencias, te recomendamos contactar directamente con los proveedores mencionados o buscar en plataformas especializadas en turismo y experiencias en Cancún.</p>\n\n`;
   
   return content;
 }
@@ -958,9 +949,9 @@ function getContentMejoresEventosTematicos80s90sCancun(title: string, excerpt: s
   
   content += `<p>Los años 80 y 90 fueron épocas doradas de la música y la cultura, y Cancún ha sabido mantener viva esa magia con eventos temáticos que reviven los mejores hits y la energía de esas décadas. Si eres fan de la música retro, los looks icónicos y la nostalgia, aquí tienes los mejores eventos temáticos de los 80s y 90s en Cancún.</p>\n\n`;
   
-  content += `<h3>1. Dady'O - El Templo de la Música Retro</h3>\n\n`;
-  content += `<p><strong>Dady'O</strong> es uno de los clubes más icónicos de Cancún para eventos temáticos de los 80s y 90s. Con su arquitectura única que simula una caverna submarina, este club ofrece noches especiales dedicadas a los mejores hits de estas décadas doradas.</p>\n\n`;
-  content += `<p>El club es conocido por su variada oferta musical que incluye éxitos de los 80 y 90, desde pop y rock hasta hip hop y música dance. Las noches temáticas en Dady'O suelen incluir concursos de disfraces, música en vivo y DJs que especializan en música retro, creando una experiencia auténtica que transporta a los asistentes a esas épocas memorables.</p>\n\n`;
+  content += `<h3>1. D'Cave - El Templo de la Música Retro</h3>\n\n`;
+  content += `<p><strong>D'Cave</strong> es uno de los clubes más icónicos de Cancún para eventos temáticos de los 80s y 90s. Con su arquitectura única que simula una caverna submarina, este club ofrece noches especiales dedicadas a los mejores hits de estas décadas doradas.</p>\n\n`;
+  content += `<p>El club es conocido por su variada oferta musical que incluye éxitos de los 80 y 90, desde pop y rock hasta hip hop y música dance. Las noches temáticas en D'Cave suelen incluir concursos de disfraces, música en vivo y DJs que especializan en música retro, creando una experiencia auténtica que transporta a los asistentes a esas épocas memorables.</p>\n\n`;
   
   content += `<h3>2. Retro Party en Salones y Venues Especiales</h3>\n\n`;
   content += `<p>Varios venues en Cancún organizan <strong>Retro Parties</strong> especiales que reviven la energía de los 80s y 90s. Estos eventos suelen realizarse en salones como el <strong>Salón Ixchel</strong> y otros espacios que se transforman completamente para la ocasión.</p>\n\n`;
@@ -2378,8 +2369,8 @@ function getContentMejoresAfterPartiesTulum(title: string, excerpt: string): str
   content += `<p>Bonbonniere es el destino perfecto para after-parties, ofreciendo una experiencia nocturna única que se extiende hasta el amanecer. Con su ambiente vibrante y música de primer nivel, es el lugar ideal para continuar la fiesta después de otros eventos. Los precios están en el rango de MX$1,000+ por persona. <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere" target="_blank" rel="noopener noreferrer">entradas Bonbonniere Tulum</a></p>\n\n`;
   
   content += `<h3>2. Vagalume After Sunset - Transformación Nocturna</h3>\n\n`;
-  content += `<p>Después del atardecer, <strong>Vagalume Tulum</strong> se transforma de club de playa a templo nocturno con performances y sesiones de renombre. Este espacio que fusiona restaurante, discoteca y club de playa es conocido por su decoración bohemia y eventos con DJs de talla mundial.</p>\n\n`;
-  content += `<p>Los after-parties en Vagalume ofrecen una experiencia única donde la música house y electrónica se combinan con el ambiente único del lugar. Con una calificación de 4.6 estrellas y más de 3,000 reseñas, Vagalume es perfecto para continuar la noche en un ambiente sofisticado. <a href="https://mandalatickets.com/es/tulum/disco/vagalume" target="_blank" rel="noopener noreferrer">entradas Vagalume Tulum</a></p>\n\n`;
+  content += `<p>Después del atardecer, <strong>Vagalume Tulum</strong> se transforma de club de playa a templo nocturno con performances y sesiones de renombre. Este espacio que fusiona restaurante, discoteca y club de playa es conocido por su decoración bohemia y eventos con DJs de talla mundial. Vagalume está abierto hasta las 2:00 a.m., ofreciendo after-parties donde la música house y electrónica se combinan con el ambiente único del lugar.</p>\n\n`;
+  content += `<p>Con una calificación de 4.6 estrellas y más de 3,000 reseñas, Vagalume es perfecto para continuar la noche en un ambiente sofisticado. <a href="https://mandalatickets.com/es/tulum/disco/vagalume" target="_blank" rel="noopener noreferrer">entradas Vagalume Tulum</a></p>\n\n`;
   
   content += `<h3>3. Bagatelle Tulum - After-Parties Elegantes</h3>\n\n`;
   content += `<p>Inspirado en la Riviera Francesa, <strong>Bagatelle Tulum</strong> también ofrece after-parties elegantes que combinan el ambiente chic del lugar con música de primer nivel. Con una calificación de 4.6 estrellas y más de 3,300 reseñas, Bagatelle es perfecto para quienes buscan una experiencia más sofisticada después de otros eventos.</p>\n\n`;
@@ -2652,58 +2643,59 @@ function getContent5EventosEsperadosTemporadaPrimaveraTulum(title: string, excer
   let content = `<h2>${title}</h2>\n\n`;
   content += `<p>${excerpt}</p>\n\n`;
   
-  content += `<p>La temporada de primavera en Tulum trae consigo una variedad de eventos emocionantes que combinan cultura, música y naturaleza. Desde festivales tradicionales hasta eventos de música electrónica, la primavera es una época especial para visitar Tulum. Aquí te presentamos los 5 eventos más esperados para esta temporada.</p>\n\n`;
+  content += `<p>Enero es uno de los meses más emocionantes para visitar Tulum, con algunos de los eventos más esperados del año que marcan el inicio de la temporada. La ciudad se convierte en el epicentro de la música electrónica y los festivales de clase mundial. Aquí te presentamos los 5 eventos más esperados para esta temporada en enero.</p>\n\n`;
   
-  content += `<h3>1. Carnaval de Tulum</h3>\n\n`;
-  content += `<p>Celebrado a finales de febrero o principios de marzo, el <strong>Carnaval de Tulum</strong> es una versión más íntima del famoso Carnaval de Cancún. Este evento incluye desfiles coloridos, música en vivo, fuegos artificiales y una variedad de comidas tradicionales.</p>\n\n`;
-  content += `<p>El Carnaval de Tulum ofrece una experiencia auténtica de la cultura mexicana, con celebraciones que reflejan las tradiciones locales mientras mantienen el ambiente festivo y vibrante característico de los carnavales.</p>\n\n`;
+  content += `<h3>1. Afterlife en Tulum</h3>\n\n`;
+  content += `<p><strong>Afterlife</strong> es uno de los eventos más esperados de enero en Tulum, trayendo a algunos de los mejores DJs y productores de música deep house y melodic techno del mundo. Este festival se celebra en un entorno único que combina la naturaleza con tecnología de vanguardia y visuales impresionantes.</p>\n\n`;
+  content += `<p>Afterlife es conocido por sus producciones visuales extraordinarias y su capacidad para crear una experiencia inmersiva única. El evento atrae a miles de asistentes de todo el mundo, convirtiéndose en uno de los momentos más importantes del calendario de música electrónica en Tulum.</p>\n\n`;
   
-  content += `<h3>2. Alborada Maya</h3>\n\n`;
-  content += `<p>Este festival, que tiene lugar en <strong>marzo en el Centro Ceremonial Maya</strong>, combina tradiciones mayas y católicas. Los sacerdotes mayas realizan ceremonias para asegurar buenas cosechas, y la comunidad se reúne en un ambiente de música y espiritualidad.</p>\n\n`;
-  content += `<p>La Alborada Maya es una experiencia única que permite a los visitantes participar en tradiciones ancestrales mientras disfrutan de música, danza y celebraciones comunitarias. Es una oportunidad única de conectarse con la rica herencia maya de la región.</p>\n\n`;
+  content += `<h3>2. Tehmplo Tulum - Eventos Especiales de Enero</h3>\n\n`;
+  content += `<p><strong>Tehmplo Tulum</strong> es uno de los venues más icónicos de Tulum y enero es el mes perfecto para experimentar sus eventos especiales. Este espacio único combina arquitectura espectacular con música de primer nivel, creando experiencias inolvidables.</p>\n\n`;
+  content += `<p>Durante enero, Tehmplo organiza eventos exclusivos que atraen a los mejores DJs internacionales. El venue es conocido por su diseño arquitectónico impresionante y su capacidad para crear atmósferas únicas que se integran perfectamente con el entorno natural de Tulum. <a href="https://mandalatickets.com/es/tulum/disco/tehmplo" target="_blank" rel="noopener noreferrer">entradas Tehmplo Tulum</a></p>\n\n`;
   
-  content += `<h3>3. Equinoccio de Primavera en Tulum</h3>\n\n`;
-  content += `<p>Aunque más conocido en Chichén Itzá, <strong>Tulum también celebra el equinoccio de primavera en marzo</strong>. Durante este evento, se realizan ceremonias y actividades culturales en las zonas arqueológicas locales para dar la bienvenida a la nueva estación.</p>\n\n`;
-  content += `<p>El equinoccio de primavera en Tulum ofrece una experiencia más íntima que en otros sitios arqueológicos, permitiendo a los visitantes participar en ceremonias tradicionales mientras disfrutan de las ruinas mayas frente al mar Caribe.</p>\n\n`;
+  content += `<h3>3. Zamna Tulum - Festival de Enero</h3>\n\n`;
+  content += `<p><strong>Zamna Tulum</strong> es un festival que se ha convertido en una tradición en Tulum durante enero. Este evento reúne a los mejores DJs y productores de música electrónica en un entorno natural único, creando una experiencia que combina música, naturaleza y espiritualidad.</p>\n\n`;
+  content += `<p>Zamna es conocido por sus sesiones que se extienden durante todo el día y la noche, ofreciendo una experiencia completa que incluye diferentes géneros de música electrónica. El festival crea una comunidad única de amantes de la música que se reúnen cada año para celebrar.</p>\n\n`;
   
-  content += `<h3>4. Festival de Música Electrónica de Primavera</h3>\n\n`;
-  content += `<p>A lo largo de la primavera, Tulum es sede de diversos <strong>festivales de música electrónica</strong> que atraen a DJs y artistas internacionales. Estos eventos suelen celebrarse en playas y cenotes, ofreciendo una experiencia única que combina música y naturaleza.</p>\n\n`;
-  content += `<p>Los festivales de primavera en Tulum presentan algunos de los mejores DJs del mundo en escenarios únicos que se integran con el entorno natural. Desde eventos en beach clubs como <a href="https://mandalatickets.com/es/tulum/disco/vagalume" target="_blank" rel="noopener noreferrer">Vagalume Tulum</a> y <a href="https://mandalatickets.com/es/tulum/disco/bagatelle" target="_blank" rel="noopener noreferrer">Bagatelle Tulum</a> hasta eventos especiales en <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere" target="_blank" rel="noopener noreferrer">Bonbonniere Tulum</a>, hay opciones para todos los amantes de la música electrónica.</p>\n\n`;
+  content += `<h3>4. Eventos Especiales en Beach Clubs</h3>\n\n`;
+  content += `<p>Durante enero, los beach clubs más exclusivos de Tulum organizan eventos especiales que complementan los festivales principales. <a href="https://mandalatickets.com/es/tulum/disco/vagalume" target="_blank" rel="noopener noreferrer">Vagalume Tulum</a>, <a href="https://mandalatickets.com/es/tulum/disco/bagatelle" target="_blank" rel="noopener noreferrer">Bagatelle Tulum</a> y <a href="https://mandalatickets.com/es/tulum/disco/bonbonniere" target="_blank" rel="noopener noreferrer">Bonbonniere Tulum</a> organizan sesiones exclusivas con DJs de renombre mundial durante todo el mes.</p>\n\n`;
+  content += `<p>Estos eventos ofrecen la oportunidad de disfrutar de música de primer nivel en entornos únicos frente al mar Caribe, creando experiencias que solo Tulum puede ofrecer.</p>\n\n`;
   
-  content += `<h3>5. Festival Gastronómico de Tulum</h3>\n\n`;
-  content += `<p>Este festival, que se lleva a cabo en <strong>abril</strong>, celebra la rica tradición culinaria de la región. Incluye degustaciones, clases de cocina y presentaciones de chefs locales e internacionales.</p>\n\n`;
-  content += `<p>El Festival Gastronómico de Tulum es perfecto para los amantes de la comida, ofreciendo la oportunidad de probar los mejores sabores de la región mientras aprendes sobre la tradición culinaria local. Restaurantes de Grupo Andersons como <strong>BAK'</strong>, <strong>Ilios</strong>, <strong>Nicoletta</strong> y <strong>Macario</strong> suelen participar con menús especiales y eventos exclusivos.</p>\n\n`;
+  content += `<h3>5. Festivales Colaterales y Eventos Pop-up</h3>\n\n`;
+  content += `<p>Además de los eventos principales, enero en Tulum también cuenta con una serie de <strong>festivales colaterales y eventos pop-up</strong> que ofrecen experiencias más íntimas. Estos eventos suelen celebrarse en cenotes, playas privadas y otros espacios únicos que aprovechan el entorno natural de Tulum.</p>\n\n`;
+  content += `<p>Los eventos pop-up ofrecen la oportunidad de descubrir nuevos talentos y géneros musicales, mientras que los festivales colaterales proporcionan una experiencia complementaria a los eventos principales, creando un ecosistema completo de música y entretenimiento durante todo el mes.</p>\n\n`;
   
-  content += `<h3>Eventos Adicionales en Beach Clubs</h3>\n\n`;
-  content += `<p>Durante la primavera, los beach clubs de Tulum organizan eventos especiales:</p>\n\n`;
+  content += `<h3>Por Qué Enero es Especial en Tulum</h3>\n\n`;
+  content += `<p>Enero marca el inicio de la temporada alta en Tulum y es el momento perfecto para experimentar:</p>\n\n`;
   content += `<ul>\n`;
-  content += `<li><strong>Vagalume:</strong> Eventos especiales de primavera con DJs internacionales</li>\n`;
-  content += `<li><strong>Bagatelle:</strong> Eventos temáticos que reflejan la elegancia de la Riviera Francesa</li>\n`;
-  content += `<li><strong>Bonbonniere:</strong> After-parties especiales que se extienden hasta el amanecer</li>\n`;
+  content += `<li><strong>El mejor clima:</strong> Enero ofrece condiciones climáticas ideales para disfrutar de eventos al aire libre</li>\n`;
+  content += `<li><strong>Eventos únicos:</strong> Los festivales más importantes del año tienen lugar durante este mes</li>\n`;
+  content += `<li><strong>Comunidad internacional:</strong> Tulum atrae a visitantes de todo el mundo durante enero</li>\n`;
+  content += `<li><strong>Experiencias completas:</strong> La combinación de festivales, beach clubs y eventos pop-up crea una experiencia única</li>\n`;
   content += `</ul>\n\n`;
   
-  content += `<h3>Consejos para Disfrutar los Eventos de Primavera</h3>\n\n`;
-  content += `<p>Para aprovechar al máximo los eventos de primavera en Tulum:</p>\n\n`;
+  content += `<h3>Consejos para Disfrutar los Eventos de Enero</h3>\n\n`;
+  content += `<p>Para aprovechar al máximo los eventos de enero en Tulum:</p>\n\n`;
   content += `<ul>\n`;
-  content += `<li><strong>Reserva con anticipación:</strong> Los eventos de primavera son populares y se agotan rápido</li>\n`;
-  content += `<li><strong>Verifica fechas exactas:</strong> Algunos eventos pueden variar sus fechas</li>\n`;
-  content += `<li><strong>Prepárate para el clima:</strong> La primavera puede ser cálida pero agradable</li>\n`;
-  content += `<li><strong>Combina eventos:</strong> Aprovecha para asistir a múltiples eventos durante tu visita</li>\n`;
-  content += `<li><strong>Respeta las tradiciones:</strong> En eventos culturales, muestra respeto por las ceremonias</li>\n`;
+  content += `<li><strong>Reserva con mucha anticipación:</strong> Los eventos de enero son extremadamente populares y se agotan muy rápido</li>\n`;
+  content += `<li><strong>Verifica fechas exactas:</strong> Los festivales principales publican sus fechas con meses de anticipación</li>\n`;
+  content += `<li><strong>Planifica tu itinerario:</strong> Enero es un mes muy activo, organiza tu agenda para aprovechar múltiples eventos</li>\n`;
+  content += `<li><strong>Combina eventos:</strong> Aprovecha para asistir tanto a festivales principales como a eventos en beach clubs</li>\n`;
+  content += `<li><strong>Prepárate para multitudes:</strong> Enero es temporada alta, espera más gente de lo normal</li>\n`;
   content += `</ul>\n\n`;
   
   content += `<h3>Por Qué Elegir MandalaTickets</h3>\n\n`;
-  content += `<p>Con <strong>MandalaTickets</strong>, tienes acceso a todos los mejores eventos de primavera en Tulum:</p>\n\n`;
+  content += `<p>Con <strong>MandalaTickets</strong>, tienes acceso a todos los mejores eventos de enero en Tulum:</p>\n\n`;
   content += `<ul>\n`;
-  content += `<li><strong>Calendario completo:</strong> Ve todos los eventos de primavera disponibles</li>\n`;
-  content += `<li><strong>Reservas anticipadas:</strong> Asegura tu lugar en eventos populares</li>\n`;
+  content += `<li><strong>Calendario completo:</strong> Ve todos los eventos de enero disponibles, incluyendo Afterlife, Tehmplo y Zamna</li>\n`;
+  content += `<li><strong>Reservas anticipadas:</strong> Asegura tu lugar en los festivales más populares del año</li>\n`;
   content += `<li><strong>Precios competitivos:</strong> Las mejores ofertas en eventos y festivales</li>\n`;
-  content += `<li><strong>Información actualizada:</strong> Siempre al tanto de los próximos eventos</li>\n`;
+  content += `<li><strong>Información actualizada:</strong> Siempre al tanto de los próximos eventos y fechas</li>\n`;
   content += `</ul>\n\n`;
   
   content += `<h3>Conclusión</h3>\n\n`;
-  content += `<p>La temporada de primavera en Tulum ofrece una variedad increíble de eventos que combinan cultura, música, gastronomía y naturaleza. Desde el Carnaval de Tulum y la Alborada Maya hasta festivales de música electrónica y eventos gastronómicos, hay algo especial para cada visitante.</p>\n\n`;
-  content += `<p>Estos 5 eventos representan lo mejor de la temporada de primavera en Tulum, cada uno ofreciendo una experiencia única que refleja la rica cultura y vibrante escena de entretenimiento del destino. No olvides reservar tus boletos con anticipación a través de <strong>MandalaTickets</strong> para asegurar tu lugar en estos eventos exclusivos.</p>\n\n`;
+  content += `<p>Enero en Tulum ofrece algunos de los eventos más esperados y exclusivos del año. Desde festivales masivos como Afterlife y Zamna hasta eventos especiales en venues icónicos como Tehmplo, este mes marca el inicio de la temporada alta con experiencias únicas de música electrónica y entretenimiento de clase mundial.</p>\n\n`;
+  content += `<p>Estos 5 eventos representan lo mejor de la temporada de enero en Tulum, cada uno ofreciendo una experiencia única que refleja la vibrante escena de música electrónica del destino. No olvides reservar tus boletos con mucha anticipación a través de <strong>MandalaTickets</strong> para asegurar tu lugar en estos eventos exclusivos que hacen de enero el mes más emocionante para visitar Tulum.</p>\n\n`;
   
   return content;
 }
